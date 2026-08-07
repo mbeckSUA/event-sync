@@ -1,0 +1,51 @@
+name: Event Sync
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # Daily at 6am Pacific (14:00 UTC)
+  workflow_dispatch:        # Manual trigger for testing
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests icalendar
+
+      - name: Run athletics sync
+        env:
+          COURSEDOG_BASE: ${{ secrets.COURSEDOG_BASE }}
+          COURSEDOG_EMAIL: ${{ secrets.COURSEDOG_EMAIL }}
+          COURSEDOG_PASSWORD: ${{ secrets.COURSEDOG_PASSWORD }}
+          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
+          COURSEDOG_ORG_ID: ${{ secrets.COURSEDOG_ORG_ID }}
+          COURSEDOG_SOCCER_ROOM_ID: ${{ secrets.COURSEDOG_SOCCER_ROOM_ID }}
+          COURSEDOG_POOL_ROOM_ID: ${{ secrets.COURSEDOG_POOL_ROOM_ID }}
+          COURSEDOG_TRACK_ROOM_ID: ${{ secrets.COURSEDOG_TRACK_ROOM_ID }}
+          COURSEDOG_VOLLEYBALL_ROOM_ID: ${{ secrets.COURSEDOG_VOLLEYBALL_ROOM_ID }}
+        run: python sync.py
+
+      - name: Run PAC sync
+        env:
+          COURSEDOG_BASE: ${{ secrets.COURSEDOG_BASE }}
+          COURSEDOG_EMAIL: ${{ secrets.COURSEDOG_EMAIL }}
+          COURSEDOG_PASSWORD: ${{ secrets.COURSEDOG_PASSWORD }}
+          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
+          PAC_ORG_ID: ${{ secrets.PAC_ORG_ID }}
+        run: python pac_sync.py
+
+      - name: Commit updated state files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json pac_state.json
+          git diff --staged --quiet || git commit -m "chore: update sync state [skip ci]"
+          git push
