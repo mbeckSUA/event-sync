@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 import requests
 from icalendar import Calendar
 
-FEED_URL = "https://performingarts.soka.edu/feeds/pac-events"
+FEED_URL = "https://www.performingarts.soka.edu/feeds/pac-events"
 PACIFIC = ZoneInfo("America/Los_Angeles")
 STATE_FILE = Path(__file__).parent / "pac_state.json"
 DEFAULT_DURATION_HOURS = 2
@@ -75,9 +75,11 @@ def fetch_feed():
     for component in cal.walk():
         if component.name != "VEVENT":
             continue
-        uid = str(component.get("UID", "")).strip()
-        if not uid:
+        url = str(component.get("URL", "")).strip()
+        if not url:
+            log.warning(f"Skipping event with no URL: {component.get('SUMMARY')}")
             continue
+        uid = url  # use URL as stable dedup key
         dtstart = to_pacific(component.get("DTSTART").dt)
         dtend = to_pacific(component.get("DTEND").dt)
         if dtend < now:
@@ -86,7 +88,6 @@ def fetch_feed():
             dtend = dtstart + timedelta(hours=DEFAULT_DURATION_HOURS)
             log.warning(f"Zero-duration fixed: {component.get('SUMMARY')} — end set to {dtend}")
         location = str(component.get("LOCATION", "")).replace("\\,", ",").replace("&amp;", "&").strip()
-        url = str(component.get("URL", "")).strip()
         raw_description = str(component.get("DESCRIPTION", "")).replace("\\n", "\n").strip()
         events.append({
             "uid": uid,
