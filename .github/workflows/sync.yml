@@ -5,6 +5,9 @@ on:
     - cron: '0 14 * * *'  # Daily at 6am Pacific (14:00 UTC)
   workflow_dispatch:        # Manual trigger for testing
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
