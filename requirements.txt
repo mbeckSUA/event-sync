@@ -1,0 +1,2 @@
+requests==2.32.5
+icalendar==6.3.2
