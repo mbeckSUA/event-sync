@@ -36,15 +36,6 @@ jobs:
           COURSEDOG_VOLLEYBALL_ROOM_ID: ${{ secrets.COURSEDOG_VOLLEYBALL_ROOM_ID }}
         run: python sync.py
 
-      - name: Run PAC sync
-        env:
-          COURSEDOG_BASE: ${{ secrets.COURSEDOG_BASE }}
-          COURSEDOG_EMAIL: ${{ secrets.COURSEDOG_EMAIL }}
-          COURSEDOG_PASSWORD: ${{ secrets.COURSEDOG_PASSWORD }}
-          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
-          PAC_ORG_ID: ${{ secrets.PAC_ORG_ID }}
-        run: python pac_sync.py
-
       - name: Commit updated state files
         run: |
           git config user.name "github-actions[bot]"
