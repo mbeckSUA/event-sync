@@ -1,0 +1,485 @@
+<title>Campus Happenings</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;0,700;1,500&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --paper:#F4F5F0;
+    --paper-raised:#FFFFFF;
+    --ink:#1B211D;
+    --ink-muted:#5C6560;
+    --ink-faint:#8B948E;
+    --line:#DADDD5;
+    --line-soft:#E7E9E2;
+    --teal:#14555A;
+    --teal-tint:#E4EEED;
+    --ochre:#8A5F22;
+    --ochre-tint:#F1E8D8;
+    --plum:#6B3F6E;
+    --plum-tint:#EFE4EF;
+    --periwinkle:#454F8C;
+    --periwinkle-tint:#E6E7F2;
+    --accent:#14555A;
+    --accent-ink:#FFFFFF;
+    --new-flag:#B4562E;
+    --new-flag-tint:#FBEAE1;
+    --clay:#96593A;
+    --clay-tint:#F1E4DA;
+    --slate:#5C6560;
+    --slate-tint:#E7E9E2;
+    --shadow: 0 1px 2px rgba(27,33,29,0.06), 0 8px 24px -12px rgba(27,33,29,0.18);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141815;
+      --paper-raised:#1C211D;
+      --ink:#E9ECE6;
+      --ink-muted:#9CA69E;
+      --ink-faint:#6B756E;
+      --line:#333A34;
+      --line-soft:#262C27;
+      --teal:#6FBBB5;
+      --teal-tint:#1B2E2C;
+      --ochre:#D3A65E;
+      --ochre-tint:#2E2519;
+      --plum:#C99BCB;
+      --plum-tint:#2B222C;
+      --periwinkle:#A6ACDE;
+      --periwinkle-tint:#212440;
+      --accent:#6FBBB5;
+      --accent-ink:#0E1B1A;
+      --new-flag:#E3966C;
+      --new-flag-tint:#2E1E15;
+      --clay:#D99A72;
+      --clay-tint:#2E2015;
+      --slate:#9CA69E;
+      --slate-tint:#262C27;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141815;
+    --paper-raised:#1C211D;
+    --ink:#E9ECE6;
+    --ink-muted:#9CA69E;
+    --ink-faint:#6B756E;
+    --line:#333A34;
+    --line-soft:#262C27;
+    --teal:#6FBBB5;
+    --teal-tint:#1B2E2C;
+    --ochre:#D3A65E;
+    --ochre-tint:#2E2519;
+    --plum:#C99BCB;
+    --plum-tint:#2B222C;
+    --periwinkle:#A6ACDE;
+    --periwinkle-tint:#212440;
+    --accent:#6FBBB5;
+    --accent-ink:#0E1B1A;
+    --new-flag:#E3966C;
+    --new-flag-tint:#2E1E15;
+    --clay:#D99A72;
+    --clay-tint:#2E2015;
+    --slate:#9CA69E;
+    --slate-tint:#262C27;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Archivo',ui-sans-serif,system-ui,sans-serif;
+    line-height:1.5;
+  }
+  ::selection{background:var(--teal-tint); color:var(--ink);}
+
+  .wrap{max-width:840px; margin:0 auto; padding:0 20px 96px;}
+
+  header.masthead{
+    padding:56px 0 28px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:28px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',ui-monospace,monospace;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--teal);
+    margin:0 0 14px;
+  }
+  h1{
+    font-family:'Spectral',Georgia,serif;
+    font-weight:600;
+    font-size:clamp(34px,5.5vw,52px);
+    line-height:1.05;
+    letter-spacing:-0.01em;
+    margin:0 0 14px;
+    text-wrap:balance;
+  }
+  .dek{
+    font-size:16px;
+    color:var(--ink-muted);
+    max-width:56ch;
+    margin:0 0 28px;
+  }
+  .dek strong{color:var(--ink); font-weight:600;}
+
+  .stats{
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+  }
+  .stat{min-width:120px;}
+  .stat .n{
+    font-family:'IBM Plex Mono',ui-monospace,monospace;
+    font-variant-numeric:tabular-nums;
+    font-weight:600;
+    font-size:26px;
+    display:block;
+    color:var(--ink);
+  }
+  .stat .n.flag{color:var(--new-flag);}
+  .stat .l{
+    font-size:12.5px;
+    color:var(--ink-muted);
+  }
+
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:5;
+    background:var(--paper);
+    padding:16px 0;
+    margin-bottom:8px;
+    border-bottom:1px solid var(--line-soft);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .toggle{
+    display:inline-flex;
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:3px;
+    gap:2px;
+    box-shadow:var(--shadow);
+  }
+  .toggle button{
+    appearance:none;
+    border:0;
+    background:transparent;
+    color:var(--ink-muted);
+    font-family:'Archivo',sans-serif;
+    font-weight:600;
+    font-size:13.5px;
+    padding:9px 14px;
+    border-radius:7px;
+    cursor:pointer;
+    transition:background .15s ease, color .15s ease;
+  }
+  .toggle button.active{
+    background:var(--accent);
+    color:var(--accent-ink);
+  }
+  .toggle button:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
+
+  .legend{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    font-size:12px;
+    color:var(--ink-muted);
+  }
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .swatch{width:9px; height:9px; border-radius:2px; display:inline-block;}
+
+  .day-group{margin-top:30px;}
+  .day-heading{
+    font-family:'Spectral',Georgia,serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:19px;
+    color:var(--ink);
+    margin:0 0 10px;
+    padding-bottom:6px;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .day-heading .count{
+    font-family:'IBM Plex Mono',monospace;
+    font-style:normal;
+    font-size:12px;
+    color:var(--ink-faint);
+    margin-left:8px;
+  }
+
+  .row{
+    display:grid;
+    grid-template-columns:92px 1fr;
+    gap:16px;
+    padding:14px 4px;
+    border-bottom:1px solid var(--line-soft);
+    animation:rise .35s ease both;
+  }
+  .row:last-child{border-bottom:none;}
+  @media (prefers-reduced-motion: reduce){ .row{animation:none;} }
+  @keyframes rise{
+    from{opacity:0; transform:translateY(4px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  .time{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    font-weight:500;
+    color:var(--ink-muted);
+    padding-top:3px;
+    line-height:1.4;
+  }
+  .time .end{display:block; color:var(--ink-faint);}
+
+  .content .title-line{
+    display:flex;
+    align-items:baseline;
+    gap:9px;
+    flex-wrap:wrap;
+  }
+  .title{
+    font-family:'Spectral',Georgia,serif;
+    font-weight:600;
+    font-size:17.5px;
+    color:var(--ink);
+    margin:0;
+  }
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    font-weight:600;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    padding:2.5px 7px;
+    border-radius:5px;
+    white-space:nowrap;
+  }
+  .tag.t-campus{background:var(--teal-tint); color:var(--teal);}
+  .tag.t-academic{background:var(--ochre-tint); color:var(--ochre);}
+  .tag.t-arts{background:var(--plum-tint); color:var(--plum);}
+  .tag.t-org{background:var(--periwinkle-tint); color:var(--periwinkle);}
+  .tag.t-facility{background:var(--clay-tint); color:var(--clay);}
+  .tag.t-milestone{background:var(--slate-tint); color:var(--slate);}
+  .tag.flag{background:var(--new-flag-tint); color:var(--new-flag);}
+
+  .meta{
+    font-size:13px;
+    color:var(--ink-muted);
+    margin-top:3px;
+  }
+  .desc{
+    font-size:13.5px;
+    color:var(--ink-muted);
+    margin-top:6px;
+    max-width:62ch;
+  }
+  .occ{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-faint);
+  }
+
+  .hidden-row{display:none !important;}
+
+  footer{
+    margin-top:56px;
+    padding-top:20px;
+    border-top:1px solid var(--line);
+    font-size:12.5px;
+    color:var(--ink-faint);
+    max-width:62ch;
+  }
+  footer p{margin:0 0 8px;}
+  footer code{
+    font-family:'IBM Plex Mono',monospace;
+    background:var(--line-soft);
+    padding:1px 5px;
+    border-radius:4px;
+    font-size:11px;
+  }
+
+  @media (max-width:520px){
+    .row{grid-template-columns:64px 1fr; gap:10px;}
+    h1{font-size:32px;}
+    .stats{gap:20px;}
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">Soka University &middot; Prototype</p>
+    <h1>Campus Happenings</h1>
+    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog. Flip the toggle below &mdash; <strong>Full campus view</strong> adds back everything that's a real event but currently sits off the public calendar.</p>
+    <div class="stats">
+      <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
+      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">Already public</span></div>
+      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Invisible off this list today</span></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="toggle" role="tablist" aria-label="Visibility filter">
+      <button id="btnPublic" role="tab">Public calendar only</button>
+      <button id="btnAll" role="tab" class="active">Full campus view</button>
+    </div>
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--teal)"></span>Campus Events</span>
+      <span><span class="swatch" style="background:var(--ochre)"></span>Academic</span>
+      <span><span class="swatch" style="background:var(--plum)"></span>Performing Arts / Gallery</span>
+      <span><span class="swatch" style="background:var(--periwinkle)"></span>Student Org</span>
+      <span><span class="swatch" style="background:var(--slate)"></span>Milestone</span>
+      <span><span class="swatch" style="background:var(--clay)"></span>Facility notice</span>
+    </div>
+  </div>
+
+  <div id="list"></div>
+
+  <footer>
+    <p>Pulled from Coursedog production Sept 4, 2026 (124 real events, full Sept 4&ndash;Dec 1 window). Excludes anything genuinely marked <em>Private</em> (Coursedog redacts these server-side before they even reach this data), internal meetings, room setup/teardown blocks, external rentals, individual student space-booking requests, and one obvious test record &mdash; those aren't "happenings" in the sense this view is for. Academic-calendar milestones (holidays, deadlines) are included, tagged <em>Milestone</em>.</p>
+    <p><em>Facility notice</em> is a hand-tuned guess (matches names containing "set-up," "installation," or gallery prep/paint/clean) flagging things like a closed gallery rather than an attendable event &mdash; it'll misfire as more data comes in unless these get a real, consistent tag or naming convention in Coursedog itself.</p>
+    <p>Multi-day or recurring items show their first date; a <code>&times;N</code> tag means it repeats N times in this window.</p>
+    <p>Prototype only &mdash; not yet embedded anywhere live.</p>
+  </footer>
+</div>
+
+<script>
+const EVENTS = [{"name": "Fall block ends", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-09-04", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Gallery Prep/paint/clean", "type": "Campus Events", "public": false, "description": "", "facility": true, "date": "2026-09-04", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 2nd Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 6}, {"name": "End of Core Celebration", "type": "Campus Events", "public": false, "description": "Celebration to mark the end of Core classes for the class of 2030.", "facility": false, "date": "2026-09-04", "startTime": "6:00 PM", "endTime": "11:30 PM", "allDay": false, "room": "Library Balcony by Grand Reading Room", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Student Leaders Assembly Retreat", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-04", "startTime": "9:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Athenaeum Office #119", "building": "Athenaeum", "occurrenceCount": 6}, {"name": "Women's Soccer vs Clarke University", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs Clarke University\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-06", "startTime": "10:00 AM", "endTime": "12:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Men's Soccer vs Stanton University (Calif.)", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Stanton University (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-06", "startTime": "12:30 PM", "endTime": "2:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Gallery Installation / Layout", "type": "Campus Events", "public": false, "description": "", "facility": true, "date": "2026-09-07", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 34}, {"name": "Labor Day Holiday", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-09-07", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Student Resource Fair", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-09-08", "startTime": "11:30 AM", "endTime": "1:30 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "1st Year SSU Forum", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-09-08", "startTime": "1:00 PM", "endTime": "2:30 PM", "allDay": false, "room": "Lion's Den", "building": "Student Center", "occurrenceCount": 1}, {"name": "Faculty Dinner", "type": "Academic Programs & Events", "public": false, "description": "", "facility": false, "date": "2026-09-08", "startTime": "4:00 PM", "endTime": "7:30 PM", "allDay": false, "room": "Performing Arts Center Lobby", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Dean of Faculty Luncheon", "type": "Academic Programs & Events", "public": false, "description": "", "facility": false, "date": "2026-09-08", "startTime": "7:00 AM", "endTime": "3:00 PM", "allDay": false, "room": "Performing Arts Center Lobby", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Fall semester begins", "type": "Academic Calendar", "public": true, "description": "First Wednesday of the fall semester will meet as a \u201cTuesday\u201d class, thereby having an equal number of class meetings on each day.", "facility": false, "date": "2026-09-09", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "President's Lunch", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-09", "startTime": "12:00 PM", "endTime": "1:30 PM", "allDay": false, "room": "SC 401", "building": "Student Center", "occurrenceCount": 1}, {"name": "Soka Global Citizen Award Ceremony", "type": "Campus Events", "public": true, "description": "Soka University of America will present the 2026 Soka Global Citizen Award to renowned scholar Carlos Alberto Torres in recognition of his lifelong contributions to global citizenship education. Read more about Torres' distinguished career and impact in the link below.", "facility": false, "date": "2026-09-09", "startTime": "5:00 PM", "endTime": "6:00 PM", "allDay": false, "room": "Founders Hall Founder's Meeting Room", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Fall block grades due at 12 noon", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-09-10", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "INTS Capstone 390 Meeting", "type": "Academic Events and Reservations (Undergraduate)", "public": true, "description": "INTS Capstone 390 Meeting", "facility": false, "date": "2026-09-10", "startTime": "4:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "MAA 207", "building": null, "occurrenceCount": 1}, {"name": "First Aid and CPR Training", "type": "Campus Events", "public": false, "description": "The purpose of this event is to offer first aid and CPR training to Soka employees and students.", "facility": false, "date": "2026-09-11", "startTime": "12:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Men's Soccer vs Life Pacific", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Life Pacific\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-12", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Women's Soccer vs Life Pacific", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs Life Pacific\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-12", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Humanities Capstone 390 Meeting", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-09-14", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "SC 401", "building": "Student Center", "occurrenceCount": 1}, {"name": "September Dialogue Buddies", "type": "Campus Events", "public": true, "description": "Students, staff, and faculty are invited to engage in conversations on meaningful topics over lunch.", "facility": false, "date": "2026-09-14", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Dining Hall", "building": "Student Center", "occurrenceCount": 1}, {"name": "CareerCore Program Info/Orientation", "type": "Campus Events", "public": false, "description": "Career Core Professional Development Program INFO/ORIENTATION Session. The CareerCore Professional Development Program helps students recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other ex", "facility": false, "date": "2026-09-15", "startTime": "5:00 PM", "endTime": "6:00 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Intro to Study Abroad Meeting", "type": "Campus Events", "public": false, "description": "Intro to Study Abroad Meeting: (All 2nd year students.) This meeting is a brief introduction into SUA's study abroad programs and preparation. This is for all SUA students planning to study abroad the following academic year.", "facility": false, "date": "2026-09-15", "startTime": "5:00 PM", "endTime": "6:00 PM", "allDay": false, "room": "PAU 216", "building": null, "occurrenceCount": 1}, {"name": "Fitness Class: Yoga", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-15", "startTime": "6:15 PM", "endTime": "7:15 PM", "allDay": false, "room": "Aerobics Room", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Last day to Add; Last day to drop without record enrollment \u201cW\u201d", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-09-16", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "CDO REQUIRED Resume workshop #2", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-16", "startTime": "4:00 PM", "endTime": "8:00 PM", "allDay": false, "room": "Student Affairs Lobby", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "SSA Education Abroad- Puerto Rico Study Abroad Info Session", "type": "Campus Events", "public": false, "description": "Beth from SSA Education Abroad is presenting an Info Session on our  Puerto Rico Study Abroad Program. Prospective students, Alumni of SSA program, and Spanish language faculty invited to attend.", "facility": false, "date": "2026-09-16", "startTime": "4:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "SC 401", "building": "Student Center", "occurrenceCount": 1}, {"name": "Women's Soccer vs Benedictine Mesa (AZ)", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs Benedictine Mesa (AZ)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-17", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "B2B Kick Off Event \u2013 Turn Ideas Into Action - We'll show you how.", "type": "Campus Events", "public": false, "description": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/event_details?uid=3c9964cdd55db1671d0f8621a2d1491c\">https://sokannect.soka.edu/event_details?uid=3c9964cdd55db1671d0f8621a2d1491c</a></p>", "facility": false, "date": "2026-09-17", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Men's Soccer vs Benedictine Mesa (AZ)", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Benedictine Mesa (AZ)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-17", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Men's Soccer vs Benedictine Mesa (AZ)", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Benedictine Mesa (AZ)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-17", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "SBS Capstone 390 Orientation", "type": "Academic Affairs Events & Reservations", "public": true, "description": "These are two orientation sessions to review the expectations and policies for Capstone. The session will be mandated for all SBS CAP 390 students. Students may choose to attend on or the other session.", "facility": false, "date": "2026-09-18", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 2}, {"name": "Soka Leadership Escape Room", "type": "Campus Events", "public": true, "description": "This is an interactive experience that gives students the opportunity to develop essential leadership skills through a collaborative escape room challenge and serves as an introduction to the Emerging Leaders Program.", "facility": false, "date": "2026-09-18", "startTime": "4:30 PM", "endTime": "8:00 PM", "allDay": false, "room": "Small Conference Center", "building": "Small Conference Center", "occurrenceCount": 1}, {"name": "Men's Soccer vs OUAZ", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs OUAZ\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-19", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Women's Soccer vs OUAZ", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs OUAZ\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-19", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Health Professions Advising Fall Kickoff", "type": "Campus Events", "public": true, "description": "The Health Professions Advising Fall Kickoff is an annual advising and community-building event for students interested in or exploring health professions. The event will provide students with an opportunity to complete an HPA Progress Check-In, reflect on their academic and experiential preparation", "facility": false, "date": "2026-09-21", "startTime": "5:30 PM", "endTime": "7:00 PM", "allDay": false, "room": "Lion's Den", "building": "Student Center", "occurrenceCount": 1}, {"name": "Information Session on the End of Duration Status", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-22", "startTime": "11:30 AM", "endTime": "12:30 PM", "allDay": false, "room": "PAU 216", "building": null, "occurrenceCount": 2}, {"name": "2027-2028 Health Professions Application Workshop Series: Part 1", "type": "Academic Programs & Events", "public": true, "description": "Join this virtual three-part workshop series to learn how to prepare a competitive application for medical, dental, and veterinary programs. The series covers admissions timelines, testing, school selection, application strategy, committee letters, and interview preparation. Workshop 1, Planning You", "facility": false, "date": "2026-09-22", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": null, "building": null, "occurrenceCount": 1}, {"name": "InternX Program Kickoff", "type": "Campus Events", "public": false, "description": "InternX: A career development program helping domestic students build skills, gain confidence, and secure paid professional internships.  *Application required, limited to domestic students", "facility": false, "date": "2026-09-22", "startTime": "5:00 PM", "endTime": "6:15 PM", "allDay": false, "room": "Student Organizations Room (Ikeda 312)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "CPT Information Session", "type": "Campus Events", "public": false, "description": "Only for International Students interested in interning/working with US based companies.", "facility": false, "date": "2026-09-23", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Student Affairs Lobby", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Welcome Back Community Event", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-09-23", "startTime": "4:00 PM", "endTime": "7:00 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "Academic Awards Ceremony & Photo Session", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-24", "startTime": "12:15 PM", "endTime": "12:45 PM", "allDay": false, "room": "Founders Hall Founder's Meeting Room", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Silent Book Club", "type": "Academic Events and Reservations (Undergraduate)", "public": true, "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.", "facility": false, "date": "2026-09-24", "startTime": "3:00 PM", "endTime": "4:30 PM", "allDay": false, "room": "Ikeda Library Main Floor", "building": "Ikeda Library", "occurrenceCount": 3}, {"name": "Study Abroad France Visa Prep Session", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-09-24", "startTime": "4:30 PM", "endTime": "5:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Founders Gallery Artist\u2019s Opening Reception", "type": "Campus Events", "public": true, "description": "\"May All Beings Know We Are Dreaming\u201d by Michela Martello & \"Living Lineages: Tibetan Art\" Curated by Xiaoying Gan\n\nOpening Reception is FREE but registration is recommended and appreciated.\n\nTwo Artists - Two Exhibits", "facility": false, "date": "2026-09-24", "startTime": "5:30 PM", "endTime": "7:30 PM", "allDay": false, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Soka Leadership and Service Fair", "type": "Campus Events", "public": true, "description": "Discover on-campus leadership opportunities and connect with off-campus volunteering opportunities to get involved and make an impact in our community. Stop by, meet campus and community organizations, explore ways to lead and serve, and enjoy some donuts!", "facility": false, "date": "2026-09-25", "startTime": "11:30 AM", "endTime": "1:30 PM", "allDay": false, "room": "Dining Hall Patio", "building": "Student Center", "occurrenceCount": 1}, {"name": "Summer Student Research Assistantship Program 2026 Symposium", "type": "Academic Affairs Events & Reservations", "public": true, "description": "Summer Student Research Assistantship Program is supported by the John Stauffer Charitable Trust and the Lius & Linda Nieves Family Foundation. Students will present their summer research projects and posters.", "facility": false, "date": "2026-09-25", "startTime": "9:00 AM", "endTime": "4:00 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 2}, {"name": "Reserved for artist", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-25", "startTime": "9:00 AM", "endTime": "4:00 PM", "allDay": false, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Student Org Expo", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-09-26", "startTime": "1:00 PM", "endTime": "4:00 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "Women's Soccer vs Park Gilbert (Ariz)", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-26", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "David Benoit: Resonance and Renewal \u2014 World Premiere", "type": "Campus Events", "public": true, "description": "AN EVENING WITH DAVID BENOIT FEATURING THE WORLD PREMIERE OF\n\u201cRESONANCE AND RENEWAL\u201d , A CELLO CONCERTO WITH SOLOIST CECILIA\nTSAN\n\nMore info: https://www.performingarts.soka.edu/calendar-events/david-benoit-resonance-and-renewal-world-premiere", "facility": false, "date": "2026-09-26", "startTime": "5:00 PM", "endTime": "7:00 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "David Benoit Reception", "type": "Performing Arts Center", "public": false, "description": "", "facility": false, "date": "2026-09-26", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Art Gallery", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Men's Soccer vs Park Gilbert (Ariz)", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-09-26", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Acces Strasbourg Study Abroad Info Session", "type": "Campus Events", "public": false, "description": "Alex Neff, Director of Acces Strasbourg Study Abroad, will present a program overview. Returnees and prospective french language study abroad students invited to join. Refreshments served.", "facility": false, "date": "2026-09-28", "startTime": "4:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "SC 401", "building": "Student Center", "occurrenceCount": 1}, {"name": "TEST ONLY-Maya & Jaime fabulous film festival extravaganza!", "type": "Campus Events", "public": false, "description": "TEST ONLY--Maya and Jaime will host students to an epic film screen marathon of all of Maya's top ten favorite films! *Special screening of Maya's student film from their UCI days!*", "facility": false, "date": "2026-09-28", "startTime": "6:00 PM", "endTime": "8:00 PM", "allDay": false, "room": "The Bowl (Green between Res Hall)", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Meet the Author", "type": "Academic Programs & Events", "public": true, "description": "", "facility": false, "date": "2026-09-29", "startTime": "5:10 PM", "endTime": "6:10 PM", "allDay": false, "room": "Athenaeum Library", "building": "Athenaeum", "occurrenceCount": 1}, {"name": "Soka Health Research Symposium: Conference-Bound Scholarship in Public Health, Global Health, Epidemiology, Bioethics, and Health Policy", "type": "Academic Programs & Events", "public": true, "description": "Join us for an evening celebrating research that Soka students, recent alumni, and faculty will present at the Sexual Violence Research Initiative (SVRI) Forum, American Society for Bioethics and Humanities (ASBH) Annual Meeting, Gerontological Society of America (GSA) Annual Scientific Meeting, and", "facility": false, "date": "2026-09-30", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "CENEU Informational Session on Medical Spanish & Global Health Immersion Programs", "type": "Academic Programs & Events", "public": true, "description": "Medical Spanish & Global Health Immersion Information Session\nCo-sponsored by Health Professions Advising and the Career Development Office, this in-person session introduces students to CENEU's Medical Spanish and Global Health Immersion programs in Tijuana and Ensenada, Mexico. Representatives wil", "facility": false, "date": "2026-10-01", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Student Org Launchpad pt.2", "type": "Student Organization Event", "public": false, "description": "", "facility": false, "date": "2026-10-01", "startTime": "4:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "Student Affairs Lobby", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Japan/China Visa Info Session", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-10-01", "startTime": "4:30 PM", "endTime": "5:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Soka Jobs+ Fair PREP Workshop", "type": "Campus Events", "public": false, "description": "Don't forget to attend this workshop that helps you prepare for Soka Jobs+ Fair the next day!\n\"Your Great First Impression Can Get You Hired\"\nPrep Workshop: 10/1 Student Affairs Lobby, 5 pm Thurs.\nREMEMBER: Prep workshop is 10/1, then next day 10/2 Friday is the actual Soka Jobs+ Fair, at 11:30 am -", "facility": false, "date": "2026-10-01", "startTime": "5:00 PM", "endTime": "6:00 PM", "allDay": false, "room": "Grand Reading Room (Ikeda 400)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Soka Jobs+ Fair  (On-Campus Student Work Opportunities)", "type": "Campus Events", "public": true, "description": "SOKA JOBS+ FAIR (On-Campus Paid/Unpaid Student Work Opportunities)\n\"Your Great First Impression Can Get You Hired\"\nBistro Patio on Friday 10/2 at 11:30 am until 1:30 pm\nREMEMBER: Prep workshop is Thurs 10/1, then next day 10/2 Friday is the actual Soka Jobs+ Fair, at 11:30 am - 1:30 pm.", "facility": false, "date": "2026-10-02", "startTime": "11:30 AM", "endTime": "1:30 PM", "allDay": false, "room": "Dining Hall Patio", "building": "Student Center", "occurrenceCount": 1}, {"name": "Emerging Leaders Program Fall Kick-Off", "type": "Campus Events", "public": true, "description": "The SOKA ELP Kick-Off is designed for SUA students eager to explore contributive leadership and embark on a transformative journey throughout the academic year. Join us in learning more about the Soka Leadership Framework and the sign-up process for the Emerging Leaders Program!", "facility": false, "date": "2026-10-02", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "H\u0100LAU HULA LANI OLA 28th ANNIVERSARY H\u014c\u2019IKE", "type": "Campus Events", "public": true, "description": "THIS CONCERT IS PRESENTED BY H\u0100LAU HULA LANI OLA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike", "facility": false, "date": "2026-10-03", "startTime": "5:00 PM", "endTime": "7:00 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "October Dialogue Buddies", "type": "Campus Events", "public": true, "description": "Students, staff, and faculty are invited to engage in conversations on meaningful topics during lunch.", "facility": false, "date": "2026-10-06", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Dining Hall", "building": "Student Center", "occurrenceCount": 1}, {"name": "Career Development CPT Lunchtime", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-07", "startTime": "11:30 AM", "endTime": "1:30 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "Study Abroad Meet & Greet Tabling Event (Bistro Plaza)", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-08", "startTime": "10:00 AM", "endTime": "2:30 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "Study Abroad Meet and Greet 2026", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-08", "startTime": "11:00 AM", "endTime": "1:00 PM", "allDay": false, "room": "Dining Hall", "building": "Student Center", "occurrenceCount": 1}, {"name": "Set-up: President\u2019s Office", "type": "Campus Events", "public": false, "description": "Irene\u2019s Events and Bon Appetit will be setting up for Friday, October 9.", "facility": true, "date": "2026-10-08", "startTime": "12:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Storage of Items: President\u2019s Office Rentals", "type": "Campus Events", "public": false, "description": "Irene\u2019s tables and chairs will be used for the event on Friday, October 9.", "facility": false, "date": "2026-10-08", "startTime": "5:00 PM", "endTime": "8:00 AM", "allDay": false, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Power of Communication", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-10-09", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Career Development Rate-a-thon", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-09", "startTime": "9:00 AM", "endTime": "2:00 PM", "allDay": false, "room": "Campus Green", "building": null, "occurrenceCount": 1}, {"name": "Soka Peace Gala", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-10", "startTime": "5:00 PM", "endTime": "11:59 PM", "allDay": false, "room": "Athenaeum Courtyard", "building": "Athenaeum", "occurrenceCount": 1}, {"name": "Dean's Lunch Meeting with CPA Directors and Coordinators", "type": "Academic Events and Reservations (Undergraduate)", "public": false, "description": "", "facility": false, "date": "2026-10-13", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "MAA 207", "building": null, "occurrenceCount": 1}, {"name": "Women's Soccer vs La Sierra (Calif.)", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-13", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "CareerCore - Professional Development WORKSHOP (Critical Thinking + Applied Problem Solving)", "type": "Campus Events", "public": true, "description": "CareerCore Workshop: Critical Thinking + Applied Problem Solving. // The CareerCore Professional Development Program helps you recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other experienc", "facility": false, "date": "2026-10-13", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Men's Soccer vs La Sierra (Calif.)", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-13", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Johns Hopkins University & University of Pennsylvania Schools of Nursing Information Session", "type": "Academic Events and Reservations (Undergraduate)", "public": true, "description": "Co-sponsored by Health Professions Advising and the Career Development Office\n\nJoin admissions representatives from the Johns Hopkins University School of Nursing and the University of Pennsylvania School of Nursing for an in-person information session exploring pathways into the nursing profession ", "facility": false, "date": "2026-10-14", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Smart Job Decisions", "type": "Campus Events", "public": true, "description": "CDO & Library Services partner to provide important information for Students who receive multiple job offers. \n\nWhat should you consider before accepting an offer?", "facility": false, "date": "2026-10-15", "startTime": "5:00 PM", "endTime": "6:00 PM", "allDay": false, "room": "Student Affairs Lobby", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Becoming a Changemaker: Innovation + Entrepreneurship 101", "type": "Campus Events", "public": false, "description": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/event_details?uid=c060e348909ddd7834112e0a10e89fa8\">https://sokannect.soka.edu/event_details?uid=c060e348909ddd7834112e0a10e89fa8</a></p>", "facility": false, "date": "2026-10-15", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Humanism & Health Speaker Series", "type": "Academic Affairs Events & Reservations", "public": true, "description": "The inaugural session of the Humanism & Health Speaker Series will take place virtually on October 16, 2026, at 2:00 p.m. PT and will feature Victoria A. Smith, MD, Associate Medical Director for Primary Care at Ochsner Health, in conversation with Soka University of America Student Fellow Kiarra Ho", "facility": false, "date": "2026-10-16", "startTime": "2:00 PM", "endTime": "3:00 PM", "allDay": false, "room": "Virtual", "building": null, "occurrenceCount": 1}, {"name": "Fall Break", "type": "Academic Calendar", "public": true, "description": "Classes do not meet", "facility": false, "date": "2026-10-19", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Faculty Development Days", "type": "Academic Programs & Events", "public": false, "description": "", "facility": false, "date": "2026-10-19", "startTime": "7:00 AM", "endTime": "7:00 PM", "allDay": false, "room": "Athenaeum Courtyard", "building": "Athenaeum", "occurrenceCount": 5}, {"name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session", "type": "Academic Programs & Events", "public": true, "description": "This Summer Clinical Preceptorship Grand Rounds will feature case discussions presented by students who completed preceptorship program in 2026. Isabel Pizano-Canales, Taiho Higaki, and Calleigh Sakai will present clinical cases from both the Primary Care / Population Health Track and the Neurosurge", "facility": false, "date": "2026-10-21", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Vote Center: POD DELIVERY WINDOW", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-22", "startTime": null, "endTime": null, "allDay": true, "room": "Parking Lot A", "building": null, "occurrenceCount": 3}, {"name": "Soka Leadership Summit", "type": "Campus Events", "public": true, "description": "", "facility": false, "date": "2026-10-23", "startTime": "11:00 AM", "endTime": "8:00 PM", "allDay": false, "room": "Student Affairs Large Conference Room (Ikeda 314)", "building": "Ikeda Library", "occurrenceCount": 5}, {"name": "Become a Physician: Exploring the DO Pathway with AACOM", "type": "Academic Affairs Events & Reservations", "public": true, "description": "This virtual information session, offered specifically for Soka University of America students and alumni, will feature representatives from the American Association of Colleges of Osteopathic Medicine (AACOM). The session will provide an overview of osteopathic medicine and the pathway to becoming ", "facility": false, "date": "2026-10-23", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Virtual", "building": null, "occurrenceCount": 2}, {"name": "Discover Soka Set-Up Black Box Theater", "type": "Campus Events", "public": false, "description": "Set Up requested the on Friday, October 23rd from 2pm-7pm.\n\n  Request to borrow 8 cocktail tables to be set up in the Founders Atrium for the welcome event - they will be moved\n\n  back to PAC by 12pm on Saturday, October 24th.\n\n  Expected Guest Count 150-200.\n\n  Unlock All Doors, Light On, AC on the", "facility": true, "date": "2026-10-23", "startTime": "2:00 PM", "endTime": "7:00 PM", "allDay": false, "room": "Black Box Theatre", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT", "type": "Campus Events", "public": true, "description": "Our Admission\u2019s Open House, Discover Soka: Visit \u2022 Explore \u2022 Engage, is open to prospective students and their families, high school groups, high school counselors, and community organizations supporting students.\n\n  Date: Saturday, October 24, 2026\n\n  Time: 10 a.m. - 3:30 p.m.\n\n  Where to Check In:", "facility": false, "date": "2026-10-24", "startTime": "10:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Founders Hall Founder's Meeting Room", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Discover Soka: Conference Sessions", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-24", "startTime": "10:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "MAA 305", "building": null, "occurrenceCount": 6}, {"name": "Discover Soka: Lunch", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-24", "startTime": "10:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Lion's Den", "building": "Student Center", "occurrenceCount": 2}, {"name": "Discover Soka: Registration", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-24", "startTime": "10:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Art Gallery", "building": "Founders Hall", "occurrenceCount": 2}, {"name": "Discover Soka: Closing Sessions", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-24", "startTime": "10:00 AM", "endTime": "5:00 PM", "allDay": false, "room": "Black Box Theatre", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Discover Soka: Welcome", "type": "Campus Events", "public": false, "description": "Welcome presentation for prospective students and families.", "facility": false, "date": "2026-10-24", "startTime": "10:30 AM", "endTime": "11:00 AM", "allDay": false, "room": "Founders Hall Founder's Meeting Room", "building": "Founders Hall", "occurrenceCount": 1}, {"name": "Tear down: Sargam Group of SoCal", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-24", "startTime": "4:00 PM", "endTime": "7:00 PM", "allDay": false, "room": "Gymnasium", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Men's Soccer vs Hope International", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs Hope International\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-24", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Women's Soccer vs Hope International", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs Hope International\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-24", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Vote Center: Statewide General Election (POD DELIVERY TO GALLERY)", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-25", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 6}, {"name": "Malini Awasthi", "type": "Campus Events", "public": true, "description": "KALI MANDIR PRESENTS MALINI AWASTHI\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi", "facility": false, "date": "2026-10-25", "startTime": "6:30 PM", "endTime": "8:30 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Overview of IFSA Study Abroad Programs", "type": "Campus Events", "public": false, "description": "Zipporah Gaines from IFSA will present to propsective Latin America study abroad students about their various program offerings.", "facility": false, "date": "2026-10-27", "startTime": "4:30 PM", "endTime": "6:00 PM", "allDay": false, "room": "SC 401", "building": "Student Center", "occurrenceCount": 1}, {"name": "Vote Center: Statewide General Election", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-10-28", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 16}, {"name": "Low grade notices due to Registrar", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-10-28", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Women's Soccer vs The Master's", "type": "Campus Events", "public": true, "description": "Soka University Women's Soccer vs The Master's\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-29", "startTime": "4:30 PM", "endTime": "6:30 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "Men's Soccer vs The Master's", "type": "Campus Events", "public": true, "description": "Soka University Men's Soccer vs The Master's\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.", "facility": false, "date": "2026-10-29", "startTime": "7:00 PM", "endTime": "9:00 PM", "allDay": false, "room": "Soccer Field", "building": "Recreation Center", "occurrenceCount": 1}, {"name": "HOWARD TESTING", "type": "Academic Affairs Events & Reservations", "public": true, "description": "HOWARD TESTING - REHR CENTER DESCRIPTION", "facility": false, "date": "2026-11-02", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "CUR 300", "building": "Curie Hall", "occurrenceCount": 1}, {"name": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork & Leadership)", "type": "Campus Events", "public": false, "description": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork &amp; Leadership). The CareerCore Professional Development Program helps students recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, inte", "facility": false, "date": "2026-11-03", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "Affinity Hub (Ikeda 301)", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Meet the Author", "type": "Academic Programs & Events", "public": true, "description": "", "facility": false, "date": "2026-11-03", "startTime": "5:10 PM", "endTime": "6:10 PM", "allDay": false, "room": "Athenaeum Library", "building": "Athenaeum", "occurrenceCount": 1}, {"name": "November Dialogue Buddies", "type": "Campus Events", "public": true, "description": "Students, staff, and faculty are invited to engage in conversations on meaningful topics during lunch.", "facility": false, "date": "2026-11-04", "startTime": "12:00 PM", "endTime": "1:00 PM", "allDay": false, "room": "Dining Hall", "building": "Student Center", "occurrenceCount": 1}, {"name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-11-05", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 3}, {"name": "Last day to drop with record enrollment \u201cW\u201d", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-11-05", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Bob Baker Marionettes", "type": "Campus Events", "public": true, "description": "_Bob Baker Marionettes have \u201cenchanted children over nearly five\ndecades\u201d \u2013\u00a0THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2", "facility": false, "date": "2026-11-07", "startTime": "3:00 PM", "endTime": "5:00 PM", "allDay": false, "room": "Black Box Theatre", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Impactathon! Social Impact Competition | Prizes + Funding Opportunities!", "type": "Campus Events", "public": false, "description": "9 am \u2013 6 pm Sat \n\n10 am \u2013 1 pm Sun", "facility": false, "date": "2026-11-07", "startTime": "9:00 AM", "endTime": "1:00 PM", "allDay": false, "room": "CUR 200", "building": null, "occurrenceCount": 1}, {"name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-11-08", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 3}, {"name": "Academic Advising for Winter Block & Spring Semester", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-11-09", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Tech Coast Angels: Face-to-Face with Investors| REAL WORLD SHARK TANK!", "type": "Campus Events", "public": false, "description": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/b2b/rsvp_boot?id=380320\">https://sokannect.soka.edu/b2b/rsvp_boot?id=380320</a></p>", "facility": false, "date": "2026-11-10", "startTime": "4:00 PM", "endTime": "10:00 PM", "allDay": false, "room": "Black Box Theatre", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-11-11", "startTime": null, "endTime": null, "allDay": true, "room": "Founders 1st Floor Art Gallery", "building": "Founders Hall", "occurrenceCount": 2}, {"name": "Orange County Youth Symphony &amp; String Ensemble Fall Concert", "type": "Campus Events", "public": true, "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.e", "facility": false, "date": "2026-11-15", "startTime": "3:00 PM", "endTime": "5:00 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Registration for Winter Block & Spring Semester", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-11-16", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "Networking Happy Hour", "type": "Campus Events", "public": false, "description": "Students, staff and employers mix and mingle with mocktails and food.", "facility": false, "date": "2026-11-19", "startTime": "2:00 PM", "endTime": "8:00 PM", "allDay": false, "room": "Student Affairs Lobby", "building": "Ikeda Library", "occurrenceCount": 1}, {"name": "Emi Ferguson &amp; Ruckus \\\"Fly the Coop\\\": Bach Sonatas and Preludes", "type": "Campus Events", "public": true, "description": "_\u201cThe world\u2019s only period\u2011instrument rock band.\u201d \u2013\u00a0\n_SAN\u202fFRANCISCO\u202fCLASSICAL\u202fVOICE (ON RUCKUS)\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes", "facility": false, "date": "2026-11-21", "startTime": "8:00 PM", "endTime": "10:00 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Pacific Symphony: Bach &amp; Beethoven with Alexander Shelley, cond.", "type": "Campus Events", "public": true, "description": "AN EVENING WITH PACIFIC SYMPHONY WITH ALEXANDER SHELLEY, COND. AND\nDENNIS KIM &amp; YOOMIN SEO, VIOLINS\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond", "facility": false, "date": "2026-11-22", "startTime": "3:00 PM", "endTime": "5:00 PM", "allDay": false, "room": "Performing Arts Center Concert Hall", "building": "Performing Arts Center", "occurrenceCount": 1}, {"name": "Thanksgiving Holiday", "type": "Academic Calendar", "public": true, "description": "", "facility": false, "date": "2026-11-26", "startTime": null, "endTime": null, "allDay": true, "room": null, "building": null, "occurrenceCount": 1}, {"name": "ASB Seminar #4", "type": "Campus Events", "public": false, "description": "", "facility": false, "date": "2026-12-01", "startTime": "5:00 PM", "endTime": "6:30 PM", "allDay": false, "room": "Student Affairs Large Conference Room (Ikeda 314)", "building": "Ikeda Library", "occurrenceCount": 1}];
+
+const CATEGORY = {
+  'Campus Events': {cls:'t-campus', label:'Campus'},
+  'Academic Programs & Events': {cls:'t-academic', label:'Academic'},
+  'Academic Affairs Events & Reservations': {cls:'t-academic', label:'Academic'},
+  'Academic Events and Reservations (Undergraduate)': {cls:'t-academic', label:'Academic'},
+  'Performing Arts Center': {cls:'t-arts', label:'Arts'},
+  'Student Organization Event': {cls:'t-org', label:'Student Org'},
+  'Academic Calendar': {cls:'t-milestone', label:'Milestone'},
+};
+const FACILITY_TAG = {cls:'t-facility', label:'Facility notice'};
+
+function fmtDayHeading(dateStr){
+  const [y,m,d] = dateStr.split('-').map(Number);
+  const dt = new Date(y, m-1, d);
+  return dt.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+}
+
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render(showAllOnly){
+  const list = document.getElementById('list');
+  list.innerHTML = '';
+
+  const groups = {};
+  EVENTS.forEach(e => { (groups[e.date] = groups[e.date] || []).push(e); });
+  const dates = Object.keys(groups).sort();
+
+  dates.forEach(date => {
+    const items = groups[date].filter(e => showAllOnly ? true : e.public === true);
+    if(!items.length) return;
+
+    const dayEl = document.createElement('div');
+    dayEl.className = 'day-group';
+    const heading = document.createElement('h2');
+    heading.className = 'day-heading';
+    heading.innerHTML = fmtDayHeading(date) + '<span class="count">' + items.length + ' event' + (items.length===1?'':'s') + '</span>';
+    dayEl.appendChild(heading);
+
+    items.forEach(e => {
+      const cat = e.facility ? FACILITY_TAG : (CATEGORY[e.type] || {cls:'t-campus', label:e.type});
+      const row = document.createElement('div');
+      row.className = 'row';
+
+      const time = document.createElement('div');
+      time.className = 'time';
+      if(e.allDay){
+        time.textContent = 'All day';
+      } else {
+        time.innerHTML = escapeHtml(e.startTime || '') + (e.endTime ? '<span class="end">' + escapeHtml(e.endTime) + '</span>' : '');
+      }
+      row.appendChild(time);
+
+      const content = document.createElement('div');
+      content.className = 'content';
+
+      const titleLine = document.createElement('div');
+      titleLine.className = 'title-line';
+      const title = document.createElement('p');
+      title.className = 'title';
+      title.textContent = e.name;
+      titleLine.appendChild(title);
+
+      const tag = document.createElement('span');
+      tag.className = 'tag ' + cat.cls;
+      tag.textContent = cat.label;
+      titleLine.appendChild(tag);
+
+      if(e.public === false){
+        const flag = document.createElement('span');
+        flag.className = 'tag flag';
+        flag.textContent = 'Not on public calendar';
+        titleLine.appendChild(flag);
+      }
+      if(e.occurrenceCount > 1){
+        const occ = document.createElement('span');
+        occ.className = 'occ';
+        occ.textContent = '×' + e.occurrenceCount;
+        titleLine.appendChild(occ);
+      }
+      content.appendChild(titleLine);
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      const parts = [];
+      if(e.room) parts.push(e.room);
+      if(e.building && e.building !== e.room) parts.push(e.building);
+      meta.textContent = parts.join(' · ') || '—';
+      content.appendChild(meta);
+
+      if(e.description){
+        const desc = document.createElement('div');
+        desc.className = 'desc';
+        desc.textContent = e.description;
+        content.appendChild(desc);
+      }
+
+      row.appendChild(content);
+      dayEl.appendChild(row);
+    });
+
+    list.appendChild(dayEl);
+  });
+}
+
+const total = EVENTS.length;
+const publicCount = EVENTS.filter(e => e.public === true).length;
+const hiddenCount = EVENTS.filter(e => e.public === false).length;
+document.getElementById('statTotal').textContent = total;
+document.getElementById('statPublic').textContent = publicCount;
+document.getElementById('statHidden').textContent = hiddenCount;
+
+const btnAll = document.getElementById('btnAll');
+const btnPublic = document.getElementById('btnPublic');
+
+function setMode(all){
+  btnAll.classList.toggle('active', all);
+  btnPublic.classList.toggle('active', !all);
+  render(all);
+}
+btnAll.addEventListener('click', () => setMode(true));
+btnPublic.addEventListener('click', () => setMode(false));
+
+setMode(true);
+</script>
