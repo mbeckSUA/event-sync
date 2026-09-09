@@ -553,7 +553,7 @@
   <header class="masthead">
     <p class="eyebrow">Soka University &middot; Prototype</p>
     <h1>Campus Happenings</h1>
-    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog &mdash; including everything that's a real event but currently sits off the public calendar (flagged below).</p>
+    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog &mdash; including everything that's a real event but currently sits off the public calendar.</p>
     <div class="stats">
       <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
       <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">Already public</span></div>
@@ -773,16 +773,11 @@ function renderList(){
       title.textContent = e.name;
       titleLine.appendChild(title);
 
-      const tag = document.createElement('span');
-      tag.className = 'tag ' + cat.cls;
-      tag.textContent = cat.label;
-      titleLine.appendChild(tag);
-
-      if(e.public === false){
-        const flag = document.createElement('span');
-        flag.className = 'tag flag';
-        flag.textContent = 'Not on public calendar';
-        titleLine.appendChild(flag);
+      if(cat.cls !== 't-campus' && cat.cls !== 't-academic'){
+        const tag = document.createElement('span');
+        tag.className = 'tag ' + cat.cls;
+        tag.textContent = cat.label;
+        titleLine.appendChild(tag);
       }
       if(e.occurrenceCount > 1){
         const occ = document.createElement('span');
