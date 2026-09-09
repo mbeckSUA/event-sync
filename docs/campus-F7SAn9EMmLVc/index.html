@@ -154,18 +154,27 @@
     gap:6px;
     font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:12px;
+    font-weight:500;
     color:var(--ink-muted);
     background:var(--paper-raised);
     border:1px solid var(--line-soft);
     border-radius:999px;
     padding:5px 10px 5px 8px;
     cursor:pointer;
-    transition:opacity .15s ease, border-color .15s ease, color .15s ease;
+    transition:opacity .15s ease, border-color .15s ease, color .15s ease, background .15s ease;
   }
   .legend-item:hover{border-color:var(--line);}
   .legend-item:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
-  .legend-item.active{color:var(--ink); border-color:var(--line);}
-  .legend-item:not(.active){opacity:.5;}
+  /* Only dim the *other* chips once something is actually selected — a chip's
+     resting state always reads as "included", never as "off by default". */
+  #categoryFilter.filtering .legend-item:not(.selected){opacity:.4;}
+  .legend-item.selected{font-weight:600; color:var(--ink); border-color:currentColor;}
+  .legend-item.selected[data-cls="t-campus"]{background:var(--teal-tint); color:var(--teal);}
+  .legend-item.selected[data-cls="t-academic"]{background:var(--ochre-tint); color:var(--ochre);}
+  .legend-item.selected[data-cls="t-arts"]{background:var(--plum-tint); color:var(--plum);}
+  .legend-item.selected[data-cls="t-org"]{background:var(--periwinkle-tint); color:var(--periwinkle);}
+  .legend-item.selected[data-cls="t-milestone"]{background:var(--slate-tint); color:var(--slate);}
+  .legend-item.selected[data-cls="t-facility"]{background:var(--clay-tint); color:var(--clay);}
   .swatch{width:9px; height:9px; border-radius:2px; display:inline-block; flex-shrink:0;}
 
   .date-range{
@@ -565,12 +574,12 @@
       </div>
     </div>
     <div class="legend" id="categoryFilter" role="group" aria-label="Filter by category">
-      <button type="button" class="legend-item active" data-cls="t-campus"><span class="swatch" style="background:var(--teal)"></span>Campus Events</button>
-      <button type="button" class="legend-item active" data-cls="t-academic"><span class="swatch" style="background:var(--ochre)"></span>Academic</button>
-      <button type="button" class="legend-item active" data-cls="t-arts"><span class="swatch" style="background:var(--plum)"></span>Performing Arts / Gallery</button>
-      <button type="button" class="legend-item active" data-cls="t-org"><span class="swatch" style="background:var(--periwinkle)"></span>Student Org</button>
-      <button type="button" class="legend-item active" data-cls="t-milestone"><span class="swatch" style="background:var(--slate)"></span>Academic Calendar</button>
-      <button type="button" class="legend-item active" data-cls="t-facility"><span class="swatch" style="background:var(--clay)"></span>Facility notice</button>
+      <button type="button" class="legend-item" data-cls="t-campus" aria-pressed="false"><span class="swatch" style="background:var(--teal)"></span>Campus Events</button>
+      <button type="button" class="legend-item" data-cls="t-academic" aria-pressed="false"><span class="swatch" style="background:var(--ochre)"></span>Academic</button>
+      <button type="button" class="legend-item" data-cls="t-arts" aria-pressed="false"><span class="swatch" style="background:var(--plum)"></span>Performing Arts / Gallery</button>
+      <button type="button" class="legend-item" data-cls="t-org" aria-pressed="false"><span class="swatch" style="background:var(--periwinkle)"></span>Student Org</button>
+      <button type="button" class="legend-item" data-cls="t-milestone" aria-pressed="false"><span class="swatch" style="background:var(--slate)"></span>Academic Calendar</button>
+      <button type="button" class="legend-item" data-cls="t-facility" aria-pressed="false"><span class="swatch" style="background:var(--clay)"></span>Facility notice</button>
     </div>
     <p class="result-count" id="resultCount" hidden></p>
   </div>
@@ -684,18 +693,20 @@ let currentMode = 'list';  // 'list' | 'calendar'
 let calMonth = null;       // {y, m} 0-indexed month, set on first render
 
 // ---------- Filtering ----------
-const ALL_CATS = ['t-campus','t-academic','t-arts','t-org','t-milestone','t-facility'];
-let activeCategories = new Set(ALL_CATS);
+// activeCategories is the set of categories the user has explicitly picked.
+// Empty = no filter = show every category. Selecting one or more narrows the
+// list to just those — selecting is additive/inclusive, never subtractive.
+let activeCategories = new Set();
 let dateFrom = null;  // 'YYYY-MM-DD' or null
 let dateTo = null;    // 'YYYY-MM-DD' or null
 
 function filtersActive(){
-  return activeCategories.size < ALL_CATS.length || !!dateFrom || !!dateTo;
+  return activeCategories.size > 0 || !!dateFrom || !!dateTo;
 }
 
 function filteredEvents(){
   return EVENTS.filter(e => {
-    if(!activeCategories.has(catFor(e).cls)) return false;
+    if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return false;
     if(dateFrom && e.date < dateFrom) return false;
     if(dateTo && e.date > dateTo) return false;
     return true;
@@ -1036,16 +1047,22 @@ function applyFilters(){
   renderCurrent();
 }
 
+function syncLegendUI(){
+  const filtering = activeCategories.size > 0;
+  document.getElementById('categoryFilter').classList.toggle('filtering', filtering);
+  legendButtons.forEach(btn => {
+    const selected = activeCategories.has(btn.dataset.cls);
+    btn.classList.toggle('selected', selected);
+    btn.setAttribute('aria-pressed', String(selected));
+  });
+}
+
 legendButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     const cls = btn.dataset.cls;
-    if(activeCategories.has(cls)){
-      if(activeCategories.size === 1) return; // keep at least one category on
-      activeCategories.delete(cls);
-    } else {
-      activeCategories.add(cls);
-    }
-    btn.classList.toggle('active', activeCategories.has(cls));
+    if(activeCategories.has(cls)) activeCategories.delete(cls);
+    else activeCategories.add(cls);
+    syncLegendUI();
     applyFilters();
   });
 });
@@ -1064,8 +1081,8 @@ dateToInput.addEventListener('change', () => {
 });
 
 clearFiltersBtn.addEventListener('click', () => {
-  activeCategories = new Set(ALL_CATS);
-  legendButtons.forEach(btn => btn.classList.add('active'));
+  activeCategories = new Set();
+  syncLegendUI();
   dateFrom = null;
   dateTo = null;
   dateFromInput.value = '';
@@ -1074,5 +1091,6 @@ clearFiltersBtn.addEventListener('click', () => {
 });
 
 setMode('list');
+syncLegendUI();
 updateFilterUI();
 </script>
