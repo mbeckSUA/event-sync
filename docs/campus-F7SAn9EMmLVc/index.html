@@ -1,85 +1,89 @@
 <title>Campus Happenings</title>
 <meta name="robots" content="noindex, nofollow, noarchive">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;0,700;1,500&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap">
 <style>
+  /* Soka University brand palette (SOK001 Guidelines, 12.6.24) */
   :root{
-    --paper:#F4F5F0;
+    --paper:#FEFDEB;          /* Pure Light */
     --paper-raised:#FFFFFF;
-    --ink:#1B211D;
-    --ink-muted:#5C6560;
-    --ink-faint:#8B948E;
-    --line:#DADDD5;
-    --line-soft:#E7E9E2;
-    --teal:#14555A;
-    --teal-tint:#E4EEED;
-    --ochre:#8A5F22;
-    --ochre-tint:#F1E8D8;
-    --plum:#6B3F6E;
-    --plum-tint:#EFE4EF;
-    --periwinkle:#454F8C;
-    --periwinkle-tint:#E6E7F2;
-    --accent:#14555A;
+    --ink:#001D61;            /* Deep Reflection */
+    --ink-muted:#6B7CA3;
+    --ink-faint:#A8B2C9;
+    --line:#CCD2DF;
+    --line-soft:#E0E4EC;
+    --teal:#004B87;           /* Soka Blue — Campus Events */
+    --teal-tint:#D9E4ED;
+    --ochre:#B55C00;          /* Golden Saffron — Academic */
+    --ochre-tint:#FFECD9;
+    --plum:#7E335A;           /* Purposeful Plum — Arts */
+    --plum-tint:#ECE0E6;
+    --periwinkle:#5D5CE4;     /* Violet Radiance — Student Org */
+    --periwinkle-tint:#E7E7FB;
+    --accent:#004B87;         /* Soka Blue */
     --accent-ink:#FFFFFF;
-    --new-flag:#B4562E;
-    --new-flag-tint:#FBEAE1;
-    --clay:#96593A;
-    --clay-tint:#F1E4DA;
-    --slate:#5C6560;
-    --slate-tint:#E7E9E2;
-    --shadow: 0 1px 2px rgba(27,33,29,0.06), 0 8px 24px -12px rgba(27,33,29,0.18);
+    --new-flag:#001D61;       /* Deep Reflection text on Soka Yellow */
+    --new-flag-tint:#FCD43B;  /* Soka Yellow */
+    --gap-stat:#D63932;       /* Courageous Crimson — standalone "invisible" stat number */
+    --clay:#D63932;           /* Courageous Crimson — Facility notice */
+    --clay-tint:#FEE3E1;
+    --slate:#004851;          /* Forest Path — Academic Calendar */
+    --slate-tint:#D9E4E5;
+    --shadow: 0 1px 2px rgba(0,29,97,0.07), 0 8px 24px -12px rgba(0,29,97,0.20);
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --paper:#141815;
-      --paper-raised:#1C211D;
-      --ink:#E9ECE6;
-      --ink-muted:#9CA69E;
-      --ink-faint:#6B756E;
-      --line:#333A34;
-      --line-soft:#262C27;
-      --teal:#6FBBB5;
-      --teal-tint:#1B2E2C;
-      --ochre:#D3A65E;
-      --ochre-tint:#2E2519;
-      --plum:#C99BCB;
-      --plum-tint:#2B222C;
-      --periwinkle:#A6ACDE;
-      --periwinkle-tint:#212440;
-      --accent:#6FBBB5;
-      --accent-ink:#0E1B1A;
-      --new-flag:#E3966C;
-      --new-flag-tint:#2E1E15;
-      --clay:#D99A72;
-      --clay-tint:#2E2015;
-      --slate:#9CA69E;
-      --slate-tint:#262C27;
+      --paper:#12161C;
+      --paper-raised:#191F27;
+      --ink:#C4CBDB;
+      --ink-muted:#7887AB;
+      --ink-faint:#4F6392;
+      --line:#1D2A3A;
+      --line-soft:#18212C;
+      --teal:#5486AF;
+      --teal-tint:#0F1E2C;
+      --ochre:#FF8200;
+      --ochre-tint:#362618;
+      --plum:#A6728D;
+      --plum-tint:#221A25;
+      --periwinkle:#7473E8;
+      --periwinkle-tint:#1D203A;
+      --accent:#66B0FF;        /* Infinite Ocean */
+      --accent-ink:#0B1A26;
+      --new-flag:#001D61;
+      --new-flag-tint:#FCD43B;
+      --gap-stat:#F9423A;
+      --clay:#F9423A;
+      --clay-tint:#351D20;
+      --slate:#59888E;
+      --slate-tint:#0F1E24;
       --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
     }
   }
   :root[data-theme="dark"]{
-    --paper:#141815;
-    --paper-raised:#1C211D;
-    --ink:#E9ECE6;
-    --ink-muted:#9CA69E;
-    --ink-faint:#6B756E;
-    --line:#333A34;
-    --line-soft:#262C27;
-    --teal:#6FBBB5;
-    --teal-tint:#1B2E2C;
-    --ochre:#D3A65E;
-    --ochre-tint:#2E2519;
-    --plum:#C99BCB;
-    --plum-tint:#2B222C;
-    --periwinkle:#A6ACDE;
-    --periwinkle-tint:#212440;
-    --accent:#6FBBB5;
-    --accent-ink:#0E1B1A;
-    --new-flag:#E3966C;
-    --new-flag-tint:#2E1E15;
-    --clay:#D99A72;
-    --clay-tint:#2E2015;
-    --slate:#9CA69E;
-    --slate-tint:#262C27;
+    --paper:#12161C;
+    --paper-raised:#191F27;
+    --ink:#C4CBDB;
+    --ink-muted:#7887AB;
+    --ink-faint:#4F6392;
+    --line:#1D2A3A;
+    --line-soft:#18212C;
+    --teal:#5486AF;
+    --teal-tint:#0F1E2C;
+    --ochre:#FF8200;
+    --ochre-tint:#362618;
+    --plum:#A6728D;
+    --plum-tint:#221A25;
+    --periwinkle:#7473E8;
+    --periwinkle-tint:#1D203A;
+    --accent:#66B0FF;
+    --accent-ink:#0B1A26;
+    --new-flag:#001D61;
+    --new-flag-tint:#FCD43B;
+    --gap-stat:#F9423A;
+    --clay:#F9423A;
+    --clay-tint:#351D20;
+    --slate:#59888E;
+    --slate-tint:#0F1E24;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
   }
 
@@ -89,7 +93,7 @@
     margin:0;
     background:var(--paper);
     color:var(--ink);
-    font-family:'Archivo',ui-sans-serif,system-ui,sans-serif;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     line-height:1.5;
   }
   ::selection{background:var(--teal-tint); color:var(--ink);}
@@ -102,7 +106,7 @@
     margin-bottom:28px;
   }
   .eyebrow{
-    font-family:'IBM Plex Mono',ui-monospace,monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:12px;
     font-weight:600;
     letter-spacing:.09em;
@@ -111,7 +115,7 @@
     margin:0 0 14px;
   }
   h1{
-    font-family:'Spectral',Georgia,serif;
+    font-family:'Instrument Serif',Georgia,serif;
     font-weight:600;
     font-size:clamp(34px,5.5vw,52px);
     line-height:1.05;
@@ -134,14 +138,14 @@
   }
   .stat{min-width:120px;}
   .stat .n{
-    font-family:'IBM Plex Mono',ui-monospace,monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-variant-numeric:tabular-nums;
     font-weight:600;
     font-size:26px;
     display:block;
     color:var(--ink);
   }
-  .stat .n.flag{color:var(--new-flag);}
+  .stat .n.flag{color:var(--gap-stat);}
   .stat .l{
     font-size:12.5px;
     color:var(--ink-muted);
@@ -176,7 +180,7 @@
     border:0;
     background:transparent;
     color:var(--ink-muted);
-    font-family:'Archivo',sans-serif;
+    font-family:'Work Sans',sans-serif;
     font-weight:600;
     font-size:13.5px;
     padding:9px 14px;
@@ -203,7 +207,7 @@
   /* ---- List view ---- */
   .day-group{margin-top:30px;}
   .day-heading{
-    font-family:'Spectral',Georgia,serif;
+    font-family:'Instrument Serif',Georgia,serif;
     font-style:italic;
     font-weight:500;
     font-size:19px;
@@ -217,7 +221,7 @@
   }
   .day-heading.flash{background:var(--teal-tint);}
   .day-heading .count{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-style:normal;
     font-size:12px;
     color:var(--ink-faint);
@@ -250,7 +254,7 @@
   }
 
   .time{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:12px;
     font-weight:500;
     color:var(--ink-muted);
@@ -266,7 +270,7 @@
     flex-wrap:wrap;
   }
   .title{
-    font-family:'Spectral',Georgia,serif;
+    font-family:'Instrument Serif',Georgia,serif;
     font-weight:600;
     font-size:17.5px;
     color:var(--ink);
@@ -282,7 +286,7 @@
   }
   .row-wrap.expanded .chevron{transform:rotate(180deg);}
   .tag{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:10.5px;
     font-weight:600;
     letter-spacing:.03em;
@@ -315,7 +319,7 @@
     overflow:hidden;
   }
   .occ{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:11px;
     color:var(--ink-faint);
   }
@@ -372,7 +376,7 @@
     margin-bottom:14px;
   }
   .cal-nav .cal-title{
-    font-family:'Spectral',Georgia,serif;
+    font-family:'Instrument Serif',Georgia,serif;
     font-weight:600;
     font-size:20px;
   }
@@ -400,7 +404,7 @@
   }
   .cal-dow{
     background:var(--paper-raised);
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:10.5px;
     font-weight:600;
     text-transform:uppercase;
@@ -423,7 +427,7 @@
     border-radius:50%;
   }
   .cal-date{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:11.5px;
     color:var(--ink-muted);
     width:20px; height:20px;
@@ -446,7 +450,7 @@
   .cal-chip .dot{width:6px; height:6px; border-radius:50%; flex-shrink:0;}
   .cal-chip .lbl{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
   .cal-more{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:10px;
     color:var(--ink-faint);
     background:transparent;
@@ -472,7 +476,7 @@
   }
   footer p{margin:0 0 8px;}
   footer code{
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     background:var(--line-soft);
     padding:1px 5px;
     border-radius:4px;
