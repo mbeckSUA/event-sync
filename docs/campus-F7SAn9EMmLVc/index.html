@@ -363,6 +363,14 @@
   .detail-desc a{color:var(--teal);}
   .detail-desc p{margin:0 0 10px;}
   .detail-desc p:last-child{margin-bottom:0;}
+  .more-info-label{
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    margin:14px 0 6px !important;
+  }
   .detail-img{
     display:block;
     max-width:100%;
@@ -680,9 +688,25 @@ function sanitizeRich(html){
 }
 
 function descriptionHtml(e){
-  if(e.description) return linkifyPlain(e.description);
-  if(e.extendedDescription) return sanitizeRich(e.extendedDescription);
-  return '';
+  const desc = e.description || '';
+  const ext = e.extendedDescription || '';
+  const parts = [];
+  if(desc) parts.push(linkifyPlain(desc));
+
+  if(ext){
+    // Coursedog's extendedDescription is where registration/ticket/RSVP links
+    // usually live. Some events already repeat that same URL as plain text in
+    // description (which linkifyPlain already turned into a link above) — skip
+    // re-showing it there. Otherwise it's the only place the link exists, so
+    // surface it explicitly rather than silently dropping it.
+    const extUrls = [...ext.matchAll(/href="([^"]+)"/g)].map(m => m[1]);
+    const alreadyLinked = extUrls.length > 0 && extUrls.every(u => desc.includes(u));
+    if(!alreadyLinked){
+      const rich = sanitizeRich(ext);
+      parts.push(desc ? '<p class="more-info-label">Registration &amp; more info</p>' + rich : rich);
+    }
+  }
+  return parts.join('');
 }
 
 function hasDetail(e){
