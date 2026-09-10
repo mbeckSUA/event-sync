@@ -558,13 +558,13 @@
 
 <div class="wrap">
   <header class="masthead">
-    <p class="eyebrow">Soka University &middot; Prototype</p>
+    <p class="eyebrow">Soka University</p>
     <h1>Campus Happenings</h1>
-    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog &mdash; including everything that's a real event but currently sits off the public calendar.</p>
+    <p class="dek">Everything going on around campus &mdash; including events that haven't made it onto the official calendar yet.</p>
     <div class="stats">
       <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
-      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">Already public</span></div>
-      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Invisible off this list today</span></div>
+      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">On the public calendar</span></div>
+      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Missing from it</span></div>
     </div>
   </header>
 
@@ -895,7 +895,7 @@ function renderList(){
 }
 
 function jumpToDay(date){
-  setMode(true, 'list');
+  setMode('list');
   requestAnimationFrame(() => {
     const el = document.getElementById('day-' + date);
     if(!el) return;
