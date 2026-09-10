@@ -77,26 +77,6 @@
   }
   .dek strong{color:var(--ink); font-weight:600;}
 
-  .stats{
-    display:flex;
-    gap:28px;
-    flex-wrap:wrap;
-  }
-  .stat{min-width:120px;}
-  .stat .n{
-    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
-    font-variant-numeric:tabular-nums;
-    font-weight:600;
-    font-size:26px;
-    display:block;
-    color:var(--ink);
-  }
-  .stat .n.flag{color:var(--gap-stat);}
-  .stat .l{
-    font-size:12.5px;
-    color:var(--ink-muted);
-  }
-
   .controls{
     position:sticky;
     top:0;
@@ -390,7 +370,6 @@
     .row{grid-template-columns:64px 1fr; gap:10px;}
     .detail{padding-left:80px;}
     h1{font-size:32px;}
-    .stats{gap:20px;}
   }
 
   /* Narrow sidebar / compact embed — e.g. a SharePoint web-part column.
@@ -401,10 +380,6 @@
     .eyebrow{margin:0 0 8px;}
     h1{font-size:26px; margin:0 0 8px;}
     .dek{font-size:13.5px; margin:0 0 16px;}
-    .stats{gap:16px;}
-    .stat{min-width:0;}
-    .stat .n{font-size:19px;}
-    .stat .l{font-size:11px;}
     .controls{padding:10px 0; gap:8px;}
     .toggle-row{gap:6px;}
     .toggle button{padding:7px 10px; font-size:12px;}
@@ -560,12 +535,7 @@
   <header class="masthead">
     <p class="eyebrow">Soka University</p>
     <h1>Campus Happenings</h1>
-    <p class="dek">Everything going on around campus &mdash; including events that haven't made it onto the official calendar yet.</p>
-    <div class="stats">
-      <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
-      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">On the public calendar</span></div>
-      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Missing from it</span></div>
-    </div>
+    <p class="dek">Everything going on around campus.</p>
   </header>
 
   <div class="controls">
@@ -996,11 +966,6 @@ function renderCurrent(){
 
 // ---------- Controls ----------
 const total = EVENTS.length;
-const publicCount = EVENTS.filter(e => e.public === true).length;
-const hiddenCount = EVENTS.filter(e => e.public === false).length;
-document.getElementById('statTotal').textContent = total;
-document.getElementById('statPublic').textContent = publicCount;
-document.getElementById('statHidden').textContent = hiddenCount;
 
 const btnList = document.getElementById('btnList');
 const btnCal = document.getElementById('btnCal');
