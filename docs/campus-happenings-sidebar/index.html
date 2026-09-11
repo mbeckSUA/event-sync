@@ -66,7 +66,17 @@
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     padding-bottom:24px;
+    /* Visible on purpose — a hidden scrollbar removes the only cue that there's
+       more content below, and removes the click-and-drag navigation option for
+       anyone who finds precise wheel/trackpad scrolling harder. Thin and on-brand
+       instead of hidden or stock browser gray. */
+    scrollbar-width:thin;
+    scrollbar-color:var(--line) transparent;
   }
+  .scroll-area::-webkit-scrollbar{width:8px;}
+  .scroll-area::-webkit-scrollbar-track{background:transparent;}
+  .scroll-area::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px;}
+  .scroll-area::-webkit-scrollbar-thumb:hover{background:var(--ink-faint);}
 
   header.masthead{
     padding:56px 0 28px;
