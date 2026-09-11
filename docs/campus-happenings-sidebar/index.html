@@ -216,6 +216,9 @@
     -webkit-box-orient:vertical;
     overflow:hidden;
   }
+  /* Once expanded, the detail panel below shows the full description —
+     the clamped teaser above would just repeat the same text. */
+  .row-wrap.expanded .desc-preview{display:none;}
   .occ{
     font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
     font-size:11px;
