@@ -1,6 +1,5 @@
 .env
-debug_sample.json
+debug_*.json
 __pycache__/
 *.pyc
 .DS_Store
-debug_raw_page.json

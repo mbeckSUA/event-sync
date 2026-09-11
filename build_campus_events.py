@@ -155,6 +155,8 @@ def fetch_lookup_dict(token, resource_candidates):
         else:
             out = {}
         log.info(f"Loaded {len(out)} records from /{resource} for lookup")
+        sample_file = Path(__file__).parent / f"debug_{resource}_sample.json"
+        sample_file.write_text(json.dumps(list(out.values())[:3], indent=2))
         return out
     log.warning(f"None of {resource_candidates} worked — falling back to blank instead of a raw id in the display")
     return {}
