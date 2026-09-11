@@ -181,7 +181,10 @@ def transform(meeting, rooms, orgs):
     room_id = meeting.get("roomId")
     room_rec = rooms.get(room_id) if room_id else None
     room_name = (room_rec.get("displayName") or room_rec.get("name")) if room_rec else None
-    building_name = (room_rec.get("building") or room_rec.get("buildingName")) if room_rec else None
+    # Confirmed live (Sept 11): the field is buildingDisplayName, e.g.
+    # "Founders Hall" — buildingId is a short internal code ("FOUNDRSHAL"),
+    # not what should show in the widget.
+    building_name = room_rec.get("buildingDisplayName") if room_rec else None
 
     # Same problem, same fix, for organization — eventData.organization is a
     # bare UUID with no readable name attached to the meeting.
