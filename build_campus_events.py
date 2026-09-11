@@ -35,13 +35,29 @@ COURSEDOG_EMAIL = os.environ["COURSEDOG_READONLY_EMAIL"]
 COURSEDOG_PASSWORD = os.environ["COURSEDOG_READONLY_PASSWORD"]
 COURSEDOG_SCHOOL = os.environ["COURSEDOG_SCHOOL"]
 
-WINDOW_DAYS = int(os.environ.get("EVENTS_WINDOW_DAYS", "90"))
+# Default is a full rolling year, not a Coursedog-imposed limit — Soka
+# schedules events out for the full academic year, so a shorter window would
+# clip events that are already booked. Override with EVENTS_WINDOW_DAYS if
+# a shorter/longer pull is ever needed.
+WINDOW_DAYS = int(os.environ.get("EVENTS_WINDOW_DAYS", "365"))
 PAGE_LIMIT = 200
 
 # Provisional per events-public-visibility.md (Sept 9 check) — confirmed
 # against 5 real records, not exhaustive. Revisit if a new eventData.type
 # value shows up that should also be excluded.
 EXCLUDE_TYPES = {"Academic Calendar"}
+
+# There is no real "is this a facility notice" field in Coursedog — confirmed
+# absent from eventData in the Sept 11 live pull. The widget's "Facility
+# notice" tag (vs. an attendable event) is a name-matching guess, ported
+# from the original prototype. Will misfire as more data comes in unless
+# these get a real, consistent tag or naming convention in Coursedog itself.
+FACILITY_NAME_PATTERNS = ("set-up", "installation", "prep/paint/clean")
+
+
+def is_facility_notice(name):
+    name_lower = (name or "").lower()
+    return any(p in name_lower for p in FACILITY_NAME_PATTERNS)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -201,7 +217,7 @@ def transform(meeting, rooms, orgs):
         "public": bool(ev.get("public")),
         "description": (ev.get("description") or "").strip(),
         "extendedDescription": ev.get("extendedDescription") or "",
-        "facility": bool(ev.get("facility")),
+        "facility": is_facility_notice(ev.get("name", "")),
         "date": meeting.get("startDate"),
         "startTime": fmt_time(meeting.get("startTime")),
         "endTime": fmt_time(meeting.get("endTime")),

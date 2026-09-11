@@ -3,3 +3,6 @@ debug_*.json
 __pycache__/
 *.pyc
 .DS_Store
+meetings.json
+meetings_page2.json
+rooms.json
