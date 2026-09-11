@@ -689,13 +689,29 @@ function filtersActive(){
   return activeCategories.size > 0 || !!dateFrom || !!dateTo;
 }
 
+// Expands each event onto every date in its occurrenceDates that survives
+// the active filters, not just its anchor `date` — otherwise a recurring
+// series only ever shows on the single day it first happened, and vanishes
+// from the calendar/list entirely once that day is filtered out or past.
+// See build_campus_events.py's group_and_dedupe for why this exists.
 function filteredEvents(){
-  return EVENTS.filter(e => {
-    if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return false;
-    if(dateFrom && e.date < dateFrom) return false;
-    if(dateTo && e.date > dateTo) return false;
-    return true;
+  const out = [];
+  EVENTS.forEach((e, idx) => {
+    if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return;
+    (e.occurrenceDates || [e.date]).forEach(d => {
+      if(dateFrom && d < dateFrom) return;
+      if(dateTo && d > dateTo) return;
+      out.push(Object.assign({}, e, {date: d, _idx: idx}));
+    });
   });
+  return out;
+}
+
+// Distinct-event count (for "Showing N of M events") — filteredEvents()
+// returns one row per occurrence, which would double-count a recurring
+// series against every date it lands on.
+function filteredEventCount(){
+  return new Set(filteredEvents().map(e => e._idx)).size;
 }
 
 // ---------- List view ----------
@@ -1009,7 +1025,7 @@ function jumpCalendarToDate(dateStr){
 
 function updateFilterUI(){
   clearFiltersBtn.hidden = !filtersActive();
-  const n = filteredEvents().length;
+  const n = filteredEventCount();
   if(filtersActive()){
     resultCountEl.hidden = false;
     resultCountEl.textContent = n === 0 ? 'No events match these filters.' : 'Showing ' + n + ' of ' + total + ' events.';
@@ -1076,8 +1092,10 @@ clearFiltersBtn.addEventListener('click', () => {
 function computeMonthsWithData(events){
   const months = new Set();
   events.forEach(e => {
-    const [y, m] = e.date.split('-').map(Number);
-    months.add(y + '-' + m); // m still 1-indexed here
+    (e.occurrenceDates || [e.date]).forEach(d => {
+      const [y, m] = d.split('-').map(Number);
+      months.add(y + '-' + m); // m still 1-indexed here
+    });
   });
   return [...months]
     .map(s => s.split('-').map(Number))
@@ -1101,7 +1119,10 @@ async function loadEvents(){
   MONTHS_WITH_DATA = computeMonthsWithData(EVENTS);
   calMonth = null; // re-derive on next renderCalendar() from the fresh MONTHS_WITH_DATA
 
-  const allDates = EVENTS.map(e => e.date).sort();
+  // Full occurrence range, not just anchor dates — otherwise the date
+  // pickers cap out at whatever an event's earliest occurrence happens to
+  // be, hiding the later months a recurring series actually reaches into.
+  const allDates = EVENTS.flatMap(e => e.occurrenceDates || [e.date]).sort();
   if(allDates.length){
     dateFromInput.min = dateToInput.min = allDates[0];
     dateFromInput.max = dateToInput.max = allDates[allDates.length - 1];

@@ -231,10 +231,18 @@ def transform(meeting, rooms, orgs):
 
 
 def group_and_dedupe(rows):
-    """One row per distinct event, at its earliest date in the window, with
-    occurrenceCount = how many meetings that event has in the window. Matches
-    the widget's "multi-day/recurring items show their first date; xN tag"
-    behavior."""
+    """One row per distinct event, anchored at its earliest date (for list
+    sorting) with occurrenceCount = how many meetings that event has in the
+    window, PLUS occurrenceDates = every distinct date it actually happens
+    on. The frontend needs the full list, not just the anchor date — a
+    multi-month recurring booking (a guest stay, a weekly tutoring series)
+    that started in September and keeps recurring into January or February
+    was otherwise invisible past its first occurrence: the calendar and the
+    sidebar's "this week" window both filtered on the single anchor date,
+    so a series still actively recurring months later would silently vanish
+    from both once that first date passed. Confirmed live (Sept 11) against
+    "Chinese Tutoring, Fall 2026" (57 occurrences) and "SCC Guest Stay"
+    (37) — exactly the kind of series this was dropping."""
     groups = defaultdict(list)
     for row in rows:
         key = row["_event_id"] or (row["name"], row["room"])
@@ -245,6 +253,9 @@ def group_and_dedupe(rows):
         occurrences.sort(key=lambda r: (r["date"] or "", r["startTime"] or ""))
         first = dict(occurrences[0])
         first["occurrenceCount"] = len(occurrences)
+        dates = sorted({r["date"] for r in occurrences if r["date"]})
+        first["occurrenceDates"] = dates
+        first["lastDate"] = dates[-1] if dates else first["date"]
         del first["_event_id"]
         out.append(first)
     return out

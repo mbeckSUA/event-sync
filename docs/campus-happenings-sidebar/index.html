@@ -463,12 +463,24 @@ function hasDetail(e){
 // Sidebar variant is deliberately not filterable — it always shows a rolling
 // 7-day window (today through +6 days). Recomputed on every render so "today"
 // stays live rather than freezing at page-load time.
+//
+// Expands each event onto every date in its occurrenceDates that falls in
+// the window, not just its anchor `date` — a recurring series (tutoring,
+// a guest stay) that started before today but is still meeting this week
+// needs to show up on the days it's actually happening, not just on its
+// very first occurrence back whenever it started.
 function filteredEvents(){
   const todayStr = new Date().toISOString().slice(0,10);
   const end = new Date();
   end.setDate(end.getDate() + 6);
   const endStr = end.toISOString().slice(0,10);
-  return EVENTS.filter(e => e.date >= todayStr && e.date <= endStr);
+  const out = [];
+  EVENTS.forEach(e => {
+    (e.occurrenceDates || [e.date]).forEach(d => {
+      if(d >= todayStr && d <= endStr) out.push(Object.assign({}, e, {date: d}));
+    });
+  });
+  return out;
 }
 
 // ---------- List view ----------
