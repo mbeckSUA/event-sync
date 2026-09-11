@@ -77,6 +77,26 @@
   }
   .dek strong{color:var(--ink); font-weight:600;}
 
+  .stats{
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+  }
+  .stat{min-width:120px;}
+  .stat .n{
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
+    font-variant-numeric:tabular-nums;
+    font-weight:600;
+    font-size:26px;
+    display:block;
+    color:var(--ink);
+  }
+  .stat .n.flag{color:var(--gap-stat);}
+  .stat .l{
+    font-size:12.5px;
+    color:var(--ink-muted);
+  }
+
   /* ---- List view ---- */
   .day-group{margin-top:30px;}
   .day-heading{
@@ -248,6 +268,7 @@
     .row{grid-template-columns:64px 1fr; gap:10px;}
     .detail{padding-left:80px;}
     h1{font-size:32px;}
+    .stats{gap:20px;}
   }
 
   /* Narrow sidebar / compact embed — e.g. a SharePoint web-part column.
@@ -258,6 +279,10 @@
     .eyebrow{margin:0 0 8px;}
     h1{font-size:26px; margin:0 0 8px;}
     .dek{font-size:13.5px; margin:0 0 16px;}
+    .stats{gap:16px;}
+    .stat{min-width:0;}
+    .stat .n{font-size:19px;}
+    .stat .l{font-size:11px;}
     .day-group{margin-top:20px;}
     .day-heading{font-size:16px;}
     .row{grid-template-columns:56px 1fr; gap:8px; padding:11px 2px;}
@@ -292,9 +317,14 @@
 
 <div class="wrap">
   <header class="masthead">
-    <p class="eyebrow">Soka University</p>
+    <p class="eyebrow">Soka University &middot; Prototype</p>
     <h1>Campus Happenings</h1>
-    <p class="dek">Everything going on around campus.</p>
+    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog &mdash; including everything that's a real event but currently sits off the public calendar.</p>
+    <div class="stats">
+      <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
+      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">Already public</span></div>
+      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Invisible off this list today</span></div>
+    </div>
   </header>
 
   <div id="listView"></div>
@@ -577,6 +607,13 @@ function renderList(){
 }
 
 // ---------- Controls ----------
+const total = EVENTS.length;
+const publicCount = EVENTS.filter(e => e.public === true).length;
+const hiddenCount = EVENTS.filter(e => e.public === false).length;
+document.getElementById('statTotal').textContent = total;
+document.getElementById('statPublic').textContent = publicCount;
+document.getElementById('statHidden').textContent = hiddenCount;
+
 renderList();
 
 // Sidebar variant re-renders on an interval so a page left open overnight
