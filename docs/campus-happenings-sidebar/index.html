@@ -34,9 +34,11 @@
      light brand palette regardless of the viewer's system setting. */
 
   *{box-sizing:border-box;}
-  html{-webkit-text-size-adjust:100%;}
+  html{-webkit-text-size-adjust:100%; height:100%;}
   body{
     margin:0;
+    height:100%;
+    overflow:hidden; /* .scroll-area owns scrolling, not the page/iframe itself */
     background:var(--paper);
     color:var(--ink);
     font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
@@ -44,21 +46,32 @@
   }
   ::selection{background:var(--teal-tint); color:var(--ink);}
 
-  .wrap{max-width:840px; margin:0 auto; padding:0 20px 96px;}
+  /* This page is always embedded at a fixed iframe height (a SharePoint
+     sidebar column) — event count swings a lot week to week, so rather than
+     the page growing to fit content (and blowing out that fixed height),
+     the header stays put and only the list area scrolls internally. Whatever
+     height the embedding iframe is given, this fills it exactly. */
+  .wrap{
+    max-width:840px;
+    margin:0 auto;
+    padding:0 20px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+  }
+  header.masthead{flex-shrink:0;}
+  .scroll-area{
+    flex:1 1 auto;
+    min-height:0; /* required for flex children to actually scroll instead of overflowing */
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    padding-bottom:24px;
+  }
 
   header.masthead{
     padding:56px 0 28px;
     border-bottom:1px solid var(--line);
     margin-bottom:28px;
-  }
-  .eyebrow{
-    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
-    font-size:12px;
-    font-weight:600;
-    letter-spacing:.09em;
-    text-transform:uppercase;
-    color:var(--teal);
-    margin:0 0 14px;
   }
   h1{
     font-family:'Instrument Serif',Georgia,serif;
@@ -76,26 +89,6 @@
     margin:0 0 28px;
   }
   .dek strong{color:var(--ink); font-weight:600;}
-
-  .stats{
-    display:flex;
-    gap:28px;
-    flex-wrap:wrap;
-  }
-  .stat{min-width:120px;}
-  .stat .n{
-    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
-    font-variant-numeric:tabular-nums;
-    font-weight:600;
-    font-size:26px;
-    display:block;
-    color:var(--ink);
-  }
-  .stat .n.flag{color:var(--gap-stat);}
-  .stat .l{
-    font-size:12.5px;
-    color:var(--ink-muted);
-  }
 
   /* ---- List view ---- */
   .day-group{margin-top:30px;}
@@ -164,9 +157,9 @@
     flex-wrap:wrap;
   }
   .title{
-    font-family:'Instrument Serif',Georgia,serif;
-    font-weight:600;
-    font-size:17.5px;
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
+    font-weight:700;
+    font-size:16.5px;
     color:var(--ink);
     margin:0;
   }
@@ -268,7 +261,6 @@
     .row{grid-template-columns:64px 1fr; gap:10px;}
     .detail{padding-left:80px;}
     h1{font-size:32px;}
-    .stats{gap:20px;}
   }
 
   /* Narrow sidebar / compact embed — e.g. a SharePoint web-part column.
@@ -276,18 +268,13 @@
   @media (max-width:420px){
     .wrap{padding:0 14px 56px;}
     header.masthead{padding:24px 0 16px; margin-bottom:16px;}
-    .eyebrow{margin:0 0 8px;}
     h1{font-size:26px; margin:0 0 8px;}
     .dek{font-size:13.5px; margin:0 0 16px;}
-    .stats{gap:16px;}
-    .stat{min-width:0;}
-    .stat .n{font-size:19px;}
-    .stat .l{font-size:11px;}
     .day-group{margin-top:20px;}
     .day-heading{font-size:16px;}
     .row{grid-template-columns:56px 1fr; gap:8px; padding:11px 2px;}
     .detail{padding-left:64px;}
-    .title{font-size:16px;}
+    .title{font-size:15.5px;}
   }
 
   .empty-state{
@@ -317,21 +304,17 @@
 
 <div class="wrap">
   <header class="masthead">
-    <p class="eyebrow">Soka University &middot; Prototype</p>
     <h1>Campus Happenings</h1>
-    <p class="dek">A no-login read of what's actually going on, pulled straight from Coursedog &mdash; including everything that's a real event but currently sits off the public calendar.</p>
-    <div class="stats">
-      <div class="stat"><span class="n" id="statTotal">&nbsp;</span><span class="l">Campus events, Sep&ndash;Dec</span></div>
-      <div class="stat"><span class="n" id="statPublic">&nbsp;</span><span class="l">Already public</span></div>
-      <div class="stat"><span class="n flag" id="statHidden">&nbsp;</span><span class="l">Invisible off this list today</span></div>
-    </div>
+    <p class="dek">Everything going on around the Aliso Viejo campus.</p>
   </header>
 
-  <div id="listView"></div>
+  <div class="scroll-area">
+    <div id="listView"></div>
 
-  <footer>
-    <p>Pulled from Coursedog &mdash; click any event for the full description. Multi-day or recurring items show their first date; a <code>&times;N</code> tag means it repeats N times.</p>
-  </footer>
+    <footer>
+      <p>Pulled from Coursedog &mdash; click any event for the full description. Multi-day or recurring items show their first date; a <code>&times;N</code> tag means it repeats N times.</p>
+    </footer>
+  </div>
 </div>
 
 <script>
@@ -607,13 +590,6 @@ function renderList(){
 }
 
 // ---------- Controls ----------
-const total = EVENTS.length;
-const publicCount = EVENTS.filter(e => e.public === true).length;
-const hiddenCount = EVENTS.filter(e => e.public === false).length;
-document.getElementById('statTotal').textContent = total;
-document.getElementById('statPublic').textContent = publicCount;
-document.getElementById('statHidden').textContent = hiddenCount;
-
 renderList();
 
 // Sidebar variant re-renders on an interval so a page left open overnight
