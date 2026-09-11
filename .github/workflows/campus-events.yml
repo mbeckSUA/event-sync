@@ -1,0 +1,45 @@
+name: Campus Events
+
+on:
+  schedule:
+    - cron: '15 14 * * *'  # Daily at 6:15am Pacific (14:15 UTC) — offset from
+                            # the athletics sync's 6:00am slot so the two
+                            # workflows don't race on the same repo checkout
+  workflow_dispatch:        # Manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pull events from Coursedog
+        env:
+          # Deliberately the dedicated read-only API user, not the
+          # read-write one the athletics sync above uses — see
+          # api-user-setup.md on why those aren't interchangeable.
+          COURSEDOG_READONLY_BASE: ${{ secrets.COURSEDOG_READONLY_BASE }}
+          COURSEDOG_READONLY_EMAIL: ${{ secrets.COURSEDOG_READONLY_EMAIL }}
+          COURSEDOG_READONLY_PASSWORD: ${{ secrets.COURSEDOG_READONLY_PASSWORD }}
+          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
+        run: python build_campus_events.py
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/events.json
+          git diff --staged --quiet || git commit -m "chore: refresh campus events [skip ci]"
+          git push
