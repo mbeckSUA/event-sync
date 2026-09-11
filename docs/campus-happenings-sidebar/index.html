@@ -313,6 +313,27 @@
     border-radius:4px;
     font-size:11px;
   }
+
+  /* Persistent, outside the scroll area on purpose — the widget only shows a
+     rolling 7 days, so the way out to everything else should stay visible
+     no matter where someone's scrolled to, not live at the bottom of the list. */
+  .full-cal-link{
+    flex-shrink:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+    padding:14px 4px;
+    border-top:1px solid var(--line);
+    font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
+    font-size:13px;
+    font-weight:600;
+    color:var(--teal);
+    text-decoration:none;
+  }
+  .full-cal-link:hover{text-decoration:underline;}
+  .full-cal-link .arrow{transition:transform .15s ease;}
+  .full-cal-link:hover .arrow{transform:translateX(3px);}
 </style>
 
 <div class="wrap">
@@ -328,6 +349,11 @@
       <p>Pulled from Coursedog &mdash; click any event for the full description. Multi-day or recurring items show their first date; a <code>&times;N</code> tag means it repeats N times.</p>
     </footer>
   </div>
+
+  <a class="full-cal-link" href="https://sokauniversity.sharepoint.com/sites/MarketingandCommunications/SitePages/Testing(1).aspx">
+    See the full calendar
+    <span class="arrow" aria-hidden="true">&rarr;</span>
+  </a>
 </div>
 
 <script>
