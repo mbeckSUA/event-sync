@@ -614,7 +614,7 @@
       "email": "sulee@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 13,
+    "occurrenceCount": 15,
     "occurrenceDates": [
       "2026-09-15",
       "2026-09-22",
@@ -628,9 +628,11 @@
       "2026-11-17",
       "2026-11-24",
       "2026-12-01",
-      "2026-12-08"
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
     ],
-    "lastDate": "2026-12-08"
+    "lastDate": "2026-12-22"
   },
   {
     "name": "LS Meeting",
@@ -701,7 +703,7 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 25,
+    "occurrenceCount": 27,
     "occurrenceDates": [
       "2026-09-15",
       "2026-09-17",
@@ -727,9 +729,11 @@
       "2026-12-01",
       "2026-12-03",
       "2026-12-08",
-      "2026-12-10"
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
     ],
-    "lastDate": "2026-12-10"
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Intro to Study Abroad Meeting",
@@ -1131,7 +1135,7 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 23,
+    "occurrenceCount": 25,
     "occurrenceDates": [
       "2026-09-17",
       "2026-09-22",
@@ -1155,9 +1159,11 @@
       "2026-11-24",
       "2026-12-03",
       "2026-12-08",
-      "2026-12-10"
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
     ],
-    "lastDate": "2026-12-10"
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Men's Soccer vs Benedictine Mesa (AZ)",
@@ -1375,7 +1381,7 @@
       "email": "kmerritt@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 12,
+    "occurrenceCount": 14,
     "occurrenceDates": [
       "2026-09-18",
       "2026-09-25",
@@ -1388,9 +1394,11 @@
       "2026-11-13",
       "2026-11-20",
       "2026-11-27",
-      "2026-12-04"
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
     ],
-    "lastDate": "2026-12-04"
+    "lastDate": "2026-12-18"
   },
   {
     "name": "Men's Soccer vs OUAZ",
@@ -1480,16 +1488,17 @@
       "email": "e.ng@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 6,
+    "occurrenceCount": 7,
     "occurrenceDates": [
       "2026-09-21",
       "2026-10-05",
       "2026-10-19",
       "2026-11-02",
       "2026-11-16",
-      "2026-11-30"
+      "2026-11-30",
+      "2026-12-14"
     ],
-    "lastDate": "2026-11-30"
+    "lastDate": "2026-12-14"
   },
   {
     "name": "SBS Concentration Meeting",
@@ -1510,13 +1519,14 @@
       "email": "elowe@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 3,
+    "occurrenceCount": 4,
     "occurrenceDates": [
       "2026-09-21",
       "2026-10-12",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-12-14"
     ],
-    "lastDate": "2026-11-16"
+    "lastDate": "2026-12-14"
   },
   {
     "name": "Health Professions Advising Fall Kickoff",
@@ -4672,5 +4682,1185 @@
       "2026-12-08"
     ],
     "lastDate": "2026-12-08"
+  },
+  {
+    "name": "Celtic Christmas",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_BACK BY POPULAR DEMAND AND QUICKLY BECOMING A CHERISHED HOLIDAY\nTRADITION, THIS ANNUAL SHOW IS A FAVORITE AMONG SOKA PERFORMING ARTS\nCENTER PATRONS. THIS PERFORMANCE WILL SELL OUT, SO GET YOUR TICKETS\nEARLY!_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/celtic-christmas",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/celtic-christmas\">More info and tickets</a>",
+    "facility": false,
+    "date": "2026-12-13",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-13"
+    ],
+    "lastDate": "2026-12-13"
+  },
+  {
+    "name": "Modes: Final Projects Class Exhibition",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Join us for the \"Modes: Final Projects Class Exhibition,\" a showcase of multimedia presentations from the Modes of Inquiry class. Students will share their unique explorations of self-knowledge through a diverse range of creative formats.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-14",
+    "startTime": "2:30 PM",
+    "endTime": "5:30 PM",
+    "allDay": false,
+    "room": "Grand Reading Room (Ikeda 400)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
+    "name": "PAC Student & Staff Year End Celebration - Xmas",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Student and Staff Year End Celebration",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-14",
+    "startTime": "3:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
+    "name": "Alisa Proctor",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-15",
+    "startTime": "4:30 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Student Organizations Room (Ikeda 312)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Alisa Proctor",
+      "email": "aproctor@soka.edu"
+    },
+    "org": "Career Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-15"
+    ],
+    "lastDate": "2026-12-15"
+  },
+  {
+    "name": "Seong-Jin Cho, piano",
+    "type": "Campus Events",
+    "public": true,
+    "description": "SEONG-JIN CHO\n\nMore info: https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-01-14",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-14"
+    ],
+    "lastDate": "2027-01-14"
+  },
+  {
+    "name": "Deinstallation of Exhibit",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": true,
+    "date": "2027-01-21",
+    "startTime": null,
+    "endTime": null,
+    "allDay": true,
+    "room": "Founders 2nd Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 7,
+    "occurrenceDates": [
+      "2027-01-21",
+      "2027-01-22",
+      "2027-01-23",
+      "2027-01-24"
+    ],
+    "lastDate": "2027-01-24"
+  },
+  {
+    "name": "Pacific Classic Gymnastics Meet",
+    "type": "External Rental",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-22",
+    "startTime": "7:00 AM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2027-01-22",
+      "2027-01-23",
+      "2027-01-24"
+    ],
+    "lastDate": "2027-01-24"
+  },
+  {
+    "name": "Gallery Prep/paint/clean",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": true,
+    "date": "2027-01-25",
+    "startTime": null,
+    "endTime": null,
+    "allDay": true,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 26,
+    "occurrenceDates": [
+      "2027-01-25",
+      "2027-01-26",
+      "2027-01-27",
+      "2027-01-28",
+      "2027-01-29",
+      "2027-01-30",
+      "2027-01-31",
+      "2027-02-01",
+      "2027-02-02",
+      "2027-02-03",
+      "2027-02-04",
+      "2027-02-05",
+      "2027-02-06"
+    ],
+    "lastDate": "2027-02-06"
+  },
+  {
+    "name": "2027-2028 Health Professions Application Workshop Series: Part 2",
+    "type": "Academic Programs & Events",
+    "public": true,
+    "description": "Join the second of this virtual three-part workshop series to learn how to prepare a competitive application for medical, dental, and veterinary programs. Topics include admissions timelines, testing, school selection, application strategy, committee letters, and interview preparation. Workshop 2 will focus on building your application | Tuesday, Jan 26th 16:30 PT. And stay tuned for: Workshop 3 Submitting your application | Tuesday, May 4th 16:30 PT",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform</a></p>",
+    "facility": false,
+    "date": "2027-01-26",
+    "startTime": "4:30 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": {
+      "name": "Health Professions Advising",
+      "email": "hpa@soka.edu"
+    },
+    "org": "Health Professions Advising",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-26"
+    ],
+    "lastDate": "2027-01-26"
+  },
+  {
+    "name": "Liberal Arts College Forum",
+    "type": "Campus Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-29",
+    "startTime": null,
+    "endTime": null,
+    "allDay": true,
+    "room": "Athenaeum Library",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Naoko  Kogure",
+      "email": "nkogure@soka.edu"
+    },
+    "org": "President's Office",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2027-01-29"
+    ],
+    "lastDate": "2027-01-29"
+  },
+  {
+    "name": "Free Family Concert with OC Youth Symphony",
+    "type": "Campus Events",
+    "public": true,
+    "description": "THIS CONCERT IS CO-PRESENTED WITH THE PHILHARMONIC SOCIETY OF ORANGE\nCOUNTY\n\nMore info: https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-01-30",
+    "startTime": "11:00 AM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-30"
+    ],
+    "lastDate": "2027-01-30"
+  },
+  {
+    "name": "Spring 2027 Writing Center All-Staff Meeting",
+    "type": "Campus Events",
+    "public": true,
+    "description": "The Writing Center is hosting an All-Staff meeting to begin the Spring 2027 semester.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-04",
+    "startTime": "9:00 AM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Small Conference Center",
+    "building": "Small Conference Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-04"
+    ],
+    "lastDate": "2027-02-04"
+  },
+  {
+    "name": "Jazzy Ash",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_\u201cJazzy Ash fully connects with her own family\u2019s roots yet\nincorporates those decades-old traditions into 21st century kids\nmusic.\u201d- NPR_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazzy-ash",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/jazzy-ash\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-02-07",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-07"
+    ],
+    "lastDate": "2027-02-07"
+  },
+  {
+    "name": "Gallery Installation / Layout",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": true,
+    "date": "2027-02-08",
+    "startTime": null,
+    "endTime": null,
+    "allDay": true,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 41,
+    "occurrenceDates": [
+      "2027-02-08",
+      "2027-02-09",
+      "2027-02-10",
+      "2027-02-11",
+      "2027-02-12",
+      "2027-02-13",
+      "2027-02-14",
+      "2027-02-15",
+      "2027-02-16",
+      "2027-02-17",
+      "2027-02-18",
+      "2027-02-19",
+      "2027-02-20",
+      "2027-02-21",
+      "2027-02-22",
+      "2027-02-23",
+      "2027-02-24",
+      "2027-02-25",
+      "2027-02-26",
+      "2027-02-27",
+      "2027-02-28",
+      "2027-03-01",
+      "2027-03-02",
+      "2027-03-03"
+    ],
+    "lastDate": "2027-03-03"
+  },
+  {
+    "name": "Mavis Staples",
+    "type": "Campus Events",
+    "public": true,
+    "description": "MAVIS STAPLES\n\nMore info: https://www.performingarts.soka.edu/calendar-events/mavis-staples-0",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/mavis-staples-0\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-02-13",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-13"
+    ],
+    "lastDate": "2027-02-13"
+  },
+  {
+    "name": "Admission Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-16",
+    "startTime": "9:00 AM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Athenaeum Office #119",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Sarah  Spornick",
+      "email": "sspornick@soka.edu"
+    },
+    "org": "Admissions",
+    "occurrenceCount": 8,
+    "occurrenceDates": [
+      "2027-02-16",
+      "2027-02-17",
+      "2027-02-18",
+      "2027-02-19",
+      "2027-02-20",
+      "2027-02-21",
+      "2027-02-22",
+      "2027-02-23"
+    ],
+    "lastDate": "2027-02-23"
+  },
+  {
+    "name": "Orange County Youth Symphony &amp; String Ensemble Winter Concert",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-winter-concert",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-winter-concert\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-02-21",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-21"
+    ],
+    "lastDate": "2027-02-21"
+  },
+  {
+    "name": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+    "type": "Campus Events",
+    "public": true,
+    "description": "THIS PERFORMANCE IS PART OF WYNTON MARSALIS\u2019\u00a0FINAL\u00a0SEASON\u00a0AS\nARTISTIC DIRECTOR OF JAZZ AT LINCOLN CENTER AND MUSIC DIRECTOR OF THE\nJAZZ AT LINCOLN CENTER ORCHESTRA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazz-lincoln-center-orchestra-wynton-marsalis",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/jazz-lincoln-center-orchestra-wynton-marsalis\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-02-25",
+    "startTime": "7:30 PM",
+    "endTime": "9:30 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-25"
+    ],
+    "lastDate": "2027-02-25"
+  },
+  {
+    "name": "Danish String Quartet",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_\u201cWhat they do know is how to be an exceptional quartet, whatever\nrepertory they play.\u201d \u2013 THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/danish-string-quartet",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/danish-string-quartet\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-02-26",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-26"
+    ],
+    "lastDate": "2027-02-26"
+  },
+  {
+    "name": "Post University Guests Cleaning (by Facilities)",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-27",
+    "startTime": null,
+    "endTime": null,
+    "allDay": true,
+    "room": "Small Conference Center",
+    "building": "Small Conference Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "President's Office",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-27"
+    ],
+    "lastDate": "2027-02-27"
+  },
+  {
+    "name": "Meet the Author",
+    "type": "Academic Programs & Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-02",
+    "startTime": "5:10 PM",
+    "endTime": "6:10 PM",
+    "allDay": false,
+    "room": "Athenaeum Library",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Dean of Faculty Office",
+      "email": "deanoffaculty@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-02"
+    ],
+    "lastDate": "2027-03-02"
+  },
+  {
+    "name": "Art Gallery Opening Reception",
+    "type": "Campus Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-04",
+    "startTime": "5:30 PM",
+    "endTime": "7:30 PM",
+    "allDay": false,
+    "room": "Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-04"
+    ],
+    "lastDate": "2027-03-04"
+  },
+  {
+    "name": "Conrad Tao and Academy of St Martin in the Fields",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_\u201cThe kind of musician who is shaping the future of classical\nmusic.\u201d\u00a0- __NEW YORK MAGAZINE (ON TAO)_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/conrad-tao-and-academy-st-martin-fields",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/conrad-tao-and-academy-st-martin-fields\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-03-12",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-12"
+    ],
+    "lastDate": "2027-03-12"
+  },
+  {
+    "name": "LA 1966 Revisited",
+    "type": "Performing Arts Center",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-14",
+    "startTime": "1:50 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": {
+      "name": "Jeff Darcy",
+      "email": "Jeffdarcy@myyahoo.com"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-14"
+    ],
+    "lastDate": "2027-03-14"
+  },
+  {
+    "name": "Parnassus Society: La Boh\u00e8me",
+    "type": "Campus Events",
+    "public": true,
+    "description": "THIS PERFORMANCE IS PRESENTED BY PARNASSUS SOCIETY, A NONPROFIT\nORGANIZATION DEDICATED TO BRINGING CLASSICAL MUSIC, OPERA AND ART TO\nSOUTHERN CALIFORNIA.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-03-21",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-21"
+    ],
+    "lastDate": "2027-03-21"
+  },
+  {
+    "name": "Experience Soka (Rain Plan)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-02",
+    "startTime": "11:30 AM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Lindsey Laughlin",
+      "email": "llaughlin@soka.edu"
+    },
+    "org": "Admissions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-02"
+    ],
+    "lastDate": "2027-04-02"
+  },
+  {
+    "name": "Judy Collins",
+    "type": "Campus Events",
+    "public": true,
+    "description": "JUDY COLLINS\n\nMore info: https://www.performingarts.soka.edu/calendar-events/judy-collins",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/judy-collins\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-04-04",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-04"
+    ],
+    "lastDate": "2027-04-04"
+  },
+  {
+    "name": "Donor Reception after PAC show",
+    "type": "Campus Events",
+    "public": false,
+    "description": "This event will be a donor reception after the Judy Collins show at the PAC.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-04",
+    "startTime": "5:30 PM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Founders 2nd Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Lowe",
+      "email": "m.lowe@soka.edu"
+    },
+    "org": "Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-04"
+    ],
+    "lastDate": "2027-04-04"
+  },
+  {
+    "name": "Meet the Author",
+    "type": "Academic Programs & Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-06",
+    "startTime": "5:10 PM",
+    "endTime": "6:10 PM",
+    "allDay": false,
+    "room": "Athenaeum Library",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Dean of Faculty Office",
+      "email": "deanoffaculty@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-06"
+    ],
+    "lastDate": "2027-04-06"
+  },
+  {
+    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
+    "type": "External Rental",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-10",
+    "startTime": "4:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Small Conference Center",
+    "building": "Small Conference Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-10"
+    ],
+    "lastDate": "2027-04-10"
+  },
+  {
+    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
+    "type": "External Rental",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-10",
+    "startTime": "4:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Athenaeum Courtyard",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-10"
+    ],
+    "lastDate": "2027-04-10"
+  },
+  {
+    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
+    "type": "External Rental",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-10",
+    "startTime": "4:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Athenaeum Office #119",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-10"
+    ],
+    "lastDate": "2027-04-10"
+  },
+  {
+    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
+    "type": "External Rental",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-10",
+    "startTime": "4:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Athenaeum Garden",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-10"
+    ],
+    "lastDate": "2027-04-10"
+  },
+  {
+    "name": "Louis Lortie, piano",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/louis-lortie-piano",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/louis-lortie-piano\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-04-11",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-11"
+    ],
+    "lastDate": "2027-04-11"
+  },
+  {
+    "name": "Pacific Symphony plays Dvorak &amp; Rachmaninoff with Moon Doh, cond.;\nAngel Wang, piano",
+    "type": "Campus Events",
+    "public": true,
+    "description": "_\u201cWang\u2019s technical brilliance and imaginative tonal application\ncaptivated my attention and thrilled the audience.\u201d - GRAMOPHONE_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-plays-dvorak-rachmaninoff-moon-doh-cond-angel-wang-piano",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/pacific-symphony-plays-dvorak-rachmaninoff-moon-doh-cond-angel-wang-piano\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-04-18",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-18"
+    ],
+    "lastDate": "2027-04-18"
+  },
+  {
+    "name": "Rehearsal: EBP End of Program",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Event Type: Other\n\n  Contact: elyum@soka.edu\n\n  Anticipated Attendance: N/A",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-22",
+    "startTime": "10:30 AM",
+    "endTime": "12:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-22"
+    ],
+    "lastDate": "2027-04-22"
+  },
+  {
+    "name": "Items stored (EBP)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Event Type: Other\n\n  Contact: walker@soka.edu\n\n  Anticipated Attendance: N/A",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-22",
+    "startTime": "12:00 PM",
+    "endTime": "10:00 AM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-22"
+    ],
+    "lastDate": "2027-04-22"
+  },
+  {
+    "name": "Tear down: EBP",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Event Type: Other\n\nContact: walker@soka.edu\n\nAnticipated Attendance: N/A",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-22",
+    "startTime": "8:00 AM",
+    "endTime": "2:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-22"
+    ],
+    "lastDate": "2027-04-22"
+  },
+  {
+    "name": "EBP End of Program Ceremony",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Event Type: Other\n\n  Contact: walker@soka.edu\n\n  Anticipated Attendance: N/A",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-23",
+    "startTime": "10:00 AM",
+    "endTime": "12:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-23"
+    ],
+    "lastDate": "2027-04-23"
+  },
+  {
+    "name": "\\\"Serenade to Music\\\" Celebrating 40 years of Orange County School of\nthe Arts",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Join the Orange County School of the Arts Classical Voice Conservatory\nChoirs and the Instrumental Music Conservatory Symphony Orchestra in a\ncelebration of 40 years of music at the Orange County School of the\nArts. \u00a0Featuring an 80-piece orchestra and 103 singers, this concert\nwill spotlight the incredible talent and artistry in a kaleidoscope of\nmusical masterworks, including Serenade to Music by Ralph Vaughan\nWilliams.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/serenade-music-celebrating-40-years-orange-county-school-arts",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/serenade-music-celebrating-40-years-orange-county-school-arts\">More info and tickets</a>",
+    "facility": false,
+    "date": "2027-04-24",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-24"
+    ],
+    "lastDate": "2027-04-24"
+  },
+  {
+    "name": "2027-2028 Health Professions Application Workshop Series: Part 3",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Join the last part of this virtual three-part workshop series to learn how to prepare a competitive application for medical, dental, and veterinary programs. Topics include admissions timelines, testing, school selection, application strategy, committee letters, and interview preparation. \n\nWorkshop 3 will focus on submitting your application | Tuesday, May 4th 16:30 PT",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform</a></p>",
+    "facility": false,
+    "date": "2027-05-04",
+    "startTime": "4:30 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Virtual",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Health Professions Advising",
+      "email": "hpa@soka.edu"
+    },
+    "org": "Health Professions Advising",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-05-04"
+    ],
+    "lastDate": "2027-05-04"
+  },
+  {
+    "name": "D@S Annual Dance Showcase",
+    "type": "Performing Arts Center",
+    "public": false,
+    "description": "Our organization is a non-profit group with a long-term commitment to serving the local community. We promote Chinese traditional culture through Chinese dance performances.\nThis event is our \"Annual Dance Showcase\", featuring up to 100 performers with an expected audience of 300 guests, up to 400.\nOur preferred rental date is Saturday May 29. If this date is unavailable, we accept the same time slot on the alternate date as Sunday May 30.\nPlease kindly advise venue availability for both dates. We are open to any venue of the two, and the tickets plan is still under finalizing process.\nThank you very much!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-05-29",
+    "startTime": "6:00 AM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": {
+      "name": "Lei Huang",
+      "email": "leihlbq@gmail.com"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-05-29"
+    ],
+    "lastDate": "2027-05-29"
+  },
+  {
+    "name": "SBP/SWC Completion Ceremony Rehearsal & Set-up",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Campus Location: Founders Hall 3rd floor Meeting Room\n\n  Event Type: Other\n\n  Contact: mkoizumi@soka.edu",
+    "extendedDescription": "",
+    "facility": true,
+    "date": "2027-07-26",
+    "startTime": "1:30 PM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-07-26"
+    ],
+    "lastDate": "2027-07-26"
+  },
+  {
+    "name": "Overnight storage (of SBP/SWC items)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Campus Location: Founders Hall 3rd floor Meeting Room\n\n  Event Type: Other\n\n  Contact: mkoizumi@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-07-26",
+    "startTime": "3:00 PM",
+    "endTime": "11:59 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-07-26"
+    ],
+    "lastDate": "2027-07-26"
+  },
+  {
+    "name": "SBP/SWC Completion Ceremony",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Campus Location: Founders Hall 3rd floor Meeting Room\n\n  Event Type: Other\n\n  Contact: mkoizumi@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-07-27",
+    "startTime": "10:00 AM",
+    "endTime": "12:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-07-27"
+    ],
+    "lastDate": "2027-07-27"
+  },
+  {
+    "name": "Post-event cleaning (SBP/SWC Completion Ceremony)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Campus Location: Founders Hall 3rd floor Meeting Room\n\nEvent Type: Other\n\nContact: mkoizumi@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-07-27",
+    "startTime": "12:00 PM",
+    "endTime": "2:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-07-27"
+    ],
+    "lastDate": "2027-07-27"
+  },
+  {
+    "name": "Overnight storage (of SBP/SWC items) (copy)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Campus Location: Founders Hall 3rd floor Meeting Room\n\n  Event Type: Other\n\n  Contact: mkoizumi@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-07-27",
+    "startTime": "12:01 AM",
+    "endTime": "10:00 AM",
+    "allDay": false,
+    "room": "Founders Hall Board Room",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-07-27"
+    ],
+    "lastDate": "2027-07-27"
   }
 ]
