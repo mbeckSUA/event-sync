@@ -1,0 +1,5 @@
+.env
+debug_sample.json
+__pycache__/
+*.pyc
+.DS_Store
