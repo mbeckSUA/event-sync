@@ -66,6 +66,10 @@
     min-height:0; /* required for flex children to actually scroll instead of overflowing */
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
+    /* Small top gap, not the old masthead's 56px — the heading/dek that used
+       to fill that space now lives in SharePoint text above the embed, so
+       this only needs to keep the first row off the iframe's edge. */
+    padding-top:20px;
     padding-bottom:24px;
     /* Visible on purpose — a hidden scrollbar removes the only cue that there's
        more content below, and removes the click-and-drag navigation option for
@@ -79,10 +83,19 @@
   .scroll-area::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px;}
   .scroll-area::-webkit-scrollbar-thumb:hover{background:var(--ink-faint);}
 
+  /* Visually hidden, not deleted — the heading/dek now live in SharePoint
+     text above the embed, so showing them again here would just repeat
+     that copy. Kept as a screen-reader-only heading so anyone tabbing
+     into the iframe still gets a labeled landmark for what this region is,
+     independent of whatever heading structure the host page happens to use. */
   header.masthead{
-    padding:56px 0 28px;
-    border-bottom:1px solid var(--line);
-    margin-bottom:28px;
+    position:absolute;
+    width:1px; height:1px;
+    padding:0; margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
   }
   h1{
     font-family:'Instrument Serif',Georgia,serif;
