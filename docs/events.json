@@ -18,7 +18,23 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 26
+    "occurrenceCount": 26,
+    "occurrenceDates": [
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "lastDate": "2026-09-23"
   },
   {
     "name": "SCC Guest Stay (Room #117) - SM",
@@ -39,7 +55,47 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 37
+    "occurrenceCount": 37,
+    "occurrenceDates": [
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17"
+    ],
+    "lastDate": "2026-10-17"
   },
   {
     "name": "Graduate School Workshop",
@@ -60,7 +116,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "First Aid and CPR Training",
@@ -81,7 +141,11 @@
       "email": "camin@soka.edu"
     },
     "org": "Other",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "EDU 505",
@@ -102,7 +166,11 @@
       "email": "pluong@soka.edu"
     },
     "org": "Office of the Graduate School",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "EDU 517",
@@ -123,7 +191,11 @@
       "email": "pluong@soka.edu"
     },
     "org": "Office of the Graduate School",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "2026 Fall Interns Onboarding",
@@ -144,7 +216,11 @@
       "email": "e.ng@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "Susan Walsh Faculty Meeting",
@@ -165,7 +241,11 @@
       "email": "kmerritt@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-11"
+    ],
+    "lastDate": "2026-09-11"
   },
   {
     "name": "Men's Soccer vs Life Pacific",
@@ -183,7 +263,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-12"
+    ],
+    "lastDate": "2026-09-12"
   },
   {
     "name": "Women's Soccer vs Life Pacific",
@@ -201,7 +285,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-12"
+    ],
+    "lastDate": "2026-09-12"
   },
   {
     "name": "Investment Office Meeting",
@@ -222,7 +310,17 @@
       "email": "e.ng@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 7
+    "occurrenceCount": 7,
+    "occurrenceDates": [
+      "2026-09-14",
+      "2026-09-28",
+      "2026-10-12",
+      "2026-10-26",
+      "2026-11-09",
+      "2026-11-23",
+      "2026-12-07"
+    ],
+    "lastDate": "2026-12-07"
   },
   {
     "name": "Welcome Back Coordination Meeting",
@@ -243,7 +341,14 @@
       "email": "jmoore@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 4
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-09-14",
+      "2026-09-21",
+      "2026-09-28",
+      "2026-10-05"
+    ],
+    "lastDate": "2026-10-05"
   },
   {
     "name": "Humanities Capstone 390 Meeting",
@@ -264,7 +369,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-14"
+    ],
+    "lastDate": "2026-09-14"
   },
   {
     "name": "September Dialogue Buddies",
@@ -285,7 +394,11 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-14"
+    ],
+    "lastDate": "2026-09-14"
   },
   {
     "name": "Open Mic English",
@@ -306,7 +419,16 @@
       "email": "cmeyer@soka.edu"
     },
     "org": "Writing Center",
-    "occurrenceCount": 6
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-09-14",
+      "2026-09-21",
+      "2026-09-28",
+      "2026-10-08",
+      "2026-10-23",
+      "2026-10-26"
+    ],
+    "lastDate": "2026-10-26"
   },
   {
     "name": "Student Org Launchpad pt.1",
@@ -324,7 +446,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-14"
+    ],
+    "lastDate": "2026-09-14"
   },
   {
     "name": "ASB Info Meeting",
@@ -342,7 +468,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-14"
+    ],
+    "lastDate": "2026-09-14"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -360,7 +490,58 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Organizations",
-    "occurrenceCount": 48
+    "occurrenceCount": 48,
+    "occurrenceDates": [
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-30",
+      "2026-12-01",
+      "2026-12-02",
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
   },
   {
     "name": "Gala Committee Meeting",
@@ -381,7 +562,11 @@
       "email": "m.lowe@soka.edu"
     },
     "org": "Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-14"
+    ],
+    "lastDate": "2026-09-14"
   },
   {
     "name": "SCC Guest Stay (Room #113) - LI",
@@ -402,7 +587,13 @@
       "email": "fmonroe@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "SMC Weekly Check-in",
@@ -423,7 +614,23 @@
       "email": "sulee@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 13
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-09-15",
+      "2026-09-22",
+      "2026-09-29",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08"
+    ],
+    "lastDate": "2026-12-08"
   },
   {
     "name": "LS Meeting",
@@ -444,7 +651,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-15"
+    ],
+    "lastDate": "2026-09-15"
   },
   {
     "name": "CareerCore Program Info/Orientation",
@@ -465,7 +676,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-15"
+    ],
+    "lastDate": "2026-09-15"
   },
   {
     "name": "Fitness Classes: Tabata",
@@ -486,7 +701,35 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 25
+    "occurrenceCount": 25,
+    "occurrenceDates": [
+      "2026-09-15",
+      "2026-09-17",
+      "2026-09-22",
+      "2026-09-24",
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
   },
   {
     "name": "Intro to Study Abroad Meeting",
@@ -507,7 +750,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-15"
+    ],
+    "lastDate": "2026-09-15"
   },
   {
     "name": "Fitness Class: Yoga",
@@ -528,7 +775,11 @@
       "email": "emlee@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-15"
+    ],
+    "lastDate": "2026-09-15"
   },
   {
     "name": "DEI / Leadership / Student Activities",
@@ -549,7 +800,11 @@
       "email": "r.duran@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-16"
+    ],
+    "lastDate": "2026-09-16"
   },
   {
     "name": "CDO REQUIRED Resume workshop #2",
@@ -570,7 +825,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-16"
+    ],
+    "lastDate": "2026-09-16"
   },
   {
     "name": "SSA Education Abroad- Puerto Rico Study Abroad Info Session",
@@ -591,7 +850,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-16"
+    ],
+    "lastDate": "2026-09-16"
   },
   {
     "name": "PBRC Post-Doctoral Fellow Introduction",
@@ -612,7 +875,11 @@
       "email": "kayoshikawa@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-16"
+    ],
+    "lastDate": "2026-09-16"
   },
   {
     "name": "Chinese Tutoring, Fall 2026",
@@ -633,7 +900,67 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 57
+    "occurrenceCount": 57,
+    "occurrenceDates": [
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-08",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-01",
+      "2026-12-02",
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
   },
   {
     "name": "Intramurals: Badminton",
@@ -654,7 +981,13 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-16",
+      "2026-09-23",
+      "2026-09-30"
+    ],
+    "lastDate": "2026-09-30"
   },
   {
     "name": "Environmental Studies (ES) faculty meeting with ES seniors to discuss capstone.",
@@ -675,7 +1008,11 @@
       "email": "susmith@soka.edu"
     },
     "org": "Other",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "Environmental Studies meeting with faculty and senior students",
@@ -696,7 +1033,11 @@
       "email": "susmith@soka.edu"
     },
     "org": "Other",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "National Philanthropy Day",
@@ -717,7 +1058,12 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-17",
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
   },
   {
     "name": "Women's Soccer vs Benedictine Mesa (AZ)",
@@ -735,7 +1081,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "B2B Kick Off Event \u2013 Turn Ideas Into Action - We'll show you how.",
@@ -756,7 +1106,11 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "Fitness Classes: Yoga",
@@ -777,7 +1131,33 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 23
+    "occurrenceCount": 23,
+    "occurrenceDates": [
+      "2026-09-17",
+      "2026-09-22",
+      "2026-09-24",
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
   },
   {
     "name": "Men's Soccer vs Benedictine Mesa (AZ)",
@@ -795,7 +1175,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-17"
+    ],
+    "lastDate": "2026-09-17"
   },
   {
     "name": "Community Relations Staff Meeting",
@@ -816,7 +1200,11 @@
       "email": "gorozco@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Careers in Finance",
@@ -837,7 +1225,11 @@
       "email": "mpliushchanskii@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "SBS Capstone 390 Orientation",
@@ -858,7 +1250,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Funding Meeting & Meeting with Club Senate",
@@ -879,7 +1275,11 @@
       "email": "mmurakami@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Soka Leadership Escape Room",
@@ -900,7 +1300,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Intramurals: Beach Volleyball",
@@ -921,7 +1325,11 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Welcome Back Dance",
@@ -942,7 +1350,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-18"
+    ],
+    "lastDate": "2026-09-18"
   },
   {
     "name": "Susan Walsh Lab Meetings",
@@ -963,7 +1375,22 @@
       "email": "kmerritt@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 12
+    "occurrenceCount": 12,
+    "occurrenceDates": [
+      "2026-09-18",
+      "2026-09-25",
+      "2026-10-02",
+      "2026-10-09",
+      "2026-10-16",
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04"
+    ],
+    "lastDate": "2026-12-04"
   },
   {
     "name": "Men's Soccer vs OUAZ",
@@ -981,7 +1408,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-19"
+    ],
+    "lastDate": "2026-09-19"
   },
   {
     "name": "Women's Soccer vs OUAZ",
@@ -999,7 +1430,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-19"
+    ],
+    "lastDate": "2026-09-19"
   },
   {
     "name": "Class of '29 & '30 Mixer",
@@ -1020,7 +1455,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-20"
+    ],
+    "lastDate": "2026-09-20"
   },
   {
     "name": "Investment Office Meeting",
@@ -1041,7 +1480,16 @@
       "email": "e.ng@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 6
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-09-21",
+      "2026-10-05",
+      "2026-10-19",
+      "2026-11-02",
+      "2026-11-16",
+      "2026-11-30"
+    ],
+    "lastDate": "2026-11-30"
   },
   {
     "name": "SBS Concentration Meeting",
@@ -1062,7 +1510,13 @@
       "email": "elowe@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-21",
+      "2026-10-12",
+      "2026-11-16"
+    ],
+    "lastDate": "2026-11-16"
   },
   {
     "name": "Health Professions Advising Fall Kickoff",
@@ -1083,7 +1537,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-21"
+    ],
+    "lastDate": "2026-09-21"
   },
   {
     "name": "Moving Mountains: Asian American and Pacific Islander Feminisms and the 1977 National Women's Conference",
@@ -1104,7 +1562,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-21"
+    ],
+    "lastDate": "2026-09-21"
   },
   {
     "name": "Information Session on the End of Duration Status",
@@ -1125,7 +1587,12 @@
       "email": "pgibson@soka.edu"
     },
     "org": "Other",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-09-22",
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "2026-2027 Health Professions Application Workshop Series: Part 1",
@@ -1146,7 +1613,11 @@
       "email": "hpa@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-22"
+    ],
+    "lastDate": "2026-09-22"
   },
   {
     "name": "InternX Program Kickoff",
@@ -1167,7 +1638,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-22"
+    ],
+    "lastDate": "2026-09-22"
   },
   {
     "name": "CPT Information Session",
@@ -1188,7 +1663,11 @@
       "email": "jwray@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-23"
+    ],
+    "lastDate": "2026-09-23"
   },
   {
     "name": "Welcome Back Community Event",
@@ -1209,7 +1688,11 @@
       "email": "jmoore@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-23"
+    ],
+    "lastDate": "2026-09-23"
   },
   {
     "name": "Capstone Writing Group",
@@ -1230,7 +1713,15 @@
       "email": "cmeyer@soka.edu"
     },
     "org": "Writing Center",
-    "occurrenceCount": 5
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-09-23",
+      "2026-10-07",
+      "2026-10-21",
+      "2026-11-04",
+      "2026-11-18"
+    ],
+    "lastDate": "2026-11-18"
   },
   {
     "name": "Academic Awards Ceremony & Photo Session",
@@ -1251,7 +1742,11 @@
       "email": "nkogure@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-24"
+    ],
+    "lastDate": "2026-09-24"
   },
   {
     "name": "Silent Book Club",
@@ -1272,7 +1767,13 @@
       "email": "jtirrell@soka.edu"
     },
     "org": "Library",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-24",
+      "2026-10-23",
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   },
   {
     "name": "Study Abroad France Visa Prep Session",
@@ -1293,7 +1794,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-24"
+    ],
+    "lastDate": "2026-09-24"
   },
   {
     "name": "Founders Gallery Artist\u2019s Opening Reception",
@@ -1314,7 +1819,11 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-24"
+    ],
+    "lastDate": "2026-09-24"
   },
   {
     "name": "Intramurals: Volleyball",
@@ -1335,7 +1844,13 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-24",
+      "2026-10-01",
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Soka Leadership and Service Fair",
@@ -1356,7 +1871,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "Fridays on the Green",
@@ -1374,7 +1893,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "Summer Student Research Assistantship Program 2026 Symposium",
@@ -1395,7 +1918,11 @@
       "email": "hwu@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "Reserved for artist",
@@ -1416,7 +1943,11 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "Student Org Expo",
@@ -1437,7 +1968,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
   },
   {
     "name": "Women's Soccer vs Park Gilbert (Ariz)",
@@ -1455,7 +1990,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
   },
   {
     "name": "David Benoit: Resonance and Renewal \u2014 World Premiere",
@@ -1476,7 +2015,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
   },
   {
     "name": "Men's Soccer vs Park Gilbert (Ariz)",
@@ -1494,7 +2037,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
   },
   {
     "name": "David Benoit Reception",
@@ -1515,7 +2062,11 @@
       "email": "arossman@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
   },
   {
     "name": "Class of '28 & '30 Mixer",
@@ -1536,7 +2087,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-27"
+    ],
+    "lastDate": "2026-09-27"
   },
   {
     "name": "Post-Sabbatical Talk & Setup",
@@ -1554,7 +2109,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-28"
+    ],
+    "lastDate": "2026-09-28"
   },
   {
     "name": "Acces Strasbourg Study Abroad Info Session",
@@ -1575,7 +2134,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-28"
+    ],
+    "lastDate": "2026-09-28"
   },
   {
     "name": "LS Meeting",
@@ -1596,7 +2159,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-29"
+    ],
+    "lastDate": "2026-09-29"
   },
   {
     "name": "Alisa Proctor",
@@ -1617,7 +2184,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-29"
+    ],
+    "lastDate": "2026-09-29"
   },
   {
     "name": "Student Staff Retreat",
@@ -1638,7 +2209,12 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-09-29",
+      "2026-09-30"
+    ],
+    "lastDate": "2026-09-30"
   },
   {
     "name": "Meet the Author",
@@ -1659,7 +2235,11 @@
       "email": "deanoffaculty@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-29"
+    ],
+    "lastDate": "2026-09-29"
   },
   {
     "name": "Soka Health Research Symposium: Conference-Bound Scholarship in Public Health, Global Health, Epidemiology, Bioethics, and Health Policy",
@@ -1680,7 +2260,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-30"
+    ],
+    "lastDate": "2026-09-30"
   },
   {
     "name": "CENEU Informational Session on Medical Spanish & Global Health Immersion Programs",
@@ -1701,7 +2285,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
   },
   {
     "name": "Japan/China Visa Info Session",
@@ -1722,7 +2310,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
   },
   {
     "name": "Soka Jobs+ Fair PREP Workshop",
@@ -1743,7 +2335,11 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
   },
   {
     "name": "Soka Jobs+ Fair  (On-Campus Student Work Opportunities)",
@@ -1764,7 +2360,11 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-02"
+    ],
+    "lastDate": "2026-10-02"
   },
   {
     "name": "Emerging Leaders Program Fall Kick-Off",
@@ -1785,7 +2385,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-02"
+    ],
+    "lastDate": "2026-10-02"
   },
   {
     "name": "H\u0100LAU HULA LANI OLA 28th ANNIVERSARY H\u014c\u2019IKE",
@@ -1806,7 +2410,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-03"
+    ],
+    "lastDate": "2026-10-03"
   },
   {
     "name": "October Dialogue Buddies",
@@ -1827,7 +2435,11 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-06"
+    ],
+    "lastDate": "2026-10-06"
   },
   {
     "name": "Alisa Proctor",
@@ -1848,7 +2460,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-06"
+    ],
+    "lastDate": "2026-10-06"
   },
   {
     "name": "Career Development CPT Lunchtime",
@@ -1866,7 +2482,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-07"
+    ],
+    "lastDate": "2026-10-07"
   },
   {
     "name": "Student Org Launchpad pt.2",
@@ -1887,7 +2507,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-07"
+    ],
+    "lastDate": "2026-10-07"
   },
   {
     "name": "Study Abroad Meet & Greet Tabling Event (Bistro Plaza)",
@@ -1905,7 +2529,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Study Abroad Meet and Greet 2026",
@@ -1926,7 +2554,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Set-up: President\u2019s Office",
@@ -1944,7 +2576,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Storage of Items: President\u2019s Office Rentals",
@@ -1962,7 +2598,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Power of Communication",
@@ -1983,7 +2623,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-09"
+    ],
+    "lastDate": "2026-10-09"
   },
   {
     "name": "Career Development Rate-a-thon",
@@ -2001,7 +2645,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-09"
+    ],
+    "lastDate": "2026-10-09"
   },
   {
     "name": "President\u2019s Office Meeting",
@@ -2022,7 +2670,11 @@
       "email": "nkogure@soka.edu"
     },
     "org": "President's Office",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-09"
+    ],
+    "lastDate": "2026-10-09"
   },
   {
     "name": "Soka Peace Gala",
@@ -2043,7 +2695,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "President's Office",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-10"
+    ],
+    "lastDate": "2026-10-10"
   },
   {
     "name": "Dean's Lunch Meeting with CPA Directors and Coordinators",
@@ -2064,7 +2720,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "LS Meeting",
@@ -2085,7 +2745,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Alisa Proctor",
@@ -2106,7 +2770,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Women's Soccer vs La Sierra (Calif.)",
@@ -2124,7 +2792,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "CareerCore - Professional Development WORKSHOP (Critical Thinking + Applied Problem Solving)",
@@ -2145,7 +2817,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Presidio Capital Management: Retirement 101",
@@ -2166,7 +2842,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Men's Soccer vs La Sierra (Calif.)",
@@ -2184,7 +2864,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Johns Hopkins University & University of Pennsylvania Schools of Nursing Information Session",
@@ -2205,7 +2889,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-14"
+    ],
+    "lastDate": "2026-10-14"
   },
   {
     "name": "Smart Job Decisions",
@@ -2226,7 +2914,11 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-15"
+    ],
+    "lastDate": "2026-10-15"
   },
   {
     "name": "Becoming a Changemaker: Innovation + Entrepreneurship 101",
@@ -2247,7 +2939,11 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-15"
+    ],
+    "lastDate": "2026-10-15"
   },
   {
     "name": "Boston Career Forum (CDO)",
@@ -2268,7 +2964,11 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
   },
   {
     "name": "Humanism & Health Speaker Series",
@@ -2289,7 +2989,11 @@
       "email": "hwu@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
   },
   {
     "name": "Sargam Group of SoCal (Event 1 of 2)",
@@ -2310,7 +3014,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-17"
+    ],
+    "lastDate": "2026-10-17"
   },
   {
     "name": "Post-event cleaning: Ashford Cleaning",
@@ -2331,7 +3039,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-18"
+    ],
+    "lastDate": "2026-10-18"
   },
   {
     "name": "Faculty Development Days",
@@ -2352,7 +3064,11 @@
       "email": "jskye@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 5
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-10-19"
+    ],
+    "lastDate": "2026-10-19"
   },
   {
     "name": "SUA Facilities stage removal & cleaning under stage",
@@ -2373,7 +3089,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-19"
+    ],
+    "lastDate": "2026-10-19"
   },
   {
     "name": "Alisa Proctor",
@@ -2394,7 +3114,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-20"
+    ],
+    "lastDate": "2026-10-20"
   },
   {
     "name": "Presidio Capital Management: Retirement 101",
@@ -2415,7 +3139,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-20"
+    ],
+    "lastDate": "2026-10-20"
   },
   {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
@@ -2436,7 +3164,11 @@
       "email": "hwu@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-21"
+    ],
+    "lastDate": "2026-10-21"
   },
   {
     "name": "Presidio Capital Management: Retirement 101",
@@ -2457,7 +3189,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-21"
+    ],
+    "lastDate": "2026-10-21"
   },
   {
     "name": "Dashain Celebration",
@@ -2478,7 +3214,11 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-21"
+    ],
+    "lastDate": "2026-10-21"
   },
   {
     "name": "Vote Center: POD DELIVERY WINDOW",
@@ -2499,7 +3239,13 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Become a Physician: Exploring the DO Pathway with AACOM",
@@ -2520,7 +3266,11 @@
       "email": "hwu@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "Soka Leadership Summit",
@@ -2541,7 +3291,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 5
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "Discover Soka Set-Up Black Box Theater",
@@ -2562,7 +3316,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT",
@@ -2583,7 +3341,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Discover Soka: Conference Sessions",
@@ -2604,7 +3366,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 6
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Discover Soka: Lunch",
@@ -2625,7 +3391,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Discover Soka: Registration",
@@ -2646,7 +3416,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Discover Soka: Closing Sessions",
@@ -2667,7 +3441,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Discover Soka: Welcome",
@@ -2688,7 +3466,11 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Tear down: Sargam Group of SoCal",
@@ -2709,7 +3491,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Men's Soccer vs Hope International",
@@ -2727,7 +3513,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Sargam Group of SoCal (Event 2 of 2)",
@@ -2748,7 +3538,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Women's Soccer vs Hope International",
@@ -2766,7 +3560,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-24"
+    ],
+    "lastDate": "2026-10-24"
   },
   {
     "name": "Vote Center: Statewide General Election (POD DELIVERY TO GALLERY)",
@@ -2787,7 +3585,13 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 6
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Post-event cleaning: Ashford Cleaning",
@@ -2808,7 +3612,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-25"
+    ],
+    "lastDate": "2026-10-25"
   },
   {
     "name": "Malini Awasthi",
@@ -2829,7 +3637,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-25"
+    ],
+    "lastDate": "2026-10-25"
   },
   {
     "name": "SUA Facilities stage removal & cleaning under stage",
@@ -2850,7 +3662,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-26"
+    ],
+    "lastDate": "2026-10-26"
   },
   {
     "name": "LS Meeting",
@@ -2871,7 +3687,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Alisa Proctor",
@@ -2892,7 +3712,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Overview of IFSA Study Abroad Programs",
@@ -2913,7 +3737,11 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Vote Center: Statewide General Election",
@@ -2934,7 +3762,18 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 16
+    "occurrenceCount": 16,
+    "occurrenceDates": [
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04"
+    ],
+    "lastDate": "2026-11-04"
   },
   {
     "name": "Presidio Capital Management: Retirement 101",
@@ -2955,7 +3794,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-28"
+    ],
+    "lastDate": "2026-10-28"
   },
   {
     "name": "Intramurals: Spooky Dodgeball",
@@ -2976,7 +3819,11 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-28"
+    ],
+    "lastDate": "2026-10-28"
   },
   {
     "name": "Women's Soccer vs The Master's",
@@ -2994,7 +3841,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
   },
   {
     "name": "Men's Soccer vs The Master's",
@@ -3012,7 +3863,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
   },
   {
     "name": "Alisa Proctor",
@@ -3033,7 +3888,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-03"
+    ],
+    "lastDate": "2026-11-03"
   },
   {
     "name": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork & Leadership)",
@@ -3054,7 +3913,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-03"
+    ],
+    "lastDate": "2026-11-03"
   },
   {
     "name": "Meet the Author",
@@ -3075,7 +3938,11 @@
       "email": "deanoffaculty@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-03"
+    ],
+    "lastDate": "2026-11-03"
   },
   {
     "name": "November Dialogue Buddies",
@@ -3096,7 +3963,11 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-04"
+    ],
+    "lastDate": "2026-11-04"
   },
   {
     "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
@@ -3117,7 +3988,13 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07"
+    ],
+    "lastDate": "2026-11-07"
   },
   {
     "name": "Bob Baker Marionettes",
@@ -3135,7 +4012,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-07"
+    ],
+    "lastDate": "2026-11-07"
   },
   {
     "name": "Impactathon! Social Impact Competition | Prizes + Funding Opportunities!",
@@ -3156,7 +4037,11 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-07"
+    ],
+    "lastDate": "2026-11-07"
   },
   {
     "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
@@ -3177,7 +4062,13 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-11-08",
+      "2026-11-09",
+      "2026-11-10"
+    ],
+    "lastDate": "2026-11-10"
   },
   {
     "name": "LS Meeting",
@@ -3198,7 +4089,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-10"
+    ],
+    "lastDate": "2026-11-10"
   },
   {
     "name": "Tech Coast Angels: Face-to-Face with Investors| REAL WORLD SHARK TANK!",
@@ -3219,7 +4114,11 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-10"
+    ],
+    "lastDate": "2026-11-10"
   },
   {
     "name": "Alisa Proctor",
@@ -3240,7 +4139,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-10"
+    ],
+    "lastDate": "2026-11-10"
   },
   {
     "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
@@ -3261,7 +4164,12 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 2
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-11-11",
+      "2026-11-12"
+    ],
+    "lastDate": "2026-11-12"
   },
   {
     "name": "Orange County Youth Symphony & String Ensemble Fall Concert",
@@ -3282,7 +4190,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-15"
+    ],
+    "lastDate": "2026-11-15"
   },
   {
     "name": "Alisa Proctor",
@@ -3303,7 +4215,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-17"
+    ],
+    "lastDate": "2026-11-17"
   },
   {
     "name": "Networking Happy Hour",
@@ -3324,7 +4240,11 @@
       "email": "jwray@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
   },
   {
     "name": "Blood Drive 2026",
@@ -3345,7 +4265,11 @@
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   },
   {
     "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
@@ -3366,7 +4290,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-21"
+    ],
+    "lastDate": "2026-11-21"
   },
   {
     "name": "Pacific Symphony: Bach & Beethoven with Alexander Shelley, cond.",
@@ -3387,7 +4315,11 @@
       "email": "rbodie@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-22"
+    ],
+    "lastDate": "2026-11-22"
   },
   {
     "name": "Admission Meeting",
@@ -3408,7 +4340,19 @@
       "email": "sspornick@soka.edu"
     },
     "org": "Admissions",
-    "occurrenceCount": 9
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-01"
+    ],
+    "lastDate": "2026-12-01"
   },
   {
     "name": "LS Meeting",
@@ -3429,7 +4373,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-24"
+    ],
+    "lastDate": "2026-11-24"
   },
   {
     "name": "Alisa Proctor",
@@ -3450,7 +4398,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-24"
+    ],
+    "lastDate": "2026-11-24"
   },
   {
     "name": "Alisa Proctor",
@@ -3471,7 +4423,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-01"
+    ],
+    "lastDate": "2026-12-01"
   },
   {
     "name": "ASB Seminar #4",
@@ -3492,7 +4448,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-01"
+    ],
+    "lastDate": "2026-12-01"
   },
   {
     "name": "Alisa Proctor",
@@ -3513,7 +4473,11 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-01"
+    ],
+    "lastDate": "2026-12-01"
   },
   {
     "name": "ASB Seminar #4",
@@ -3531,7 +4495,11 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-01"
+    ],
+    "lastDate": "2026-12-01"
   },
   {
     "name": "December Dialogue Buddies",
@@ -3552,7 +4520,11 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
   },
   {
     "name": "Laguna Woods Hiking Club",
@@ -3573,7 +4545,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-05"
+    ],
+    "lastDate": "2026-12-05"
   },
   {
     "name": "Holiday Cookie Decorating Class",
@@ -3594,7 +4570,11 @@
       "email": "fmonroe@soka.edu"
     },
     "org": "Events & Conferences",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-05"
+    ],
+    "lastDate": "2026-12-05"
   },
   {
     "name": "George Li, piano",
@@ -3612,7 +4592,11 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-06"
+    ],
+    "lastDate": "2026-12-06"
   },
   {
     "name": "Office Inter-Program Holiday Party",
@@ -3633,7 +4617,11 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-07"
+    ],
+    "lastDate": "2026-12-07"
   },
   {
     "name": "LS Meeting",
@@ -3654,7 +4642,11 @@
       "email": "zafrasiabi@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-08"
+    ],
+    "lastDate": "2026-12-08"
   },
   {
     "name": "Alisa Proctor",
@@ -3675,6 +4667,10 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-08"
+    ],
+    "lastDate": "2026-12-08"
   }
 ]
