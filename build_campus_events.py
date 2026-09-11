@@ -29,6 +29,7 @@ import requests
 PACIFIC = ZoneInfo("America/Los_Angeles")
 OUT_FILE = Path(__file__).parent / "docs" / "events.json"
 DEBUG_SAMPLE_FILE = Path(__file__).parent / "debug_sample.json"
+RAW_PAGE_FILE = Path(__file__).parent / "debug_raw_page.json"
 
 COURSEDOG_BASE = os.environ["COURSEDOG_READONLY_BASE"]
 COURSEDOG_EMAIL = os.environ["COURSEDOG_READONLY_EMAIL"]
@@ -59,6 +60,7 @@ def fetch_meetings(token, start_date, end_date):
     headers = {"Authorization": f"Bearer {token}"}
     meetings = []
     skip = 0
+    dumped_raw = False
     while True:
         resp = requests.get(
             f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/meetings",
@@ -67,16 +69,36 @@ def fetch_meetings(token, start_date, end_date):
         )
         resp.raise_for_status()
         page = resp.json()
-        # Response shape not yet confirmed at scale — /events shifted from a
-        # bare dict/list to {data: [...], totalCount} on Aug 12; /meetings
-        # may or may not have followed. Handle a few plausible shapes rather
-        # than assume one.
+
+        if not dumped_raw:
+            # Always capture the very first raw response, whatever shape it
+            # turns out to be, BEFORE trying to interpret it. Guessing wrong
+            # here is exactly what happened on the first live run (0 meetings
+            # came back even though real data exists in this window) — this
+            # is how we find out what actually came back instead of guessing
+            # a second time.
+            RAW_PAGE_FILE.write_text(json.dumps(page, indent=2, default=str)[:500000])
+            log.info(f"Response type: {type(page).__name__}"
+                      + (f", top-level keys: {list(page.keys())}" if isinstance(page, dict) else "")
+                      + f" — wrote raw first page to {RAW_PAGE_FILE}")
+            dumped_raw = True
+
+        # Response shape not yet confirmed at scale. /events shifted from a
+        # bare dict/list to {data: [...], totalCount} on Aug 12; /meetings may
+        # or may not have followed. Rooms/orgs endpoints instead return a
+        # dict keyed by internal id (see api-learnings.md) — try that too.
         if isinstance(page, list):
             batch = page
         elif isinstance(page, dict):
-            batch = page.get("data") or page.get("meetings") or []
+            if "data" in page:
+                batch = page["data"]
+            elif "meetings" in page:
+                batch = page["meetings"]
+            else:
+                batch = list(page.values())
         else:
             batch = []
+
         if not batch:
             break
         meetings.extend(batch)
