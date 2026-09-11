@@ -7,17 +7,16 @@ load time, replacing the baked-in static EVENTS array.
 Read-only: uses the dedicated read-only API user (see api-user-setup.md),
 never writes to Coursedog.
 
-IMPORTANT — this has not been run against live data yet. Several field
-names below are inferred from the API docs and the Sept 4 sample pull in
-events-public-visibility.md, not confirmed at scale:
-  - the parent-event id used to group recurring meetings into one row
-    (guessed as eventData._id / meeting.eventId)
-  - the contact field's exact shape
-  - room/building field names on a meeting
+Confirmed against a real production pull (Sept 11): meeting.eventId ==
+eventData._id (safe to group recurring meetings on), eventData.contacts
+is a list, and neither room/building name nor organization name live on
+the meeting — both need a lookup against /rooms and /organizations
+(tried in that order, with /orgs and /departments as fallback names
+since the real one isn't confirmed yet).
 
-Run this once, then read debug_sample.json (5 raw meetings, written next
-to this script) before trusting events.json. Expect to fix field names
-in `transform()` and `group_and_dedupe()` after that first real look.
+Still open: whether /organizations (or a fallback) actually resolves —
+check the "Loaded N records from /..." log line, and if none of the
+candidates worked, org will come back blank rather than a raw UUID.
 """
 import json, logging, os, sys
 from collections import defaultdict
@@ -134,21 +133,64 @@ def fmt_time(hhmm):
     return f"{h12}:{m:02d} {suffix}"
 
 
-def transform(meeting):
+def fetch_lookup_dict(token, resource_candidates):
+    """Rooms/organizations endpoints return a dict keyed by internal id, same
+    as /meetings turned out to (see api-learnings.md). Tries each candidate
+    resource name in order and uses the first that responds; logs which one
+    worked (or that none did) rather than assuming."""
+    headers = {"Authorization": f"Bearer {token}"}
+    for resource in resource_candidates:
+        try:
+            resp = requests.get(f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/{resource}",
+                headers=headers, timeout=30)
+            resp.raise_for_status()
+        except requests.HTTPError as e:
+            log.info(f"/{resource} not usable ({e.response.status_code if e.response is not None else e}), trying next candidate")
+            continue
+        data = resp.json()
+        if isinstance(data, dict):
+            out = data
+        elif isinstance(data, list):
+            out = {item.get("id") or item.get("_id"): item for item in data}
+        else:
+            out = {}
+        log.info(f"Loaded {len(out)} records from /{resource} for lookup")
+        return out
+    log.warning(f"None of {resource_candidates} worked — falling back to blank instead of a raw id in the display")
+    return {}
+
+
+def transform(meeting, rooms, orgs):
     ev = meeting.get("eventData") or {}
 
-    # FIELD NAME GUESS — fix after reading debug_sample.json.
-    raw_contact = ev.get("contact") or ev.get("primaryContact")
+    # Confirmed live (Sept 11 run): eventData.contacts is a LIST, not a
+    # single "contact" field. Widget shows one contact — use the first.
+    contacts = ev.get("contacts") or []
     contact = None
-    if raw_contact:
-        contact = {"name": raw_contact.get("name"), "email": raw_contact.get("email")}
+    if contacts:
+        primary = contacts[0]
+        contact = {"name": primary.get("name") or None, "email": primary.get("email") or None}
+
+    # Confirmed live: no room/building name lives on the meeting itself —
+    # only a bare roomId (sometimes a short SIS code, sometimes a UUID, per
+    # §3.3 of the main guide). Resolve it against the /rooms lookup; if that
+    # lookup failed or doesn't have this id, leave it blank rather than show
+    # a raw code in the widget.
+    room_id = meeting.get("roomId")
+    room_rec = rooms.get(room_id) if room_id else None
+    room_name = (room_rec.get("displayName") or room_rec.get("name")) if room_rec else None
+    building_name = (room_rec.get("building") or room_rec.get("buildingName")) if room_rec else None
+
+    # Same problem, same fix, for organization — eventData.organization is a
+    # bare UUID with no readable name attached to the meeting.
+    org_id = ev.get("organization")
+    org_rec = orgs.get(org_id) if org_id else None
+    org_name = (org_rec.get("displayName") or org_rec.get("name")) if org_rec else None
 
     return {
-        # FIELD NAME GUESS — the id that ties recurring meetings back to one
-        # parent event. If this is wrong, every occurrence of a recurring
-        # event will show up as its own separate row instead of collapsing
-        # into one row with an "xN" badge.
-        "_event_id": ev.get("_id") or meeting.get("eventId"),
+        # Confirmed live: meeting.eventId matches eventData._id exactly —
+        # this is the right key to collapse recurring meetings into one row.
+        "_event_id": meeting.get("eventId") or ev.get("_id"),
         "name": ev.get("name", ""),
         "type": ev.get("type", ""),
         "public": bool(ev.get("public")),
@@ -159,13 +201,11 @@ def transform(meeting):
         "startTime": fmt_time(meeting.get("startTime")),
         "endTime": fmt_time(meeting.get("endTime")),
         "allDay": bool(meeting.get("allDay")),
-        # FIELD NAME GUESS — room/building on the meeting itself vs. needing
-        # a lookup against /rooms the way §3.3 of the main guide describes.
-        "room": meeting.get("roomName") or meeting.get("room"),
-        "building": meeting.get("buildingName") or meeting.get("building"),
+        "room": room_name,
+        "building": building_name,
         "imageURL": ev.get("imageURL", ""),
         "contact": contact,
-        "org": ev.get("orgName") or ev.get("organization"),
+        "org": org_name,
     }
 
 
@@ -193,6 +233,9 @@ def main():
     token = get_token()
     log.info("Authenticated with Coursedog (read-only user)")
 
+    rooms = fetch_lookup_dict(token, ["rooms"])
+    orgs = fetch_lookup_dict(token, ["organizations", "orgs", "departments"])
+
     today = datetime.now(PACIFIC).date()
     start = today.strftime("%Y-%m-%d")
     end = (today + timedelta(days=WINDOW_DAYS)).strftime("%Y-%m-%d")
@@ -207,7 +250,7 @@ def main():
     kept = [m for m in raw if not is_excluded(m)]
     log.info(f"{len(kept)} of {len(raw)} meetings kept after filtering (private / setup / teardown / {sorted(EXCLUDE_TYPES)})")
 
-    rows = [transform(m) for m in kept]
+    rows = [transform(m, rooms, orgs) for m in kept]
     events = group_and_dedupe(rows)
     events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
 
