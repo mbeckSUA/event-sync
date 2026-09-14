@@ -6,7 +6,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": true,
-    "date": "2026-09-11",
+    "date": "2026-09-14",
     "startTime": null,
     "endTime": null,
     "allDay": true,
@@ -18,11 +18,8 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 26,
+    "occurrenceCount": 20,
     "occurrenceDates": [
-      "2026-09-11",
-      "2026-09-12",
-      "2026-09-13",
       "2026-09-14",
       "2026-09-15",
       "2026-09-16",
@@ -37,323 +34,9 @@
     "lastDate": "2026-09-23"
   },
   {
-    "name": "SCC Guest Stay (Room #117) - SM",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Small Conference Center  Bedroom 117",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 37,
-    "occurrenceDates": [
-      "2026-09-11",
-      "2026-09-12",
-      "2026-09-13",
-      "2026-09-14",
-      "2026-09-15",
-      "2026-09-16",
-      "2026-09-17",
-      "2026-09-18",
-      "2026-09-19",
-      "2026-09-20",
-      "2026-09-21",
-      "2026-09-22",
-      "2026-09-23",
-      "2026-09-24",
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27",
-      "2026-09-28",
-      "2026-09-29",
-      "2026-09-30",
-      "2026-10-01",
-      "2026-10-02",
-      "2026-10-03",
-      "2026-10-04",
-      "2026-10-05",
-      "2026-10-06",
-      "2026-10-07",
-      "2026-10-08",
-      "2026-10-09",
-      "2026-10-10",
-      "2026-10-11",
-      "2026-10-12",
-      "2026-10-13",
-      "2026-10-14",
-      "2026-10-15",
-      "2026-10-16",
-      "2026-10-17"
-    ],
-    "lastDate": "2026-10-17"
-  },
-  {
-    "name": "Graduate School Workshop",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Explore your future with the Graduate School Advising Workshop (non-Medical track), designed to help you navigate the path toward advanced study with clarity and confidence. This workshop guides you through key questions such as identifying your career goals, choosing the right graduate program, and building a strong application.\n\nWorkshop with Professor Diya Mazumder, Associate Professor of Economics and Graduate School Advisor.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "12:15 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-09-09%20at%2012.19.59%E2%80%AFPM.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "First Aid and CPR Training",
-    "type": "Campus Events",
-    "public": false,
-    "description": "The purpose of this event is to offer first aid and CPR training to Soka employees and students.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "12:30 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Chintan Amin",
-      "email": "camin@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "EDU 505",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Requested by Manami Koizumi",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "1:00 PM",
-    "endTime": "4:00 PM",
-    "allDay": false,
-    "room": "PAU 439",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Phuong Luong",
-      "email": "pluong@soka.edu"
-    },
-    "org": "Office of the Graduate School",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "EDU 517",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Requested by Manami Koizumi",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "9:00 AM",
-    "endTime": "12:00 PM",
-    "allDay": false,
-    "room": "PAU 439",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Phuong Luong",
-      "email": "pluong@soka.edu"
-    },
-    "org": "Office of the Graduate School",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "2026 Fall Interns Onboarding",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "9:00 AM",
-    "endTime": "10:00 AM",
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "Susan Walsh Faculty Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meeting amongst faculty in Cur 111",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-11",
-    "startTime": "9:30 AM",
-    "endTime": "11:00 AM",
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-11"
-    ],
-    "lastDate": "2026-09-11"
-  },
-  {
-    "name": "Men's Soccer vs Life Pacific",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Men's Soccer vs Life Pacific\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-12",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-12"
-    ],
-    "lastDate": "2026-09-12"
-  },
-  {
-    "name": "Women's Soccer vs Life Pacific",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Women's Soccer vs Life Pacific\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-12",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-12"
-    ],
-    "lastDate": "2026-09-12"
-  },
-  {
-    "name": "Investment Office Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-14",
-    "startTime": "10:00 AM",
-    "endTime": "10:30 AM",
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2026-09-14",
-      "2026-09-28",
-      "2026-10-12",
-      "2026-10-26",
-      "2026-11-09",
-      "2026-11-23",
-      "2026-12-07"
-    ],
-    "lastDate": "2026-12-07"
-  },
-  {
-    "name": "Welcome Back Coordination Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-14",
-    "startTime": "11:00 AM",
-    "endTime": "12:00 PM",
-    "allDay": false,
-    "room": "Founders Hall Board Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Julia  Moore",
-      "email": "jmoore@soka.edu"
-    },
-    "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 4,
-    "occurrenceDates": [
-      "2026-09-14",
-      "2026-09-21",
-      "2026-09-28",
-      "2026-10-05"
-    ],
-    "lastDate": "2026-10-05"
-  },
-  {
     "name": "Humanities Capstone 390 Meeting",
     "type": "Campus Events",
-    "public": true,
+    "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
@@ -431,50 +114,6 @@
     "lastDate": "2026-10-26"
   },
   {
-    "name": "Student Org Launchpad pt.1",
-    "type": "Internal Meeting",
-    "public": true,
-    "description": "Student Org Launch Pad (Part 1)\nDate: Tuesday, September 15 Time: 4:45 PM \u2013 6:30 PM Location: Student Affairs Lobby\n\nTaking the lead in a student organization this year? Join us for Part 1 of the Student Org Launch Pad! Learn the ins and outs of membership management, build effective communication and teamwork strategies for your leadership team, set your group's goals for the year, and get all the details on the upcoming Student Org Expo. Please make sure to register in advance!\n\n(Note: Check-in is from 4:45 PM \u2013 5:00 PM, and the session will start promptly at 5:00 PM.)",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-14",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": null,
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-14"
-    ],
-    "lastDate": "2026-09-14"
-  },
-  {
-    "name": "ASB Info Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-14",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": null,
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-14"
-    ],
-    "lastDate": "2026-09-14"
-  },
-  {
     "name": "Spanish Tutoring sessions",
     "type": "Student Request Form",
     "public": false,
@@ -542,122 +181,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Gala Committee Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-14",
-    "startTime": "9:45 AM",
-    "endTime": "2:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Dining Room (1st Floor)",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody Lowe",
-      "email": "m.lowe@soka.edu"
-    },
-    "org": "Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-14"
-    ],
-    "lastDate": "2026-09-14"
-  },
-  {
-    "name": "SCC Guest Stay (Room #113) - LI",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-15",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Small Conference Center Bedroom 113",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-09-15",
-      "2026-09-16",
-      "2026-09-17"
-    ],
-    "lastDate": "2026-09-17"
-  },
-  {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-15",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 15,
-    "occurrenceDates": [
-      "2026-09-15",
-      "2026-09-22",
-      "2026-09-29",
-      "2026-10-06",
-      "2026-10-13",
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-15",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-15"
-    ],
-    "lastDate": "2026-09-15"
   },
   {
     "name": "CareerCore Program Info/Orientation",
@@ -786,31 +309,6 @@
     "lastDate": "2026-09-15"
   },
   {
-    "name": "DEI / Leadership / Student Activities",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-16",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Robert Duran",
-      "email": "r.duran@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-16"
-    ],
-    "lastDate": "2026-09-16"
-  },
-  {
     "name": "CDO REQUIRED Resume workshop #2",
     "type": "Campus Events",
     "public": true,
@@ -854,31 +352,6 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-16"
-    ],
-    "lastDate": "2026-09-16"
-  },
-  {
-    "name": "PBRC Post-Doctoral Fellow Introduction",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Please join us for a welcome reception celebrating our new 2026\u20132027 John D. Montgomery Post-Doctoral Fellow, Dr. Conrad Hirano. Come meet Dr. Hirano, learn about his research, and connect with the PBRC community over light refreshments!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-16",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "IKE 457",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Kayo Yoshikawa",
-      "email": "kayoshikawa@soka.edu"
-    },
-    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-16"
@@ -992,82 +465,6 @@
       "2026-09-30"
     ],
     "lastDate": "2026-09-30"
-  },
-  {
-    "name": "Environmental Studies (ES) faculty meeting with ES seniors to discuss capstone.",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-17",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "CUR 300",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Smith",
-      "email": "susmith@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-17"
-    ],
-    "lastDate": "2026-09-17"
-  },
-  {
-    "name": "Environmental Studies meeting with faculty and senior students",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-17",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Smith",
-      "email": "susmith@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-17"
-    ],
-    "lastDate": "2026-09-17"
-  },
-  {
-    "name": "National Philanthropy Day",
-    "type": "Campus Events",
-    "public": false,
-    "description": "For over forty years, National Philanthropy Day has been a cornerstone of the Orange County philanthropic calendar. Every November, this community gathers to celebrate the people and organizations whose creativity, work ethic, and generosity make this region better. That tradition isn't going anywhere.\n\nBut something is changing \u2014 and it's overdue.\n\nIn the past, NPD shined a well-deserved spotlight on a handful of extraordinary individuals. Their recognition was earned. But philanthropy has never been a solo act. Behind every honoree was a team, a partnership, a community of people whose work made the impact possible.\n\nNPD 2026 is moving from individual recognition to collective celebration. Elevating the programs, the partnerships, and all the people who show up every day to make Orange County better. The donors are still in the story. So are the fundraisers, the program staff, the board members, and the volunteers.\n\nThis year we're building a bigger stage \u2014 finally making it big enough for everyone.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">https://www.nationalphilanthropyday.org/</a></p>",
-    "facility": false,
-    "date": "2026-09-17",
-    "startTime": "2:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-09-09%20at%204.37.34%E2%80%AFPM.png",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-09-17",
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
   },
   {
     "name": "Women's Soccer vs Benedictine Mesa (AZ)",
@@ -1188,31 +585,6 @@
     "lastDate": "2026-09-17"
   },
   {
-    "name": "Community Relations Staff Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Community relations meeting with all student staff",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "10:00 AM",
-    "endTime": "11:30 AM",
-    "allDay": false,
-    "room": "CUR 300",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Gabriel Orozco",
-      "email": "gorozco@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
     "name": "Careers in Finance",
     "type": "Campus Events",
     "public": false,
@@ -1257,31 +629,6 @@
     },
     "org": "Academic Affairs",
     "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "Funding Meeting & Meeting with Club Senate",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-18"
     ],
@@ -1363,44 +710,6 @@
     "lastDate": "2026-09-18"
   },
   {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-09-18",
-      "2026-09-25",
-      "2026-10-02",
-      "2026-10-09",
-      "2026-10-16",
-      "2026-10-23",
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
-  },
-  {
     "name": "Men's Soccer vs OUAZ",
     "type": "Campus Events",
     "public": true,
@@ -1470,37 +779,6 @@
     "lastDate": "2026-09-20"
   },
   {
-    "name": "Investment Office Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-21",
-    "startTime": "11:00 AM",
-    "endTime": "12:00 PM",
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2026-09-21",
-      "2026-10-05",
-      "2026-10-19",
-      "2026-11-02",
-      "2026-11-16",
-      "2026-11-30",
-      "2026-12-14"
-    ],
-    "lastDate": "2026-12-14"
-  },
-  {
     "name": "SBS Concentration Meeting",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
@@ -1511,7 +789,7 @@
     "startTime": "12:00 PM",
     "endTime": "12:50 PM",
     "allDay": false,
-    "room": "SC 405",
+    "room": "SC 401",
     "building": "Student Center",
     "imageURL": "",
     "contact": {
@@ -1734,6 +1012,33 @@
     "lastDate": "2026-11-18"
   },
   {
+    "name": "Faculty Forum - In Person",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Faculty Forum",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-24",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "MAA 207",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-09-24",
+      "2026-10-22",
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "Academic Awards Ceremony & Photo Session",
     "type": "Campus Events",
     "public": false,
@@ -1888,28 +1193,6 @@
     "lastDate": "2026-09-25"
   },
   {
-    "name": "Fridays on the Green",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "",
-    "contact": null,
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
     "name": "Summer Student Research Assistantship Program 2026 Symposium",
     "type": "Academic Affairs Events & Reservations",
     "public": true,
@@ -2032,28 +1315,6 @@
     "lastDate": "2026-09-26"
   },
   {
-    "name": "Men's Soccer vs Park Gilbert (Ariz)",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-26",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-26"
-    ],
-    "lastDate": "2026-09-26"
-  },
-  {
     "name": "David Benoit Reception",
     "type": "Performing Arts Center",
     "public": false,
@@ -2071,6 +1332,28 @@
       "name": "Antoinette  Rossman",
       "email": "arossman@soka.edu"
     },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
+  },
+  {
+    "name": "Men's Soccer vs Park Gilbert (Ariz)",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-26",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -2104,28 +1387,6 @@
     "lastDate": "2026-09-27"
   },
   {
-    "name": "Post-Sabbatical Talk & Setup",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-28",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-28"
-    ],
-    "lastDate": "2026-09-28"
-  },
-  {
     "name": "Acces Strasbourg Study Abroad Info Session",
     "type": "Campus Events",
     "public": false,
@@ -2149,82 +1410,6 @@
       "2026-09-28"
     ],
     "lastDate": "2026-09-28"
-  },
-  {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-29"
-    ],
-    "lastDate": "2026-09-29"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-29"
-    ],
-    "lastDate": "2026-09-29"
-  },
-  {
-    "name": "Student Staff Retreat",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "The Office of Student Leadership and Service Engagement and the Office of Diversity, Equity and Inclusion host a staff retreat for our student employees every year to provide training and help them understand our office mission, purpose and the roles they will be playing in the office.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "5:00 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-29",
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
   },
   {
     "name": "Meet the Author",
@@ -2352,6 +1537,32 @@
     "lastDate": "2026-10-01"
   },
   {
+    "name": "Joint Film Screening (HUM & SBS)",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Joint film screening by HUM and SBS concentrations. More details will be provided.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Kristi Wilson",
+      "email": "kwilson@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-01",
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "Soka Jobs+ Fair  (On-Campus Student Work Opportunities)",
     "type": "Campus Events",
     "public": true,
@@ -2445,31 +1656,6 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-06"
-    ],
-    "lastDate": "2026-10-06"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-06",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-06"
@@ -2662,31 +1848,6 @@
     "lastDate": "2026-10-09"
   },
   {
-    "name": "President\u2019s Office Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "9:00 AM",
-    "endTime": "2:00 PM",
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Naoko Kogure",
-      "email": "nkogure@soka.edu"
-    },
-    "org": "President's Office",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-09"
-    ],
-    "lastDate": "2026-10-09"
-  },
-  {
     "name": "Soka Peace Gala",
     "type": "Campus Events",
     "public": false,
@@ -2737,56 +1898,6 @@
     "lastDate": "2026-10-13"
   },
   {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
     "name": "Women's Soccer vs La Sierra (Calif.)",
     "type": "Campus Events",
     "public": true,
@@ -2827,31 +1938,6 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Presidio Capital Management: Retirement 101",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:30 PM",
-    "endTime": "8:30 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-13"
@@ -2956,31 +2042,6 @@
     "lastDate": "2026-10-15"
   },
   {
-    "name": "Boston Career Forum (CDO)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Boston Career Forum info session for Japanese bilingual students.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "1:00 PM",
-    "endTime": "3:00 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Young Choi-Plass",
-      "email": "ychoiplass@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
     "name": "Humanism & Health Speaker Series",
     "type": "Academic Affairs Events & Reservations",
     "public": true,
@@ -3004,56 +2065,6 @@
       "2026-10-16"
     ],
     "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Sargam Group of SoCal (Event 1 of 2)",
-    "type": "External Rental",
-    "public": false,
-    "description": "Social dance event with cultural dancing.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-17",
-    "startTime": "7:00 PM",
-    "endTime": "11:59 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-17"
-    ],
-    "lastDate": "2026-10-17"
-  },
-  {
-    "name": "Post-event cleaning: Ashford Cleaning",
-    "type": "External Rental",
-    "public": false,
-    "description": "Post event cleaning done by Ashford Cleaning",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-18",
-    "startTime": "1:00 AM",
-    "endTime": "9:00 AM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-18"
-    ],
-    "lastDate": "2026-10-18"
   },
   {
     "name": "Faculty Development Days",
@@ -3081,81 +2092,6 @@
     "lastDate": "2026-10-19"
   },
   {
-    "name": "SUA Facilities stage removal & cleaning under stage",
-    "type": "External Rental",
-    "public": false,
-    "description": "Post event removal of stage, and cleaning under the stage, to be completed by SUA Facilities.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-19",
-    "startTime": "9:00 AM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-19"
-    ],
-    "lastDate": "2026-10-19"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-20"
-    ],
-    "lastDate": "2026-10-20"
-  },
-  {
-    "name": "Presidio Capital Management: Retirement 101",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "5:30 PM",
-    "endTime": "8:30 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-20"
-    ],
-    "lastDate": "2026-10-20"
-  },
-  {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
     "type": "Academic Programs & Events",
     "public": true,
@@ -3174,31 +2110,6 @@
       "email": "hwu@soka.edu"
     },
     "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-21"
-    ],
-    "lastDate": "2026-10-21"
-  },
-  {
-    "name": "Presidio Capital Management: Retirement 101",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "5:30 PM",
-    "endTime": "8:30 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-21"
@@ -3530,31 +2441,6 @@
     "lastDate": "2026-10-24"
   },
   {
-    "name": "Sargam Group of SoCal (Event 2 of 2)",
-    "type": "External Rental",
-    "public": false,
-    "description": "Social dance event with cultural dancing.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "7:00 PM",
-    "endTime": "11:59 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
     "name": "Women's Soccer vs Hope International",
     "type": "Campus Events",
     "public": true,
@@ -3604,31 +2490,6 @@
     "lastDate": "2026-10-27"
   },
   {
-    "name": "Post-event cleaning: Ashford Cleaning",
-    "type": "External Rental",
-    "public": false,
-    "description": "Post event cleaning to be done by Ashford Cleaning",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-25",
-    "startTime": "1:00 AM",
-    "endTime": "9:00 AM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-25"
-    ],
-    "lastDate": "2026-10-25"
-  },
-  {
     "name": "Malini Awasthi",
     "type": "Campus Events",
     "public": true,
@@ -3652,81 +2513,6 @@
       "2026-10-25"
     ],
     "lastDate": "2026-10-25"
-  },
-  {
-    "name": "SUA Facilities stage removal & cleaning under stage",
-    "type": "External Rental",
-    "public": false,
-    "description": "Stage removal, and cleaning under stage, to be completed by SUA Facilities.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-26",
-    "startTime": "9:00 AM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-26"
-    ],
-    "lastDate": "2026-10-26"
-  },
-  {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
   },
   {
     "name": "Overview of IFSA Study Abroad Programs",
@@ -3784,31 +2570,6 @@
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "Presidio Capital Management: Retirement 101",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "5:30 PM",
-    "endTime": "8:30 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
   },
   {
     "name": "Intramurals: Spooky Dodgeball",
@@ -3878,31 +2639,6 @@
       "2026-10-29"
     ],
     "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-03",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-03"
-    ],
-    "lastDate": "2026-11-03"
   },
   {
     "name": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork & Leadership)",
@@ -4081,31 +2817,6 @@
     "lastDate": "2026-11-10"
   },
   {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-10"
-    ],
-    "lastDate": "2026-11-10"
-  },
-  {
     "name": "Tech Coast Angels: Face-to-Face with Investors| REAL WORLD SHARK TANK!",
     "type": "Campus Events",
     "public": false,
@@ -4124,31 +2835,6 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-10"
-    ],
-    "lastDate": "2026-11-10"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-10"
@@ -4207,29 +2893,29 @@
     "lastDate": "2026-11-15"
   },
   {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
+    "name": "National Philanthropy Day",
+    "type": "Campus Events",
     "public": false,
-    "description": "",
-    "extendedDescription": "",
+    "description": "For over forty years, National Philanthropy Day has been a cornerstone of the Orange County philanthropic calendar. Every November, this community gathers to celebrate the people and organizations whose creativity, work ethic, and generosity make this region better. That tradition isn't going anywhere.\n\nBut something is changing \u2014 and it's overdue.\n\nIn the past, NPD shined a well-deserved spotlight on a handful of extraordinary individuals. Their recognition was earned. But philanthropy has never been a solo act. Behind every honoree was a team, a partnership, a community of people whose work made the impact possible.\n\nNPD 2026 is moving from individual recognition to collective celebration. Elevating the programs, the partnerships, and all the people who show up every day to make Orange County better. The donors are still in the story. So are the fundraisers, the program staff, the board members, and the volunteers.\n\nThis year we're building a bigger stage \u2014 finally making it big enough for everyone.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">https://www.nationalphilanthropyday.org/</a></p>",
     "facility": false,
-    "date": "2026-11-17",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
+    "date": "2026-11-19",
+    "startTime": "2:00 PM",
+    "endTime": "6:00 PM",
     "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-09-09%20at%204.37.34%E2%80%AFPM.png",
     "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
     },
-    "org": "Career Development",
-    "occurrenceCount": 1,
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 3,
     "occurrenceDates": [
-      "2026-11-17"
+      "2026-11-19"
     ],
-    "lastDate": "2026-11-17"
+    "lastDate": "2026-11-19"
   },
   {
     "name": "Networking Happy Hour",
@@ -4332,114 +3018,6 @@
     "lastDate": "2026-11-22"
   },
   {
-    "name": "Admission Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-23",
-    "startTime": "9:00 AM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Office #119",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 9,
-    "occurrenceDates": [
-      "2026-11-23",
-      "2026-11-24",
-      "2026-11-25",
-      "2026-11-26",
-      "2026-11-27",
-      "2026-11-28",
-      "2026-11-29",
-      "2026-11-30",
-      "2026-12-01"
-    ],
-    "lastDate": "2026-12-01"
-  },
-  {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-24",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-24"
-    ],
-    "lastDate": "2026-11-24"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-24",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-24"
-    ],
-    "lastDate": "2026-11-24"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-01",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-01"
-    ],
-    "lastDate": "2026-12-01"
-  },
-  {
     "name": "ASB Seminar #4",
     "type": "Campus Events",
     "public": false,
@@ -4457,53 +3035,6 @@
       "name": "Sia Tholath",
       "email": "s.tholath@soka.edu"
     },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-01"
-    ],
-    "lastDate": "2026-12-01"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-01",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-01"
-    ],
-    "lastDate": "2026-12-01"
-  },
-  {
-    "name": "ASB Seminar #4",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-01",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": null,
     "org": "Student Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -4535,56 +3066,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Laguna Woods Hiking Club",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-05",
-    "startTime": "9:00 AM",
-    "endTime": "11:30 AM",
-    "allDay": false,
-    "room": "University Circle",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-05"
-    ],
-    "lastDate": "2026-12-05"
-  },
-  {
-    "name": "Holiday Cookie Decorating Class",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-05",
-    "startTime": "9:00 AM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-05"
-    ],
-    "lastDate": "2026-12-05"
   },
   {
     "name": "George Li, piano",
@@ -4634,54 +3115,29 @@
     "lastDate": "2026-12-07"
   },
   {
-    "name": "LS Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
+    "name": "Student Computer Music Recital",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "This program features original works created by students enrolled in CARTS 110: Music Composition with the Computer.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-12-08",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
+    "date": "2026-12-07",
+    "startTime": "7:00 PM",
+    "endTime": "8:30 PM",
     "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
     "imageURL": "",
     "contact": {
-      "name": "Zahra Afrasiabi",
-      "email": "zafrasiabi@soka.edu"
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-12-08"
+      "2026-12-07"
     ],
-    "lastDate": "2026-12-08"
-  },
-  {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-08",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-08"
-    ],
-    "lastDate": "2026-12-08"
+    "lastDate": "2026-12-07"
   },
   {
     "name": "Celtic Christmas",
@@ -4756,31 +3212,6 @@
     "lastDate": "2026-12-14"
   },
   {
-    "name": "Alisa Proctor",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-15",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-15"
-    ],
-    "lastDate": "2026-12-15"
-  },
-  {
     "name": "Seong-Jin Cho, piano",
     "type": "Campus Events",
     "public": true,
@@ -4801,61 +3232,6 @@
       "2027-01-14"
     ],
     "lastDate": "2027-01-14"
-  },
-  {
-    "name": "Deinstallation of Exhibit",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": true,
-    "date": "2027-01-21",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Founders 2nd Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2027-01-21",
-      "2027-01-22",
-      "2027-01-23",
-      "2027-01-24"
-    ],
-    "lastDate": "2027-01-24"
-  },
-  {
-    "name": "Pacific Classic Gymnastics Meet",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-01-22",
-    "startTime": "7:00 AM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2027-01-22",
-      "2027-01-23",
-      "2027-01-24"
-    ],
-    "lastDate": "2027-01-24"
   },
   {
     "name": "Gallery Prep/paint/clean",
@@ -5084,38 +3460,6 @@
     "lastDate": "2027-02-13"
   },
   {
-    "name": "Admission Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-02-16",
-    "startTime": "9:00 AM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Office #119",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 8,
-    "occurrenceDates": [
-      "2027-02-16",
-      "2027-02-17",
-      "2027-02-18",
-      "2027-02-19",
-      "2027-02-20",
-      "2027-02-21",
-      "2027-02-22",
-      "2027-02-23"
-    ],
-    "lastDate": "2027-02-23"
-  },
-  {
     "name": "Orange County Youth Symphony &amp; String Ensemble Winter Concert",
     "type": "Campus Events",
     "public": true,
@@ -5180,31 +3524,6 @@
       "2027-02-26"
     ],
     "lastDate": "2027-02-26"
-  },
-  {
-    "name": "Post University Guests Cleaning (by Facilities)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-02-27",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "President's Office",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-02-27"
-    ],
-    "lastDate": "2027-02-27"
   },
   {
     "name": "Meet the Author",
@@ -5421,106 +3740,6 @@
       "2027-04-06"
     ],
     "lastDate": "2027-04-06"
-  },
-  {
-    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-10",
-    "startTime": "4:00 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-10"
-    ],
-    "lastDate": "2027-04-10"
-  },
-  {
-    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-10",
-    "startTime": "4:00 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Courtyard",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-10"
-    ],
-    "lastDate": "2027-04-10"
-  },
-  {
-    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-10",
-    "startTime": "4:00 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Office #119",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-10"
-    ],
-    "lastDate": "2027-04-10"
-  },
-  {
-    "name": "Wedding Ceremony/Cocktails/Reception (Miller & Goedecke)",
-    "type": "External Rental",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-10",
-    "startTime": "4:00 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Athenaeum Garden",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae  Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-10"
-    ],
-    "lastDate": "2027-04-10"
   },
   {
     "name": "Louis Lortie, piano",

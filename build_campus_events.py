@@ -45,7 +45,23 @@ PAGE_LIMIT = 200
 # Provisional per events-public-visibility.md (Sept 9 check) — confirmed
 # against 5 real records, not exhaustive. Revisit if a new eventData.type
 # value shows up that should also be excluded.
-EXCLUDE_TYPES = {"Academic Calendar"}
+#
+# "Internal Meeting" added per the Sept 14 meeting: real examples pulled
+# live that morning (a grad-school class entered as "EDU 517", an interns
+# onboarding, an Investment Office meeting) confirmed the whole category
+# doesn't belong on the campus display, not just individually-private
+# items within it. Staff without app access still need to confirm their
+# own room bookings somewhere — that's flagged as a separate "Meetings"
+# tab, not built here; see coursedog-launch-plan.md.
+EXCLUDE_TYPES = {"Academic Calendar", "Internal Meeting"}
+
+# Also per the Sept 14 meeting: External Rental is NOT a blanket exclude
+# like the types above — it's excluded by default but included when the
+# organizer explicitly marked it public. Concrete driver: Faye's rental
+# bookings mix genuinely external bookings with internal/public-interest
+# ones (e.g. National Philanthropy Day) — she flips `public` on the ones
+# that should surface instead of them being invisible either way.
+EXTERNAL_UNLESS_PUBLIC_TYPES = {"External Rental"}
 
 # There is no real "is this a facility notice" field in Coursedog — confirmed
 # absent from eventData in the Sept 11 live pull. The widget's "Facility
@@ -70,12 +86,37 @@ def get_token():
     return resp.json()["token"]
 
 
-def fetch_meetings(token, start_date, end_date):
-    """Paginated pull of every meeting in the window. Returns raw meeting dicts."""
+def daterange_chunks(start_date, end_date, chunk_days=30):
+    """Yields non-overlapping (chunk_start, chunk_end) date strings covering
+    [start_date, end_date].
+
+    Confirmed live (Sept 11): skip/limit pagination on /meetings silently
+    truncates once the requested window is wide enough — a full year
+    (2026-09-11..2027-09-11) came back with 710 meetings and nothing past
+    ~Dec 10, while a direct 12-day query in the *middle of that same year*
+    (2027-01-20..2027-02-01, a window the wide pull claimed had zero
+    results) returned 36 real meetings on its own. The wide pull wasn't
+    hitting "end of data" when it stopped paginating — it was hitting some
+    other limit and returning a short page that looked like the end.
+    Querying in smaller date windows keeps each individual query's result
+    count low enough that pagination behaves the way the narrow test query
+    did. Same style of gotcha already documented for LiveWhale's API
+    (monthly chunking + dedup as the reliable workaround) — turns out
+    Coursedog needs the identical treatment."""
+    cur = datetime.strptime(start_date, "%Y-%m-%d").date()
+    end = datetime.strptime(end_date, "%Y-%m-%d").date()
+    while cur <= end:
+        chunk_end = min(cur + timedelta(days=chunk_days - 1), end)
+        yield cur.strftime("%Y-%m-%d"), chunk_end.strftime("%Y-%m-%d")
+        cur = chunk_end + timedelta(days=1)
+
+
+def fetch_meetings_window(token, start_date, end_date, dump_raw=False):
+    """Paginated pull of every meeting in one (assumed-safe-size) window.
+    Returns raw meeting dicts."""
     headers = {"Authorization": f"Bearer {token}"}
     meetings = []
     skip = 0
-    dumped_raw = False
     while True:
         resp = requests.get(
             f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/meetings",
@@ -85,7 +126,7 @@ def fetch_meetings(token, start_date, end_date):
         resp.raise_for_status()
         page = resp.json()
 
-        if not dumped_raw:
+        if dump_raw and skip == 0:
             # Always capture the very first raw response, whatever shape it
             # turns out to be, BEFORE trying to interpret it. Guessing wrong
             # here is exactly what happened on the first live run (0 meetings
@@ -96,7 +137,6 @@ def fetch_meetings(token, start_date, end_date):
             log.info(f"Response type: {type(page).__name__}"
                       + (f", top-level keys: {list(page.keys())}" if isinstance(page, dict) else "")
                       + f" — wrote raw first page to {RAW_PAGE_FILE}")
-            dumped_raw = True
 
         # Response shape not yet confirmed at scale. /events shifted from a
         # bare dict/list to {data: [...], totalCount} on Aug 12; /meetings may
@@ -120,7 +160,26 @@ def fetch_meetings(token, start_date, end_date):
         if len(batch) < PAGE_LIMIT:
             break
         skip += PAGE_LIMIT
-    log.info(f"Pulled {len(meetings)} raw meetings, {start_date}..{end_date}")
+    return meetings
+
+
+def fetch_meetings(token, start_date, end_date):
+    """Pulls every meeting in [start_date, end_date] by querying in
+    chunk_days-sized windows and deduping by _id — see daterange_chunks()
+    for why a single wide-range query isn't safe to trust here."""
+    seen = {}
+    chunks = list(daterange_chunks(start_date, end_date))
+    for i, (chunk_start, chunk_end) in enumerate(chunks):
+        batch = fetch_meetings_window(token, chunk_start, chunk_end, dump_raw=(i == 0))
+        new = 0
+        for m in batch:
+            key = m.get("_id") or m.get("id")
+            if key not in seen:
+                seen[key] = m
+                new += 1
+        log.info(f"  {chunk_start}..{chunk_end}: {len(batch)} meetings ({new} new)")
+    meetings = list(seen.values())
+    log.info(f"Pulled {len(meetings)} unique raw meetings across {len(chunks)} chunks, {start_date}..{end_date}")
     return meetings
 
 
@@ -132,7 +191,12 @@ def is_excluded(meeting):
         return True
     if meeting.get("isSetup") or meeting.get("isTeardown"):
         return True
-    if ev.get("type") in EXCLUDE_TYPES:
+    ev_type = ev.get("type")
+    if ev_type in EXCLUDE_TYPES:
+        return True
+    # Sept 14 meeting: exclude External Rental UNLESS explicitly public —
+    # see EXTERNAL_UNLESS_PUBLIC_TYPES above for why.
+    if ev_type in EXTERNAL_UNLESS_PUBLIC_TYPES and not ev.get("public"):
         return True
     return False
 
@@ -280,7 +344,9 @@ def main():
         log.warning("No meetings returned — check credentials/date window before assuming this is correct")
 
     kept = [m for m in raw if not is_excluded(m)]
-    log.info(f"{len(kept)} of {len(raw)} meetings kept after filtering (private / setup / teardown / {sorted(EXCLUDE_TYPES)})")
+    log.info(f"{len(kept)} of {len(raw)} meetings kept after filtering "
+             f"(private / setup / teardown / {sorted(EXCLUDE_TYPES)} / "
+             f"non-public {sorted(EXTERNAL_UNLESS_PUBLIC_TYPES)})")
 
     rows = [transform(m, rooms, orgs) for m in kept]
     events = group_and_dedupe(rows)
