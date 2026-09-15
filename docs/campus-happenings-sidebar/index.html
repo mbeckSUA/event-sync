@@ -404,7 +404,15 @@ function localDateStr(d){
 function fmtDayHeading(dateStr){
   const [y,m,d] = dateStr.split('-').map(Number);
   const dt = new Date(y, m-1, d);
-  return dt.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+  const full = dt.toLocaleDateString('en-US', {month:'long', day:'numeric'});
+  const todayStr = localDateStr();
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  let label;
+  if(dateStr === todayStr) label = 'Today';
+  else if(dateStr === localDateStr(tomorrow)) label = 'Tomorrow';
+  else label = dt.toLocaleDateString('en-US', {weekday:'long'});
+  return label + ', ' + full;
 }
 
 function escapeHtml(s){
