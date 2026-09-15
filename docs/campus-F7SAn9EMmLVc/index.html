@@ -716,12 +716,21 @@ function filtersActive(){
 // series only ever shows on the single day it first happened, and vanishes
 // from the calendar/list entirely once that day is filtered out or past.
 // See build_campus_events.py's group_and_dedupe for why this exists.
+//
+// Default floor is today, not the dawn of time: a single-occurrence event
+// anchored yesterday (or a recurring series' first, already-past occurrence)
+// would otherwise sit at the top of the list forever. "All upcoming" (the
+// Sept 14 meeting's decision) means today forward, not literally everything
+// — matches the sidebar widget's own todayStr floor. An explicit dateFrom
+// the user picks (the range picker allows past dates) always wins.
 function filteredEvents(){
   const out = [];
+  const todayStr = new Date().toISOString().slice(0,10);
+  const effectiveFrom = dateFrom || todayStr;
   EVENTS.forEach((e, idx) => {
     if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return;
     (e.occurrenceDates || [e.date]).forEach(d => {
-      if(dateFrom && d < dateFrom) return;
+      if(d < effectiveFrom) return;
       if(dateTo && d > dateTo) return;
       out.push(Object.assign({}, e, {date: d, _idx: idx}));
     });
@@ -1010,11 +1019,29 @@ function renderCurrent(){
 // range) so a room-booking mistake is exactly as visible here as a clean
 // one. Reuses the .day-group/.row-wrap/.row/.time/.content/.title-line/
 // .meta classes from the events list for visual consistency.
+// Same today-forward floor and occurrenceDates expansion as filteredEvents()
+// above: without it a recurring internal meeting (biweekly Investment Office
+// meeting, say) shows once on its first-ever occurrence date and then, once
+// that date passes, disappears from this tab entirely — the opposite of
+// what it's for (staff confirming a booking is really on the books).
+function filteredMeetings(){
+  const todayStr = new Date().toISOString().slice(0,10);
+  const out = [];
+  MEETINGS.forEach((m, idx) => {
+    (m.occurrenceDates || [m.date]).forEach(d => {
+      if(d < todayStr) return;
+      out.push(Object.assign({}, m, {date: d, _idx: idx}));
+    });
+  });
+  return out;
+}
+
 function renderMeetings(){
   const list = document.getElementById('meetingsList');
   list.innerHTML = '';
 
-  if(!MEETINGS.length){
+  const meetings = filteredMeetings();
+  if(!meetings.length){
     const empty = document.createElement('p');
     empty.className = 'empty-state';
     empty.textContent = meetingsLoadFailed
@@ -1025,7 +1052,7 @@ function renderMeetings(){
   }
 
   const groups = {};
-  MEETINGS.forEach(m => { (groups[m.date] = groups[m.date] || []).push(m); });
+  meetings.forEach(m => { (groups[m.date] = groups[m.date] || []).push(m); });
   const dates = Object.keys(groups).sort();
 
   dates.forEach(date => {
