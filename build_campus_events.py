@@ -4,6 +4,12 @@ Pulls upcoming Coursedog meetings and writes docs/events.json — the data
 file campus_happenings.html and campus_happenings_sidebar.html fetch at
 load time, replacing the baked-in static EVENTS array.
 
+Also writes docs/meetings.json (added Sept 15, per the Sept 14 meeting):
+the Internal Meeting events excluded from events.json above, for the
+campus_happenings.html "Meetings" tab — staff without app access still
+need somewhere to confirm their own room bookings show up. Sidebar stays
+events-only by design (Martin: "keep the sidebar clean").
+
 Read-only: uses the dedicated read-only API user (see api-user-setup.md),
 never writes to Coursedog.
 
@@ -27,6 +33,7 @@ import requests
 
 PACIFIC = ZoneInfo("America/Los_Angeles")
 OUT_FILE = Path(__file__).parent / "docs" / "events.json"
+MEETINGS_OUT_FILE = Path(__file__).parent / "docs" / "meetings.json"
 DEBUG_SAMPLE_FILE = Path(__file__).parent / "debug_sample.json"
 RAW_PAGE_FILE = Path(__file__).parent / "debug_raw_page.json"
 
@@ -201,6 +208,22 @@ def is_excluded(meeting):
     return False
 
 
+def is_internal_meeting(meeting):
+    """Meetings-tab companion to is_excluded(): Internal Meeting events are
+    excluded from the main campus display (Sept 14 decision) but staff
+    without app access still need to confirm their own room bookings show
+    up somewhere. Same private/isSetup/isTeardown guards as is_excluded(),
+    just targeting the type that function drops instead of the ones it
+    keeps. Feeds docs/meetings.json / the "Meetings" tab, not the sidebar
+    (kept events-only by design)."""
+    ev = meeting.get("eventData") or {}
+    if ev.get("private") is True:
+        return False
+    if meeting.get("isSetup") or meeting.get("isTeardown"):
+        return False
+    return ev.get("type") == "Internal Meeting"
+
+
 def fmt_time(hhmm):
     """Coursedog meeting times come back as an int/str like 1900 (7:00 PM),
     or absent for all-day meetings."""
@@ -355,6 +378,14 @@ def main():
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(events, indent=2))
     log.info(f"Wrote {len(events)} events to {OUT_FILE}")
+
+    meeting_raw = [m for m in raw if is_internal_meeting(m)]
+    meeting_rows = [transform(m, rooms, orgs) for m in meeting_raw]
+    meetings = group_and_dedupe(meeting_rows)
+    meetings.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
+
+    MEETINGS_OUT_FILE.write_text(json.dumps(meetings, indent=2))
+    log.info(f"Wrote {len(meetings)} internal meetings to {MEETINGS_OUT_FILE}")
 
 
 if __name__ == "__main__":

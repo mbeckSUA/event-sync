@@ -69,6 +69,15 @@
   }
   .dek strong{color:var(--ink); font-weight:600;}
 
+  .top-toggle{margin-bottom:20px;}
+
+  .meetings-note{
+    font-size:13.5px;
+    color:var(--ink-muted);
+    max-width:62ch;
+    margin:0 0 24px;
+  }
+
   .controls{
     position:sticky;
     top:0;
@@ -531,6 +540,11 @@
     <p class="dek">Everything going on around the Aliso Viejo campus.</p>
   </header>
 
+  <div class="toggle top-toggle" role="tablist" aria-label="Section">
+    <button id="btnEvents" role="tab" class="active">Events</button>
+    <button id="btnMeetings" role="tab">Meetings</button>
+  </div>
+
   <div class="controls">
     <div class="toggle-row">
       <div class="toggle" role="tablist" aria-label="Display mode">
@@ -564,6 +578,11 @@
     <div class="cal-grid" id="calGrid"></div>
   </div>
 
+  <div id="meetingsView" class="hidden-view">
+    <p class="meetings-note">Internal meetings and room bookings, pulled straight from Coursedog — shown here instead of the main calendar so staff without app access can confirm a booking went through. Not curated: titles and details are exactly as entered in Coursedog.</p>
+    <div id="meetingsList"></div>
+  </div>
+
   <footer>
     <p>Pulled from Coursedog production, refreshed automatically. Excludes anything genuinely marked <em>Private</em> (Coursedog redacts these server-side before they even reach this data), room setup/teardown blocks, and Academic Calendar entries &mdash; those aren't "happenings" in the sense this view is for.</p>
     <p><em>Facility notice</em> is a hand-tuned guess (matches names containing "set-up," "installation," or gallery prep/paint/clean) flagging things like a closed gallery rather than an attendable event &mdash; it'll misfire as more data comes in unless these get a real, consistent tag or naming convention in Coursedog itself.</p>
@@ -574,7 +593,9 @@
 
 <script>
 let EVENTS = [];
+let MEETINGS = [];
 let loadFailed = false;
+let meetingsLoadFailed = false;
 
 const CATEGORY = {
   'Campus Events': {cls:'t-campus', label:'Campus'},
@@ -675,6 +696,7 @@ function hasDetail(e){
 }
 
 let currentMode = 'list';  // 'list' | 'calendar'
+let currentSection = 'events';  // 'events' | 'meetings'
 let calMonth = null;       // {y, m} 0-indexed month, set on first render
 
 // ---------- Filtering ----------
@@ -980,6 +1002,93 @@ function renderCurrent(){
   if(currentMode === 'list') renderList(); else renderCalendar();
 }
 
+// ---------- Meetings tab ----------
+// Deliberately simpler than renderList(): no clickable expand, no images,
+// no category tags (there's only one category here) — this is a lookup
+// tool for "did my booking show up," not a promotional feed, and the data
+// is unfiltered/unfilterable by design (no category legend, no date
+// range) so a room-booking mistake is exactly as visible here as a clean
+// one. Reuses the .day-group/.row-wrap/.row/.time/.content/.title-line/
+// .meta classes from the events list for visual consistency.
+function renderMeetings(){
+  const list = document.getElementById('meetingsList');
+  list.innerHTML = '';
+
+  if(!MEETINGS.length){
+    const empty = document.createElement('p');
+    empty.className = 'empty-state';
+    empty.textContent = meetingsLoadFailed
+      ? 'Couldn’t load meetings right now.'
+      : 'No internal meetings on the books right now.';
+    list.appendChild(empty);
+    return;
+  }
+
+  const groups = {};
+  MEETINGS.forEach(m => { (groups[m.date] = groups[m.date] || []).push(m); });
+  const dates = Object.keys(groups).sort();
+
+  dates.forEach(date => {
+    const items = groups[date];
+
+    const dayEl = document.createElement('div');
+    dayEl.className = 'day-group';
+    const heading = document.createElement('h2');
+    heading.className = 'day-heading';
+    heading.innerHTML = fmtDayHeading(date) + '<span class="count">' + items.length + ' meeting' + (items.length===1?'':'s') + '</span>';
+    dayEl.appendChild(heading);
+
+    items.forEach(m => {
+      const wrap = document.createElement('div');
+      wrap.className = 'row-wrap';
+
+      const row = document.createElement('div');
+      row.className = 'row';
+
+      const time = document.createElement('div');
+      time.className = 'time';
+      if(m.allDay){
+        time.textContent = 'All day';
+      } else {
+        time.innerHTML = escapeHtml(m.startTime || '') + (m.endTime ? '<span class="end">' + escapeHtml(m.endTime) + '</span>' : '');
+      }
+      row.appendChild(time);
+
+      const content = document.createElement('div');
+      content.className = 'content';
+
+      const titleLine = document.createElement('div');
+      titleLine.className = 'title-line';
+      const title = document.createElement('p');
+      title.className = 'title';
+      title.textContent = m.name;
+      titleLine.appendChild(title);
+      if(m.occurrenceCount > 1){
+        const occ = document.createElement('span');
+        occ.className = 'occ';
+        occ.textContent = '×' + m.occurrenceCount;
+        titleLine.appendChild(occ);
+      }
+      content.appendChild(titleLine);
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      const parts = [];
+      if(m.room) parts.push(m.room);
+      if(m.building && m.building !== m.room) parts.push(m.building);
+      if(m.org) parts.push(m.org);
+      meta.textContent = parts.join(' · ') || '—';
+      content.appendChild(meta);
+
+      row.appendChild(content);
+      wrap.appendChild(row);
+      dayEl.appendChild(wrap);
+    });
+
+    list.appendChild(dayEl);
+  });
+}
+
 // ---------- Controls ----------
 let total = 0;
 
@@ -992,13 +1101,36 @@ function setMode(mode){
   currentMode = mode;
   btnList.classList.toggle('active', mode === 'list');
   btnCal.classList.toggle('active', mode === 'calendar');
-  listView.classList.toggle('hidden-view', mode !== 'list');
-  calView.classList.toggle('hidden-view', mode !== 'calendar');
+  listView.classList.toggle('hidden-view', !(currentSection === 'events' && mode === 'list'));
+  calView.classList.toggle('hidden-view', !(currentSection === 'events' && mode === 'calendar'));
   renderCurrent();
 }
 
 btnList.addEventListener('click', () => setMode('list'));
 btnCal.addEventListener('click', () => setMode('calendar'));
+
+// Top-level Events/Meetings section toggle — separate from the List/
+// Calendar mode toggle above, which only applies within Events. Meetings
+// gets no List/Calendar split, no category legend, no date range: it's a
+// single flat list, on purpose (see renderMeetings()).
+const btnEvents = document.getElementById('btnEvents');
+const btnMeetings = document.getElementById('btnMeetings');
+const controlsEl = document.querySelector('.controls');
+const meetingsView = document.getElementById('meetingsView');
+
+function setSection(section){
+  currentSection = section;
+  btnEvents.classList.toggle('active', section === 'events');
+  btnMeetings.classList.toggle('active', section === 'meetings');
+  controlsEl.classList.toggle('hidden-view', section !== 'events');
+  listView.classList.toggle('hidden-view', !(section === 'events' && currentMode === 'list'));
+  calView.classList.toggle('hidden-view', !(section === 'events' && currentMode === 'calendar'));
+  meetingsView.classList.toggle('hidden-view', section !== 'meetings');
+  if(section === 'meetings') renderMeetings();
+}
+
+btnEvents.addEventListener('click', () => setSection('events'));
+btnMeetings.addEventListener('click', () => setSection('meetings'));
 
 document.getElementById('calPrev').addEventListener('click', () => {
   const idx = MONTHS_WITH_DATA.findIndex(([y,m]) => y===calMonth.y && m===calMonth.m);
@@ -1115,6 +1247,20 @@ async function loadEvents(){
     EVENTS = EVENTS.length ? EVENTS : [];
   }
 
+  // meetings.json is newer than events.json (added Sept 15) and optional —
+  // fail quietly into an empty Meetings tab rather than breaking Events if
+  // it's missing or a stale deploy hasn't regenerated it yet.
+  try {
+    const mResp = await fetch('../meetings.json', {cache: 'no-store'});
+    if(!mResp.ok) throw new Error('HTTP ' + mResp.status);
+    MEETINGS = await mResp.json();
+    meetingsLoadFailed = false;
+  } catch(err) {
+    console.error('Failed to load meetings.json', err);
+    meetingsLoadFailed = true;
+    MEETINGS = MEETINGS.length ? MEETINGS : [];
+  }
+
   total = EVENTS.length;
   MONTHS_WITH_DATA = computeMonthsWithData(EVENTS);
   calMonth = null; // re-derive on next renderCalendar() from the fresh MONTHS_WITH_DATA
@@ -1131,6 +1277,7 @@ async function loadEvents(){
   setMode(currentMode || 'list');
   syncLegendUI();
   updateFilterUI();
+  if(currentSection === 'meetings') renderMeetings();
 }
 
 loadEvents();
