@@ -616,10 +616,28 @@ function catFor(e){
   return e.facility ? FACILITY_TAG : (CATEGORY[e.type] || {cls:'t-campus', label:e.type});
 }
 
+// YYYY-MM-DD in the *browser's local* calendar day, not UTC. Date's own
+// toISOString() always reports UTC, which silently rolls over to tomorrow
+// several hours before midnight Pacific (UTC is 7-8hrs ahead) — every
+// "today" comparison on this page needs this, not toISOString(), or things
+// start vanishing/mislabeling themselves in the evening.
+function localDateStr(d){
+  d = d || new Date();
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+
 function fmtDayHeading(dateStr){
   const [y,m,d] = dateStr.split('-').map(Number);
   const dt = new Date(y, m-1, d);
-  return dt.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+  const full = dt.toLocaleDateString('en-US', {month:'long', day:'numeric'});
+  const todayStr = localDateStr();
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  let label;
+  if(dateStr === todayStr) label = 'Today';
+  else if(dateStr === localDateStr(tomorrow)) label = 'Tomorrow';
+  else label = dt.toLocaleDateString('en-US', {weekday:'long'});
+  return label + ', ' + full;
 }
 
 function escapeHtml(s){
@@ -725,7 +743,7 @@ function filtersActive(){
 // the user picks (the range picker allows past dates) always wins.
 function filteredEvents(){
   const out = [];
-  const todayStr = new Date().toISOString().slice(0,10);
+  const todayStr = localDateStr();
   const effectiveFrom = dateFrom || todayStr;
   EVENTS.forEach((e, idx) => {
     if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return;
@@ -956,7 +974,7 @@ function renderCalendar(){
   const firstOfMonth = new Date(calMonth.y, calMonth.m, 1);
   const startOffset = firstOfMonth.getDay();
   const daysInMonth = new Date(calMonth.y, calMonth.m + 1, 0).getDate();
-  const todayStr = new Date().toISOString().slice(0,10);
+  const todayStr = localDateStr();
 
   for(let i = 0; i < startOffset; i++){
     const pad = document.createElement('div');
@@ -1025,7 +1043,7 @@ function renderCurrent(){
 // that date passes, disappears from this tab entirely — the opposite of
 // what it's for (staff confirming a booking is really on the books).
 function filteredMeetings(){
-  const todayStr = new Date().toISOString().slice(0,10);
+  const todayStr = localDateStr();
   const out = [];
   MEETINGS.forEach((m, idx) => {
     (m.occurrenceDates || [m.date]).forEach(d => {

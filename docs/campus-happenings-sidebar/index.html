@@ -393,6 +393,14 @@ function catFor(e){
   return e.facility ? FACILITY_TAG : (CATEGORY[e.type] || {cls:'t-campus', label:e.type});
 }
 
+// YYYY-MM-DD in the *browser's local* calendar day, not UTC. Date's own
+// toISOString() always reports UTC, which silently rolls the window over to
+// tomorrow several hours before midnight Pacific (UTC is 7-8hrs ahead).
+function localDateStr(d){
+  d = d || new Date();
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+
 function fmtDayHeading(dateStr){
   const [y,m,d] = dateStr.split('-').map(Number);
   const dt = new Date(y, m-1, d);
@@ -483,10 +491,10 @@ function hasDetail(e){
 // needs to show up on the days it's actually happening, not just on its
 // very first occurrence back whenever it started.
 function filteredEvents(){
-  const todayStr = new Date().toISOString().slice(0,10);
+  const todayStr = localDateStr();
   const end = new Date();
   end.setDate(end.getDate() + 6);
-  const endStr = end.toISOString().slice(0,10);
+  const endStr = localDateStr(end);
   const out = [];
   EVENTS.forEach(e => {
     (e.occurrenceDates || [e.date]).forEach(d => {
