@@ -121,41 +121,22 @@
   }
   .toggle button:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
 
-  .legend{
-    display:flex;
-    gap:8px;
-    flex-wrap:wrap;
-    min-width:0;
-    width:100%;
-  }
-  .legend-item{
-    appearance:none;
-    display:inline-flex;
-    align-items:center;
-    gap:6px;
+  /* Sept 18: was a row of multi-select toggle chips; switched to a plain
+     single-select dropdown to match events.soka.edu's own filter style
+     (Susan's ask — visual consistency, fewer patterns across pages).
+     Nobody had asked to keep viewing two categories at once, so the
+     simpler control is a straight improvement, not a compromise. */
+  .category-select{
     font-family:'Work Sans',ui-sans-serif,system-ui,sans-serif;
-    font-size:12px;
-    font-weight:500;
-    color:var(--ink-muted);
+    font-size:12.5px;
+    color:var(--ink);
     background:var(--paper-raised);
-    border:1px solid var(--line-soft);
-    border-radius:999px;
-    padding:5px 10px 5px 8px;
+    border:1px solid var(--line);
+    border-radius:7px;
+    padding:5px 7px;
     cursor:pointer;
-    transition:opacity .15s ease, border-color .15s ease, color .15s ease, background .15s ease;
   }
-  .legend-item:hover{border-color:var(--line);}
-  .legend-item:focus-visible{outline:2px solid var(--teal); outline-offset:2px;}
-  /* Only dim the *other* chips once something is actually selected — a chip's
-     resting state always reads as "included", never as "off by default". */
-  #categoryFilter.filtering .legend-item:not(.selected){opacity:.4;}
-  .legend-item.selected{font-weight:600; color:var(--ink); border-color:currentColor;}
-  .legend-item.selected[data-cls="t-campus"]{background:var(--teal-tint); color:var(--teal);}
-  .legend-item.selected[data-cls="t-academic"]{background:var(--ochre-tint); color:var(--ochre);}
-  .legend-item.selected[data-cls="t-org"]{background:var(--periwinkle-tint); color:var(--periwinkle);}
-  .legend-item.selected[data-cls="t-milestone"]{background:var(--slate-tint); color:var(--slate);}
-  .legend-item.selected[data-cls="t-facility"]{background:var(--clay-tint); color:var(--clay);}
-  .swatch{width:9px; height:9px; border-radius:2px; display:inline-block; flex-shrink:0;}
+  .category-select:focus-visible{outline:2px solid var(--teal); outline-offset:1px;}
 
   .date-range{
     display:flex;
@@ -557,13 +538,14 @@
         <button type="button" id="clearFilters" class="clear-filters" hidden>Clear filters</button>
       </div>
     </div>
-    <div class="legend" id="categoryFilter" role="group" aria-label="Filter by category">
-      <button type="button" class="legend-item" data-cls="t-campus" aria-pressed="false"><span class="swatch" style="background:var(--teal)"></span>Campus Events</button>
-      <button type="button" class="legend-item" data-cls="t-academic" aria-pressed="false"><span class="swatch" style="background:var(--ochre)"></span>Academic</button>
-      <button type="button" class="legend-item" data-cls="t-org" aria-pressed="false"><span class="swatch" style="background:var(--periwinkle)"></span>Student Org</button>
-      <button type="button" class="legend-item" data-cls="t-milestone" aria-pressed="false"><span class="swatch" style="background:var(--slate)"></span>Academic Calendar</button>
-      <button type="button" class="legend-item" data-cls="t-facility" aria-pressed="false"><span class="swatch" style="background:var(--clay)"></span>Facility notice</button>
-    </div>
+    <select id="categoryFilter" class="category-select" aria-label="Filter by category">
+      <option value="">All categories</option>
+      <option value="t-campus">Campus Events</option>
+      <option value="t-academic">Academic</option>
+      <option value="t-org">Student Org</option>
+      <option value="t-milestone">Academic Calendar</option>
+      <option value="t-facility">Facility notice</option>
+    </select>
     <p class="result-count" id="resultCount" hidden></p>
   </div>
 
@@ -718,15 +700,16 @@ let currentSection = 'events';  // 'events' | 'meetings'
 let calMonth = null;       // {y, m} 0-indexed month, set on first render
 
 // ---------- Filtering ----------
-// activeCategories is the set of categories the user has explicitly picked.
-// Empty = no filter = show every category. Selecting one or more narrows the
-// list to just those — selecting is additive/inclusive, never subtractive.
-let activeCategories = new Set();
+// activeCategory is the single category picked in the dropdown, or '' for
+// no filter (show every category). Single-select as of Sept 18 — see the
+// .category-select CSS comment for why this replaced the old multi-select
+// chip row.
+let activeCategory = '';
 let dateFrom = null;  // 'YYYY-MM-DD' or null
 let dateTo = null;    // 'YYYY-MM-DD' or null
 
 function filtersActive(){
-  return activeCategories.size > 0 || !!dateFrom || !!dateTo;
+  return !!activeCategory || !!dateFrom || !!dateTo;
 }
 
 // Expands each event onto every date in its occurrenceDates that survives
@@ -746,7 +729,7 @@ function filteredEvents(){
   const todayStr = localDateStr();
   const effectiveFrom = dateFrom || todayStr;
   EVENTS.forEach((e, idx) => {
-    if(activeCategories.size > 0 && !activeCategories.has(catFor(e).cls)) return;
+    if(activeCategory && catFor(e).cls !== activeCategory) return;
     (e.occurrenceDates || [e.date]).forEach(d => {
       if(d < effectiveFrom) return;
       if(dateTo && d > dateTo) return;
@@ -1191,7 +1174,7 @@ const dateFromInput = document.getElementById('dateFrom');
 const dateToInput = document.getElementById('dateTo');
 const clearFiltersBtn = document.getElementById('clearFilters');
 const resultCountEl = document.getElementById('resultCount');
-const legendButtons = [...document.querySelectorAll('.legend-item')];
+const categorySelect = document.getElementById('categoryFilter');
 
 function jumpCalendarToDate(dateStr){
   if(!dateStr) return;
@@ -1216,24 +1199,9 @@ function applyFilters(){
   renderCurrent();
 }
 
-function syncLegendUI(){
-  const filtering = activeCategories.size > 0;
-  document.getElementById('categoryFilter').classList.toggle('filtering', filtering);
-  legendButtons.forEach(btn => {
-    const selected = activeCategories.has(btn.dataset.cls);
-    btn.classList.toggle('selected', selected);
-    btn.setAttribute('aria-pressed', String(selected));
-  });
-}
-
-legendButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const cls = btn.dataset.cls;
-    if(activeCategories.has(cls)) activeCategories.delete(cls);
-    else activeCategories.add(cls);
-    syncLegendUI();
-    applyFilters();
-  });
+categorySelect.addEventListener('change', () => {
+  activeCategory = categorySelect.value;
+  applyFilters();
 });
 
 dateFromInput.addEventListener('change', () => {
@@ -1250,8 +1218,8 @@ dateToInput.addEventListener('change', () => {
 });
 
 clearFiltersBtn.addEventListener('click', () => {
-  activeCategories = new Set();
-  syncLegendUI();
+  activeCategory = '';
+  categorySelect.value = '';
   dateFrom = null;
   dateTo = null;
   dateFromInput.value = '';
@@ -1320,7 +1288,6 @@ async function loadEvents(){
   }
 
   setMode(currentMode || 'list');
-  syncLegendUI();
   updateFilterUI();
   if(currentSection === 'meetings') renderMeetings();
 }
