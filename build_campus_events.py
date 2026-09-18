@@ -65,7 +65,16 @@ PAGE_LIMIT = 200
 # recurring tutoring room bookings (Spanish, Chinese — both public:false,
 # ~50 occurrences each) cluttering the main list the same way Internal
 # Meeting did. Same treatment: dropped here, kept on the Meetings tab.
-EXCLUDE_TYPES = {"Academic Calendar", "Internal Meeting", "Student Request Form"}
+#
+# "Academic Calendar" REMOVED Sept 18: this set had drifted from the actual
+# decision. The Sept 14 exclusion was provisional ("likely... a scheduling
+# marker, not something anyone attends" per events-public-visibility.md),
+# but the Sept 16 meeting explicitly confirmed the opposite — add/drop
+# deadlines etc. are useful and should stay on the portal (see "Confirmed
+# still useful, no change needed" in campus-happenings-status.md) — and
+# the code was never updated to match. These events flow through normally
+# now, same as any other type.
+EXCLUDE_TYPES = {"Internal Meeting", "Student Request Form"}
 
 # Also per the Sept 14 meeting: External Rental is NOT a blanket exclude
 # like the types above — it's excluded by default but included when the
