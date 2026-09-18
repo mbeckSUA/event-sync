@@ -808,7 +808,7 @@ function renderList(){
       title.textContent = e.name;
       titleLine.appendChild(title);
 
-      if(cat.cls !== 't-campus' && cat.cls !== 't-academic'){
+      if(cat.cls !== 't-campus' && cat.cls !== 't-academic' && cat.cls !== 't-org' && cat.cls !== 't-facility'){
         const tag = document.createElement('span');
         tag.className = 'tag ' + cat.cls;
         tag.textContent = cat.label;
