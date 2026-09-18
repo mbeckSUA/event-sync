@@ -5,10 +5,11 @@ file campus_happenings.html and campus_happenings_sidebar.html fetch at
 load time, replacing the baked-in static EVENTS array.
 
 Also writes docs/meetings.json (added Sept 15, per the Sept 14 meeting):
-the Internal Meeting events excluded from events.json above, for the
-campus_happenings.html "Meetings" tab — staff without app access still
-need somewhere to confirm their own room bookings show up. Sidebar stays
-events-only by design (Martin: "keep the sidebar clean").
+the Internal Meeting / Student Request Form events excluded from
+events.json above, for the campus_happenings.html "Meetings" tab — staff
+and students without app access still need somewhere to confirm their own
+room bookings show up. Sidebar stays events-only by design (Martin: "keep
+the sidebar clean").
 
 Read-only: uses the dedicated read-only API user (see api-user-setup.md),
 never writes to Coursedog.
@@ -60,7 +61,11 @@ PAGE_LIMIT = 200
 # items within it. Staff without app access still need to confirm their
 # own room bookings somewhere — that's flagged as a separate "Meetings"
 # tab, not built here; see coursedog-launch-plan.md.
-EXCLUDE_TYPES = {"Academic Calendar", "Internal Meeting"}
+# "Student Request Form" added Sept 18: the only two live instances were
+# recurring tutoring room bookings (Spanish, Chinese — both public:false,
+# ~50 occurrences each) cluttering the main list the same way Internal
+# Meeting did. Same treatment: dropped here, kept on the Meetings tab.
+EXCLUDE_TYPES = {"Academic Calendar", "Internal Meeting", "Student Request Form"}
 
 # Also per the Sept 14 meeting: External Rental is NOT a blanket exclude
 # like the types above — it's excluded by default but included when the
@@ -208,20 +213,27 @@ def is_excluded(meeting):
     return False
 
 
-def is_internal_meeting(meeting):
-    """Meetings-tab companion to is_excluded(): Internal Meeting events are
-    excluded from the main campus display (Sept 14 decision) but staff
-    without app access still need to confirm their own room bookings show
-    up somewhere. Same private/isSetup/isTeardown guards as is_excluded(),
-    just targeting the type that function drops instead of the ones it
-    keeps. Feeds docs/meetings.json / the "Meetings" tab, not the sidebar
-    (kept events-only by design)."""
+# Types that get dropped from the main display but still surface on the
+# Meetings tab, per is_meetings_tab_item() below. Internal Meeting (Sept 14)
+# and Student Request Form (Sept 18) so far — both are room bookings people
+# need to confirm went through, not "happenings" for a public calendar.
+MEETINGS_TAB_TYPES = {"Internal Meeting", "Student Request Form"}
+
+
+def is_meetings_tab_item(meeting):
+    """Meetings-tab companion to is_excluded(): MEETINGS_TAB_TYPES events are
+    excluded from the main campus display but staff/students without app
+    access still need to confirm their own room bookings show up somewhere.
+    Same private/isSetup/isTeardown guards as is_excluded(), just targeting
+    the types that function drops instead of the ones it keeps. Feeds
+    docs/meetings.json / the "Meetings" tab, not the sidebar (kept
+    events-only by design)."""
     ev = meeting.get("eventData") or {}
     if ev.get("private") is True:
         return False
     if meeting.get("isSetup") or meeting.get("isTeardown"):
         return False
-    return ev.get("type") == "Internal Meeting"
+    return ev.get("type") in MEETINGS_TAB_TYPES
 
 
 def fmt_time(hhmm):
@@ -379,7 +391,7 @@ def main():
     OUT_FILE.write_text(json.dumps(events, indent=2))
     log.info(f"Wrote {len(events)} events to {OUT_FILE}")
 
-    meeting_raw = [m for m in raw if is_internal_meeting(m)]
+    meeting_raw = [m for m in raw if is_meetings_tab_item(m)]
     meeting_rows = [transform(m, rooms, orgs) for m in meeting_raw]
     meetings = group_and_dedupe(meeting_rows)
     meetings.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
