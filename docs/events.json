@@ -3,10 +3,10 @@
     "name": "Founders Gallery Closed",
     "type": "Campus Events",
     "public": true,
-    "description": "Gallery closed for new exhibit installation.",
+    "description": "Gallery closed for new exhibit installation. Opening Reception is scheduled for September  24, 2026 at 5:30 PM.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "startTime": null,
     "endTime": null,
     "allDay": true,
@@ -18,9 +18,8 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 12,
+    "occurrenceCount": 10,
     "occurrenceDates": [
-      "2026-09-18",
       "2026-09-19",
       "2026-09-20",
       "2026-09-21",
@@ -28,156 +27,6 @@
       "2026-09-23"
     ],
     "lastDate": "2026-09-23"
-  },
-  {
-    "name": "Careers in Finance",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Soka-B2B-cmyk-wSoka.png",
-    "contact": {
-      "name": "Bridges to Business Office",
-      "email": "mpliushchanskii@soka.edu"
-    },
-    "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "SBS Capstone 390 Orientation",
-    "type": "Academic Affairs Events & Reservations",
-    "public": true,
-    "description": "These are two orientation sessions to review the expectations and policies for Capstone. The session will be mandated for all SBS CAP 390 students. Students may choose to attend on or the other session.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "Counseling Services tabling for Suicide Prevention Awareness Month",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Info, resources & snacks provided for Suicide Prevention Awareness Month. There is hope & help is available!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/REVISED%20A%20frame.png",
-    "contact": {
-      "name": "April Nelson Afoa",
-      "email": "anelsonafoa@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "Soka Leadership Escape Room",
-    "type": "Campus Events",
-    "public": true,
-    "description": "This is an interactive experience that gives students the opportunity to develop essential leadership skills through a collaborative escape room challenge and serves as an introduction to the Emerging Leaders Program.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://cglink.me/2pq/r380287\">https://cglink.me/2pq/r380287</a></p><p></p>",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "4:30 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/r3_image_upload_2381590_Escape_Room_2025_24_x_18_in_d543bea3-a388-4db3-8abd-e7f070d50831_810144054.png",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "Intramurals: Beach Volleyball",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual! \n\nLocation: Beach Volleyball Court next to the Rec Center\n\nCreate you IM Leagues account to sign up!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
-  },
-  {
-    "name": "Welcome Back Dance",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "More info coming soon!",
-    "extendedDescription": "<p>Registration coming soon! </p>",
-    "facility": false,
-    "date": "2026-09-18",
-    "startTime": "8:00 PM",
-    "endTime": "11:00 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/1788983418235-d10a62b9-32d2-495c-af9f-1aef6683bfee_1.jpg",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-18"
-    ],
-    "lastDate": "2026-09-18"
   },
   {
     "name": "Men's Soccer vs OUAZ",
@@ -2384,7 +2233,7 @@
     "name": "Vote Center: Statewide General Election",
     "type": "Campus Events",
     "public": false,
-    "description": "",
+    "description": "Exhibit is closed for statewide elections. Founders Gallery will reopen on November 5. (General hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-28",
@@ -3975,11 +3824,15 @@
     "imageURL": "",
     "contact": null,
     "org": "Academic Calendar",
-    "occurrenceCount": 1,
+    "occurrenceCount": 5,
     "occurrenceDates": [
-      "2027-03-22"
+      "2027-03-22",
+      "2027-03-23",
+      "2027-03-24",
+      "2027-03-25",
+      "2027-03-26"
     ],
-    "lastDate": "2027-03-22"
+    "lastDate": "2027-03-26"
   },
   {
     "name": "Low Grade Notices due to Registrar",
