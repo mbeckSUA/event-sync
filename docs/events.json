@@ -6,7 +6,7 @@
     "description": "Gallery closed for new exhibit installation. Opening Reception is scheduled for September  24, 2026 at 5:30 PM.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "startTime": null,
     "endTime": null,
     "allDay": true,
@@ -18,59 +18,14 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 10,
+    "occurrenceCount": 8,
     "occurrenceDates": [
-      "2026-09-19",
       "2026-09-20",
       "2026-09-21",
       "2026-09-22",
       "2026-09-23"
     ],
     "lastDate": "2026-09-23"
-  },
-  {
-    "name": "Men's Soccer vs OUAZ",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Men's Soccer vs OUAZ\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-19",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-19"
-    ],
-    "lastDate": "2026-09-19"
-  },
-  {
-    "name": "Women's Soccer vs OUAZ",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Women's Soccer vs OUAZ\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-19",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-19"
-    ],
-    "lastDate": "2026-09-19"
   },
   {
     "name": "Class of '29 & '30 Mixer",
