@@ -400,30 +400,6 @@ def main():
     else:
         log.warning("No meetings returned — check credentials/date window before assuming this is correct")
 
-    # TEMPORARY (Sept 22) — tracking down "Fridays on the GREEN - Green Room"
-    # (eventId IJV2Hrfoy7BAyKcHCHrN, Nov 13 2026, SC 405, Internal Meeting),
-    # confirmed live in Coursedog and well within this pull's window, but
-    # absent from both events.json and meetings.json. Logging whether the API
-    # returns it at all, and if so its filter-relevant fields, before
-    # guessing which check (if any) is dropping it. Remove once resolved.
-    watch_id = "IJV2Hrfoy7BAyKcHCHrN"
-    hits = [m for m in raw
-            if (m.get("eventData") or {}).get("_id") == watch_id
-            or m.get("eventId") == watch_id
-            or "green room" in ((m.get("eventData") or {}).get("name") or "").lower()]
-    if hits:
-        for m in hits:
-            ev = m.get("eventData") or {}
-            log.info("WATCH hit: " + json.dumps({
-                "name": ev.get("name"), "_id": ev.get("_id"), "meeting_eventId": m.get("eventId"),
-                "type": ev.get("type"), "status": ev.get("status"), "private": ev.get("private"),
-                "public": ev.get("public"), "isSetup": m.get("isSetup"), "isTeardown": m.get("isTeardown"),
-                "startDate": m.get("startDate"), "endDate": m.get("endDate"),
-            }, default=str))
-    else:
-        log.warning(f"WATCH: no raw meeting matched eventId {watch_id} or name~'green room' "
-                    f"across {len(raw)} pulled meetings — the API isn't returning it for this window at all")
-
     kept = [m for m in raw if not is_excluded(m)]
     log.info(f"{len(kept)} of {len(raw)} meetings kept after filtering "
              f"(private / setup / teardown / {sorted(EXCLUDE_TYPES)} / "
