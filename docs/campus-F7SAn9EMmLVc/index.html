@@ -812,7 +812,7 @@ function renderList(){
       title.textContent = e.name;
       titleLine.appendChild(title);
 
-      if(cat.cls !== 't-campus' && cat.cls !== 't-academic' && cat.cls !== 't-org' && cat.cls !== 't-facility'){
+      if(cat.cls !== 't-campus' && cat.cls !== 't-academic' && cat.cls !== 't-org' && cat.cls !== 't-facility' && cat.cls !== 't-arts'){
         const tag = document.createElement('span');
         tag.className = 'tag ' + cat.cls;
         tag.textContent = cat.label;
