@@ -212,6 +212,17 @@ def is_excluded(meeting):
         return True
     if meeting.get("isSetup") or meeting.get("isTeardown"):
         return True
+    # Sept 22: "LA 1966 Revisited" (Performing Arts Center, submitted by an
+    # external requester, org unresolved) showed up in the public feed while
+    # still sitting at status: Pending — never approved by anyone. Nothing
+    # here checked event status at all before this. Only Confirmed events
+    # should reach a public campus calendar; this also drops Cancelled/Denied
+    # the same way, which seems right for "did this actually happen," but
+    # doesn't distinguish "never approved" from "approved, later cancelled" —
+    # if cancelled events should still show marked Canceled somewhere, that's
+    # a separate, deliberate feature to build, not folded into this fix.
+    if ev.get("status") != "Confirmed":
+        return True
     ev_type = ev.get("type")
     if ev_type in EXCLUDE_TYPES:
         return True
@@ -241,6 +252,8 @@ def is_meetings_tab_item(meeting):
     if ev.get("private") is True:
         return False
     if meeting.get("isSetup") or meeting.get("isTeardown"):
+        return False
+    if ev.get("status") != "Confirmed":
         return False
     return ev.get("type") in MEETINGS_TAB_TYPES
 
