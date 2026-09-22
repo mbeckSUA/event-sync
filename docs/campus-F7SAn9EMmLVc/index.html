@@ -29,6 +29,8 @@
     --clay-tint:#FEE3E1;
     --slate:#004851;          /* Forest Path — Academic Calendar */
     --slate-tint:#D9E4E5;
+    --green:#2E7D32;          /* placeholder — swap for an official brand color if SUA has one for Athletics */
+    --green-tint:#DFEDE0;
     --shadow: 0 1px 2px rgba(0,29,97,0.07), 0 8px 24px -12px rgba(0,29,97,0.20);
   }
   /* Dark mode intentionally not offered — the page always renders in Soka's
@@ -279,6 +281,7 @@
   .tag.t-org{background:var(--periwinkle-tint); color:var(--periwinkle);}
   .tag.t-facility{background:var(--clay-tint); color:var(--clay);}
   .tag.t-milestone{background:var(--slate-tint); color:var(--slate);}
+  .tag.t-athletics{background:var(--green-tint); color:var(--green);}
   .tag.flag{background:var(--new-flag-tint); color:var(--new-flag);}
 
   .meta{
@@ -544,6 +547,7 @@
       <option value="t-academic">Academic Events</option>
       <option value="t-org">Student Org</option>
       <option value="t-milestone">Academic Calendar</option>
+      <option value="t-athletics">Athletics</option>
       <option value="t-facility">Facility notice</option>
     </select>
     <p class="result-count" id="resultCount" hidden></p>
@@ -585,11 +589,13 @@ const CATEGORY = {
   'Performing Arts Center': {cls:'t-arts', label:'Arts'},
   'Student Organization Event': {cls:'t-org', label:'Student Org'},
   'Academic Calendar': {cls:'t-milestone', label:'Academic Calendar'},
+  'Athletics': {cls:'t-athletics', label:'Athletics'},
 };
 const FACILITY_TAG = {cls:'t-facility', label:'Facility notice'};
 const CAT_DOT = {
   't-campus':'var(--teal)', 't-academic':'var(--ochre)', 't-arts':'var(--plum)',
-  't-org':'var(--periwinkle)', 't-milestone':'var(--slate)', 't-facility':'var(--clay)'
+  't-org':'var(--periwinkle)', 't-milestone':'var(--slate)', 't-facility':'var(--clay)',
+  't-athletics':'var(--green)'
 };
 
 function catFor(e){
