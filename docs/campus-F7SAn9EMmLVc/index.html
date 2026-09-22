@@ -548,6 +548,7 @@
       <option value="t-org">Student Org</option>
       <option value="t-milestone">Academic Calendar</option>
       <option value="t-athletics">Athletics</option>
+      <option value="t-arts">Performing Arts Center</option>
       <option value="t-facility">Facility notice</option>
     </select>
     <p class="result-count" id="resultCount" hidden></p>
@@ -599,7 +600,16 @@ const CAT_DOT = {
 };
 
 function catFor(e){
-  return e.facility ? FACILITY_TAG : (CATEGORY[e.type] || {cls:'t-campus', label:e.type});
+  if(e.facility) return FACILITY_TAG;
+  // type is not a reliable signal for PAC's own shows — some genuine ticketed
+  // events (e.g. Parnassus Society bookings) come through typed "Campus
+  // Events" rather than "Performing Arts Center" (see pac-event-categorization.md).
+  // org + public is the correct, confirmed-live filter dimension: it's how
+  // internal PAC logistics (org set, public:false — a gallery set-up, a staff
+  // party) get left out while every actual ticketed show gets caught, typo'd
+  // type or not.
+  if(e.public && e.org === 'Soka Performing Arts Center') return CATEGORY['Performing Arts Center'];
+  return CATEGORY[e.type] || {cls:'t-campus', label:e.type};
 }
 
 // YYYY-MM-DD in the *browser's local* calendar day, not UTC. Date's own
