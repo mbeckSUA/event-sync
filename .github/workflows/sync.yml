@@ -2,7 +2,13 @@ name: Event Sync
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # Daily at 6am Pacific (14:00 UTC)
+    - cron: '7 10 * * *'  # ~3am Pacific (10:07 UTC, PDT) — moved off 6am (Sept 22)
+                            # since GitHub's scheduler was running these hours late
+                            # some mornings. An overnight slot at an odd minute
+                            # (not :00/:15/:30, when everyone else's cron fires)
+                            # should queue faster. Cron is fixed in UTC and doesn't
+                            # shift with DST — this drifts to ~2am Pacific once PST
+                            # kicks in each winter, which is fine for "before anyone's up."
   workflow_dispatch:        # Manual trigger for testing
 
 permissions:

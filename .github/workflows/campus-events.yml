@@ -2,9 +2,11 @@ name: Campus Events
 
 on:
   schedule:
-    - cron: '15 14 * * *'  # Daily at 6:15am Pacific (14:15 UTC) — offset from
-                            # the athletics sync's 6:00am slot so the two
-                            # workflows don't race on the same repo checkout
+    - cron: '22 10 * * *'  # ~3am Pacific (10:22 UTC, PDT) — moved off 6:15am (Sept 22)
+                            # for the same reason as sync.yml's move (see that file):
+                            # GitHub's scheduler was running these hours late some
+                            # mornings. Kept the ~15min offset from sync.yml's slot so
+                            # the two workflows still don't race on the same checkout.
   workflow_dispatch:        # Manual trigger for testing
 
 permissions:
