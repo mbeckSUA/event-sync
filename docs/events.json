@@ -199,31 +199,6 @@
     "lastDate": "2026-12-17"
   },
   {
-    "name": "CPT Information Session",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Only for International Students interested in interning/working with US based companies.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-23",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jonathan Wray",
-      "email": "jwray@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-23"
-    ],
-    "lastDate": "2026-09-23"
-  },
-  {
     "name": "Learning Cluster Update",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -654,28 +629,6 @@
     "lastDate": "2026-09-26"
   },
   {
-    "name": "Men's Soccer vs Park Gilbert (Ariz)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-26",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-26"
-    ],
-    "lastDate": "2026-09-26"
-  },
-  {
     "name": "David Benoit Reception",
     "type": "Performing Arts Center",
     "public": false,
@@ -693,6 +646,28 @@
       "name": "Antoinette  Rossman",
       "email": "arossman@soka.edu"
     },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
+  },
+  {
+    "name": "Men's Soccer vs Park Gilbert (Ariz)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-26",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -1658,31 +1633,6 @@
     "lastDate": "2026-10-21"
   },
   {
-    "name": "Dashain Celebration",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Nepal's biggest festival celebrates family, community, and the triumph of good over evil. Enjoy dancing, crafts, henna, and more!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "6:30 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Kaitlyn Bourdelais",
-      "email": "kbourdelais@soka.edu"
-    },
-    "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-21"
-    ],
-    "lastDate": "2026-10-21"
-  },
-  {
     "name": "Vote Center: POD DELIVERY WINDOW",
     "type": "Campus Events",
     "public": false,
@@ -1708,56 +1658,6 @@
       "2026-10-24"
     ],
     "lastDate": "2026-10-24"
-  },
-  {
-    "name": "From Curiosity to Clarity: Creating Great Research Questions",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Conversations in Research Panel Discussion Series. This session will focus on the crucial first step in research: turning a broad interest or curiosity into a viable, sharp research question. Faculty panelists will share strategies and experiences in narrowing scope, identifying research gaps, and knowing when a question is ready to guide a full project. Join us for this enlightening presentation to learn how to best prepare your research topic.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Gandhi 303A",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "Become a Physician: Exploring the DO Pathway with AACOM",
-    "type": "Academic Affairs Events & Reservations",
-    "public": true,
-    "description": "This virtual information session, offered specifically for Soka University of America students and alumni, will feature representatives from the American Association of Colleges of Osteopathic Medicine (AACOM). The session will provide an overview of osteopathic medicine and the pathway to becoming a Doctor of Osteopathic Medicine (DO), including osteopathic medical education, the AACOMAS application process, admissions expectations, application timelines, and factors to consider when exploring DO medical schools. Participants will also have an opportunity to ask questions.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Virtual",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
   },
   {
     "name": "Soka Leadership Summit",
@@ -2455,28 +2355,6 @@
     "lastDate": "2026-11-10"
   },
   {
-    "name": "Academic Advising for Winter Block & Spring Semester",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-09",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Calendar",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-09"
-    ],
-    "lastDate": "2026-11-09"
-  },
-  {
     "name": "Tech Coast Angels: Face-to-Face with Investors| REAL WORLD SHARK TANK!",
     "type": "Campus Events",
     "public": false,
@@ -2500,32 +2378,6 @@
       "2026-11-10"
     ],
     "lastDate": "2026-11-10"
-  },
-  {
-    "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-11",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Leo Sasaki",
-      "email": "lsasaki@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-11-11",
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
   },
   {
     "name": "National Philanthropy Day",
@@ -2578,28 +2430,6 @@
     "lastDate": "2026-11-15"
   },
   {
-    "name": "Registration for Winter Block & Spring Semester",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-16",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Calendar",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-16"
-    ],
-    "lastDate": "2026-11-16"
-  },
-  {
     "name": "Networking Happy Hour",
     "type": "Campus Events",
     "public": false,
@@ -2623,31 +2453,6 @@
       "2026-11-19"
     ],
     "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Blood Drive 2026",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "The Soka Medical Society club will be hosting its semi-annual blood drive in collaboration with the American Red Cross! \n\nRegristration Info coming soon!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
   },
   {
     "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
@@ -3660,33 +3465,8 @@
     "lastDate": "2027-03-12"
   },
   {
-    "name": "LA 1966 Revisited",
-    "type": "Performing Arts Center",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-03-14",
-    "startTime": "1:50 PM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": {
-      "name": "Jeff Darcy",
-      "email": "Jeffdarcy@myyahoo.com"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-03-14"
-    ],
-    "lastDate": "2027-03-14"
-  },
-  {
     "name": "Parnassus Society: La Boh\u00e8me",
-    "type": "Campus Events",
+    "type": "Performing Arts Center",
     "public": true,
     "description": "THIS PERFORMANCE IS PRESENTED BY PARNASSUS SOCIETY, A NONPROFIT\nORGANIZATION DEDICATED TO BRINGING CLASSICAL MUSIC, OPERA AND ART TO\nSOUTHERN CALIFORNIA.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\">More info and tickets</a>",
@@ -3899,28 +3679,6 @@
     "lastDate": "2027-04-11"
   },
   {
-    "name": "Academic Advising for Fall Semester",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-12",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Calendar",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-12"
-    ],
-    "lastDate": "2027-04-12"
-  },
-  {
     "name": "Pacific Symphony plays Dvorak &amp; Rachmaninoff with Moon Doh, cond.;\nAngel Wang, piano",
     "type": "Campus Events",
     "public": true,
@@ -3941,28 +3699,6 @@
       "2027-04-18"
     ],
     "lastDate": "2027-04-18"
-  },
-  {
-    "name": "Registration for Fall Semester",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2027-04-19",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Calendar",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2027-04-19"
-    ],
-    "lastDate": "2027-04-19"
   },
   {
     "name": "Rehearsal: EBP End of Program",
