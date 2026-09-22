@@ -6,7 +6,7 @@
     "description": "Gallery closed for new exhibit installation. Opening Reception is scheduled for September  24, 2026 at 5:30 PM.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "startTime": null,
     "endTime": null,
     "allDay": true,
@@ -18,120 +18,12 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 6,
+    "occurrenceCount": 4,
     "occurrenceDates": [
-      "2026-09-21",
       "2026-09-22",
       "2026-09-23"
     ],
     "lastDate": "2026-09-23"
-  },
-  {
-    "name": "SBS Concentration Meeting",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-21",
-    "startTime": "12:00 PM",
-    "endTime": "12:50 PM",
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Edward Lowe",
-      "email": "elowe@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 4,
-    "occurrenceDates": [
-      "2026-09-21",
-      "2026-10-12",
-      "2026-11-16",
-      "2026-12-14"
-    ],
-    "lastDate": "2026-12-14"
-  },
-  {
-    "name": "Open Mic English",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-21",
-    "startTime": "4:00 PM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-09-21",
-      "2026-09-28",
-      "2026-10-08",
-      "2026-10-23",
-      "2026-10-26"
-    ],
-    "lastDate": "2026-10-26"
-  },
-  {
-    "name": "Health Professions Advising Fall Kickoff",
-    "type": "Campus Events",
-    "public": true,
-    "description": "The Health Professions Advising Fall Kickoff is an annual advising and community-building event for students interested in or exploring health professions. The event will provide students with an opportunity to complete an HPA Progress Check-In, reflect on their academic and experiential preparation, identify next steps, and learn about advising, programs, events, and application resources available through Health Professions Advising during the 2026\u20132027 academic year.\n\nStudents will also have opportunities to connect with HPA peer guides and other students pursuing or considering health professions, with the goal of strengthening peer support and helping students learn from one another across class years and career interests. The event is open to students from all years and concentrations, including students who are still exploring whether a health profession may be a good fit.\n\nBoba will be provided to students who register in advance and complete the HPA Declare Pre-Health form, which allows Health Professions Advising to identify and better support students interested in health professions throughout the academic year.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-21",
-    "startTime": "5:30 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-21"
-    ],
-    "lastDate": "2026-09-21"
-  },
-  {
-    "name": "Moving Mountains: Asian American and Pacific Islander Feminisms and the 1977 National Women's Conference",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Judy Tzu-Chun Wu is a professor of History and Asian American Studies at the University of California, Irvine. She also is associate dean of research, faculty development, and public engagement in the School of Humanities, the director of the Humanities Center, and the director of the Center for Liberation, Anti-Racism, and Belonging (C-LAB). She specializes in Asian American, immigration, comparative racialization, women's, gender, and sexuality histories. Wu received her Ph.D. in U.S. History from Stanford University and previously taught at Ohio State University. Wu's most recent book is Moving Mountains: Asian American and Pacific Islander Feminisms and the 1977 National Women's Conference (2026). Her talk will focus on her research and her new book and will further the REHR Center\u2019s mission by connecting rigorous scholarship with broader conversations about race, ethnicity, justice, and human rights.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-21",
-    "startTime": "6:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/23748",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-21"
-    ],
-    "lastDate": "2026-09-21"
   },
   {
     "name": "Information Session on the End of Duration Status",
@@ -666,9 +558,9 @@
   },
   {
     "name": "Summer Student Research Assistantship Program 2026 Symposium",
-    "type": "Academic Affairs Events & Reservations",
+    "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
-    "description": "Summer Student Research Assistantship Program is supported by the John Stauffer Charitable Trust and the Lius & Linda Nieves Family Foundation. Students will present their summer research projects and posters.",
+    "description": "Join us for the 2026 SSRA Symposium, an engaging showcase of the discoveries, methodologies, and experiences gained by students through their summer research projects.\n\nThe SSRA Program is supported by the John Stauffer Charitable Trust and the Luis & Linda Nieves Family Foundation. The symposium will feature student research posters on display throughout the day, along with poster and oral presentations. We invite you to explore the students\u2019 work and celebrate their accomplishments.\n\nOpen to the SUA Community.\nLight refreshments are provided.\n\nSponsored by the Office of the Dean of Faculty",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-09-25",
@@ -677,12 +569,12 @@
     "allDay": false,
     "room": "CUR 300",
     "building": "Curie Hall",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-09-21%20at%203.54.47%E2%80%AFPM.png",
     "contact": {
       "name": "Howard Wu",
       "email": "hwu@soka.edu"
     },
-    "org": null,
+    "org": "Academic Affairs",
     "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-09-25"
@@ -716,7 +608,7 @@
   },
   {
     "name": "Women's Soccer vs Park Gilbert (Ariz)",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Women's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -763,7 +655,7 @@
   },
   {
     "name": "Men's Soccer vs Park Gilbert (Ariz)",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -857,6 +749,34 @@
       "2026-09-28"
     ],
     "lastDate": "2026-09-28"
+  },
+  {
+    "name": "Open Mic English",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-28",
+    "startTime": "4:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-09-28",
+      "2026-10-08",
+      "2026-10-23",
+      "2026-10-26"
+    ],
+    "lastDate": "2026-10-26"
   },
   {
     "name": "Acces Strasbourg Study Abroad Info Session",
@@ -1027,6 +947,31 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
+  },
+  {
+    "name": "Soka Medical Society Orientation & Seniors Discussion",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Come to the 1st SMS meeting to hear about club activities and events for the year! Additionally, come ask 4th-year pre-health students to hear about their experiences in accessing pre-health resources and curriculum at SUA!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "6:30 PM",
+    "endTime": "9:30 PM",
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-01"
@@ -1420,6 +1365,33 @@
     "lastDate": "2026-10-10"
   },
   {
+    "name": "SBS Concentration Meeting",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-12",
+    "startTime": "12:00 PM",
+    "endTime": "12:50 PM",
+    "allDay": false,
+    "room": "MAA 207",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Edward Lowe",
+      "email": "elowe@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-10-12",
+      "2026-11-16",
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
     "name": "Dean's Lunch Meeting with CPA Directors and Coordinators",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
@@ -1438,28 +1410,6 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Women's Soccer vs La Sierra (Calif.)",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-13"
@@ -1492,8 +1442,30 @@
     "lastDate": "2026-10-13"
   },
   {
+    "name": "Women's Soccer vs La Sierra (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
+  },
+  {
     "name": "Men's Soccer vs La Sierra (Calif.)",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Men's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -2014,7 +1986,7 @@
   },
   {
     "name": "Men's Soccer vs Hope International",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Men's Soccer vs Hope International\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -2036,7 +2008,7 @@
   },
   {
     "name": "Women's Soccer vs Hope International",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Women's Soccer vs Hope International\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -2239,7 +2211,7 @@
   },
   {
     "name": "Women's Soccer vs The Master's",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Women's Soccer vs The Master's\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
@@ -2261,7 +2233,7 @@
   },
   {
     "name": "Men's Soccer vs The Master's",
-    "type": "Campus Events",
+    "type": "Athletics",
     "public": true,
     "description": "Soka University Men's Soccer vs The Master's\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
     "extendedDescription": "",
