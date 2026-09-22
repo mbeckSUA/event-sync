@@ -125,7 +125,7 @@ def build_payload(event):
 
     return {
         "name": title,
-        "type": "Campus Events",
+        "type": "Athletics",
         "description": full_description,
         "organization": COURSEDOG_ORG_ID,
         "status": "Confirmed",
