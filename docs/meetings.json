@@ -1,75 +1,12 @@
 [
   {
-    "name": "CARE Team Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "10:00 AM",
-    "endTime": "11:00 AM",
-    "allDay": false,
-    "room": "Student Affairs Large Conference Room (Ikeda 314)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Lisa Deiser",
-      "email": "ldeiser@soka.edu"
-    },
-    "org": "Residential Life",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-22"
-    ],
-    "lastDate": "2026-09-22"
-  },
-  {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-09-22",
-      "2026-09-29",
-      "2026-10-06",
-      "2026-10-13",
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
     "name": "Spanish Tutoring sessions",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
@@ -78,9 +15,8 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Organizations",
-    "occurrenceCount": 43,
+    "occurrenceCount": 42,
     "occurrenceDates": [
-      "2026-09-22",
       "2026-09-23",
       "2026-09-24",
       "2026-09-28",
@@ -133,7 +69,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -142,9 +78,8 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Organizations",
-    "occurrenceCount": 80,
+    "occurrenceCount": 79,
     "occurrenceDates": [
-      "2026-09-22",
       "2026-09-23",
       "2026-09-24",
       "2026-09-25",
@@ -234,7 +169,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -243,9 +178,8 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Organizations",
-    "occurrenceCount": 58,
+    "occurrenceCount": 57,
     "occurrenceDates": [
-      "2026-09-22",
       "2026-09-23",
       "2026-09-24",
       "2026-09-27",
@@ -313,7 +247,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -325,9 +259,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": "Student Organizations",
-    "occurrenceCount": 53,
+    "occurrenceCount": 52,
     "occurrenceDates": [
-      "2026-09-22",
       "2026-09-23",
       "2026-09-24",
       "2026-09-27",
@@ -409,6 +342,56 @@
     "lastDate": "2026-09-24"
   },
   {
+    "name": "Student Interviews - Community Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-25",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "CUR 211",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
+  },
+  {
+    "name": "Walsh: IUSE Grant Faculty Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-25",
+    "startTime": "4:00 PM",
+    "endTime": "5:30 PM",
+    "allDay": false,
+    "room": "CUR 313",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
+  },
+  {
     "name": "Susan Walsh Lab Meetings",
     "type": "Internal Meeting",
     "public": false,
@@ -444,6 +427,31 @@
       "2026-12-18"
     ],
     "lastDate": "2026-12-18"
+  },
+  {
+    "name": "Student Interviews - Community Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews for student staff CR job",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-25",
+    "startTime": "9:30 AM",
+    "endTime": "12:00 PM",
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
   },
   {
     "name": "Investment Office Meeting",
@@ -563,6 +571,68 @@
     "lastDate": "2026-09-29"
   },
   {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-29",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-09-29",
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
+  },
+  {
+    "name": "Student Interviews - Community Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-29",
+    "startTime": "1:00 PM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "CUR 211",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-29"
+    ],
+    "lastDate": "2026-09-29"
+  },
+  {
     "name": "Student Staff Retreat",
     "type": "Internal Meeting",
     "public": false,
@@ -584,6 +654,31 @@
     "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-09-29",
+      "2026-09-30"
+    ],
+    "lastDate": "2026-09-30"
+  },
+  {
+    "name": "Student Interviews - Comm Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-30",
+    "startTime": "1:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "CUR 211",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
       "2026-09-30"
     ],
     "lastDate": "2026-09-30"
@@ -614,6 +709,56 @@
     "lastDate": "2026-10-01"
   },
   {
+    "name": "Student Interviews - Comm Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "9:30 AM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "CUR 211",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
+  },
+  {
+    "name": "Student Interviews - Comm Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Interviews",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-02",
+    "startTime": "9:30 AM",
+    "endTime": "12:00 PM",
+    "allDay": false,
+    "room": "CUR 211",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-02"
+    ],
+    "lastDate": "2026-10-02"
+  },
+  {
     "name": "Investment Office Meeting",
     "type": "Internal Meeting",
     "public": false,
@@ -642,6 +787,31 @@
       "2026-12-14"
     ],
     "lastDate": "2026-12-14"
+  },
+  {
+    "name": "Proctor Exam (Brian D.)",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-06",
+    "startTime": "1:00 PM",
+    "endTime": "3:15 PM",
+    "allDay": false,
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-06"
+    ],
+    "lastDate": "2026-10-06"
   },
   {
     "name": "All Directors Meeting",
@@ -778,6 +948,31 @@
     "lastDate": "2026-10-16"
   },
   {
+    "name": "First aid and CPR Training",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Red cross-based first aid and CPR training",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "12:30 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Chintan Amin",
+      "email": "camin@soka.edu"
+    },
+    "org": "Other",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
+  },
+  {
     "name": "Boston Career Forum (CDO)",
     "type": "Internal Meeting",
     "public": false,
@@ -855,6 +1050,31 @@
       "2026-10-23"
     ],
     "lastDate": "2026-10-23"
+  },
+  {
+    "name": "Proctor Exam (Brian D.)",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-03",
+    "startTime": "1:00 PM",
+    "endTime": "3:15 PM",
+    "allDay": false,
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-03"
+    ],
+    "lastDate": "2026-11-03"
   },
   {
     "name": "Fridays on the GREEN - Green Room",
@@ -938,6 +1158,31 @@
       "2026-12-01"
     ],
     "lastDate": "2026-12-01"
+  },
+  {
+    "name": "Proctor Exam (Brian D.)",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-24",
+    "startTime": "1:00 PM",
+    "endTime": "3:15 PM",
+    "allDay": false,
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-24"
+    ],
+    "lastDate": "2026-11-24"
   },
   {
     "name": "Founders Gallery Closed",

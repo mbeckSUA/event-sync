@@ -6,7 +6,7 @@
     "description": "Gallery closed for new exhibit installation. Opening Reception is scheduled for September  24, 2026 at 5:30 PM.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "startTime": null,
     "endTime": null,
     "allDay": true,
@@ -18,185 +18,11 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 4,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-09-22",
       "2026-09-23"
     ],
     "lastDate": "2026-09-23"
-  },
-  {
-    "name": "Information Session on the End of Duration Status",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "11:30 AM",
-    "endTime": "12:30 PM",
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Patricia Gibson",
-      "email": "pgibson@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-22",
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
-    "name": "2026-2027 Health Professions Application Workshop Series: Part 1",
-    "type": "Academic Programs & Events",
-    "public": true,
-    "description": "Join this virtual three-part workshop series to learn how to prepare a competitive application for medical, dental, and veterinary programs. The series covers admissions timelines, testing, school selection, application strategy, committee letters, and interview preparation. Workshop 1, Planning Your Application Timeline, will be held on Tuesday, Sept. 22 at 16:30 PT. Workshop 2, Building Your Application, will be held on Tuesday, Jan. 26 at 16:30 PT. Workshop 3, Submitting Your Application, will be held on Tuesday, May 4 at 16:30 PT.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform</a></p>",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": {
-      "name": "Health Professions Advising",
-      "email": "hpa@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-22"
-    ],
-    "lastDate": "2026-09-22"
-  },
-  {
-    "name": "InternX Program Kickoff",
-    "type": "Campus Events",
-    "public": false,
-    "description": "InternX: A career development program helping domestic students build skills, gain confidence, and secure paid professional internships.  *Application required, limited to domestic students",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "5:00 PM",
-    "endTime": "6:15 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/InternX%202026-2027%20%281%29.png",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-22"
-    ],
-    "lastDate": "2026-09-22"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 25,
-    "occurrenceDates": [
-      "2026-09-22",
-      "2026-09-24",
-      "2026-09-29",
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-22",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 24,
-    "occurrenceDates": [
-      "2026-09-22",
-      "2026-09-24",
-      "2026-09-29",
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
   },
   {
     "name": "Learning Cluster Update",
@@ -408,6 +234,54 @@
     "lastDate": "2026-09-24"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": true,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-24",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 24,
+    "occurrenceDates": [
+      "2026-09-24",
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Founders Gallery Artist\u2019s Opening Reception",
     "type": "Campus Events",
     "public": true,
@@ -431,6 +305,53 @@
       "2026-09-24"
     ],
     "lastDate": "2026-09-24"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": true,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-24",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 23,
+    "occurrenceDates": [
+      "2026-09-24",
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Intramurals: Volleyball",
@@ -500,6 +421,31 @@
     "imageURL": "",
     "contact": null,
     "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-25"
+    ],
+    "lastDate": "2026-09-25"
+  },
+  {
+    "name": "Information Session on the End of Duration Status",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-25",
+    "startTime": "12:30 PM",
+    "endTime": "1:30 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Patricia Gibson",
+      "email": "pgibson@soka.edu"
+    },
+    "org": "Other",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-25"
@@ -1392,6 +1338,28 @@
     "lastDate": "2026-10-13"
   },
   {
+    "name": "Women's Soccer vs La Sierra (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
+  },
+  {
     "name": "CareerCore - Professional Development WORKSHOP (Critical Thinking + Applied Problem Solving)",
     "type": "Campus Events",
     "public": true,
@@ -1410,28 +1378,6 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Women's Soccer vs La Sierra (Calif.)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-13"
