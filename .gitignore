@@ -1,4 +1,4 @@
-.env
+.env*
 debug_*.json
 __pycache__/
 *.pyc

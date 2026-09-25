@@ -1,0 +1,39 @@
+# Runs alongside sync.py / pac_sync.py — same repo, same secrets pattern.
+# Scheduled early enough that security has it before campus opens.
+# Cron is UTC. Runs at ~3am Pacific on an odd minute, matching sync.yml
+# and campus-events.yml — both were moved off ~6am because GitHub's
+# scheduler was running hours late at that busier time (see this repo's
+# history). 3am content-wise is fine here: this just queries today's
+# already-synced meetings, no dependency on a fresher sync run first.
+
+name: Daily security report
+
+on:
+  schedule:
+    - cron: "31 10 * * *"   # ~3:31am Pacific (10:31 UTC, PDT)
+  workflow_dispatch: {}       # manual "Run workflow" button for testing
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send security report
+        env:
+          COURSEDOG_EMAIL: ${{ secrets.COURSEDOG_EMAIL }}
+          COURSEDOG_PASSWORD: ${{ secrets.COURSEDOG_PASSWORD }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SECURITY_EMAIL_FROM: ${{ secrets.SECURITY_EMAIL_FROM }}
+          SECURITY_EMAIL_TO: ${{ secrets.SECURITY_EMAIL_TO }}
+        run: python security_report.py --live --send
