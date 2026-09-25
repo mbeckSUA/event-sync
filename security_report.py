@@ -11,17 +11,28 @@ Two ways to run this:
    GitHub Action uses):
        python security_report.py --live --date 2026-09-25
 
-In both cases it prints a plain-text report to stdout and, if SMTP env
-vars are set, emails it. Pass --html to also render an HTML version
-(used for the emailed version automatically).
+Delivery, either mode:
+    --publish PATH   write a standalone HTML page to PATH (the primary
+                      delivery method — see docs/<slug>/index.html, published
+                      via GitHub Pages, same pattern as the campus-happenings
+                      viewer). Creates parent directories as needed.
+    --send           email the report, if SMTP env vars are set. Not the
+                      current delivery method (SUA's O365 tenant makes plain
+                      SMTP auth a headache — see project notes) but left in
+                      place in case that changes.
+
+Always prints a plain-text version to stdout regardless of the above.
 
 Env vars used in --live mode:
-    COURSEDOG_BASE_URL   default: https://app.coursedog.com
-    COURSEDOG_SCHOOL_ID  default: soka_peoplesoft_direct
-    COURSEDOG_EMAIL
-    COURSEDOG_PASSWORD
+    COURSEDOG_READONLY_BASE      default: https://app.coursedog.com
+    COURSEDOG_SCHOOL             default: soka_peoplesoft_direct
+    COURSEDOG_READONLY_EMAIL
+    COURSEDOG_READONLY_PASSWORD
+    (dedicated read-only API user — same convention as build_campus_events.py.
+    This script only ever does GET requests; never point it at a read-write
+    credential.)
 
-Env vars used for email (either mode):
+Env vars used for email (either mode, only if --send is passed):
     SMTP_HOST
     SMTP_PORT            default: 587
     SMTP_USER
@@ -36,9 +47,10 @@ import os
 import smtplib
 import sys
 from collections import defaultdict
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Flagging rules — what counts as "notable" for a campus security reader.
@@ -187,15 +199,16 @@ def load_from_csv(path, target_date):
 
 
 def load_from_api(target_date):
-    """Live pull from Coursedog. Requires COURSEDOG_EMAIL/PASSWORD env vars.
-    Uses a read-only API user if one exists (see project notes on setting
-    one up) — this script only ever does GET requests."""
+    """Live pull from Coursedog. Requires the dedicated read-only API user's
+    credentials (COURSEDOG_READONLY_* env vars, same convention as
+    build_campus_events.py) — this script only ever does GET requests, so it
+    should never be pointed at a read-write credential."""
     import requests
 
-    base = os.environ.get("COURSEDOG_BASE_URL", "https://app.coursedog.com")
-    school_id = os.environ.get("COURSEDOG_SCHOOL_ID", "soka_peoplesoft_direct")
-    email = os.environ["COURSEDOG_EMAIL"]
-    password = os.environ["COURSEDOG_PASSWORD"]
+    base = os.environ.get("COURSEDOG_READONLY_BASE", "https://app.coursedog.com")
+    school_id = os.environ.get("COURSEDOG_SCHOOL", "soka_peoplesoft_direct")
+    email = os.environ["COURSEDOG_READONLY_EMAIL"]
+    password = os.environ["COURSEDOG_READONLY_PASSWORD"]
 
     session_resp = requests.post(
         f"{base}/api/v1/sessions",
@@ -425,6 +438,69 @@ def build_html_report(events, target_date):
     """
 
 
+def build_standalone_page(events, target_date, generated_at):
+    """Full HTML page for GitHub Pages publishing — the primary delivery
+    method. Wraps build_html_report()'s content (built for embedding in an
+    email body) in a real document, using the same Soka brand palette and
+    noindex convention as docs/campus-happenings-*/index.html, since this is
+    published to the same unauthenticated-but-unlisted GitHub Pages site and
+    should look like it belongs there."""
+    body = build_html_report(events, target_date)
+    # No zoneinfo/tz-database dependency — Pacific is UTC-7 (PDT) or UTC-8
+    # (PST); this only needs to be legible to a person glancing at a
+    # timestamp, not exact to the minute, so a fixed PDT offset is fine
+    # March-November and off by an hour the rest of the year.
+    from datetime import timedelta
+    pacific = generated_at - timedelta(hours=7)
+    generated_str = (
+        f"{generated_at.strftime('%B %-d, %Y')} at "
+        f"{pacific.strftime('%-I:%M %p')} Pacific "
+        f"({generated_at.strftime('%-I:%M %p')} UTC)"
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campus Security Report — {target_date}</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700&display=swap">
+<style>
+  :root{{
+    --paper:#FEFDEB;
+    --ink:#001D61;
+    --ink-muted:#6B7CA3;
+    --line:#CCD2DF;
+  }}
+  *{{box-sizing:border-box;}}
+  body{{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Work Sans",-apple-system,Segoe UI,Roboto,sans-serif;
+    padding:24px 16px 48px;
+  }}
+  .wrap{{max-width:680px;margin:0 auto;}}
+  .updated{{
+    color:var(--ink-muted);
+    font-size:13px;
+    border-top:1px solid var(--line);
+    margin-top:28px;
+    padding-top:12px;
+  }}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    {body}
+    <div class="updated">Report generated {generated_str}. Refreshed automatically once a day — not real-time.</div>
+  </div>
+</body>
+</html>
+"""
+
+
 def send_email(subject, text_body, html_body):
     host = os.environ.get("SMTP_HOST")
     if not host:
@@ -457,6 +533,7 @@ def main():
     ap.add_argument("--live", action="store_true", help="Pull live from Coursedog API")
     ap.add_argument("--date", default=date.today().isoformat(), help="YYYY-MM-DD, default today")
     ap.add_argument("--send", action="store_true", help="Actually email the report (else just print)")
+    ap.add_argument("--publish", metavar="PATH", help="Write a standalone HTML page to PATH (e.g. docs/security-XXXX/index.html)")
     args = ap.parse_args()
 
     if args.live:
@@ -469,6 +546,13 @@ def main():
 
     text_report, notable, active, canceled = build_report(events, args.date)
     print(text_report)
+
+    if args.publish:
+        page = build_standalone_page(events, args.date, datetime.now(timezone.utc))
+        out_path = Path(args.publish)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(page, encoding="utf-8")
+        print(f"[security_report] Published standalone page to {out_path}")
 
     if args.send:
         html_report = build_html_report(events, args.date)
