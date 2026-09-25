@@ -1,256 +1,5 @@
 [
   {
-    "name": "Faculty Forum - In Person",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Faculty Forum",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-09-24",
-      "2026-10-22",
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Academic Awards Ceremony & Photo Session",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "12:15 PM",
-    "endTime": "12:45 PM",
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Naoko Kogure",
-      "email": "nkogure@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-24"
-    ],
-    "lastDate": "2026-09-24"
-  },
-  {
-    "name": "Silent Book Club",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "allDay": false,
-    "room": "Ikeda Library Main Floor",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-09-24",
-      "2026-10-23",
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Study Abroad France Visa Prep Session",
-    "type": "Campus Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "4:30 PM",
-    "endTime": "5:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Kathleen Jorgenson",
-      "email": "kjorgensen@soka.edu"
-    },
-    "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-24"
-    ],
-    "lastDate": "2026-09-24"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 24,
-    "occurrenceDates": [
-      "2026-09-24",
-      "2026-09-29",
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Founders Gallery Artist\u2019s Opening Reception",
-    "type": "Campus Events",
-    "public": true,
-    "description": "\"May All Beings Know We Are Dreaming\u201d by Michela Martello & \"Living Lineages: Tibetan Art\" Guest Curated by Xiaoying Gan\n\nOpening Reception is FREE but registration is recommended and appreciated.\n\nTwo Artists - Two Exhibits",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.eventbrite.com/e/founders-art-gallery-opening-reception-michela-martello-tibetan-art-tickets-1998801178130\">https://www.eventbrite.com/e/founders-art-gallery-opening-reception-michela-martello-tibetan-art-tickets-1998801178130</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.soka.edu/about/visit-soka/founders-gallery\">https://www.soka.edu/about/visit-soka/founders-gallery</a></p>",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "5:30 PM",
-    "endTime": "7:30 PM",
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/MartelloRegong_Square.jpg",
-    "contact": {
-      "name": "Carin Rodgers Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-24"
-    ],
-    "lastDate": "2026-09-24"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 23,
-    "occurrenceDates": [
-      "2026-09-24",
-      "2026-09-29",
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Intramurals: Volleyball",
-    "type": "Recreation Calendar",
-    "public": true,
-    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to Sign Up by 9/23!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-09-24",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-09-24",
-      "2026-10-01",
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
     "name": "Soka Leadership and Service Fair",
     "type": "Campus Events",
     "public": true,
@@ -350,8 +99,8 @@
   {
     "name": "Summer Student Research Assistantship Program 2026 Symposium",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join us for the 2026 SSRA Symposium, an engaging showcase of the discoveries, methodologies, and experiences gained by students through their summer research projects.\n\nThe SSRA Program is supported by the John Stauffer Charitable Trust and the Luis & Linda Nieves Family Foundation. The symposium will feature student research posters on display throughout the day, along with poster and oral presentations. We invite you to explore the students\u2019 work and celebrate their accomplishments.\n\nOpen to the SUA Community.\nLight refreshments are provided.\n\nSponsored by the Office of the Dean of Faculty",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-09-25",
@@ -424,7 +173,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "AN EVENING WITH DAVID BENOIT FEATURING THE WORLD PREMIERE OF\n\u201cRESONANCE AND RENEWAL\u201d , A CELLO CONCERTO WITH SOLOIST CECILIA\nTSAN\n\nMore info: https://www.performingarts.soka.edu/calendar-events/david-benoit-resonance-and-renewal-world-premiere",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/david-benoit-resonance-and-renewal-world-premiere\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-09-26",
     "startTime": "5:00 PM",
@@ -437,7 +186,29 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-09-26"
+    ],
+    "lastDate": "2026-09-26"
+  },
+  {
+    "name": "Men's Soccer vs Park Gilbert (Ariz)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-26",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-26"
@@ -470,26 +241,29 @@
     "lastDate": "2026-09-26"
   },
   {
-    "name": "Men's Soccer vs Park Gilbert (Ariz)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Soccer vs Park Gilbert (Ariz)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "name": "TKF on campus event",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "TKF Global is a career support service for Japanese students studying at universities overseas. It provides information, resources, and guidance for job hunting in Japan, including career advice, company information, and opportunities to connect with companies",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-26",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
+    "date": "2026-09-27",
+    "startTime": "11:00 AM",
+    "endTime": "1:00 PM",
     "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
+    "room": "Lion's Den",
+    "building": "Student Center",
     "imageURL": "",
-    "contact": null,
-    "org": null,
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-09-26"
+      "2026-09-27"
     ],
-    "lastDate": "2026-09-26"
+    "lastDate": "2026-09-27"
   },
   {
     "name": "Class of '28 & '30 Mixer",
@@ -519,8 +293,8 @@
   {
     "name": "Post-Sabbatical\u00a0Talk\u00a0by Dr.\u00a0Marie Nydam",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join Dr. Marie Nydam as she present her sabbatical research focused on biodiversity discovery \u2013 the essential first step to conservation. She'll share insights from her expeditions identifying marine invertebrates in southern Australia's rocky intertidal habitats and Bali's coral reefs.",
+    "public": false,
+    "description": "",
     "extendedDescription": "<p>RSVP Required: <a class=\"open_in_new_tab\" href=\"https://forms.cloud.microsoft/r/EGyqPPicAi\"><strong>https://forms.cloud.microsoft/r/EGyqPPicAi</strong></a></p>",
     "facility": false,
     "date": "2026-09-28",
@@ -544,8 +318,8 @@
   {
     "name": "Open Mic English",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-09-28",
@@ -620,6 +394,53 @@
     "lastDate": "2026-09-29"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-29",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 23,
+    "occurrenceDates": [
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Meet the Author",
     "type": "Academic Programs & Events",
     "public": true,
@@ -643,6 +464,52 @@
       "2026-09-29"
     ],
     "lastDate": "2026-09-29"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-29",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 22,
+    "occurrenceDates": [
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Soka Health Research Symposium: Conference-Bound Scholarship in Public Health, Global Health, Epidemiology, Bioethics, and Health Policy",
@@ -672,7 +539,7 @@
   {
     "name": "Intramurals: Badminton",
     "type": "Recreation Calendar",
-    "public": true,
+    "public": false,
     "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nSingles and Doubles Tournament!\n\nAll skill levels are welcome! Grab your friends and create your own team or sign up as an individual! \n\nCreate you IM Leagues account to Sign Up!",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
     "facility": false,
@@ -687,7 +554,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": "Recreation",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-30"
@@ -797,8 +664,8 @@
   {
     "name": "Joint Film Screening (WRT & SBS)",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Joint film screening by Writing Program and SBS Concentration. More details will be provided.",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-01",
@@ -819,6 +686,32 @@
       "2026-11-19"
     ],
     "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Intramurals: Volleyball",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to Sign Up by 9/23!",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "7:30 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-01",
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Soka Jobs+ Fair  (On-Campus Student Work Opportunities)",
@@ -900,7 +793,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "THIS CONCERT IS PRESENTED BY H\u0100LAU HULA LANI OLA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-10-03",
     "startTime": "5:00 PM",
@@ -913,7 +806,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-03"
@@ -923,7 +816,7 @@
   {
     "name": "Class-Related Room Reservation",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
+    "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
@@ -1020,8 +913,8 @@
   {
     "name": "Capstone Writing Group",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "The Capstone Writing Group will meet on Wednesdays, 9/23, 10/7, 10/21, 11/4, 11/18 from 5-6:30 pm during fall semester to support seniors working on their Capstone projects.",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-07",
@@ -1086,50 +979,6 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Set-up: President\u2019s Office",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Irene\u2019s Events and Bon Appetit will be setting up for Friday, October 9.",
-    "extendedDescription": "",
-    "facility": true,
-    "date": "2026-10-08",
-    "startTime": "12:00 AM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": null,
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Storage of Items: President\u2019s Office Rentals",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Irene\u2019s tables and chairs will be used for the event on Friday, October 9.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "5:00 PM",
-    "endTime": "8:00 AM",
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": null,
-    "org": "Events & Conferences",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-08"
@@ -1261,6 +1110,28 @@
     "lastDate": "2026-10-13"
   },
   {
+    "name": "Women's Soccer vs La Sierra (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
+  },
+  {
     "name": "CareerCore - Professional Development WORKSHOP (Critical Thinking + Applied Problem Solving)",
     "type": "Campus Events",
     "public": true,
@@ -1279,28 +1150,6 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Women's Soccer vs La Sierra (Calif.)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-13"
@@ -1332,8 +1181,8 @@
   {
     "name": "Johns Hopkins University & University of Pennsylvania Schools of Nursing Information Session",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Co-sponsored by Health Professions Advising and the Career Development Office\n\nJoin admissions representatives from the Johns Hopkins University School of Nursing and the University of Pennsylvania School of Nursing for an in-person information session exploring pathways into the nursing profession through accelerated entry programs.\n\nRepresentatives will provide an overview of their nationally recognized nursing programs, including accelerated Master of Nursing and other graduate entry pathways for students who have completed a bachelor's degree in another discipline. The session will also discuss admissions requirements, prerequisite coursework, clinical training, financial aid, career opportunities, and what distinguishes each institution's approach to nursing education.\n\nStudents considering careers in nursing, advanced practice nursing, public health, or healthcare leadership are encouraged to attend. This is an excellent opportunity to learn about the profession, ask questions directly of admissions officers, and gain insights into preparing a competitive application.\n\nGuest Speaker: Chris Jermyn, Associate Director of Admissions, University of Pennsylvania School of Nursing\nLaura Panozzo, Associate Director Admissions, Johns Hopkins University School of Nursing",
+    "public": false,
+    "description": "",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/CDO/rsvp_boot?id=380304\">https://sokannect.soka.edu/CDO/rsvp_boot?id=380304</a></p>",
     "facility": false,
     "date": "2026-10-14",
@@ -1405,10 +1254,10 @@
     "lastDate": "2026-10-15"
   },
   {
-    "name": "Humanism & Health Speaker Series",
+    "name": "",
     "type": "Academic Affairs Events & Reservations",
-    "public": true,
-    "description": "The inaugural session of the Humanism & Health Speaker Series will take place virtually on October 16, 2026, at 2:00 p.m. PT and will feature Victoria A. Smith, MD, Associate Medical Director for Primary Care at Ochsner Health, in conversation with Soka University of America Student Fellow Kiarra Hoes.\n\nCo-hosted by Soka University of America and the WHO Collaborating Centre for Healthy Cities and Urban Policy Research at the Institute of Science Tokyo, the Humanism & Health Speaker Series examines how health professionals and leaders translate humanistic values into practice across clinical care, health systems, public and global health, and planetary health. Through an interview-based conversation, Dr. Smith will discuss how humanism informs her approach to patient care and health care leadership.",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-16",
@@ -1444,7 +1293,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-19"
@@ -1529,6 +1378,32 @@
     "lastDate": "2026-10-24"
   },
   {
+    "name": "Faculty Forum - In Person",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "MAA 207",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-22",
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "Soka Leadership Summit",
     "type": "Campus Events",
     "public": true,
@@ -1577,6 +1452,32 @@
       "2026-10-23"
     ],
     "lastDate": "2026-10-23"
+  },
+  {
+    "name": "Silent Book Club",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": false,
+    "description": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "allDay": false,
+    "room": "Ikeda Library Main Floor",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
+    "contact": {
+      "name": "Jennifer  Tirrell",
+      "email": "jtirrell@soka.edu"
+    },
+    "org": "Library",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-23",
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   },
   {
     "name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT",
@@ -1829,7 +1730,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "KALI MANDIR PRESENTS MALINI AWASTHI\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/malini-awasthi\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-10-25",
     "startTime": "6:30 PM",
@@ -1842,7 +1743,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-25"
@@ -1946,7 +1847,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-28"
@@ -1956,7 +1857,7 @@
   {
     "name": "Intramurals: Spooky Dodgeball",
     "type": "Recreation Calendar",
-    "public": true,
+    "public": false,
     "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nDress up in a costume for this Halloween themed event!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to sign up by 10/27",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
     "facility": false,
@@ -1971,7 +1872,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": "Recreation",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-28"
@@ -2139,7 +2040,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-05"
@@ -2151,7 +2052,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "_Bob Baker Marionettes have \u201cenchanted children over nearly five\ndecades\u201d \u2013\u00a0THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-11-07",
     "startTime": "3:00 PM",
@@ -2278,7 +2179,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-11-15",
     "startTime": "3:00 PM",
@@ -2324,11 +2225,36 @@
     "lastDate": "2026-11-19"
   },
   {
+    "name": "Blood Drive 2026",
+    "type": "Student Organization Event",
+    "public": true,
+    "description": "The Soka Medical Society club will be hosting its semi-annual blood drive in collaboration with the American Red Cross! \n\nRegristration Info coming soon!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "10:00 AM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
     "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
     "type": "Performing Arts Center",
     "public": true,
     "description": "\u201cThe world\u2019s only period\u2011instrument rock band.\u201d \u2013\u00a0\nSAN\u202fFRANCISCO\u202fCLASSICAL\u202fVOICE (ON RUCKUS)\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-11-21",
     "startTime": "8:00 PM",
@@ -2341,7 +2267,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-21"
@@ -2388,7 +2314,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-26"
@@ -2495,8 +2421,8 @@
   {
     "name": "Student Computer Music Recital",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "This program features original works created by students enrolled in CARTS 110: Music Composition with the Computer.",
+    "public": false,
+    "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-12-07",
@@ -2554,7 +2480,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-14"
@@ -2626,7 +2552,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-15"
@@ -2648,7 +2574,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-16"
@@ -2669,10 +2595,7 @@
     "room": null,
     "building": null,
     "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
+    "contact": null,
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -2695,7 +2618,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-19"
@@ -2717,7 +2640,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-11"
@@ -2739,7 +2662,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-12"
@@ -2783,7 +2706,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-18"
@@ -2805,7 +2728,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-20"
@@ -2827,7 +2750,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-22"
@@ -2958,7 +2881,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-03"
@@ -3075,7 +2998,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-08"
@@ -3097,7 +3020,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-08"
@@ -3144,7 +3067,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-12"
@@ -3188,7 +3111,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-15"
@@ -3338,7 +3261,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "THIS PERFORMANCE IS PRESENTED BY PARNASSUS SOCIETY, A NONPROFIT\nORGANIZATION DEDICATED TO BRINGING CLASSICAL MUSIC, OPERA AND ART TO\nSOUTHERN CALIFORNIA.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2027-03-21",
     "startTime": "2:00 PM",
@@ -3351,7 +3274,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-03-21"
@@ -3373,7 +3296,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 5,
     "occurrenceDates": [
       "2027-03-22",
@@ -3399,7 +3322,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-01"
@@ -3518,7 +3441,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-09"
@@ -3694,8 +3617,8 @@
   {
     "name": "2027-2028 Health Professions Application Workshop Series: Part 3",
     "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join the last part of this virtual three-part workshop series to learn how to prepare a competitive application for medical, dental, and veterinary programs. Topics include admissions timelines, testing, school selection, application strategy, committee letters, and interview preparation. \n\nWorkshop 3 will focus on submitting your application | Tuesday, May 4th 16:30 PT",
+    "public": false,
+    "description": "",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSeVMfN_kASyLizjG-KeYxeF0_PCa-Fdtqb3VU0Z8BOU30aWkA/viewform</a></p>",
     "facility": false,
     "date": "2027-05-04",
@@ -3731,7 +3654,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-17"
@@ -3753,7 +3676,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-18"
@@ -3775,7 +3698,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-19"
@@ -3796,10 +3719,7 @@
     "room": null,
     "building": null,
     "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
+    "contact": null,
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -3822,7 +3742,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-22"
@@ -3843,10 +3763,7 @@
     "room": null,
     "building": null,
     "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
+    "contact": null,
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -3869,7 +3786,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-28"
@@ -3891,7 +3808,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-05-31"
@@ -4038,7 +3955,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-08-16"
@@ -4060,7 +3977,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-08-17"
@@ -4082,7 +3999,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-08-24"
@@ -4104,7 +4021,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-08-26"
@@ -4126,7 +4043,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-09-03"
@@ -4148,7 +4065,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-09-06"
@@ -4170,7 +4087,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-09-08"
@@ -4192,7 +4109,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-09-09"
@@ -4214,7 +4131,7 @@
     "building": null,
     "imageURL": "",
     "contact": null,
-    "org": "Academic Calendar",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-09-15"
