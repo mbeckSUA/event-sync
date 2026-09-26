@@ -1,127 +1,5 @@
 [
   {
-    "name": "Soka Leadership and Service Fair",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Discover on-campus leadership opportunities and connect with off-campus volunteering opportunities to get involved and make an impact in our community. Stop by, meet campus and community organizations, explore ways to lead and serve, and enjoy some donuts!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "Dining Hall Patio",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
-    "name": "Fridays on the Green",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "",
-    "contact": null,
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
-    "name": "Information Session on the End of Duration Status",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "12:30 PM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Patricia Gibson",
-      "email": "pgibson@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
-    "name": "Founders Gallery open to visitors",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "9:00 AM",
-    "endTime": "4:00 PM",
-    "allDay": false,
-    "room": "Founders 2nd Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
-    "name": "Summer Student Research Assistantship Program 2026 Symposium",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-25",
-    "startTime": "9:00 AM",
-    "endTime": "4:00 PM",
-    "allDay": false,
-    "room": "CUR 300",
-    "building": "Curie Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-09-21%20at%203.54.47%E2%80%AFPM.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-25"
-    ],
-    "lastDate": "2026-09-25"
-  },
-  {
     "name": "Student Org Expo",
     "type": "Campus Events",
     "public": true,
@@ -226,7 +104,7 @@
     "startTime": "7:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
-    "room": "Art Gallery",
+    "room": "Founders 2nd Floor Art Gallery",
     "building": "Founders Hall",
     "imageURL": "",
     "contact": {
@@ -367,6 +245,100 @@
       "2026-09-28"
     ],
     "lastDate": "2026-09-28"
+  },
+  {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-28",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 23,
+    "occurrenceDates": [
+      "2026-09-28",
+      "2026-09-30",
+      "2026-10-05",
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\n If you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-09-28",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 23,
+    "occurrenceDates": [
+      "2026-09-28",
+      "2026-09-30",
+      "2026-10-05",
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
   },
   {
     "name": "Know Your Rights",
@@ -732,6 +704,31 @@
       "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-02"
+    ],
+    "lastDate": "2026-10-02"
+  },
+  {
+    "name": "Fridays on the GREEN",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Fridays on the GREEN is a popular social event during the lunch hour where music is played and students are encouraged to join the fun by lounging on the green, get creative and color and/ or play with the variety of sports equipment.\n\nTo keep the energy high, we will also be featuring DJ Paul, bringing the beats to fuel a vibrant Friday atmosphere. Do not miss out, come join the fun, celebrate diversity, and start your weekend on a high note!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-02",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Campus Green",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/campus_illustration_600_full.png",
+    "contact": {
+      "name": "Robert Duran",
+      "email": "r.duran@soka.edu"
+    },
+    "org": "Student Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-02"
@@ -1110,28 +1107,6 @@
     "lastDate": "2026-10-13"
   },
   {
-    "name": "Women's Soccer vs La Sierra (Calif.)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
     "name": "CareerCore - Professional Development WORKSHOP (Critical Thinking + Applied Problem Solving)",
     "type": "Campus Events",
     "public": true,
@@ -1150,6 +1125,28 @@
       "email": "aproctor@soka.edu"
     },
     "org": "Career Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
+  },
+  {
+    "name": "Women's Soccer vs La Sierra (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.gsacsportsnetwork.com/sokauofa/ | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Soccer Field",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-13"
@@ -1252,6 +1249,81 @@
       "2026-10-15"
     ],
     "lastDate": "2026-10-15"
+  },
+  {
+    "name": "Fridays on the GREEN",
+    "type": "Campus Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "11:00 AM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Campus Green",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Robert Duran",
+      "email": "r.duran@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
+  },
+  {
+    "name": "Lunch & Conversation with Dr. Laurie Marker",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Viki Lohk",
+      "email": "v.lohk@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
+  },
+  {
+    "name": "Talk by Dr. Laurie Marker",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is Named Among 27 Nominees for the Indianapolis Prize, the World's Leading Award for Animal Conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "1:00 PM",
+    "endTime": "2:30 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Viki Lohk",
+      "email": "v.lohk@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
   },
   {
     "name": "",
@@ -1402,6 +1474,56 @@
       "2026-11-19"
     ],
     "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Annotations of Hope: Dr. Nahum Chandler on Du Bois's \"Of the Coming of John\"",
+    "type": "Campus Events",
+    "public": false,
+    "description": "A lecture by Dr. Nahum Chandler\n\nW. E. B. Du Bois's short story \"Of the Coming of John\" follows a young man's journey: from a carefree small-town boy, through a failed first year of college, to his return to school and his discovery of himself anew in the world of thought. It is a discovery of what Du Bois elsewhere calls \"double-consciousness.\"\n\nThe story is the masterpiece of Du Bois's The Souls of Black Folk: Essays and Sketches (1903), a classic of American thought. Within its few pages, it raises the great questions of history and destiny, duty, people and nation, boyhood and manhood, family, and the future of girls and women. Drawing on the Old Testament, the ancient Greek idea of paideia, 18th-century French ideals of liberty, equality, and fraternity, 19th-century English ideas of liberal education, and late 19th-century German notions of fate and destiny, and carried by an American and African American sense of hope after the Civil War and Reconstruction, the story stages the central questions of modern world history. They are questions of Du Bois's time and of our own.\n\nIn this lecture, Dr. Chandler will begin a close reading of the text, paragraph by paragraph and section by section. Music will play a substantial role in the listening and discussion.\n\nHow to prepare: The story is about 20 pages long. Attendees are encouraged to listen to the audiobook version beforehand. The text is also available online in a reliable scholarly edition, including through the Ikeda Library.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "4:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Viki Lohk",
+      "email": "v.lohk@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
+  },
+  {
+    "name": "From Curiosity to Clarity: Creating Great Research Questions",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Gandhi 303A",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Jennifer  Tirrell",
+      "email": "jtirrell@soka.edu"
+    },
+    "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
   },
   {
     "name": "Soka Leadership Summit",
@@ -2843,6 +2965,47 @@
       "2027-01-29"
     ],
     "lastDate": "2027-01-29"
+  },
+  {
+    "name": "Fridays on the GREEN",
+    "type": "Campus Events",
+    "public": true,
+    "description": "This weekly program features live music, celebrates history and heritage months, and partners with departments across campus to create campus culture and student programming",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-29",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
+    "allDay": false,
+    "room": "Campus Green",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Robert Duran",
+      "email": "r.duran@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 17,
+    "occurrenceDates": [
+      "2027-01-29",
+      "2027-02-05",
+      "2027-02-12",
+      "2027-02-19",
+      "2027-02-26",
+      "2027-03-05",
+      "2027-03-12",
+      "2027-03-19",
+      "2027-03-26",
+      "2027-04-02",
+      "2027-04-09",
+      "2027-04-16",
+      "2027-04-23",
+      "2027-04-30",
+      "2027-05-07",
+      "2027-05-14",
+      "2027-05-21"
+    ],
+    "lastDate": "2027-05-21"
   },
   {
     "name": "Free Family Concert with OC Youth Symphony",
