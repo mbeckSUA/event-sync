@@ -9,7 +9,15 @@ Two ways to run this:
 
 2. Live against the Coursedog API (automated mode — what the scheduled
    GitHub Action uses):
-       python security_report.py --live --date 2026-09-25
+       python security_report.py --live --date 2026-09-25 --days 6
+
+--days (live mode only, default 1) renders that many days as tabs on the
+published page, starting at --date — a bounded lookahead window (e.g.
+today + next 5), not open-ended date browsing. See project notes for why
+it's capped rather than unlimited: a wider window is trivial from a data-
+load standpoint, but it multiplies exposure on an unauthenticated URL and
+near-term future days are only as fresh as the run that generated them.
+--send and stdout always cover just --date, regardless of --days.
 
 Delivery, either mode:
     --publish PATH   write a standalone HTML page to PATH (the primary
@@ -198,9 +206,22 @@ def load_from_csv(path, target_date):
     return events
 
 
-def load_from_api(target_date):
-    """Live pull from Coursedog. Requires the dedicated read-only API user's
-    credentials (COURSEDOG_READONLY_* env vars, same convention as
+# Confirmed live in build_campus_events.py (Sept 11): skip/limit pagination
+# on /meetings silently truncates once a query's *result count* gets large
+# enough (a full year came back with 710 meetings and quietly dropped
+# everything past ~Dec 10) — it wasn't hitting end-of-data, it was hitting
+# some other limit and returning a short page that looked like the end.
+# This report's window is small (a handful of days, ~20 events/day) — nowhere
+# near that failure's scale — but the pagination loop itself costs nothing to
+# include, so it's here defensively rather than assuming a single unpaginated
+# GET is safe forever as the window grows.
+PAGE_LIMIT = 200
+
+
+def load_from_api(start_date, end_date):
+    """Live pull from Coursedog for the date range [start_date, end_date].
+    Requires the dedicated read-only API user's credentials
+    (COURSEDOG_READONLY_* env vars, same convention as
     build_campus_events.py) — this script only ever does GET requests, so it
     should never be pointed at a read-write credential."""
     import requests
@@ -219,23 +240,34 @@ def load_from_api(target_date):
     token = session_resp.json()["token"]
     headers = {"Authorization": f"Bearer {token}"}
 
-    resp = requests.get(
-        f"{base}/api/v1/em/{school_id}/meetings",
-        params={"startDate": target_date, "endDate": target_date},
-        headers=headers,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    payload = resp.json()
-    # Confirmed live 2026-09-25: /meetings returns a dict keyed by meeting
-    # ID (same pattern as /rooms and /organizations per api-learnings.md),
-    # not {data: [...]}. Handle all three shapes Coursedog might hand back.
-    if isinstance(payload, list):
-        rows = payload
-    elif "data" in payload:
-        rows = payload["data"]
-    else:
-        rows = list(payload.values())
+    rows = []
+    skip = 0
+    while True:
+        resp = requests.get(
+            f"{base}/api/v1/em/{school_id}/meetings",
+            params={"startDate": start_date, "endDate": end_date, "skip": skip, "limit": PAGE_LIMIT},
+            headers=headers,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+        # Confirmed live 2026-09-25: /meetings returns a dict keyed by meeting
+        # ID (same pattern as /rooms and /organizations per api-learnings.md),
+        # not {data: [...]}. Handle all three shapes Coursedog might hand back.
+        if isinstance(payload, list):
+            batch = payload
+        elif isinstance(payload, dict) and "data" in payload:
+            batch = payload["data"]
+        elif isinstance(payload, dict):
+            batch = list(payload.values())
+        else:
+            batch = []
+        if not batch:
+            break
+        rows.extend(batch)
+        if len(batch) < PAGE_LIMIT:
+            break
+        skip += PAGE_LIMIT
 
     # Meetings only carry room/org IDs, not display names — same dict-
     # keyed-by-ID shape as meetings itself. Build ID -> name lookups once.
@@ -270,8 +302,8 @@ def load_from_api(target_date):
         events.append({
             "name": "(private event)" if is_redacted else (ev.get("name") or "(untitled)"),
             "location": room_names.get(room_id, room_id or "-"),
-            "start_date": m.get("startDate", target_date),
-            "end_date": m.get("endDate", target_date),
+            "start_date": m.get("startDate", start_date),
+            "end_date": m.get("endDate", start_date),
             "start_min": _hhmm_to_minutes(m.get("startTime")),
             "end_min": _hhmm_to_minutes(m.get("endTime")),
             "organization": org_names.get(org_id, org_id or "-"),
@@ -282,6 +314,18 @@ def load_from_api(target_date):
             "type": ev.get("type"),
         })
     return events
+
+
+def group_by_date(events, dates):
+    """Split a flat event list (as returned by load_from_api across a date
+    range) into one list per day, keyed by start_date. dates fixes the
+    order and the full set of days to include, even ones with zero events —
+    a quiet day is still worth a tab that says so, not a missing tab."""
+    by_date = {d: [] for d in dates}
+    for e in events:
+        if e["start_date"] in by_date:
+            by_date[e["start_date"]].append(e)
+    return by_date
 
 
 def _hhmm_to_minutes(val):
@@ -438,14 +482,56 @@ def build_html_report(events, target_date):
     """
 
 
-def build_standalone_page(events, target_date, generated_at):
+def _day_label(date_str, today_str):
+    """'Today', 'Tomorrow', or 'Wed 10/1' for anything further out."""
+    d = datetime.strptime(date_str, "%Y-%m-%d").date()
+    today = datetime.strptime(today_str, "%Y-%m-%d").date()
+    delta = (d - today).days
+    if delta == 0:
+        return "Today"
+    if delta == 1:
+        return "Tomorrow"
+    return d.strftime("%a %-m/%-d")
+
+
+def build_standalone_page(events_by_date, dates, generated_at):
     """Full HTML page for GitHub Pages publishing — the primary delivery
-    method. Wraps build_html_report()'s content (built for embedding in an
-    email body) in a real document, using the same Soka brand palette and
-    noindex convention as docs/campus-happenings-*/index.html, since this is
-    published to the same unauthenticated-but-unlisted GitHub Pages site and
-    should look like it belongs there."""
-    body = build_html_report(events, target_date)
+    method. One tab per day in `dates` (today plus a bounded lookahead
+    window, not open-ended date browsing — see project notes on why: a
+    wider window is trivial data-load-wise, but it multiplies exposure on
+    an unauthenticated URL and near-term future days are only as fresh as
+    this run, so unbounded lookahead isn't worth either cost). Reuses
+    build_html_report()'s per-day content (built for embedding in an email
+    body) and the same Soka brand palette / noindex convention as
+    docs/campus-happenings-*/index.html, since this publishes to the same
+    unauthenticated-but-unlisted GitHub Pages site.
+
+    Renders plain, tab-free content when there's exactly one day (CSV mode,
+    or --days 1) — no reason to show tab UI for a single tab."""
+    today_str = dates[0]
+
+    panels = []
+    tabs = []
+    for i, d in enumerate(dates):
+        day_events = events_by_date.get(d, [])
+        _, notable, active, _ = build_report(day_events, d)
+        outside_count = len([1 for e, f in notable if any(x in OUTSIDE_VISITOR_FLAGS for x in f)])
+        body = build_html_report(day_events, d)
+        active_style = "" if i == 0 else "display:none;"
+        panels.append(f'<div class="day-panel" id="day-panel-{i}" style="{active_style}">{body}</div>')
+
+        label = _day_label(d, today_str)
+        badge = f' <span class="tab-badge">{outside_count}</span>' if outside_count else ""
+        active_class = " active" if i == 0 else ""
+        tabs.append(
+            f'<button class="day-tab{active_class}" id="day-tab-{i}" '
+            f'onclick="showDay({i})">{label}{badge}</button>'
+        )
+
+    tab_bar = ""
+    if len(dates) > 1:
+        tab_bar = f'<div class="tab-bar">{"".join(tabs)}</div>'
+
     # No zoneinfo/tz-database dependency — Pacific is UTC-7 (PDT) or UTC-8
     # (PST); this only needs to be legible to a person glancing at a
     # timestamp, not exact to the minute, so a fixed PDT offset is fine
@@ -457,13 +543,19 @@ def build_standalone_page(events, target_date, generated_at):
         f"{pacific.strftime('%-I:%M %p')} Pacific "
         f"({generated_at.strftime('%-I:%M %p')} UTC)"
     )
+    freshness_note = (
+        "Refreshed automatically once a day — not real-time. Today's tab is "
+        "current as of this run; later days are subject to change before "
+        "they arrive." if len(dates) > 1 else
+        "Refreshed automatically once a day — not real-time."
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Campus Security Report — {target_date}</title>
+<title>Campus Security Report — {today_str}</title>
 <meta name="robots" content="noindex, nofollow, noarchive">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700&display=swap">
 <style>
@@ -472,6 +564,7 @@ def build_standalone_page(events, target_date, generated_at):
     --ink:#001D61;
     --ink-muted:#6B7CA3;
     --line:#CCD2DF;
+    --teal:#004B87;
   }}
   *{{box-sizing:border-box;}}
   body{{
@@ -482,6 +575,44 @@ def build_standalone_page(events, target_date, generated_at):
     padding:24px 16px 48px;
   }}
   .wrap{{max-width:680px;margin:0 auto;}}
+  .tab-bar{{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin-bottom:20px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:12px;
+  }}
+  .day-tab{{
+    font-family:inherit;
+    font-size:13px;
+    font-weight:600;
+    color:var(--ink-muted);
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:6px 12px;
+    cursor:pointer;
+  }}
+  .day-tab.active{{
+    color:#fff;
+    background:var(--teal);
+    border-color:var(--teal);
+  }}
+  .tab-badge{{
+    display:inline-block;
+    background:#fecaca;
+    color:#7f1d1d;
+    border-radius:999px;
+    font-size:11px;
+    font-weight:700;
+    padding:1px 6px;
+    margin-left:4px;
+  }}
+  .day-tab.active .tab-badge{{
+    background:#fff;
+    color:var(--teal);
+  }}
   .updated{{
     color:var(--ink-muted);
     font-size:13px;
@@ -493,9 +624,20 @@ def build_standalone_page(events, target_date, generated_at):
 </head>
 <body>
   <div class="wrap">
-    {body}
-    <div class="updated">Report generated {generated_str}. Refreshed automatically once a day — not real-time.</div>
+    {tab_bar}
+    {"".join(panels)}
+    <div class="updated">Report generated {generated_str}. {freshness_note}</div>
   </div>
+  <script>
+    function showDay(i) {{
+      document.querySelectorAll('.day-panel').forEach(function(el, idx) {{
+        el.style.display = (idx === i) ? '' : 'none';
+      }});
+      document.querySelectorAll('.day-tab').forEach(function(el, idx) {{
+        el.classList.toggle('active', idx === i);
+      }});
+    }}
+  </script>
 </body>
 </html>
 """
@@ -529,33 +671,42 @@ def send_email(subject, text_body, html_body):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--csv", help="Path to a Coursedog export CSV (manual mode)")
+    ap.add_argument("--csv", help="Path to a Coursedog export CSV (manual mode, single day only)")
     ap.add_argument("--live", action="store_true", help="Pull live from Coursedog API")
     ap.add_argument("--date", default=date.today().isoformat(), help="YYYY-MM-DD, default today")
-    ap.add_argument("--send", action="store_true", help="Actually email the report (else just print)")
+    ap.add_argument("--days", type=int, default=1, help="Live mode only: number of days starting at --date to include as tabs (default 1, i.e. just --date)")
+    ap.add_argument("--send", action="store_true", help="Actually email the report (else just print). --live mode only; emails just --date, not the full --days window.")
     ap.add_argument("--publish", metavar="PATH", help="Write a standalone HTML page to PATH (e.g. docs/security-XXXX/index.html)")
     args = ap.parse_args()
 
+    from datetime import timedelta
+    start = datetime.strptime(args.date, "%Y-%m-%d").date()
+    dates = [(start + timedelta(days=i)).isoformat() for i in range(max(args.days, 1))]
+
     if args.live:
-        events = load_from_api(args.date)
+        events = load_from_api(dates[0], dates[-1])
     elif args.csv:
         events = load_from_csv(args.csv, args.date)
+        dates = [args.date]  # CSV export is a single-day snapshot; --days doesn't apply
     else:
         print("Specify --csv PATH or --live", file=sys.stderr)
         sys.exit(1)
 
-    text_report, notable, active, canceled = build_report(events, args.date)
+    events_by_date = group_by_date(events, dates)
+
+    # Always print --date's text report to stdout, regardless of --days.
+    text_report, notable, active, canceled = build_report(events_by_date[args.date], args.date)
     print(text_report)
 
     if args.publish:
-        page = build_standalone_page(events, args.date, datetime.now(timezone.utc))
+        page = build_standalone_page(events_by_date, dates, datetime.now(timezone.utc))
         out_path = Path(args.publish)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(page, encoding="utf-8")
-        print(f"[security_report] Published standalone page to {out_path}")
+        print(f"[security_report] Published standalone page to {out_path} ({len(dates)} day(s): {dates[0]}..{dates[-1]})")
 
     if args.send:
-        html_report = build_html_report(events, args.date)
+        html_report = build_html_report(events_by_date[args.date], args.date)
         subject = f"Campus Security — {args.date} — {len(notable)} flagged / {len(active)} events"
         send_email(subject, text_report, html_report)
 

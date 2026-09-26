@@ -10,6 +10,12 @@
 # control. That's an accepted, deliberate trade-off for now (see project
 # notes on the SharePoint/Graph API migration path), not an oversight.
 #
+# --days 6 renders today plus the next 5 days as tabs — a bounded lookahead
+# window, not open-ended date browsing (deliberately dropped a 'yesterday'
+# tab too — this report's job is who's coming to campus, not an incident
+# log of what already happened). Only today's tab reflects same-morning
+# data; later days are only as fresh as this run.
+#
 # Cron is UTC. Runs at ~3am Pacific on an odd minute, matching sync.yml and
 # campus-events.yml — both were moved off ~6am because GitHub's scheduler
 # was running hours late at that busier time. Offset by a few minutes from
@@ -47,7 +53,7 @@ jobs:
           COURSEDOG_READONLY_EMAIL: ${{ secrets.COURSEDOG_READONLY_EMAIL }}
           COURSEDOG_READONLY_PASSWORD: ${{ secrets.COURSEDOG_READONLY_PASSWORD }}
           COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
-        run: python security_report.py --live --publish docs/security-5WYoLq6oCy4rKeWr/index.html
+        run: python security_report.py --live --days 6 --publish docs/security-5WYoLq6oCy4rKeWr/index.html
 
       - name: Commit updated report
         run: |
