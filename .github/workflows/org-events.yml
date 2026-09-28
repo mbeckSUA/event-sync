@@ -2,9 +2,13 @@ name: Department Events (Recreation, Library)
 
 on:
   schedule:
-    - cron: '31 10 * * *'  # ~3:31am Pacific — offset from campus-events.yml (10:22)
-                            # and sync.yml (10:07) so all three don't race on the
-                            # same checkout, same reasoning as those two.
+    - cron: '47 * * * *'   # hourly, at :47 past every hour. Picked to land after
+                            # sync.yml (10:07 UTC) and campus-events.yml (10:22 UTC)
+                            # with a comfortable margin, so this workflow's daily
+                            # pass through that hour doesn't collide with either --
+                            # starting a new Coursedog session invalidates any
+                            # other session using the same read-only credentials,
+                            # so overlapping runs can log each other out mid-request.
   workflow_dispatch:        # Manual trigger for testing
 
 permissions:
