@@ -227,8 +227,19 @@ function filteredEvents(){
   const endStr = localDateStr(end);
   const out = [];
   EVENTS.forEach(e => {
-    (e.occurrenceDates || [e.date]).forEach(d => {
-      if(d >= todayStr && d <= endStr) out.push(Object.assign({}, e, {date: d}));
+    // occurrences[] carries each date's own time (a single event can have
+    // more than one recurrence pattern, e.g. different days at different
+    // times) — fall back to the top-level date/time only for older feed
+    // data that predates this field.
+    const occs = (e.occurrences && e.occurrences.length)
+      ? e.occurrences
+      : [{date: e.date, startTime: e.startTime, endTime: e.endTime, allDay: e.allDay}];
+    occs.forEach(occ => {
+      if(occ.date >= todayStr && occ.date <= endStr){
+        out.push(Object.assign({}, e, {
+          date: occ.date, startTime: occ.startTime, endTime: occ.endTime, allDay: occ.allDay,
+        }));
+      }
     });
   });
   return out;

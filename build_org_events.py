@@ -288,10 +288,17 @@ def transform(meeting, rooms, orgs):
 
 
 def group_and_dedupe(rows):
-    """Same recurring-event collapse as build_campus_events.py — one row per
-    event, anchored at its earliest date, with every occurrence date kept so
-    a multi-month series doesn't vanish from the widget after its first
-    showing."""
+    """One row per event, but — unlike build_campus_events.py's version —
+    each occurrence keeps its own date/time. A single Coursedog event can
+    carry multiple recurrence patterns (e.g. Mon 7-8pm AND Wed 6:30-7:30pm
+    under one event id), and the old flat-occurrenceDates approach forced
+    every date to show whichever time belonged to the earliest occurrence —
+    wrong for any date on a different pattern (discovered via "Fitness
+    Classes: Tennis", Sept 2026). occurrences[] is now the source of truth
+    for what to render on which date. The top-level date/startTime/endTime/
+    allDay stay as a summary (earliest occurrence) for anything that only
+    wants one line, and occurrenceDates is kept for back-compat but should
+    no longer be used to look up a time."""
     groups = defaultdict(list)
     for row in rows:
         key = row["_event_id"] or (row["name"], row["room"])
@@ -302,6 +309,15 @@ def group_and_dedupe(rows):
         occurrences.sort(key=lambda r: (r["date"] or "", r["startTime"] or ""))
         first = dict(occurrences[0])
         first["occurrenceCount"] = len(occurrences)
+        first["occurrences"] = [
+            {
+                "date": r["date"],
+                "startTime": r["startTime"],
+                "endTime": r["endTime"],
+                "allDay": r["allDay"],
+            }
+            for r in occurrences if r["date"]
+        ]
         dates = sorted({r["date"] for r in occurrences if r["date"]})
         first["occurrenceDates"] = dates
         first["lastDate"] = dates[-1] if dates else first["date"]
