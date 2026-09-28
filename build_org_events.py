@@ -12,21 +12,38 @@ pagination gotcha, lookup-dict resolution, recurring-event dedup) is
 duplicated from there on purpose — see api-learnings.md and the comments in
 build_campus_events.py for why each piece works the way it does.
 
-Filters by ORGANIZATION, not event type — same lever pac-event-categorization.md
-settled on for Performing Arts Center (type is inconsistently applied;
-organization is reliable). Matches on the live /organizations displayName
-each run, NOT a hardcoded org ID — the PAC org-ID incident (a stale ID
-pasted into project notes, silently orphaning events for weeks) is exactly
-the failure mode this avoids. If a feed's configured name stops matching
-anything, this logs a warning and writes an empty feed rather than quietly
-serving stale or wrong data.
+Each feed matches on EITHER organization OR event type — whichever field is
+actually reliable for that department. Organization was the lever
+pac-event-categorization.md settled on for Performing Arts Center (type is
+inconsistently applied there; organization is reliable). Matches on the
+live /organizations displayName each run, NOT a hardcoded org ID — the PAC
+org-ID incident (a stale ID pasted into project notes, silently orphaning
+events for weeks) is exactly the failure mode this avoids.
 
-Policy note — read before flipping REQUIRE_PUBLIC to False:
+Recreation is the opposite case, discovered Sept 28: its "Recreation
+Calendar" event type has an entry form that doesn't expose Organization OR
+Public at all — saving an event under that type silently clears both
+fields (confirmed live: reclassifying "Fitness Classes: Tennis" from Campus
+Events to Recreation Calendar dropped it from this feed entirely, along
+with everything else already on that type). Organization-based matching
+can never work for events on that type, so Recreation matches on event
+TYPE instead (match_type: "Recreation Calendar") — type is always set
+(it's what selects the entry form in the first place), so it's the one
+reliable signal left.
+
+Consequence: because Public isn't on that form either, there is no way to
+mark a Recreation Calendar event non-public — so require_public is False
+for that feed, and EVERYTHING typed Recreation Calendar is treated as
+public-facing. That's a real assumption, not a technicality: confirm with
+Recreation/Susan that this type is only ever used for public programming
+(intramurals, fitness classes) before trusting it, since anything entered
+there for internal-only scheduling would now leak onto the public widget.
+
+Policy note — read before flipping any require_public to False:
 events-public-visibility.md flags an open, unresolved question specifically
 about Recreation/student-life content: staff worry the public will assume a
-"members-only" class or intramural game is open to them. Defaulting every
-feed here to public-events-only is the conservative choice until that's
-actually settled with the department — don't loosen it unilaterally.
+"members-only" class or intramural game is open to them. Library still
+defaults to public-events-only pending that same conversation.
 """
 import json, logging, os
 from collections import defaultdict
@@ -53,6 +70,10 @@ EXCLUDE_TYPES = {"Internal Meeting", "Student Request Form"}
 # ---------------------------------------------------------------------------
 # Feed configuration. Add a new dict here for each department feed wanted —
 # no new GitHub secret needed, this reuses the existing read-only credentials.
+# Each feed sets EITHER match_names (org-based) OR match_type (type-based),
+# not both — pick whichever field that department's Coursedog data actually
+# carries reliably (see the module docstring for why Recreation had to
+# switch).
 #
 # match_names: matched case-insensitively against organization displayName.
 # Exact match tried first; falls back to substring match with a logged
@@ -60,14 +81,20 @@ EXCLUDE_TYPES = {"Internal Meeting", "Student Request Form"}
 # loudly instead of silently going empty). List multiple names if a
 # department's Coursedog org is split across sub-orgs.
 #
-# require_public: only include events the organizer explicitly marked
-# public. See the policy note in the module docstring before changing this.
+# match_type: matched exactly against event type. Use this when the
+# department's event type doesn't carry Organization/Public (Recreation
+# Calendar, confirmed Sept 28) — see the module docstring.
+#
+# require_public: only include events explicitly marked public. Must be
+# False for a match_type feed whose type has no Public field at all — see
+# the policy note in the module docstring before changing this for any
+# other feed.
 # ---------------------------------------------------------------------------
 FEEDS = [
     {
         "key": "recreation",
-        "match_names": ["Recreation"],
-        "require_public": True,
+        "match_type": "Recreation Calendar",
+        "require_public": False,
         "out_file": DOCS_DIR / "recreation-events.json",
     },
     {
@@ -163,6 +190,12 @@ def fetch_lookup_dict(token, resource_candidates):
     return {}
 
 
+def org_display(org_rec):
+    """displayName with a name fallback — the org dict isn't guaranteed to
+    have both keys populated the same way every time."""
+    return (org_rec.get("displayName") or org_rec.get("name")) if org_rec else None
+
+
 def resolve_feed_org_ids(feed, orgs):
     """Matches feed['match_names'] against live org displayNames. Exact
     case-insensitive match first; substring fallback with a warning."""
@@ -178,7 +211,7 @@ def resolve_feed_org_ids(feed, orgs):
         if substr_hits:
             log.warning(f"[{feed['key']}] no exact org match for '{wanted}' — "
                         f"using {len(substr_hits)} substring match(es) instead: "
-                        f"{[orgs[oid].get('displayName') for oid in substr_hits]}")
+                        f"{[org_display(orgs[oid]) for oid in substr_hits]}")
             matched.update(substr_hits)
         else:
             log.warning(f"[{feed['key']}] '{wanted}' matched NO organization — "
@@ -196,7 +229,7 @@ def fmt_time(hhmm):
     return f"{h12}:{m:02d} {suffix}"
 
 
-def is_excluded(meeting, org_ids, require_public):
+def is_excluded(meeting, feed, org_ids):
     ev = meeting.get("eventData") or {}
     if ev.get("private") is True:
         return True
@@ -206,9 +239,15 @@ def is_excluded(meeting, org_ids, require_public):
         return True
     if ev.get("type") in EXCLUDE_TYPES:
         return True
-    if ev.get("organization") not in org_ids:
-        return True
-    if require_public and not ev.get("public"):
+
+    if feed.get("match_type"):
+        if ev.get("type") != feed["match_type"]:
+            return True
+    else:
+        if ev.get("organization") not in org_ids:
+            return True
+
+    if feed["require_public"] and not ev.get("public"):
         return True
     return False
 
@@ -227,8 +266,7 @@ def transform(meeting, rooms, orgs):
     building_name = room_rec.get("buildingDisplayName") if room_rec else None
 
     org_id = ev.get("organization")
-    org_rec = orgs.get(org_id) if org_id else None
-    org_name = (org_rec.get("displayName") or org_rec.get("name")) if org_rec else None
+    org_name = org_display(orgs.get(org_id)) if org_id else None
 
     return {
         "_event_id": meeting.get("eventId") or ev.get("_id"),
@@ -289,11 +327,16 @@ def main():
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
     for feed in FEEDS:
-        org_ids = resolve_feed_org_ids(feed, orgs)
-        kept = [m for m in raw if not is_excluded(m, org_ids, feed["require_public"])]
+        if feed.get("match_type"):
+            org_ids = None
+            match_desc = f"type == {feed['match_type']!r}"
+        else:
+            org_ids = resolve_feed_org_ids(feed, orgs)
+            match_desc = f"org match: {[org_display(orgs[oid]) for oid in org_ids]}"
+
+        kept = [m for m in raw if not is_excluded(m, feed, org_ids)]
         log.info(f"[{feed['key']}] {len(kept)} of {len(raw)} meetings kept "
-                 f"(org match: {[orgs[oid].get('displayName') for oid in org_ids]}, "
-                 f"require_public={feed['require_public']})")
+                 f"({match_desc}, require_public={feed['require_public']})")
 
         rows = [transform(m, rooms, orgs) for m in kept]
         events = group_and_dedupe(rows)
