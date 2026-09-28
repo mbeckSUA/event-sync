@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "From Curiosity to Clarity: Creating Great Research Questions",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "date": "2026-10-22",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Gandhi 303A",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Jennifer  Tirrell",
+      "email": "jtirrell@soka.edu"
+    },
+    "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
+  },
+  {
+    "name": "Silent Book Club",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
+    "date": "2026-10-23",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "allDay": false,
+    "room": "Ikeda Library Main Floor",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
+    "contact": {
+      "name": "Jennifer  Tirrell",
+      "email": "jtirrell@soka.edu"
+    },
+    "org": "Library",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-23",
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  }
+]
