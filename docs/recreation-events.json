@@ -18,6 +18,146 @@
     },
     "org": "Recreation",
     "occurrenceCount": 23,
+    "occurrences": [
+      {
+        "date": "2026-09-28",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-09-30",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-05",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-07",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-12",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-14",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-19",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-21",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-26",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-28",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-02",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-04",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-09",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-11",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-16",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-18",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-23",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-30",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-02",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-07",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-09",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-14",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-16",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-09-28",
       "2026-09-30",
@@ -64,6 +204,146 @@
     },
     "org": "Recreation",
     "occurrenceCount": 23,
+    "occurrences": [
+      {
+        "date": "2026-09-28",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-09-30",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-05",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-07",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-12",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-14",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-19",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-21",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-26",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-28",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-02",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-04",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-09",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-11",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-16",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-18",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-23",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-30",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-02",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-07",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-09",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-14",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-16",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-09-28",
       "2026-09-30",
@@ -110,6 +390,146 @@
     },
     "org": "Recreation",
     "occurrenceCount": 23,
+    "occurrences": [
+      {
+        "date": "2026-09-29",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-01",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-06",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-08",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-13",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-15",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-20",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-22",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-27",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-29",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-03",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-05",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-10",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-12",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-17",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-19",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-24",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-01",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-03",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-08",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-10",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-15",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-17",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-09-29",
       "2026-10-01",
@@ -156,6 +576,140 @@
     },
     "org": "Recreation",
     "occurrenceCount": 22,
+    "occurrences": [
+      {
+        "date": "2026-09-29",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-01",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-06",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-08",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-13",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-15",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-20",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-22",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-27",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-29",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-05",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-12",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-19",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-24",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-08",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-15",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-09-29",
       "2026-10-01",
@@ -201,6 +755,14 @@
     },
     "org": "Recreation",
     "occurrenceCount": 1,
+    "occurrences": [
+      {
+        "date": "2026-09-30",
+        "startTime": "7:30 PM",
+        "endTime": "10:00 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-09-30"
     ],
@@ -225,6 +787,20 @@
     },
     "org": "Recreation",
     "occurrenceCount": 2,
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "startTime": "7:30 PM",
+        "endTime": "10:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-08",
+        "startTime": "7:30 PM",
+        "endTime": "10:00 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-10-01",
       "2026-10-08"
@@ -250,6 +826,14 @@
     },
     "org": "Recreation",
     "occurrenceCount": 1,
+    "occurrences": [
+      {
+        "date": "2026-10-28",
+        "startTime": "7:30 PM",
+        "endTime": "10:00 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-10-28"
     ],

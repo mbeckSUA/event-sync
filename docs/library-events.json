@@ -18,6 +18,14 @@
     },
     "org": "Library",
     "occurrenceCount": 1,
+    "occurrences": [
+      {
+        "date": "2026-10-22",
+        "startTime": "5:00 PM",
+        "endTime": "6:30 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-10-22"
     ],
@@ -42,6 +50,20 @@
     },
     "org": "Library",
     "occurrenceCount": 2,
+    "occurrences": [
+      {
+        "date": "2026-10-23",
+        "startTime": "3:00 PM",
+        "endTime": "4:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-20",
+        "startTime": "3:00 PM",
+        "endTime": "4:30 PM",
+        "allDay": false
+      }
+    ],
     "occurrenceDates": [
       "2026-10-23",
       "2026-11-20"
