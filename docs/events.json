@@ -1,55 +1,5 @@
 [
   {
-    "name": "TKF on campus event",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "TKF Global is a career support service for Japanese students studying at universities overseas. It provides information, resources, and guidance for job hunting in Japan, including career advice, company information, and opportunities to connect with companies",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-27",
-    "startTime": "11:00 AM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-27"
-    ],
-    "lastDate": "2026-09-27"
-  },
-  {
-    "name": "Class of '28 & '30 Mixer",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Come hang out, relax, and connect with students from the Classes of 2028 and 2030! With a cozy camping theme, this mixer is all about taking a break, meeting new people, and getting to know each other across class years Let\u2019s chill, have fun, and make some new connections together!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-27",
-    "startTime": "8:00 PM",
-    "endTime": "9:30 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-27"
-    ],
-    "lastDate": "2026-09-27"
-  },
-  {
     "name": "Post-Sabbatical\u00a0Talk\u00a0by Dr.\u00a0Marie Nydam",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
@@ -129,8 +79,8 @@
   },
   {
     "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Campus Events",
-    "public": true,
+    "type": "Recreation Calendar",
+    "public": false,
     "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
     "extendedDescription": "",
     "facility": false,
@@ -176,9 +126,9 @@
   },
   {
     "name": "Fitness Classes: Tennis",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\n If you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-09-28",
@@ -264,7 +214,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": null,
+    "org": "Recreation",
     "occurrenceCount": 23,
     "occurrenceDates": [
       "2026-09-29",
@@ -294,31 +244,6 @@
     "lastDate": "2026-12-17"
   },
   {
-    "name": "Meet the Author",
-    "type": "Academic Programs & Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "5:10 PM",
-    "endTime": "6:10 PM",
-    "allDay": false,
-    "room": "Athenaeum Library",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Dean of Faculty Office",
-      "email": "deanoffaculty@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-29"
-    ],
-    "lastDate": "2026-09-29"
-  },
-  {
     "name": "Fitness Classes: Yoga",
     "type": "Recreation Calendar",
     "public": false,
@@ -336,7 +261,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": null,
+    "org": "Recreation",
     "occurrenceCount": 22,
     "occurrenceDates": [
       "2026-09-29",
@@ -407,7 +332,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": null,
+    "org": "Recreation",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-09-30"
@@ -558,7 +483,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": null,
+    "org": "Recreation",
     "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-10-01",
@@ -671,7 +596,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "THIS CONCERT IS PRESENTED BY H\u0100LAU HULA LANI OLA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike\">More info and tickets</a>",
     "facility": false,
     "date": "2026-10-03",
     "startTime": "5:00 PM",
@@ -1733,7 +1658,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "KALI MANDIR PRESENTS MALINI AWASTHI\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/malini-awasthi\">More info and tickets</a>",
     "facility": false,
     "date": "2026-10-25",
     "startTime": "6:30 PM",
@@ -1875,7 +1800,7 @@
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
-    "org": null,
+    "org": "Recreation",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-28"
@@ -2055,7 +1980,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "_Bob Baker Marionettes have \u201cenchanted children over nearly five\ndecades\u201d \u2013\u00a0THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-07",
     "startTime": "3:00 PM",
@@ -2182,7 +2107,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-15",
     "startTime": "3:00 PM",
@@ -2257,7 +2182,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "\u201cThe world\u2019s only period\u2011instrument rock band.\u201d \u2013\u00a0\nSAN\u202fFRANCISCO\u202fCLASSICAL\u202fVOICE (ON RUCKUS)\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-21",
     "startTime": "8:00 PM",
@@ -3305,7 +3230,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "THIS PERFORMANCE IS PRESENTED BY PARNASSUS SOCIETY, A NONPROFIT\nORGANIZATION DEDICATED TO BRINGING CLASSICAL MUSIC, OPERA AND ART TO\nSOUTHERN CALIFORNIA.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme",
-    "extendedDescription": "",
+    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\">More info and tickets</a>",
     "facility": false,
     "date": "2027-03-21",
     "startTime": "2:00 PM",
