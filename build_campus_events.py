@@ -299,8 +299,51 @@ def fetch_lookup_dict(token, resource_candidates):
     return {}
 
 
-def transform(meeting, rooms, orgs):
+def fetch_event_record(token, event_id, cache):
+    """Fetch one event's full record via /events/{id}, memoized per run in
+    `cache`. Used ONLY as a fallback for meetings whose /meetings eventData
+    is missing a field entirely -- confirmed Sept 29 (see
+    recreation-library-feeds.md in the Coursedog API project): eventData
+    was missing "description" -- not blank, the key was absent -- for an
+    event where the direct /events/{id} record had the full text.
+
+    Deliberately NOT a bulk /events pull: this integration is meant to run
+    for years, and a bulk pull grows with total historical event count
+    forever. Fetching only the specific IDs that actually hit the gap keeps
+    this scaling with the current pull window (roughly constant size), not
+    with accumulated history."""
+    if event_id in cache:
+        return cache[event_id]
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        resp = requests.get(f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/events/{event_id}",
+            headers=headers, timeout=30)
+        resp.raise_for_status()
+        record = resp.json()
+    except requests.RequestException as e:
+        log.warning(f"Could not fetch full event record for {event_id}: {e}")
+        record = {}
+    cache[event_id] = record
+    return record
+
+
+def transform(meeting, rooms, orgs, token, event_cache):
     ev = meeting.get("eventData") or {}
+
+    # /meetings' nested eventData can be missing the "description" key
+    # entirely (confirmed Sept 29, not just blank) -- only when that's the
+    # case do we pay for an extra /events/{id} call; a present empty string
+    # means Coursedog genuinely has no description for this event, and we
+    # leave it alone rather than fetching needlessly. See
+    # recreation-library-feeds.md in the Coursedog API project for the
+    # original diagnosis (found via build_org_events.py, applied here too).
+    if "description" in ev:
+        description_source = ev.get("description") or ""
+    elif meeting.get("eventId"):
+        full_ev = fetch_event_record(token, meeting["eventId"], event_cache)
+        description_source = full_ev.get("description") or ""
+    else:
+        description_source = ""
 
     # Confirmed live (Sept 11 run): eventData.contacts is a LIST, not a
     # single "contact" field. Widget shows one contact — use the first.
@@ -336,7 +379,7 @@ def transform(meeting, rooms, orgs):
         "name": ev.get("name", ""),
         "type": ev.get("type", ""),
         "public": bool(ev.get("public")),
-        "description": (ev.get("description") or "").strip(),
+        "description": description_source.strip(),
         "extendedDescription": ev.get("extendedDescription") or "",
         "facility": is_facility_notice(ev.get("name", "")),
         "date": meeting.get("startDate"),
@@ -388,6 +431,7 @@ def main():
 
     rooms = fetch_lookup_dict(token, ["rooms"])
     orgs = fetch_lookup_dict(token, ["organizations", "orgs", "departments"])
+    event_cache = {}  # per-run memoization for fetch_event_record()
 
     today = datetime.now(PACIFIC).date()
     start = today.strftime("%Y-%m-%d")
@@ -405,7 +449,7 @@ def main():
              f"(private / setup / teardown / {sorted(EXCLUDE_TYPES)} / "
              f"non-public {sorted(EXTERNAL_UNLESS_PUBLIC_TYPES)})")
 
-    rows = [transform(m, rooms, orgs) for m in kept]
+    rows = [transform(m, rooms, orgs, token, event_cache) for m in kept]
     events = group_and_dedupe(rows)
     events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
 
@@ -414,7 +458,7 @@ def main():
     log.info(f"Wrote {len(events)} events to {OUT_FILE}")
 
     meeting_raw = [m for m in raw if is_meetings_tab_item(m)]
-    meeting_rows = [transform(m, rooms, orgs) for m in meeting_raw]
+    meeting_rows = [transform(m, rooms, orgs, token, event_cache) for m in meeting_raw]
     meetings = group_and_dedupe(meeting_rows)
     meetings.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
 
