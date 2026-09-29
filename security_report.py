@@ -241,6 +241,10 @@ def load_from_csv(path, target_date):
                 "status": row["Event Status"].strip(),
                 "public": None,  # not present in the CSV export
                 "type": None,    # not present in the CSV export — see RENTAL_ORG_HINT fallback
+                "_event_id": None,  # not present in the CSV export -- merge falls back to (name, org)
+                "expected_head_count": None,
+                "actual_head_count": None,
+                "registered_head_count": None,
             })
     return events
 
@@ -351,6 +355,17 @@ def load_from_api(start_date, end_date):
             "status": m.get("status", ev.get("status", "Confirmed")),
             "public": ev.get("public"),
             "type": ev.get("type"),
+            # Groups multiple meetings of the same event (e.g. a multi-stop
+            # campus tour booked as separate room reservations) into one
+            # card in the outside-visitors summary -- see
+            # merge_outside_visitor_groups(). Not present in CSV exports.
+            "_event_id": m.get("eventId") or ev.get("_id"),
+            # Coursedog has these on the event record but they're often 0 or
+            # null in practice -- shown when present and positive, omitted
+            # otherwise rather than displaying a misleading "0 attendees".
+            "expected_head_count": ev.get("expectedHeadCount"),
+            "actual_head_count": ev.get("actualHeadCount"),
+            "registered_head_count": ev.get("registeredHeadCount"),
         })
     return events
 
@@ -379,12 +394,82 @@ def _hhmm_to_minutes(val):
     return h * 60 + m
 
 
+def attendee_count(event):
+    """Best available headcount for an event, or None if nothing usable is
+    on record. Coursedog has three headcount fields on the event record
+    (expected/actual/registered) but they're frequently 0 or null in
+    practice -- actual (what really showed up) beats registered beats
+    expected (the least reliable, an early estimate), and a non-positive
+    value is treated the same as missing so we never display a misleading
+    "0 attendees"."""
+    for key in ("actual_head_count", "registered_head_count", "expected_head_count"):
+        val = event.get(key)
+        if isinstance(val, (int, float)) and val > 0:
+            return int(val)
+    return None
+
+
+def merge_outside_visitor_groups(items):
+    """Collapse multiple (event, flags) entries that are really one
+    underlying event -- e.g. a multi-stop campus tour booked as separate
+    room reservations, one meeting per stop -- into a single entry for the
+    Outside Visitors summary tier. The FULL SCHEDULE section still lists
+    every individual stop; this only thins out the top alert section, per
+    request (the alert to security should be shown once).
+
+    Grouping key is the event's _event_id when we have one (live API mode);
+    CSV mode has no _event_id, so falls back to (name, organization), which
+    is weaker (two same-named events on the same day for the same org would
+    merge) but there's no better signal in the CSV export.
+
+    Merged entry keeps the earliest start / latest end across the group,
+    the union of flags, a "_stop_count" for display, and the best single
+    attendee_count found across the group (max, not summed -- one tour
+    group doesn't have its headcount multiplied by its number of stops).
+    """
+    groups = {}
+    order = []
+    for e, f in items:
+        key = e.get("_event_id") or (e["name"], e["organization"])
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append((e, f))
+
+    merged = []
+    for key in order:
+        group = groups[key]
+        if len(group) == 1:
+            e, f = group[0]
+            e = dict(e)
+            e["_attendee_count"] = attendee_count(e)
+            merged.append((e, f))
+            continue
+        starts = [e["start_min"] for e, _ in group if e["start_min"] is not None]
+        ends = [e["end_min"] for e, _ in group if e["end_min"] is not None]
+        flags = []
+        for _, f in group:
+            for x in f:
+                if x not in flags:
+                    flags.append(x)
+        counts = [attendee_count(e) for e, _ in group]
+        counts = [c for c in counts if c is not None]
+        rep = dict(group[0][0])
+        rep["start_min"] = min(starts) if starts else rep["start_min"]
+        rep["end_min"] = max(ends) if ends else rep["end_min"]
+        rep["_stop_count"] = len(group)
+        rep["_attendee_count"] = max(counts) if counts else attendee_count(rep)
+        merged.append((rep, flags))
+    return merged
+
+
 def build_report(events, target_date):
     active = [e for e in events if classify(e) != ["canceled"]]
     active.sort(key=lambda e: (e["start_min"] if e["start_min"] is not None else -1))
     flagged = [(e, classify(e)) for e in active]
     notable = [(e, f) for e, f in flagged if f]
     outside_visitors = [(e, f) for e, f in notable if any(x in OUTSIDE_VISITOR_FLAGS for x in f)]
+    outside_visitors = merge_outside_visitor_groups(outside_visitors)
     secondary = [(e, f) for e, f in notable if not any(x in OUTSIDE_VISITOR_FLAGS for x in f)]
     canceled = [e for e in events if e["status"].lower() in CANCELED_STATUSES]
 
@@ -400,6 +485,13 @@ def build_report(events, target_date):
                 f"    {format_minutes(e['start_min'])} - {format_minutes(e['end_min'])}"
                 f"  @ {e['location']}  ({e['organization'] or '-'})"
             )
+            extras = []
+            if e.get("_attendee_count"):
+                extras.append(f"~{e['_attendee_count']} attendees")
+            if e.get("_stop_count", 1) > 1:
+                extras.append(f"{e['_stop_count']} stops")
+            if extras:
+                lines.append(f"    {' | '.join(extras)}")
         lines.append("")
 
     lines.append(f"CAMPUS SECURITY — DAILY EVENT REPORT")
@@ -435,6 +527,7 @@ def build_report(events, target_date):
 def build_html_report(events, target_date):
     text_report, notable, active, canceled = build_report(events, target_date)
     outside_visitors = [(e, f) for e, f in notable if any(x in OUTSIDE_VISITOR_FLAGS for x in f)]
+    outside_visitors = merge_outside_visitor_groups(outside_visitors)
 
     def esc(s):
         return (s or "-").replace("&", "&amp;").replace("<", "&lt;")
@@ -452,6 +545,19 @@ def build_html_report(events, target_date):
             for x in f
         )
 
+    def extra_line(e):
+        extras = []
+        if e.get("_attendee_count"):
+            extras.append(f"~{e['_attendee_count']} attendees")
+        if e.get("_stop_count", 1) > 1:
+            extras.append(f"{e['_stop_count']} stops")
+        if not extras:
+            return ""
+        return (
+            f'<div style="color:#1e3a8a;font-size:12px;font-weight:600;margin-bottom:4px;">'
+            f'{" &middot; ".join(extras)}</div>'
+        )
+
     def tier_html(items, heading, border, bg, fg, badge_color):
         if not items:
             return ""
@@ -463,6 +569,7 @@ def build_html_report(events, target_date):
             {format_minutes(e['start_min'])}&ndash;{format_minutes(e['end_min'])}
             &middot; {esc(e['location'])} &middot; {esc(e['organization'])}
           </div>
+          {extra_line(e)}
           {flag_badges(f, color=badge_color)}
         </div>""" for e, f in items)
         return f"""
@@ -554,7 +661,9 @@ def build_standalone_page(events_by_date, dates, generated_at):
     for i, d in enumerate(dates):
         day_events = events_by_date.get(d, [])
         _, notable, active, _ = build_report(day_events, d)
-        outside_count = len([1 for e, f in notable if any(x in OUTSIDE_VISITOR_FLAGS for x in f)])
+        outside_count = len(merge_outside_visitor_groups(
+            [(e, f) for e, f in notable if any(x in OUTSIDE_VISITOR_FLAGS for x in f)]
+        ))
         body = build_html_report(day_events, d)
         active_style = "" if i == 0 else "display:none;"
         panels.append(f'<div class="day-panel" id="day-panel-{i}" style="{active_style}">{body}</div>')
