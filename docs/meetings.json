@@ -463,6 +463,31 @@
     "lastDate": "2026-10-01"
   },
   {
+    "name": "DEI Design Support Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "3:00 PM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "MAA 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Nicole Chen",
+      "email": "nchen@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
+  },
+  {
     "name": "Student Interviews - Comm Relations",
     "type": "Internal Meeting",
     "public": false,
