@@ -165,7 +165,11 @@ def classify(event):
         flags.append("canceled")
         return flags  # don't bother with other flags on a canceled event
 
-    if any(name_lower.startswith(p) for p in SETUP_TEARDOWN_PREFIXES):
+    is_setup_or_teardown = (
+        bool(event.get("is_setup")) or bool(event.get("is_teardown"))
+        or any(name_lower.startswith(p) for p in SETUP_TEARDOWN_PREFIXES)
+    )
+    if is_setup_or_teardown:
         flags.append("setup/teardown")
 
     start_m = event["start_min"]
@@ -182,40 +186,48 @@ def classify(event):
         flags.append("VIP/donor-facing")
 
     # --- Outside visitors: who's coming to campus, not how many ---
-    event_type = event.get("type")
-    if event_type == RENTAL_TYPE:
-        flags.append("rental")
-    elif event_type is None and RENTAL_ORG_HINT in org_lower:
-        # CSV mode has no `type` field to confirm this against — org name
-        # alone over-flags (Events & Conferences also does internal work),
-        # so this is marked as unconfirmed rather than a certain rental.
-        flags.append("rental (unconfirmed)")
+    # Skipped entirely for a setup/teardown meeting: a room being set up or
+    # broken down isn't the public event itself (no attendees), and this is
+    # exactly the case that was over-flagging the Peace Gala's setup days
+    # (2026-10-04 to 2026-10-09) as if 375 people were showing up each day
+    # -- confirmed 2026-09-29, see is_setup/is_teardown in load_from_api().
+    # A setup/teardown day still carries the "setup/teardown" flag above
+    # (secondary tier), so security still knows a crew is on site.
+    if not is_setup_or_teardown:
+        event_type = event.get("type")
+        if event_type == RENTAL_TYPE:
+            flags.append("rental")
+        elif event_type is None and RENTAL_ORG_HINT in org_lower:
+            # CSV mode has no `type` field to confirm this against — org name
+            # alone over-flags (Events & Conferences also does internal work),
+            # so this is marked as unconfirmed rather than a certain rental.
+            flags.append("rental (unconfirmed)")
 
-    # Admissions group tours/visits -- independent of the type/public checks
-    # above, since these come through as type "Internal Meeting", public:
-    # false, identical to a genuinely internal meeting (see
-    # ADMISSIONS_ORG_NAME above). Outside people on campus regardless.
-    if ADMISSIONS_ORG_NAME in org_lower and any(h in name_lower for h in VISIT_NAME_HINTS):
-        flags.append("campus visit")
+        # Admissions group tours/visits -- independent of the type/public
+        # checks above, since these come through as type "Internal Meeting",
+        # public: false, identical to a genuinely internal meeting (see
+        # ADMISSIONS_ORG_NAME above). Outside people on campus regardless.
+        if ADMISSIONS_ORG_NAME in org_lower and any(h in name_lower for h in VISIT_NAME_HINTS):
+            flags.append("campus visit")
 
-    is_public = event.get("public")
-    if event_type in INTERNAL_ONLY_TYPES:
-        # Type overrides a possibly-stale public flag -- see
-        # INTERNAL_ONLY_TYPES above. Never flag these as outside-visitor
-        # events regardless of what `public` says.
-        pass
-    elif is_public is True:
-        # Live-mode signal, any org — anything genuinely open to non-SUA
-        # people, not just PAC.
-        flags.append("public event")
-    elif is_public is None and PAC_ORG_NAME in org_lower:
-        # CSV mode has no `public` field. PAC is the one org we know well
-        # enough to guess confidently: its own setup/teardown work is
-        # named as such, so anything else under that org is the show
-        # itself.
-        is_internal_looking = any(name_lower.startswith(p) for p in SETUP_TEARDOWN_PREFIXES)
-        if not is_internal_looking:
+        is_public = event.get("public")
+        if event_type in INTERNAL_ONLY_TYPES:
+            # Type overrides a possibly-stale public flag -- see
+            # INTERNAL_ONLY_TYPES above. Never flag these as outside-visitor
+            # events regardless of what `public` says.
+            pass
+        elif is_public is True:
+            # Live-mode signal, any org — anything genuinely open to non-SUA
+            # people, not just PAC.
             flags.append("public event")
+        elif is_public is None and PAC_ORG_NAME in org_lower:
+            # CSV mode has no `public` field. PAC is the one org we know well
+            # enough to guess confidently: its own setup/teardown work is
+            # named as such, so anything else under that org is the show
+            # itself.
+            is_internal_looking = any(name_lower.startswith(p) for p in SETUP_TEARDOWN_PREFIXES)
+            if not is_internal_looking:
+                flags.append("public event")
 
     return flags
 
@@ -245,6 +257,12 @@ def load_from_csv(path, target_date):
                 "expected_head_count": None,
                 "actual_head_count": None,
                 "registered_head_count": None,
+                # Not present in the CSV export either -- CSV mode falls back
+                # to the SETUP_TEARDOWN_PREFIXES name check only. See
+                # is_setup/is_teardown in load_from_api() for why the real
+                # field matters (confirmed 2026-09-29, Peace Gala).
+                "is_setup": False,
+                "is_teardown": False,
             })
     return events
 
@@ -366,6 +384,17 @@ def load_from_api(start_date, end_date):
             "expected_head_count": ev.get("expectedHeadCount"),
             "actual_head_count": ev.get("actualHeadCount"),
             "registered_head_count": ev.get("registeredHeadCount"),
+            # Confirmed live 2026-09-29: Coursedog puts real isSetup/
+            # isTeardown booleans on the MEETING itself (not just a naming
+            # convention). A multi-day setup or teardown block shows up as
+            # its own meeting row -- e.g. the Peace Gala's setup was one
+            # meeting spanning 2026-10-04 to 2026-10-09, isSetup: true,
+            # meeting-level name "" (falls back to the event name, "Soka
+            # Peace Gala") -- so it was indistinguishable from the real
+            # event day by name, and got flagged "public event" for every
+            # day of that range. See classify() for the fix.
+            "is_setup": bool(m.get("isSetup")),
+            "is_teardown": bool(m.get("isTeardown")),
         })
     return events
 
