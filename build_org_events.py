@@ -190,34 +190,32 @@ def fetch_lookup_dict(token, resource_candidates):
     return {}
 
 
-def fetch_events_dict(token):
-    """Bulk /events listing -- same {"data": [...], "totalCount": N} shape as
-    /meetings -- used as the authoritative source for fields that /meetings'
-    nested eventData sometimes omits entirely (confirmed Sept 29: eventData
-    was missing "description" -- not blank, the key was absent -- for an
-    event where the direct /events/{id} record had the full text; eventData
-    also had fewer customFields than the direct record). Rather than guess
-    why /meetings under-projects a given event, this pulls the full record
-    once per run and lets transform() prefer it when present."""
+def fetch_event_record(token, event_id, cache):
+    """Fetch one event's full record via /events/{id}, memoized per run in
+    `cache`. Used ONLY as a fallback for meetings whose /meetings eventData
+    is missing a field entirely (confirmed Sept 29: eventData was missing
+    "description" -- not blank, the key was absent -- for an event where
+    the direct /events/{id} record had the full text).
+
+    Deliberately NOT a bulk /events pull: this school just launched
+    Coursedog, so /events is small today, but the plan is to run this for
+    years, and a bulk pull grows with total historical event count forever.
+    Fetching only the specific IDs that actually hit the gap keeps this
+    scaling with the current pull window (which stays roughly constant
+    size), not with accumulated history."""
+    if event_id in cache:
+        return cache[event_id]
     headers = {"Authorization": f"Bearer {token}"}
-    events, skip = {}, 0
-    while True:
-        resp = requests.get(f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/events",
-            params={"skip": skip, "limit": PAGE_LIMIT}, headers=headers, timeout=30)
+    try:
+        resp = requests.get(f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/events/{event_id}",
+            headers=headers, timeout=30)
         resp.raise_for_status()
-        page = resp.json()
-        batch = page.get("data", []) if isinstance(page, dict) else (page or [])
-        if not batch:
-            break
-        for e in batch:
-            key = e.get("_id") or e.get("id")
-            if key:
-                events[key] = e
-        if len(batch) < PAGE_LIMIT:
-            break
-        skip += PAGE_LIMIT
-    log.info(f"Pulled {len(events)} events from bulk /events listing")
-    return events
+        record = resp.json()
+    except requests.RequestException as e:
+        log.warning(f"Could not fetch full event record for {event_id}: {e}")
+        record = {}
+    cache[event_id] = record
+    return record
 
 
 def org_display(org_rec):
@@ -282,14 +280,20 @@ def is_excluded(meeting, feed, org_ids):
     return False
 
 
-def transform(meeting, rooms, orgs, events_by_id):
+def transform(meeting, rooms, orgs, token, event_cache):
     ev = meeting.get("eventData") or {}
-    # /meetings' nested eventData can be missing fields the full record has
-    # (confirmed: description entirely absent, not just blank, for at least
-    # one event) -- prefer the bulk /events record's description when it's
-    # there, and only fall back to eventData's copy otherwise.
-    full_ev = events_by_id.get(meeting.get("eventId")) or {}
-    description_source = full_ev.get("description") or ev.get("description") or ""
+    # /meetings' nested eventData can be missing the "description" key
+    # entirely (confirmed Sept 29, not just blank) -- only when that's the
+    # case do we pay for an extra /events/{id} call; a present empty string
+    # means Coursedog genuinely has no description for this event, and we
+    # leave it alone rather than fetching needlessly.
+    if "description" in ev:
+        description_source = ev.get("description") or ""
+    elif meeting.get("eventId"):
+        full_ev = fetch_event_record(token, meeting["eventId"], event_cache)
+        description_source = full_ev.get("description") or ""
+    else:
+        description_source = ""
     contacts = ev.get("contacts") or []
     contact = None
     if contacts:
@@ -368,7 +372,7 @@ def main():
 
     rooms = fetch_lookup_dict(token, ["rooms"])
     orgs = fetch_lookup_dict(token, ["organizations", "orgs", "departments"])
-    events_by_id = fetch_events_dict(token)
+    event_cache = {}  # per-run memoization for fetch_event_record()
     log.info("Live organizations: " + ", ".join(sorted(
         (o.get("displayName") or o.get("name") or "?") for o in orgs.values())))
 
@@ -391,7 +395,7 @@ def main():
         log.info(f"[{feed['key']}] {len(kept)} of {len(raw)} meetings kept "
                  f"({match_desc}, require_public={feed['require_public']})")
 
-        rows = [transform(m, rooms, orgs, events_by_id) for m in kept]
+        rows = [transform(m, rooms, orgs, token, event_cache) for m in kept]
         events = group_and_dedupe(rows)
         events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
 
