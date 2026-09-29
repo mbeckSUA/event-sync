@@ -155,6 +155,38 @@ def format_minutes(m):
     return f"{h12}:{mm:02d} {ampm}"
 
 
+def is_public_facing(event):
+    """Would this event actually display on the public campus calendar
+    (events.soka.edu)? Ported from build_campus_events.py's is_excluded()
+    (inverted) so this report's "public event" flag means what Martin
+    needs it to mean: not "Coursedog's `public` checkbox happens to be
+    ticked" but "a member of the public can find this on the calendar and
+    show up." Confirmed 2026-09-29 by reading that script's actual
+    criteria: almost everything reaches the public calendar regardless of
+    the `public` field -- it's excluded only for a specific, narrow set of
+    reasons (private, setup/teardown, not Confirmed, an internal-only
+    type, or an External Rental nobody marked public). Using `public:
+    true` alone, as this report did before, was both over-inclusive (see
+    the Student Staff Retreat false positive elsewhere in this file) and
+    under-inclusive (it missed real public-facing events that never had
+    `public` ticked, which is apparently most of them).
+
+    Only meaningful in live mode, where type/status/private are populated
+    from real Coursedog data -- see the call site in classify()."""
+    if event.get("is_redacted") or event.get("private"):
+        return False
+    if event.get("is_setup") or event.get("is_teardown"):
+        return False
+    if (event.get("status") or "").strip().lower() != "confirmed":
+        return False
+    event_type = event.get("type")
+    if event_type in INTERNAL_ONLY_TYPES:
+        return False
+    if event_type == RENTAL_TYPE and not event.get("public"):
+        return False
+    return True
+
+
 def classify(event):
     """Return a list of flag strings for a single event/meeting row."""
     flags = []
@@ -211,23 +243,19 @@ def classify(event):
             flags.append("campus visit")
 
         is_public = event.get("public")
-        if event_type in INTERNAL_ONLY_TYPES:
-            # Type overrides a possibly-stale public flag -- see
-            # INTERNAL_ONLY_TYPES above. Never flag these as outside-visitor
-            # events regardless of what `public` says.
-            pass
-        elif is_public is True:
-            # Live-mode signal, any org — anything genuinely open to non-SUA
-            # people, not just PAC.
-            flags.append("public event")
-        elif is_public is None and PAC_ORG_NAME in org_lower:
-            # CSV mode has no `public` field. PAC is the one org we know well
-            # enough to guess confidently: its own setup/teardown work is
-            # named as such, so anything else under that org is the show
-            # itself.
-            is_internal_looking = any(name_lower.startswith(p) for p in SETUP_TEARDOWN_PREFIXES)
-            if not is_internal_looking:
+        if event_type is not None:
+            # Live mode: type is always populated from real Coursedog data
+            # (even "" for a blank one, never None), so this is the signal
+            # we can trust is_public_facing()'s fuller criterion instead of
+            # the raw `public` field alone -- see that function.
+            if is_public_facing(event):
                 flags.append("public event")
+        elif is_public is None and PAC_ORG_NAME in org_lower:
+            # CSV mode has no `type`/`public`/`status`-for-is_public_facing
+            # fields. PAC is the one org we know well enough to guess
+            # confidently: its own setup/teardown work is named as such, so
+            # anything else under that org is the show itself.
+            flags.append("public event")
 
     return flags
 
@@ -263,6 +291,12 @@ def load_from_csv(path, target_date):
                 # field matters (confirmed 2026-09-29, Peace Gala).
                 "is_setup": False,
                 "is_teardown": False,
+                # Not present in the CSV export either -- see
+                # is_public_facing() below, which only applies its real
+                # public-calendar criterion in live mode (where these are
+                # populated); CSV mode keeps the older PAC-org heuristic.
+                "private": False,
+                "is_redacted": False,
             })
     return events
 
@@ -395,6 +429,8 @@ def load_from_api(start_date, end_date):
             # day of that range. See classify() for the fix.
             "is_setup": bool(m.get("isSetup")),
             "is_teardown": bool(m.get("isTeardown")),
+            "private": bool(ev.get("private")),
+            "is_redacted": is_redacted,
         })
     return events
 
