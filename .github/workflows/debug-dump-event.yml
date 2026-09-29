@@ -1,0 +1,30 @@
+name: Debug - Dump Raw Event JSON
+
+# Manual-only, one-off diagnostic tool -- not scheduled. Delete this
+# workflow (and debug_dump_event.py) once the description-field mapping
+# question for "Academic Events and Reservations (Undergraduate)" is
+# resolved.
+on:
+  workflow_dispatch:
+    inputs:
+      event_id:
+        description: 'Coursedog event ID to dump'
+        required: true
+        default: 'SukZ1g7g6pBw2j6NPvh0'
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Dump raw event JSON
+        env:
+          COURSEDOG_READONLY_BASE: ${{ secrets.COURSEDOG_READONLY_BASE }}
+          COURSEDOG_READONLY_EMAIL: ${{ secrets.COURSEDOG_READONLY_EMAIL }}
+          COURSEDOG_READONLY_PASSWORD: ${{ secrets.COURSEDOG_READONLY_PASSWORD }}
+          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
+        run: python debug_dump_event.py "${{ inputs.event_id }}"
