@@ -90,6 +90,33 @@ PAC_ORG_NAME = "soka performing arts center"
 # --live mode; CSV exports don't carry a type column.
 RENTAL_TYPE = "External Rental"
 
+# Admissions hosts group tours/visits for prospective students and their
+# families -- Coursedog has no dedicated event type for this (confirmed
+# Sept 29: "HS Group Tour - Camino Nuevo Charter Academy..." came through
+# as type "Internal Meeting", public: false -- same as a genuinely internal
+# staff meeting). Since neither `type` nor `public` distinguishes a tour
+# from real internal business for this org, match on name instead: weaker
+# than a dedicated field, but Admissions' tour-booking names are
+# consistently prefixed this way in practice. Under-flagging (a
+# differently-named tour slips through) is the likely failure mode, not
+# over-flagging -- revisit the name hints if that turns out to be common.
+ADMISSIONS_ORG_NAME = "admissions"
+VISIT_NAME_HINTS = ("group tour", "campus tour", "open house", "shadow day",
+                     "prospective", "discover soka", "experience soka")
+
+# Same set as build_campus_events.py's EXCLUDE_TYPES. Confirmed Sept 29:
+# "Student Staff Retreat" (type "Internal Meeting", genuinely internal --
+# same-day campus feed pull has it as public: false) still showed up here
+# flagged "public event" three times, because its `public` field came back
+# true from this script's own independent /meetings pull. This is the same
+# denormalization unreliability already confirmed for `description` earlier
+# the same day (see recreation-library-feeds.md in the Coursedog API
+# project) -- /meetings' per-occurrence eventData snapshot can disagree
+# with itself run to run. `type` is a deliberate, stable field nobody sets
+# by accident, so it overrides a possibly-stale `public` flag rather than
+# the other way around.
+INTERNAL_ONLY_TYPES = {"Internal Meeting", "Student Request Form"}
+
 # Fallback for CSV mode, where there's no `type` field to check: org name
 # is a weaker signal (Events & Conferences also runs some internal-facing
 # bookings), so this gets its own distinct, lower-confidence flag rather
@@ -99,7 +126,7 @@ RENTAL_ORG_HINT = "events & conferences"
 CANCELED_STATUSES = {"canceled", "cancelled", "denied"}
 
 # Tiers, in the order they appear in the report.
-OUTSIDE_VISITOR_FLAGS = {"rental", "rental (unconfirmed)", "public event"}
+OUTSIDE_VISITOR_FLAGS = {"rental", "rental (unconfirmed)", "public event", "campus visit"}
 
 
 def parse_time_to_minutes(raw):
@@ -164,8 +191,20 @@ def classify(event):
         # so this is marked as unconfirmed rather than a certain rental.
         flags.append("rental (unconfirmed)")
 
+    # Admissions group tours/visits -- independent of the type/public checks
+    # above, since these come through as type "Internal Meeting", public:
+    # false, identical to a genuinely internal meeting (see
+    # ADMISSIONS_ORG_NAME above). Outside people on campus regardless.
+    if ADMISSIONS_ORG_NAME in org_lower and any(h in name_lower for h in VISIT_NAME_HINTS):
+        flags.append("campus visit")
+
     is_public = event.get("public")
-    if is_public is True:
+    if event_type in INTERNAL_ONLY_TYPES:
+        # Type overrides a possibly-stale public flag -- see
+        # INTERNAL_ONLY_TYPES above. Never flag these as outside-visitor
+        # events regardless of what `public` says.
+        pass
+    elif is_public is True:
         # Live-mode signal, any org — anything genuinely open to non-SUA
         # people, not just PAC.
         flags.append("public event")
