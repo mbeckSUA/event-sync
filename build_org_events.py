@@ -190,6 +190,36 @@ def fetch_lookup_dict(token, resource_candidates):
     return {}
 
 
+def fetch_events_dict(token):
+    """Bulk /events listing -- same {"data": [...], "totalCount": N} shape as
+    /meetings -- used as the authoritative source for fields that /meetings'
+    nested eventData sometimes omits entirely (confirmed Sept 29: eventData
+    was missing "description" -- not blank, the key was absent -- for an
+    event where the direct /events/{id} record had the full text; eventData
+    also had fewer customFields than the direct record). Rather than guess
+    why /meetings under-projects a given event, this pulls the full record
+    once per run and lets transform() prefer it when present."""
+    headers = {"Authorization": f"Bearer {token}"}
+    events, skip = {}, 0
+    while True:
+        resp = requests.get(f"{COURSEDOG_BASE}/api/v1/em/{COURSEDOG_SCHOOL}/events",
+            params={"skip": skip, "limit": PAGE_LIMIT}, headers=headers, timeout=30)
+        resp.raise_for_status()
+        page = resp.json()
+        batch = page.get("data", []) if isinstance(page, dict) else (page or [])
+        if not batch:
+            break
+        for e in batch:
+            key = e.get("_id") or e.get("id")
+            if key:
+                events[key] = e
+        if len(batch) < PAGE_LIMIT:
+            break
+        skip += PAGE_LIMIT
+    log.info(f"Pulled {len(events)} events from bulk /events listing")
+    return events
+
+
 def org_display(org_rec):
     """displayName with a name fallback — the org dict isn't guaranteed to
     have both keys populated the same way every time."""
@@ -252,8 +282,14 @@ def is_excluded(meeting, feed, org_ids):
     return False
 
 
-def transform(meeting, rooms, orgs):
+def transform(meeting, rooms, orgs, events_by_id):
     ev = meeting.get("eventData") or {}
+    # /meetings' nested eventData can be missing fields the full record has
+    # (confirmed: description entirely absent, not just blank, for at least
+    # one event) -- prefer the bulk /events record's description when it's
+    # there, and only fall back to eventData's copy otherwise.
+    full_ev = events_by_id.get(meeting.get("eventId")) or {}
+    description_source = full_ev.get("description") or ev.get("description") or ""
     contacts = ev.get("contacts") or []
     contact = None
     if contacts:
@@ -273,7 +309,7 @@ def transform(meeting, rooms, orgs):
         "name": ev.get("name", ""),
         "type": ev.get("type", ""),
         "public": bool(ev.get("public")),
-        "description": (ev.get("description") or "").strip(),
+        "description": description_source.strip(),
         "extendedDescription": ev.get("extendedDescription") or "",
         "date": meeting.get("startDate"),
         "startTime": fmt_time(meeting.get("startTime")),
@@ -332,6 +368,7 @@ def main():
 
     rooms = fetch_lookup_dict(token, ["rooms"])
     orgs = fetch_lookup_dict(token, ["organizations", "orgs", "departments"])
+    events_by_id = fetch_events_dict(token)
     log.info("Live organizations: " + ", ".join(sorted(
         (o.get("displayName") or o.get("name") or "?") for o in orgs.values())))
 
@@ -354,7 +391,7 @@ def main():
         log.info(f"[{feed['key']}] {len(kept)} of {len(raw)} meetings kept "
                  f"({match_desc}, require_public={feed['require_public']})")
 
-        rows = [transform(m, rooms, orgs) for m in kept]
+        rows = [transform(m, rooms, orgs, events_by_id) for m in kept]
         events = group_and_dedupe(rows)
         events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
 
