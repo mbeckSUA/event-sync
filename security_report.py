@@ -100,6 +100,17 @@ RENTAL_TYPE = "External Rental"
 # themselves by checking `public`.
 STUDENT_ORG_TYPE = "Student Organization Event"
 
+# Confirmed Sept 30: "Class-Related Room Reservation" (org Academic Affairs)
+# came through as type "Academic Events and Reservations (Undergraduate)" --
+# another type we hadn't seen, not covered by any existing exclusion, so it
+# was about to be flagged by default. The Coursedog form itself shows the
+# relevant field plainly: "Add Event to Public Calendar: No" -- this is an
+# ordinary class/room booking, not remotely an outside-visitor event.
+# Matched with a prefix rather than an exact string in case a "(Graduate)"
+# variant exists too (not yet observed, but same shared "Academic Events
+# and Reservations" root is a reasonable bet).
+ACADEMIC_RESERVATION_TYPE_PREFIX = "Academic Events and Reservations"
+
 # Types that are treated as public-facing ONLY when `public` is explicitly
 # true; otherwise assumed private/internal. See RENTAL_TYPE and
 # STUDENT_ORG_TYPE comments above for the reasoning behind each.
@@ -235,6 +246,8 @@ def is_public_facing(event):
     if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
         return False
     if event_type in PUBLIC_UNLESS_MARKED_TYPES and not event.get("public"):
+        return False
+    if event_type and event_type.startswith(ACADEMIC_RESERVATION_TYPE_PREFIX) and not event.get("public"):
         return False
     return True
 
