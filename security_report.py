@@ -158,6 +158,23 @@ CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar"}
 # than being treated the same as a confirmed External Rental type match.
 RENTAL_ORG_HINT = "events & conferences"
 
+# Confirmed Sept 30: "Picnic at the Bowl: '28/'29 Class Mixer with
+# Residential Life" (org Residential Life, type Campus Events, public:
+# false) and "Emerging Leaders Program Fall Kick-Off" (org Student Affairs,
+# type Campus Events, public: TRUE) both leaked through as "public event" --
+# one because nothing checked `public` for plain Campus Events, the other
+# despite `public` being explicitly set. Per Martin: Student Affairs marking
+# something public is encouraged (it's about visibility/promotion on their
+# own calendar), not a signal that outside people are showing up -- so
+# `public: true` from these orgs can't be trusted as a "yes" any more than
+# `public: false` can be trusted as a "no." Their Campus Events postings are
+# campus-community programming (mixers, kickoffs, weekly gatherings), same
+# category as Recreation Calendar above, just identified by org instead of
+# type since these orgs' events don't get their own dedicated Coursedog
+# type. Contrast with Career Development's "Soka Jobs+ Fair," which stays
+# flagged -- real outside employers visit campus for that one.
+CAMPUS_LIFE_ORGS = {"residential life", "student affairs"}
+
 CANCELED_STATUSES = {"canceled", "cancelled", "denied"}
 
 # Tiers, in the order they appear in the report.
@@ -280,8 +297,11 @@ def classify(event):
             # Live mode: type is always populated from real Coursedog data
             # (even "" for a blank one, never None), so this is the signal
             # we can trust is_public_facing()'s fuller criterion instead of
-            # the raw `public` field alone -- see that function.
-            if is_public_facing(event):
+            # the raw `public` field alone -- see that function. Org-based
+            # exclusion runs first: see CAMPUS_LIFE_ORGS above.
+            if any(o in org_lower for o in CAMPUS_LIFE_ORGS):
+                pass
+            elif is_public_facing(event):
                 flags.append("public event")
         elif is_public is None and PAC_ORG_NAME in org_lower:
             # CSV mode has no `type`/`public`/`status`-for-is_public_facing
