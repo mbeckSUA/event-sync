@@ -11,7 +11,7 @@
     "allDay": false,
     "room": "Gandhi 303A",
     "building": "Ikeda Library",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Library%20-%20From%20Curiosity%20to%20Clarity.png",
     "contact": {
       "name": "Jennifer  Tirrell",
       "email": "jtirrell@soka.edu"
