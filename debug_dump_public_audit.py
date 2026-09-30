@@ -24,8 +24,8 @@ PASSWORD = os.environ["COURSEDOG_READONLY_PASSWORD"]
 
 # Wide window -- these are named/dated events we don't have exact dates
 # for, so scan broadly rather than guess.
-KEYWORDS = ["ebp end of program", "sbp/swc", "swc completion", "ceneu",
-            "visa info", "film screening"]
+KEYWORDS = ["ebp", "swc", "completion ceremony", "end of program",
+            "end-of-program"]
 
 
 def get_token():
@@ -40,8 +40,8 @@ def main():
     seen_ids = set()
 
     today = datetime.utcnow().date()
-    start = today - timedelta(days=180)
-    end = today + timedelta(days=180)
+    start = today - timedelta(days=400)
+    end = today + timedelta(days=30)
     print(f"Scanning meetings {start} to {end} for: {KEYWORDS}")
 
     # Coursedog's /meetings endpoint appears to want reasonably sized
