@@ -117,6 +117,26 @@ VISIT_NAME_HINTS = ("group tour", "campus tour", "open house", "shadow day",
 # the other way around.
 INTERNAL_ONLY_TYPES = {"Internal Meeting", "Student Request Form"}
 
+# Confirmed live 2026-09-29 (first published run after the events.soka.edu-
+# based public-event rework): "Fitness Classes: Strength and Conditioning",
+# "Intramurals: Badminton", "Intramurals: Volleyball", etc. were showing up
+# in the Outside Visitors tier as "public event." These are Coursedog type
+# "Recreation Calendar" -- they do reach events.soka.edu (build_org_events.py
+# publishes a whole Recreation department feed from them), but that's a
+# campus-community audience, not the general public: nobody's driving up to
+# the guard shack for intramural badminton. is_public_facing() mirrors "does
+# this reach the public calendar," which was the wrong proxy here -- the
+# actual test (per Martin) is "will this put a non-SUA person at the gate,"
+# and department-internal recreation programming doesn't. Same open question
+# already on file in recreation-library-feeds.md (whether Recreation/Library
+# should require public:true for their own feed); this is the security-
+# report-specific answer to that question: no, for this purpose, treat the
+# whole type as campus-community regardless of `public`. Revisit if
+# Recreation ever runs something genuinely open to outside registrants (a
+# public 5k, a community class) -- that would need its own signal, not a
+# blanket type exclusion.
+CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar"}
+
 # Fallback for CSV mode, where there's no `type` field to check: org name
 # is a weaker signal (Events & Conferences also runs some internal-facing
 # bookings), so this gets its own distinct, lower-confidence flag rather
@@ -180,7 +200,7 @@ def is_public_facing(event):
     if (event.get("status") or "").strip().lower() != "confirmed":
         return False
     event_type = event.get("type")
-    if event_type in INTERNAL_ONLY_TYPES:
+    if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
         return False
     if event_type == RENTAL_TYPE and not event.get("public"):
         return False
