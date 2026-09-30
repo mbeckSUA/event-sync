@@ -1,4 +1,4 @@
-name: Debug dump Student Staff Retreat
+name: Debug dump public-event leaks
 
 on:
   workflow_dispatch:
@@ -10,12 +10,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
       - run: pip install requests
-      - name: Dump
+      - run: python debug_dump_leak.py
         env:
-          COURSEDOG_READONLY_BASE: ${{ secrets.COURSEDOG_READONLY_BASE }}
           COURSEDOG_READONLY_EMAIL: ${{ secrets.COURSEDOG_READONLY_EMAIL }}
           COURSEDOG_READONLY_PASSWORD: ${{ secrets.COURSEDOG_READONLY_PASSWORD }}
-          COURSEDOG_SCHOOL: ${{ secrets.COURSEDOG_SCHOOL }}
-        run: python debug_dump_retreat.py

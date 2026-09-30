@@ -249,8 +249,6 @@ def classify(event):
         flags.append("overnight")
 
     org_lower = (event["organization"] or "").lower()
-    if "development" in org_lower or "alumni" in org_lower:
-        flags.append("VIP/donor-facing")
 
     # --- Outside visitors: who's coming to campus, not how many ---
     # Skipped entirely for a setup/teardown meeting: a room being set up or
