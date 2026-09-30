@@ -1,0 +1,18 @@
+name: Debug audit public-field reliability
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python debug_dump_public_audit.py
+        env:
+          COURSEDOG_READONLY_EMAIL: ${{ secrets.COURSEDOG_READONLY_EMAIL }}
+          COURSEDOG_READONLY_PASSWORD: ${{ secrets.COURSEDOG_READONLY_PASSWORD }}
