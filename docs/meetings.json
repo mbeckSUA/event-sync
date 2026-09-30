@@ -1,76 +1,14 @@
 [
   {
-    "name": "HS Group Tour - Camino Nuevo Charter Academy- Dalzell Lance High School",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Admission hosts the Camino Nuevo Charter Academy Dalzell Lance High School for a group tour and lunch at the Bistro",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "10:00 AM",
-    "endTime": "11:00 AM",
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-09-29"
-    ],
-    "lastDate": "2026-09-29"
-  },
-  {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-29",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 13,
-    "occurrenceDates": [
-      "2026-09-29",
-      "2026-10-06",
-      "2026-10-13",
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "Student Interviews - Community Relations",
+    "name": "Student Interviews - Comm Relations",
     "type": "Internal Meeting",
     "public": false,
     "description": "Interviews",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "1:00 PM",
-    "endTime": "4:00 PM",
+    "endTime": "5:00 PM",
     "allDay": false,
     "room": "CUR 211",
     "building": "Curie Hall",
@@ -79,12 +17,12 @@
       "name": "Maya Cardenas-Dance",
       "email": "mcardenasdance@soka.edu"
     },
-    "org": "Marketing / Community Relations",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-09-29"
+      "2026-09-30"
     ],
-    "lastDate": "2026-09-29"
+    "lastDate": "2026-09-30"
   },
   {
     "name": "Student Staff Retreat",
@@ -93,7 +31,7 @@
     "description": "The Office of Student Leadership and Service Engagement and the Office of Diversity, Equity and Inclusion host a staff retreat for our student employees every year to provide training and help them understand our office mission, purpose and the roles they will be playing in the office.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "5:00 PM",
     "endTime": "8:00 PM",
     "allDay": false,
@@ -105,9 +43,8 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 2,
+    "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-09-29",
       "2026-09-30"
     ],
     "lastDate": "2026-09-30"
@@ -119,7 +56,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
@@ -128,9 +65,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 39,
+    "occurrenceCount": 38,
     "occurrenceDates": [
-      "2026-09-29",
       "2026-09-30",
       "2026-10-01",
       "2026-10-05",
@@ -179,7 +115,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -188,9 +124,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 73,
+    "occurrenceCount": 72,
     "occurrenceDates": [
-      "2026-09-29",
       "2026-09-30",
       "2026-10-01",
       "2026-10-02",
@@ -273,7 +208,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -282,9 +217,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 53,
+    "occurrenceCount": 52,
     "occurrenceDates": [
-      "2026-09-29",
       "2026-09-30",
       "2026-10-01",
       "2026-10-04",
@@ -347,7 +281,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -359,9 +293,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 48,
+    "occurrenceCount": 47,
     "occurrenceDates": [
-      "2026-09-29",
       "2026-09-30",
       "2026-10-01",
       "2026-10-04",
@@ -411,31 +344,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Student Interviews - Comm Relations",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Interviews",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "1:00 PM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
   },
   {
     "name": "GSU Officer's Training #1: Global Citizenship as GSU",
@@ -662,6 +570,42 @@
       "2026-12-14"
     ],
     "lastDate": "2026-12-14"
+  },
+  {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-06",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 12,
+    "occurrenceDates": [
+      "2026-10-06",
+      "2026-10-13",
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
   },
   {
     "name": "Proctor Exam (Brian D.)",
@@ -1115,6 +1059,31 @@
       "2027-01-24"
     ],
     "lastDate": "2027-01-24"
+  },
+  {
+    "name": "Student Orientation Leader Group Interview",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Applicants for the Student Orientation Leader position will  engage in a group interview.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-12",
+    "startTime": "4:30 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Student Affairs Lobby",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-12"
+    ],
+    "lastDate": "2027-02-12"
   },
   {
     "name": "SOL Group Interview 2",
