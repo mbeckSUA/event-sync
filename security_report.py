@@ -90,6 +90,21 @@ PAC_ORG_NAME = "soka performing arts center"
 # --live mode; CSV exports don't carry a type column.
 RENTAL_TYPE = "External Rental"
 
+# Confirmed Sept 30: "Shishiza: Leverages On-Campus Event" came through as
+# type "Student Organization Event" -- not in INTERNAL_ONLY_TYPES or
+# CAMPUS_COMMUNITY_TYPES, so it was about to be flagged "public event" by
+# default. Per Martin: treat student org events as private unless someone
+# specifically marks them for the public calendar (same "unless marked
+# public" shape as External Rental above) -- most club activity isn't
+# meant to draw outside visitors, and the ones that are can still surface
+# themselves by checking `public`.
+STUDENT_ORG_TYPE = "Student Organization Event"
+
+# Types that are treated as public-facing ONLY when `public` is explicitly
+# true; otherwise assumed private/internal. See RENTAL_TYPE and
+# STUDENT_ORG_TYPE comments above for the reasoning behind each.
+PUBLIC_UNLESS_MARKED_TYPES = {RENTAL_TYPE, STUDENT_ORG_TYPE}
+
 # Admissions hosts group tours/visits for prospective students and their
 # families -- Coursedog has no dedicated event type for this (confirmed
 # Sept 29: "HS Group Tour - Camino Nuevo Charter Academy..." came through
@@ -202,7 +217,7 @@ def is_public_facing(event):
     event_type = event.get("type")
     if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
         return False
-    if event_type == RENTAL_TYPE and not event.get("public"):
+    if event_type in PUBLIC_UNLESS_MARKED_TYPES and not event.get("public"):
         return False
     return True
 
