@@ -1,184 +1,5 @@
 [
   {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "date": "2026-09-29",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 22,
-    "occurrences": [
-      {
-        "date": "2026-09-29",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-01",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-06",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-08",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-13",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-15",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-20",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-22",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-27",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-29",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-03",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-05",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-10",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-12",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-17",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-19",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-24",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-03",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-08",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-10",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-15",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-17",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-09-29",
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
@@ -567,6 +388,178 @@
       "2026-09-30"
     ],
     "lastDate": "2026-09-30"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "date": "2026-10-01",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 21,
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-06",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-08",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-13",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-15",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-20",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-22",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-27",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-29",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-05",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-12",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-19",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-24",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-08",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-15",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Intramurals: Volleyball",
