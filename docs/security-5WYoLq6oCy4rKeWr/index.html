@@ -68,11 +68,35 @@
     margin-top:28px;
     padding-top:12px;
   }
+  .print-bar{
+    margin-bottom:20px;
+  }
+  .print-btn{
+    font-family:inherit;
+    font-size:13px;
+    font-weight:600;
+    color:var(--teal);
+    background:#fff;
+    border:1px solid var(--teal);
+    border-radius:6px;
+    padding:6px 14px;
+    cursor:pointer;
+  }
+  .print-btn:hover{
+    background:var(--teal);
+    color:#fff;
+  }
+  @media print{
+    .tab-bar, .print-bar{display:none !important;}
+    body{padding:0;}
+    .day-panel{display:block !important;}
+  }
 </style>
 </head>
 <body>
   <div class="wrap">
     <div class="tab-bar"><button class="day-tab active" id="day-tab-0" onclick="showDay(0)">Today <span class="tab-badge">6</span></button><button class="day-tab" id="day-tab-1" onclick="showDay(1)">Tomorrow <span class="tab-badge">2</span></button><button class="day-tab" id="day-tab-2" onclick="showDay(2)">Sat 10/3 <span class="tab-badge">2</span></button><button class="day-tab" id="day-tab-3" onclick="showDay(3)">Sun 10/4 <span class="tab-badge">1</span></button><button class="day-tab" id="day-tab-4" onclick="showDay(4)">Mon 10/5 <span class="tab-badge">1</span></button><button class="day-tab" id="day-tab-5" onclick="showDay(5)">Tue 10/6 <span class="tab-badge">2</span></button></div>
+    <div class="print-bar"><button class="print-btn" onclick="window.print()">Print this schedule</button></div>
     <div class="day-panel" id="day-panel-0" style="">
     <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:640px;">
       <h2 style="color:#111827;margin-bottom:4px;">Campus Security — Daily Event Report</h2>
@@ -1055,7 +1079,7 @@
     </div><div class="day-panel" id="day-panel-5" style="display:none;">
     <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:640px;">
       <h2 style="color:#111827;margin-bottom:4px;">Campus Security — Daily Event Report</h2>
-      <div style="color:#6b7280;margin-bottom:16px;">2026-10-06 &middot; 20 scheduled events</div>
+      <div style="color:#6b7280;margin-bottom:16px;">2026-10-06 &middot; 21 scheduled events</div>
       
         <div style="background:#fef3c7;border:1px solid #fbbf24;border-radius:6px;
                     padding:10px 14px;margin-bottom:16px;color:#78350f;font-size:14px;">
@@ -1200,6 +1224,16 @@
         </tr>
         <tr style="border-bottom:1px solid #e5e7eb;">
           <td style="padding:8px 12px;white-space:nowrap;color:#374151;">
+            2:00 PM&ndash;4:00 PM
+          </td>
+          <td style="padding:8px 12px;">
+            <div style="font-weight:600;color:#111827;">MIIS Staff Campus Visit &amp; Meetings</div>
+            <div style="color:#6b7280;font-size:13px;">PAU 216 &middot; Marketing / Community Relations</div>
+            <div></div>
+          </td>
+        </tr>
+        <tr style="border-bottom:1px solid #e5e7eb;">
+          <td style="padding:8px 12px;white-space:nowrap;color:#374151;">
             3:00 PM&ndash;6:00 PM
           </td>
           <td style="padding:8px 12px;">
@@ -1292,7 +1326,7 @@
       
     </div>
     </div>
-    <div class="updated">Report generated October 1, 2026 at 10:07 AM Pacific (5:07 PM UTC). Refreshed automatically once a day — not real-time. Today's tab is current as of this run; later days are subject to change before they arrive.</div>
+    <div class="updated">Report generated October 1, 2026 at 12:02 PM Pacific (7:02 PM UTC). Refreshed automatically once a day — not real-time. Today's tab is current as of this run; later days are subject to change before they arrive.</div>
   </div>
   <script>
     function showDay(i) {
