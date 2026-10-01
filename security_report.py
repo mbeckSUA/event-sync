@@ -762,10 +762,18 @@ def build_html_report(events, target_date):
           or setup/teardown.
         </div>"""
 
+    # Prominent date headline (2026-10-01, Martin's request): "Thursday
+    # October 1" reads at a glance in a way "2026-10-01" doesn't, and
+    # Don's the audience -- he's scanning this once a day, not parsing a
+    # timestamp. The old title ("Campus Security -- Daily Event Report")
+    # drops to the subdued line underneath; it's useful context but not
+    # what someone actually needs to find first.
+    date_headline = datetime.strptime(target_date, "%Y-%m-%d").strftime("%A %B %-d")
+
     return f"""
     <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:640px;">
-      <h2 style="color:#111827;margin-bottom:4px;">Campus Security — Daily Event Report</h2>
-      <div style="color:#6b7280;margin-bottom:16px;">{target_date} &middot; {len(active)} scheduled events</div>
+      <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:2px;">{date_headline}</div>
+      <div style="color:#6b7280;margin-bottom:16px;">Campus Security &mdash; Daily Event Report &middot; {len(active)} scheduled events</div>
       {banner}
       {outside_visitors_html}
       <table style="width:100%;border-collapse:collapse;">
