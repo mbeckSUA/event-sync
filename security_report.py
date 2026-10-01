@@ -811,8 +811,14 @@ def build_standalone_page(events_by_date, dates, generated_at):
     script running inside the embedded page prints only that frame's
     content, not the surrounding SharePoint page -- confirmed browser
     behavior in Chrome/Edge/Firefox, not an assumption. The @media print
-    rules below hide the tab bar and the button itself so the printed page
-    is just the schedule."""
+    rules below hide the tab bar and the button itself; printing is
+    confined to whichever day is on screen because the inactive day panels
+    already carry inline display:none and nothing overrides it. (An
+    earlier version of this feature added a print-only
+    `.day-panel{{display:block !important}}` rule that undid that inline
+    hiding and would have printed every day at once -- caught before it
+    ever shipped to a live run, when Martin asked whether printing could
+    be contained to the selected tab. Removed 2026-10-01.)"""
     today_str = dates[0]
 
     panels = []
@@ -954,7 +960,6 @@ def build_standalone_page(events_by_date, dates, generated_at):
   @media print{{
     .tab-bar, .print-bar{{display:none !important;}}
     body{{padding:0;}}
-    .day-panel{{display:block !important;}}
   }}
 </style>
 </head>
