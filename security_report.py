@@ -90,31 +90,32 @@ PAC_ORG_NAME = "soka performing arts center"
 # --live mode; CSV exports don't carry a type column.
 RENTAL_TYPE = "External Rental"
 
-# Confirmed Sept 30: "Shishiza: Leverages On-Campus Event" came through as
-# type "Student Organization Event" -- not in INTERNAL_ONLY_TYPES or
-# CAMPUS_COMMUNITY_TYPES, so it was about to be flagged "public event" by
-# default. Per Martin: treat student org events as private unless someone
-# specifically marks them for the public calendar (same "unless marked
-# public" shape as External Rental above) -- most club activity isn't
-# meant to draw outside visitors, and the ones that are can still surface
-# themselves by checking `public`.
+# Confirmed Sept 30: "Shishiza: Leverages On-Campus Event" (type "Student
+# Organization Event") and "Class-Related Room Reservation" (type "Academic
+# Events and Reservations (Undergraduate)") both leaked through as "public
+# event" the same day Residential Life and Student Affairs did (see
+# CAMPUS_LIFE_ORGS below) -- a new type surfaces, isn't covered by any
+# existing exclusion, gets flagged by default. Four distinct types/orgs in
+# one day finally tipped this from "patch each one as it appears" to a
+# structural fix, per Martin ("that's actually a smart way to go, let's do
+# it"): is_public_facing() now requires `public: true` for EVERY type by
+# default, rather than assuming public unless excluded. See the function
+# itself for the full reasoning and the one safety-net exception
+# (CEREMONY_NAME_HINT) added to cover a verification gap -- couldn't
+# confirm live whether "EBP End of Program Ceremony" / "SBP/SWC Completion
+# Ceremony" (both confirmed Campus Events, cited as real rental-shaped
+# examples in the Sept 29 notes) actually have `public: true` set; they
+# didn't turn up in a live data audit (likely past/renamed), so a name
+# hint hedges that specific risk rather than assuming they're fine.
 STUDENT_ORG_TYPE = "Student Organization Event"
 
-# Confirmed Sept 30: "Class-Related Room Reservation" (org Academic Affairs)
-# came through as type "Academic Events and Reservations (Undergraduate)" --
-# another type we hadn't seen, not covered by any existing exclusion, so it
-# was about to be flagged by default. The Coursedog form itself shows the
-# relevant field plainly: "Add Event to Public Calendar: No" -- this is an
-# ordinary class/room booking, not remotely an outside-visitor event.
-# Matched with a prefix rather than an exact string in case a "(Graduate)"
-# variant exists too (not yet observed, but same shared "Academic Events
-# and Reservations" root is a reasonable bet).
-ACADEMIC_RESERVATION_TYPE_PREFIX = "Academic Events and Reservations"
-
-# Types that are treated as public-facing ONLY when `public` is explicitly
-# true; otherwise assumed private/internal. See RENTAL_TYPE and
-# STUDENT_ORG_TYPE comments above for the reasoning behind each.
-PUBLIC_UNLESS_MARKED_TYPES = {RENTAL_TYPE, STUDENT_ORG_TYPE}
+# A graduation/completion/end-of-program ceremony reliably brings outside
+# family members, same shape of concern as an Admissions tour (see
+# VISIT_NAME_HINTS below) -- but unlike Admissions, there's no org-level
+# signal to pair it with, since these are run by whichever office owns the
+# program. Checked regardless of `public`, as a safety net under the
+# flipped default above.
+CEREMONY_NAME_HINT = "ceremony"
 
 # Admissions hosts group tours/visits for prospective students and their
 # families -- Coursedog has no dedicated event type for this (confirmed
@@ -219,20 +220,35 @@ def format_minutes(m):
 
 
 def is_public_facing(event):
-    """Would this event actually display on the public campus calendar
-    (events.soka.edu)? Ported from build_campus_events.py's is_excluded()
-    (inverted) so this report's "public event" flag means what Martin
-    needs it to mean: not "Coursedog's `public` checkbox happens to be
-    ticked" but "a member of the public can find this on the calendar and
-    show up." Confirmed 2026-09-29 by reading that script's actual
-    criteria: almost everything reaches the public calendar regardless of
-    the `public` field -- it's excluded only for a specific, narrow set of
-    reasons (private, setup/teardown, not Confirmed, an internal-only
-    type, or an External Rental nobody marked public). Using `public:
-    true` alone, as this report did before, was both over-inclusive (see
-    the Student Staff Retreat false positive elsewhere in this file) and
-    under-inclusive (it missed real public-facing events that never had
-    `public` ticked, which is apparently most of them).
+    """Will a member of the public actually show up because of this event?
+    Flipped 2026-09-30 (was: "public unless excluded," ported from
+    build_campus_events.py's is_excluded() -- see git history / the doc
+    for that version's reasoning). That version correctly mirrored what
+    reaches events.soka.edu, but five separate cases in two days
+    (Recreation Calendar, Student Staff Retreat mistyping, Residential
+    Life, Student Affairs, Academic Events and Reservations) showed
+    "reaches the calendar" keeps diverging from "brings outside people" --
+    a new Coursedog type or org surfaces, isn't covered by whatever
+    exclusion list exists so far, gets flagged by default. Rather than add
+    a sixth exception, the default is now the other way around: nothing is
+    public-facing unless `public` is explicitly true, except the handful
+    of absolute overrides below that are reliable in the other direction
+    (an internal-only type, or Residential Life / Student Affairs, are
+    never outside-visitor events no matter what `public` says -- see
+    INTERNAL_ONLY_TYPES / CAMPUS_LIFE_ORGS comments).
+
+    Known accepted risk: an event that's genuinely public but never had
+    `public` ticked will now be silently excluded, the same failure mode
+    the original 2026-09-29 rework was built to fix. The three events that
+    actually motivated that rework (CENEU info session, Japan/China Visa
+    Info Session, Joint Film Screening) were confirmed live 2026-09-30 to
+    all have `public: true`, so they aren't lost by this flip. Two other
+    cited examples (EBP End of Program Ceremony, SBP/SWC Completion
+    Ceremony) could NOT be found in a live data audit to confirm either
+    way -- CEREMONY_NAME_HINT below is a direct hedge against that
+    specific gap. Watch for other under-flagged cases as live runs
+    continue; this is the trade Martin chose to make rather than keep
+    patching individual types/orgs one at a time.
 
     Only meaningful in live mode, where type/status/private are populated
     from real Coursedog data -- see the call site in classify()."""
@@ -245,11 +261,12 @@ def is_public_facing(event):
     event_type = event.get("type")
     if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
         return False
-    if event_type in PUBLIC_UNLESS_MARKED_TYPES and not event.get("public"):
-        return False
-    if event_type and event_type.startswith(ACADEMIC_RESERVATION_TYPE_PREFIX) and not event.get("public"):
-        return False
-    return True
+    if event.get("public"):
+        return True
+    name_lower = (event.get("name") or "").lower()
+    if CEREMONY_NAME_HINT in name_lower:
+        return True
+    return False
 
 
 def classify(event):
