@@ -801,7 +801,18 @@ def build_standalone_page(events_by_date, dates, generated_at):
     unauthenticated-but-unlisted GitHub Pages site.
 
     Renders plain, tab-free content when there's exactly one day (CSV mode,
-    or --days 1) — no reason to show tab UI for a single tab."""
+    or --days 1) — no reason to show tab UI for a single tab.
+
+    Includes a "Print this schedule" button (2026-10-01, Don's security-desk
+    request) that calls window.print() on whichever day panel is currently
+    active -- defaults to today's tab since that's index 0 and starts
+    active. Works the same even if this page later ends up embedded via a
+    SharePoint iframe: each iframe has its own window, so print() fired from
+    script running inside the embedded page prints only that frame's
+    content, not the surrounding SharePoint page -- confirmed browser
+    behavior in Chrome/Edge/Firefox, not an assumption. The @media print
+    rules below hide the tab bar and the button itself so the printed page
+    is just the schedule."""
     today_str = dates[0]
 
     panels = []
@@ -827,6 +838,12 @@ def build_standalone_page(events_by_date, dates, generated_at):
     tab_bar = ""
     if len(dates) > 1:
         tab_bar = f'<div class="tab-bar">{"".join(tabs)}</div>'
+
+    print_bar = (
+        '<div class="print-bar">'
+        '<button class="print-btn" onclick="window.print()">Print this schedule</button>'
+        '</div>'
+    )
 
     # No zoneinfo/tz-database dependency — Pacific is UTC-7 (PDT) or UTC-8
     # (PST); this only needs to be legible to a person glancing at a
@@ -916,11 +933,35 @@ def build_standalone_page(events_by_date, dates, generated_at):
     margin-top:28px;
     padding-top:12px;
   }}
+  .print-bar{{
+    margin-bottom:20px;
+  }}
+  .print-btn{{
+    font-family:inherit;
+    font-size:13px;
+    font-weight:600;
+    color:var(--teal);
+    background:#fff;
+    border:1px solid var(--teal);
+    border-radius:6px;
+    padding:6px 14px;
+    cursor:pointer;
+  }}
+  .print-btn:hover{{
+    background:var(--teal);
+    color:#fff;
+  }}
+  @media print{{
+    .tab-bar, .print-bar{{display:none !important;}}
+    body{{padding:0;}}
+    .day-panel{{display:block !important;}}
+  }}
 </style>
 </head>
 <body>
   <div class="wrap">
     {tab_bar}
+    {print_bar}
     {"".join(panels)}
     <div class="updated">Report generated {generated_str}. {freshness_note}</div>
   </div>
