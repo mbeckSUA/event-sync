@@ -1,53 +1,53 @@
 [
   {
-    "name": "Student Interviews - Comm Relations",
+    "name": "GSU Training #1: Global Citizenship and GSU",
     "type": "Internal Meeting",
     "public": false,
-    "description": "Interviews",
+    "description": "Training day one of GSU Officer\u2019s Training Series. We will be watching \u201cThe Light of Hope\u201d film and engaging in discussion.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "startTime": "1:00 PM",
-    "endTime": "5:00 PM",
+    "endTime": "4:00 PM",
     "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
+      "name": "Manami Koizumi",
+      "email": "mkoizumi@soka.edu"
+    },
+    "org": "Office of the Graduate School",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-01"
+    ],
+    "lastDate": "2026-10-01"
+  },
+  {
+    "name": "DEI Design Support Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-01",
+    "startTime": "3:00 PM",
+    "endTime": "4:00 PM",
+    "allDay": false,
+    "room": "MAA 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Nicole Chen",
+      "email": "nchen@soka.edu"
     },
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-09-30"
+      "2026-10-01"
     ],
-    "lastDate": "2026-09-30"
-  },
-  {
-    "name": "Student Staff Retreat",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "The Office of Student Leadership and Service Engagement and the Office of Diversity, Equity and Inclusion host a staff retreat for our student employees every year to provide training and help them understand our office mission, purpose and the roles they will be playing in the office.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "5:00 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
+    "lastDate": "2026-10-01"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -56,7 +56,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
@@ -65,9 +65,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 38,
+    "occurrenceCount": 37,
     "occurrenceDates": [
-      "2026-09-30",
       "2026-10-01",
       "2026-10-05",
       "2026-10-06",
@@ -115,7 +114,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -124,9 +123,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 72,
+    "occurrenceCount": 71,
     "occurrenceDates": [
-      "2026-09-30",
       "2026-10-01",
       "2026-10-02",
       "2026-10-03",
@@ -208,7 +206,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -217,9 +215,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 52,
+    "occurrenceCount": 51,
     "occurrenceDates": [
-      "2026-09-30",
       "2026-10-01",
       "2026-10-04",
       "2026-10-05",
@@ -281,7 +278,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -293,9 +290,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 47,
+    "occurrenceCount": 46,
     "occurrenceDates": [
-      "2026-09-30",
       "2026-10-01",
       "2026-10-04",
       "2026-10-05",
@@ -344,56 +340,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "GSU Officer's Training #1: Global Citizenship as GSU",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "This is session #1 of Graduate Student Union (GSU)'s training series, and we will be watching the Light of Hope film as well as engage in discussion about embodying global citizenship in their GSU leadership.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "12:30 PM",
-    "endTime": "3:30 PM",
-    "allDay": false,
-    "room": "Athenaeum Library",
-    "building": "Athenaeum",
-    "imageURL": "",
-    "contact": {
-      "name": "Manami Koizumi",
-      "email": "mkoizumi@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "DEI Design Support Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "3:00 PM",
-    "endTime": "4:00 PM",
-    "allDay": false,
-    "room": "MAA 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Nicole Chen",
-      "email": "nchen@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
   },
   {
     "name": "Student Interviews - Comm Relations",

@@ -1,172 +1,5 @@
 [
   {
-    "name": "Student Staff Retreat",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Staff Retreat hosted for Student Staff by Office of Leadership and Service Engagement, Office of DEI and Office of Student Activities.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "5:00 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
-  },
-  {
-    "name": "Soka Health Research Symposium: Conference-Bound Scholarship in Public Health, Global Health, Epidemiology, Bioethics, and Health Policy",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join us for an evening celebrating research that Soka students, recent alumni, and faculty will present at the Sexual Violence Research Initiative (SVRI) Forum, American Society for Bioethics and Humanities (ASBH) Annual Meeting, Gerontological Society of America (GSA) Annual Scientific Meeting, and American Public Health Association (APHA) Annual Meeting this fall. Presenters will share scholarship in public health, global health, epidemiology, bioethics, health policy, environmental health, aging, maternal and child health, mental health, and related disciplines. Preview research before it reaches national and international conferences, meet the researchers, and explore opportunities to pursue health-related scholarship.\n\nFollowing the oral presentations, attendees can visit posters and roundtable presentations, meet the researchers, and ask questions in an informal setting.\n\nWe also welcome presentations by students, recent alumni, and faculty who will present research in public health, global health, bioethics, or related health disciplines at a professional conference this year. If you are interested in participating, please contact the organizers.\n\nThe event will also highlight the final application deadline for the Soka Health Advocacy and Research Program (SHARP) Internship, sponsored by Health Professions Advising (HPA) and the Career Development Office (CDO).\n\nJoin us afterward for refreshments and conversation with the presenters.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/shared/static/7hs8ucmuckqdjihzqsodilmtu8xgot34.png\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/HPA%20Session%20Photo.png",
-    "contact": {
-      "name": "Jacqueline Mills",
-      "email": "jmills@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 22,
-    "occurrenceDates": [
-      "2026-09-30",
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "6:30 PM",
-    "endTime": "7:30 PM",
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 22,
-    "occurrenceDates": [
-      "2026-09-30",
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Intramurals: Badminton",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nSingles and Doubles Tournament!\n\nAll skill levels are welcome! Grab your friends and create your own team or sign up as an individual! \n\nCreate you IM Leagues account to Sign Up!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-09-30",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-09-30"
-    ],
-    "lastDate": "2026-09-30"
-  },
-  {
     "name": "CENEU Informational Session on Medical Spanish & Global Health Immersion Programs",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -181,8 +14,8 @@
     "building": "Ikeda Library",
     "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/021426_HUMANISM-IN-PRACTICE_AM-016.JPG",
     "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
+      "name": "Jacqueline Mills",
+      "email": "jmills@soka.edu"
     },
     "org": "Health Professions Advising",
     "occurrenceCount": 1,
@@ -564,6 +397,96 @@
     "lastDate": "2026-10-04"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-05",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 21,
+    "occurrenceDates": [
+      "2026-10-05",
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-05",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 21,
+    "occurrenceDates": [
+      "2026-10-05",
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "October Dialogue Buddies",
     "type": "Campus Events",
     "public": true,
@@ -589,7 +512,7 @@
     "lastDate": "2026-10-06"
   },
   {
-    "name": "Concentration meeting",
+    "name": "INTS Concentration Meeting",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
     "description": "",
@@ -734,6 +657,31 @@
     "lastDate": "2026-11-18"
   },
   {
+    "name": "PwC Japan Group US Campus Seminar 2026",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "The first half will be a company presentation introducing PwC Japan, and the second half will be a casual discussion session with PwC employees.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-07",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-07"
+    ],
+    "lastDate": "2026-10-07"
+  },
+  {
     "name": "Study Abroad Meet & Greet Tabling Event (Bistro Plaza)",
     "type": "Campus Events",
     "public": false,
@@ -748,31 +696,6 @@
     "building": "",
     "imageURL": "",
     "contact": null,
-    "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Study Abroad Meet and Greet 2026",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "11:00 AM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Dining Hall",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Kathleen Jorgensen",
-      "email": "kjorgensen@soka.edu"
-    },
     "org": "Study Abroad",
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -1328,17 +1251,17 @@
   {
     "name": "Annotations of Hope: Dr. Nahum Chandler on Du Bois's \"Of the Coming of John\"",
     "type": "Campus Events",
-    "public": false,
-    "description": "A lecture by Dr. Nahum Chandler\n\nW. E. B. Du Bois's short story \"Of the Coming of John\" follows a young man's journey: from a carefree small-town boy, through a failed first year of college, to his return to school and his discovery of himself anew in the world of thought. It is a discovery of what Du Bois elsewhere calls \"double-consciousness.\"\n\nThe story is the masterpiece of Du Bois's The Souls of Black Folk: Essays and Sketches (1903), a classic of American thought. Within its few pages, it raises the great questions of history and destiny, duty, people and nation, boyhood and manhood, family, and the future of girls and women. Drawing on the Old Testament, the ancient Greek idea of paideia, 18th-century French ideals of liberty, equality, and fraternity, 19th-century English ideas of liberal education, and late 19th-century German notions of fate and destiny, and carried by an American and African American sense of hope after the Civil War and Reconstruction, the story stages the central questions of modern world history. They are questions of Du Bois's time and of our own.\n\nIn this lecture, Dr. Chandler will begin a close reading of the text, paragraph by paragraph and section by section. Music will play a substantial role in the listening and discussion.\n\nHow to prepare: The story is about 20 pages long. Attendees are encouraged to listen to the audiobook version beforehand. The text is also available online in a reliable scholarly edition, including through the Ikeda Library.",
+    "public": true,
+    "description": "A lecture by Dr. Nahum Chandler\n\nW. E. B. Du Bois\u2019s short story \u201cOf the Coming of John \u201cis about a young man\u2019s journey, from a happy go lucky small-town boy with never a care in the world, through an initial failure in his first year of college, to his return to school and discovery of himself anew in the world of thought. It is the discovery of what Du Bois elsewhere describes as a kind of \u201cdouble-consciousness.\u201d This short story is the masterpiece\u00a0of Du Bois\u2019s\u00a0book The Souls of Black Folk: Essays and Sketches of 1903, a classic text in American thought \u2014 a book and short story about hope for the future of America at the turn to the 20th century.\n\u00a0\nThe story is about 20 pages long. An audio version is available. The text can be found online in a reliable scholarly edition, including through Ikeda Library. Please read or listen before the lecture.\u00a0Music as reference and hearing will be integral to the lecture.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-22",
-    "startTime": "4:00 PM",
+    "startTime": "5:00 PM",
     "endTime": "6:00 PM",
     "allDay": false,
-    "room": "PAU 216",
+    "room": "CUR 200",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/WEBD%20Nina%20and%20Son%20%281%29.jpeg",
     "contact": {
       "name": "Viki Lohk",
       "email": "v.lohk@soka.edu"
