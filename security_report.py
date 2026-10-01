@@ -90,6 +90,17 @@ PAC_ORG_NAME = "soka performing arts center"
 # --live mode; CSV exports don't carry a type column.
 RENTAL_TYPE = "External Rental"
 
+# Outside Visitors is otherwise chronological (top to bottom = earliest to
+# latest), but "SCC Guest Stay" bookings are consistently a single
+# individual or a small group staying over -- not worth interrupting the
+# scan of the day's real outside-visitor activity at the top. Martin's
+# call, 2026-10-01: always sink these to the bottom of the list rather
+# than wherever their start time happens to land. Matched by a name
+# substring, case-insensitive, since that's the only reliable signal --
+# these come through typed "External Rental" same as everything else in
+# that bucket.
+LOW_PRIORITY_OUTSIDE_VISITOR_HINTS = ("scc guest stay",)
+
 # Confirmed Sept 30: "Shishiza: Leverages On-Campus Event" (type "Student
 # Organization Event") and "Class-Related Room Reservation" (type "Academic
 # Events and Reservations (Undergraduate)") both leaked through as "public
@@ -608,6 +619,13 @@ def merge_outside_visitor_groups(items):
         rep["_stop_count"] = len(group)
         rep["_attendee_count"] = max(counts) if counts else attendee_count(rep)
         merged.append((rep, flags))
+
+    # Stable sort: only reorders the low-priority entries (see
+    # LOW_PRIORITY_OUTSIDE_VISITOR_HINTS above) down to the bottom --
+    # everything else keeps its existing chronological order.
+    merged.sort(key=lambda item: any(
+        h in (item[0]["name"] or "").lower() for h in LOW_PRIORITY_OUTSIDE_VISITOR_HINTS
+    ))
     return merged
 
 
