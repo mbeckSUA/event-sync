@@ -1,252 +1,5 @@
 [
   {
-    "name": "CENEU Informational Session on Medical Spanish & Global Health Immersion Programs",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Medical Spanish & Global Health Immersion Information Session\nCo-sponsored by Health Professions Advising and the Career Development Office, this in-person session introduces students to CENEU's Medical Spanish and Global Health Immersion programs in Tijuana and Ensenada, Mexico. Representatives will discuss Medical Spanish training, clinical and public health experiences, cultural immersion, program logistics, and how these opportunities can strengthen preparation for health professions careers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/021426_HUMANISM-IN-PRACTICE_AM-016.JPG",
-    "contact": {
-      "name": "Jacqueline Mills",
-      "email": "jmills@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Japan/China Visa Info Session",
-    "type": "Campus Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "4:30 PM",
-    "endTime": "5:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Study%20Abroad%20Stock.png",
-    "contact": {
-      "name": "Kathleen Jorgensen",
-      "email": "kjorgensen@soka.edu"
-    },
-    "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Soka Jobs+ Fair PREP Workshop",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Don't forget to attend this workshop that helps you prepare for Soka Jobs+ Fair the next day!\n\"Your Great First Impression Can Get You Hired\"\nPrep Workshop: 10/1 Student Affairs Lobby, 5 pm Thurs.\nREMEMBER: Prep workshop is 10/1, then next day 10/2 Friday is the actual Soka Jobs+ Fair, at 11:30 am - 1:30 pm.\nQuestions: Career Counselor Young Choi-Plass, ychoiplass@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/2026%20PREP%20General%20Soka%20Jobs%20Fair%20Flyer%20YCP.png",
-    "contact": {
-      "name": "Young Choi-Plass",
-      "email": "ychoiplass@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Welcome to the United Nations Association",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "Come and learn more about UNA, SDGs, our mission, and upcoming on and off campus events. Open to all enrolled students.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/United%20Nations%20Association%20%281%29.png",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Shishiza: Leverages On-Campus Event",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "6:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 21,
-    "occurrenceDates": [
-      "2026-10-01",
-      "2026-10-06",
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Soka Medical Society Orientation & Seniors Discussion",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Come to the 1st SMS meeting to hear about club activities and events for the year! Additionally, come ask 4th-year pre-health students to hear about their experiences in accessing pre-health resources and curriculum at SUA!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "6:30 PM",
-    "endTime": "9:30 PM",
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-01"
-    ],
-    "lastDate": "2026-10-01"
-  },
-  {
-    "name": "Joint Film Screening (WRT & SBS)",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Joint film screening by Writing Program and SBS Concentration. More details will be provided.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Film%20Screening%20Stock%20Image.png",
-    "contact": {
-      "name": "Kristi Wilson",
-      "email": "kwilson@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-01",
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Intramurals: Volleyball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to Sign Up by 9/23!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-10-01",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-01",
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
     "name": "Soka Jobs+ Fair",
     "type": "Campus Events",
     "public": true,
@@ -350,7 +103,7 @@
     "name": "H\u0100LAU HULA LANI OLA 28th ANNIVERSARY H\u014c\u2019IKE",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "THIS CONCERT IS PRESENTED BY H\u0100LAU HULA LANI OLA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike",
+    "description": "Celebrate H\u0101lau Hula Lani Ola\u2019s 28th anniversary through the beauty of Hawaiian hula, live music, chants, and storytelling. Experience an evening that brings generations of tradition to life.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike\">More info and tickets</a>",
     "facility": false,
     "date": "2026-10-03",
@@ -582,6 +335,50 @@
     "lastDate": "2026-12-17"
   },
   {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-06",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 20,
+    "occurrenceDates": [
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Career Development CPT Lunchtime",
     "type": "Campus Events",
     "public": false,
@@ -731,6 +528,31 @@
     "lastDate": "2026-10-26"
   },
   {
+    "name": "Cultural Exchanges between Greece and India",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Cultural Exchanges between Greece and India \nThe lecture will be an exploration of how the ancient Greeks reacted to, represented, and interacted with India. After a brief introduction to the earliest accounts (Herodotus, Ctesias), we will focus on the expedition of Alexander the Great in India and its major literary sources (especially Arrian). We will also briefly touch on how those accounts influenced later representations of India in Roman times and beyond.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-08",
+    "startTime": "4:30 PM",
+    "endTime": "6:12 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Matteo%20Barbiero.jpeg",
+    "contact": {
+      "name": "nalini rao",
+      "email": "nrao@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
+  },
+  {
     "name": "Mental Health & SDG 3: Recognize & Respond",
     "type": "Student Organization Event",
     "public": true,
@@ -743,12 +565,37 @@
     "allDay": false,
     "room": "Student Affairs Lobby",
     "building": "Ikeda Library",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Mental%20Health.png",
     "contact": {
       "name": "Jake Monahan",
       "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
+  },
+  {
+    "name": "Intramurals: Volleyball",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to Sign Up by 9/23!",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
+    "facility": false,
+    "date": "2026-10-08",
+    "startTime": "7:30 PM",
+    "endTime": "10:00 PM",
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-08"
@@ -1052,7 +899,7 @@
     "name": "Lunch & Conversation with Dr. Laurie Marker",
     "type": "Campus Events",
     "public": false,
-    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.",
+    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.\n\nPlease bring your own lunch. This event is open to the SUA campus community.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-16",
@@ -1061,7 +908,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dr.%20Laurie%20Marker%2C%20SIGS%20event.png",
     "contact": {
       "name": "Viki Lohk",
       "email": "v.lohk@soka.edu"
@@ -1074,10 +921,10 @@
     "lastDate": "2026-10-16"
   },
   {
-    "name": "Talk by Dr. Laurie Marker",
+    "name": "Talk by Dr. Laurie Marker, The Executive Director of The Cheetah Conservation Fund",
     "type": "Campus Events",
-    "public": false,
-    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is Named Among 27 Nominees for the Indianapolis Prize, the World's Leading Award for Animal Conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA.",
+    "public": true,
+    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is named among 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-16",
@@ -1086,7 +933,7 @@
     "allDay": false,
     "room": "PAU 216",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dr.%20Laurie%20Marker%2C%20SIGS%20event.png",
     "contact": {
       "name": "Viki Lohk",
       "email": "v.lohk@soka.edu"
@@ -1624,7 +1471,7 @@
     "name": "Malini Awasthi",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "KALI MANDIR PRESENTS MALINI AWASTHI\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
+    "description": "Experience the vibrant sounds of Indian folk music with acclaimed vocalist Malini Awasthi. Her performance brings the richness of these traditions to the stage in a benefit concert for Kali Mandir.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/malini-awasthi\">More info and tickets</a>",
     "facility": false,
     "date": "2026-10-25",
@@ -1971,7 +1818,7 @@
     "name": "Bob Baker Marionettes",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "_Bob Baker Marionettes have \u201cenchanted children over nearly five\ndecades\u201d \u2013\u00a0THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2",
+    "description": "Back by popular demand, the beloved Bob Baker Marionettes return with the playful artistry that has delighted audiences for more than 60 years. Bring the whole family for an afternoon of puppetry and wonder.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/bob-baker-marionettes-2\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-07",
@@ -2107,7 +1954,7 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/hr_OCYS1_Soka_2000x1000.png",
     "contact": {
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
@@ -2118,6 +1965,28 @@
       "2026-11-15"
     ],
     "lastDate": "2026-11-15"
+  },
+  {
+    "name": "Asian Americas: Discussing Papers from Graduate Students at CalState Los Angeles",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Two graduate students from CalState Los Angeles, both focusing on Asian migrant communities, will share their research in a conference-style environment with SUA students, especially Intro to the Pacific Basin (which will have a field trip a few days later on a related themes). SUA undergraduates will serve as discussants, followed by a dinner at the cafeteria to discuss grad studies in Los Angeles. Paper/author info below.\n\nThe event is co-sponsored by the Pacific Basin Area and the Pacific Basin Research Center.\n\nAri Muramoto, \u201cExclusion by Dispatch: Chinese Belonging and the Limits of Antichinismo in Guadalajara, 1920\u20131931\u201d\nAnti-Chinese violence erupted along Mexico\u2019s northern borders in 1911, where campaigns pushed to expel their communities. Historians have argued that Mexico\u2019s anti-Chinese movement mirrored California\u2019s. Using the El Informador newspaper coverage from 1920-1931, this paper shifts the focus of the Anti-Chinese movement to Guadalajara, Jalisco, where the movement did not take hold. The Uni\u00f3n Fraternal China de Guadalajara was one of many Chinese Nationalist Party branches, that modeled their governing structure to the party in Nanjing. El Informador featured the Uni\u00f3n Fraternal anniversary celebrations of the Republic of China, elected party members, and delegate meetings. While maintaining their connection to their homeland, Chinese community members were assimilating into local society, marrying Mexican women, participating in Catholic rites, becoming prominent merchants and bankers, and appearing in newspaper society pages. At the same time, the El Informador printed petitions for expulsion and reported the Sonora campaign. While loyal to China yet integrated into Guadalajara's social life, this community contradicted the antichinismo claim that Chinese people could never become Mexican. Guadalajara demonstrates that Mexico\u2019s antichinismo depended on who held local power, and that the California model, however relevant for borderlands, cannot explain the anti-Chinese movement in Mexico as a whole.\n\nHenry Truong, \u201cDesert Donuts: An Oral History of Vietnamese Refugee Resettlement in the California Desert\u201d\nThe late stages of the Vietnam War resulted in sizable Vietnamese refugee communities. In the United States, ethnic enclaves emerged in Orange County, California; San Jose, California; Houston, Texas; and Seattle, Washington. However, documenting the experiences of Vietnamese refugees who settled outside of these major enclaves contributes to the broader history of Vietnamese resettlement in the United States. The purpose of this oral history project is to document the experiences of a Vietnamese refugee family that settled in a rural desert community in the United States after leaving Vietnam. Through recorded interviews with first-generation refugees and 1.5-generation immigrants, this project documents life in pre-war and wartime Vietnam, the displacement process, the journey to the United States, cultural adaptation in a new country, and the family\u2019s experiences in a desert community that is part rural community, part military town. This project preserves personal narratives about the conditions that led to their displacement and how the family found a new life as fixtures of the local business community.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-17",
+    "startTime": "5:00 PM",
+    "endTime": "6:15 PM",
+    "allDay": false,
+    "room": "MAA 207",
+    "building": "",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-17"
+    ],
+    "lastDate": "2026-11-17"
   },
   {
     "name": "Networking Happy Hour",
@@ -2145,6 +2014,31 @@
     "lastDate": "2026-11-19"
   },
   {
+    "name": "Joint Film Screening (WRT & SBS)",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Joint film screening by Writing Program and SBS Concentration. More details will be provided.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Film%20Screening%20Stock%20Image.png",
+    "contact": {
+      "name": "Kristi Wilson",
+      "email": "kwilson@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "Blood Drive 2026",
     "type": "Student Organization Event",
     "public": true,
@@ -2157,7 +2051,7 @@
     "allDay": false,
     "room": "Gymnasium",
     "building": "Recreation Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Blood%20Drive.png",
     "contact": {
       "name": "Jake Monahan",
       "email": "jmonahan@soka.edu"
@@ -2173,7 +2067,7 @@
     "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "\u201cThe world\u2019s only period\u2011instrument rock band.\u201d \u2013\u00a0\nSAN\u202fFRANCISCO\u202fCLASSICAL\u202fVOICE (ON RUCKUS)\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes",
+    "description": "Flutist Emi Ferguson and Ruckus give Bach a thrilling new twist, blending Baroque brilliance with funk, whimsy, and irresistible energy. Discover a performance full of musical surprises.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-21",
@@ -2198,7 +2092,7 @@
     "name": "Pacific Symphony: Bach & Beethoven with Alexander Shelley, cond.",
     "type": "Campus Events",
     "public": true,
-    "description": "AN EVENING WITH PACIFIC SYMPHONY WITH ALEXANDER SHELLEY,  COND. AND\nDENNIS KIM & YOOMIN SEO, VIOLINS\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond",
+    "description": "Experience Bach and Beethoven with Pacific Symphony under the direction of Alexander Shelley. The program pairs Bach\u2019s Concerto for Two Violins with Beethoven\u2019s spirited Symphony No. 4.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-22",
@@ -2207,12 +2101,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/SHELLEY_0.png",
     "contact": {
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": null,
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-22"
@@ -2364,6 +2258,28 @@
     "lastDate": "2026-12-07"
   },
   {
+    "name": "PBL: Cell Biology Final Presentations",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Students will present their original research projects from their Project-Based Laboratory: Cell Biology course.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-10",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
+  },
+  {
     "name": "Celtic Christmas",
     "type": "Campus Events",
     "public": true,
@@ -2451,6 +2367,28 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
+    "name": "SUA Jazz Recital",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Jazz recital featuring students of Christine Araoka",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-14",
+    "startTime": "7:00 PM",
+    "endTime": "8:30 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/CD%20Images%20%281000%20x%20700%20px%29.jpg",
+    "contact": null,
+    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-14"
@@ -2610,6 +2548,28 @@
       "2027-01-14"
     ],
     "lastDate": "2027-01-14"
+  },
+  {
+    "name": "University of Pacific Masters in Biology Graduate Program Recruitment",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Chat with the director of the Masters in Biology program at the University of Pacific about opportunities and applications.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-15",
+    "startTime": "4:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-15"
+    ],
+    "lastDate": "2027-01-15"
   },
   {
     "name": "Martin Luther King Jr. holiday",
