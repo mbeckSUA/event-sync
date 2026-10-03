@@ -1,105 +1,5 @@
 [
   {
-    "name": "Soka Jobs+ Fair",
-    "type": "Campus Events",
-    "public": true,
-    "description": "SOKA JOBS+ FAIR (On-Campus Paid/Unpaid Student Work Opportunities)\n\"Your Great First Impression Can Get You Hired\"\nBistro Patio on Friday 10/2 at 11:30 am until 1:30 pm\nREMEMBER: Prep workshop is Thurs 10/1, then next day 10/2 Friday is the actual Soka Jobs+ Fair, at 11:30 am - 1:30 pm.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-02",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "allDay": false,
-    "room": "Dining Hall Patio",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/2026%20General%20Blank%20Soka%20Jobs%20Fair%20Flyer%20YCP.png",
-    "contact": {
-      "name": "Young Choi-Plass",
-      "email": "ychoiplass@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-02"
-    ],
-    "lastDate": "2026-10-02"
-  },
-  {
-    "name": "Fridays on the GREEN",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Fridays on the GREEN is a popular social event during the lunch hour where music is played and students are encouraged to join the fun by lounging on the green, get creative and color and/ or play with the variety of sports equipment.\n\nTo keep the energy high, we will also be featuring DJ Paul, bringing the beats to fuel a vibrant Friday atmosphere. Do not miss out, come join the fun, celebrate diversity, and start your weekend on a high note!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-02",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Fridays%20on%20the%20Green.png",
-    "contact": {
-      "name": "Robert Duran",
-      "email": "r.duran@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-02"
-    ],
-    "lastDate": "2026-10-02"
-  },
-  {
-    "name": "Picnic at the Bowl: '28/'29 Class Mixer with Residential Life",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-02",
-    "startTime": "4:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "The Bowl (Green between Res Hall)",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Greer Henderson",
-      "email": "ghenderson@soka.edu"
-    },
-    "org": "Residential Life",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-02"
-    ],
-    "lastDate": "2026-10-02"
-  },
-  {
-    "name": "Emerging Leaders Program Fall Kick-Off",
-    "type": "Campus Events",
-    "public": true,
-    "description": "The SOKA ELP Kick-Off is designed for SUA students eager to explore contributive leadership and embark on a transformative journey throughout the academic year. Join us in learning more about the Soka Leadership Framework and the sign-up process for the Emerging Leaders Program!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://cglink.me/2pq/r380288\">https://cglink.me/2pq/r380288</a></p>",
-    "facility": false,
-    "date": "2026-10-02",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/092526_LEADERSHIP_EXPO-LA-11.jpg",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-02"
-    ],
-    "lastDate": "2026-10-02"
-  },
-  {
     "name": "H\u0100LAU HULA LANI OLA 28th ANNIVERSARY H\u014c\u2019IKE",
     "type": "Performing Arts Center",
     "public": true,
@@ -258,6 +158,31 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-06"
+    ],
+    "lastDate": "2026-10-06"
+  },
+  {
+    "name": "Meet the Monterey Institute Team",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-06",
+    "startTime": "12:00 PM",
+    "endTime": "12:45 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-06"
@@ -946,11 +871,11 @@
     "lastDate": "2026-10-16"
   },
   {
-    "name": "",
-    "type": "Academic Affairs Events & Reservations",
-    "public": false,
+    "name": "Humanism & Health Speaker Series",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
     "description": "The inaugural session of the Humanism & Health Speaker Series will take place virtually on October 16, 2026, at 2:00 p.m. PT and will feature Victoria A. Smith, MD, Associate Medical Director for Primary Care at Ochsner Health, in conversation with Soka University of America Student Fellow Kiarra Hoes.\n\nCo-hosted by Soka University of America and the WHO Collaborating Centre for Healthy Cities and Urban Policy Research at the Institute of Science Tokyo, the Humanism & Health Speaker Series examines how health professionals and leaders translate humanistic values into practice across clinical care, health systems, public and global health, and planetary health. Through an interview-based conversation, Dr. Smith will discuss how humanism informs her approach to patient care and health care leadership.",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/t2pkjicurpn8lawt4iu1te6h1j190l3v\">Event Flyer</a></p>",
     "facility": false,
     "date": "2026-10-16",
     "startTime": "2:00 PM",
@@ -958,13 +883,38 @@
     "allDay": false,
     "room": "Virtual",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Victoria%20Smith.jpg",
     "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
+      "name": "Jacqueline Mills",
+      "email": "jmills@soka.edu"
     },
-    "org": null,
+    "org": "Health Professions Advising",
     "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
+  },
+  {
+    "name": "'Sanctuary' Film Screening and Q&A Produced by Autumn McAlpin",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Ohana Stories on OC Talk Radio presents a community screening of a powerful feature-length documentary, Sanctuary. Producer Autumn McAlpin welcomes the community to this event, with cast members who will join a post-screening Q&A. Register today! \n\nSanctuary is a feature-length documentary that exposes the plight of LGBTQIA+ individuals within modern faith systems\u2014told through the eyes of a visionary architect whose passion project becomes a lifeline. As doctrine collides with identity, a sacred space rises from rejection, offering refuge and hope.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true\">https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true</a></p>",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Autumn%20McAlpin.webp",
+    "contact": {
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-10-16"
     ],
@@ -1144,6 +1094,31 @@
       "2026-10-22"
     ],
     "lastDate": "2026-10-22"
+  },
+  {
+    "name": "Become a Physician: Exploring the DO Pathway with AACOM",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "This virtual information session, offered specifically for Soka University of America students and alumni, will feature representatives from the American Association of Colleges of Osteopathic Medicine (AACOM). The session will provide an overview of osteopathic medicine and the pathway to becoming a Doctor of Osteopathic Medicine (DO), including osteopathic medical education, the AACOMAS application process, admissions expectations, application timelines, and factors to consider when exploring DO medical schools. Participants will also have an opportunity to ask questions.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Lion's Den Courtyard",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jacqueline Mills",
+      "email": "jmills@soka.edu"
+    },
+    "org": "Health Professions Advising",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "Soka Leadership Summit",
@@ -2258,6 +2233,29 @@
     "lastDate": "2026-12-07"
   },
   {
+    "name": "Music Ensemble Studio Recital",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Fall 2026 recital featuring students of Wan-Chin Chang and Allison Johnson",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-08",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-12-08",
+      "2026-12-09"
+    ],
+    "lastDate": "2026-12-09"
+  },
+  {
     "name": "PBL: Cell Biology Final Presentations",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -2270,6 +2268,28 @@
     "allDay": false,
     "room": "CUR 200",
     "building": "",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
+  },
+  {
+    "name": "SUA Vocal Students Fall 2026 Recital",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Vocal recital featuring the Fall 2026 students of Dr. Brian Dehn",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-10",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Founders Hall Founder's Meeting Room",
+    "building": "Founders Hall",
     "imageURL": "",
     "contact": null,
     "org": "Academic Affairs",
