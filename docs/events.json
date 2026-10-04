@@ -1,30 +1,5 @@
 [
   {
-    "name": "H\u0100LAU HULA LANI OLA 28th ANNIVERSARY H\u014c\u2019IKE",
-    "type": "Performing Arts Center",
-    "public": true,
-    "description": "Celebrate H\u0101lau Hula Lani Ola\u2019s 28th anniversary through the beauty of Hawaiian hula, live music, chants, and storytelling. Experience an evening that brings generations of tradition to life.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/halau-hula-lani-ola-28th-anniversary-hoike\">More info and tickets</a>",
-    "facility": false,
-    "date": "2026-10-03",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Soka-Performing-Arts-Center-20230930-HalauHulaLaniOla-PabloCabrera-Concert-Photo-102%20%28edited%29.jpg",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-03"
-    ],
-    "lastDate": "2026-10-03"
-  },
-  {
     "name": "Class-Related Room Reservation",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
