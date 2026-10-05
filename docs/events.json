@@ -612,7 +612,7 @@
     "startTime": "5:00 PM",
     "endTime": "6:30 PM",
     "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
+    "room": "Student Affairs Lobby",
     "building": "Ikeda Library",
     "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Career%20Core%20Logo.png",
     "contact": {
@@ -1642,7 +1642,7 @@
   },
   {
     "name": "Meet the Author",
-    "type": "Academic Programs & Events",
+    "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "",
     "extendedDescription": "",
@@ -2112,7 +2112,7 @@
   },
   {
     "name": "George Li, piano",
-    "type": "Campus Events",
+    "type": "Performing Arts Center",
     "public": true,
     "description": "Acclaimed pianist George Li brings brilliant virtuosity to a program featuring Schumann, Debussy, and Mussorgsky\u2019s Pictures at an Exhibition.\n\nPROGRAM:\nSCHUMANN:  Abegg Variations, Op. 1  \nSCHUMANN:  Davidsb\u00fcndlert\u00e4nze (Dances of the League of David)\nDEBUSSY:  Images, Book 1\nMUSSORGSKY:  Pictures at an Exhibition\n\nMore info: https://www.performingarts.soka.edu/calendar-events/george-li-piano",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/george-li-piano\">More info and tickets</a>",
@@ -2128,7 +2128,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-06"
@@ -3181,7 +3181,7 @@
     "name": "Parnassus Society: La Boh\u00e8me",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "THIS PERFORMANCE IS PRESENTED BY PARNASSUS SOCIETY, A NONPROFIT\nORGANIZATION DEDICATED TO BRINGING CLASSICAL MUSIC, OPERA AND ART TO\nSOUTHERN CALIFORNIA.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme",
+    "description": "Experience the romance, friendship, and heartbreak of Puccini\u2019s beloved La Boh\u00e8me. Presented by Parnassus Society, this semi-staged performance features an internationally acclaimed cast.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\n\nThis Concert is Presented By Parnassus Society",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/parnassus-society-la-boheme\">More info and tickets</a>",
     "facility": false,
     "date": "2027-03-21",
@@ -3190,7 +3190,7 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-06-14%20at%201.57.26%20PM.png",
     "contact": {
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
@@ -3279,7 +3279,7 @@
     "name": "Judy Collins",
     "type": "Campus Events",
     "public": true,
-    "description": "JUDY COLLINS\n\nMore info: https://www.performingarts.soka.edu/calendar-events/judy-collins",
+    "description": "Spend an evening with Judy Collins\nas she brings her timeless voice and legendary songwriting to the stage.\n\nHer \u201cSWEET JUDY BLUE EYES\u201d Farewell Tour is a chance to experience songs that have touched generations.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/judy-collins\n\nPresented in partnership with KCRW & KJAZZ",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/judy-collins\">More info and tickets</a>",
     "facility": false,
     "date": "2027-04-04",
@@ -3288,9 +3288,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/JudyCollins_PatrickDonovan.ArmsCrossed%20%281%29.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-04"
@@ -3373,7 +3376,7 @@
     "name": "Louis Lortie, piano",
     "type": "Campus Events",
     "public": true,
-    "description": "_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/louis-lortie-piano",
+    "description": "Acclaimed pianist Louis Lortie takes on two of Beethoven\u2019s most ambitious works: the Eroica Variations and Hammerklavier Sonata. Experience their power and complexity in an intimate solo recital.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/louis-lortie-piano\n\nPresented in partnership with KUSC",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/louis-lortie-piano\">More info and tickets</a>",
     "facility": false,
     "date": "2027-04-11",
@@ -3382,9 +3385,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/LL_01_034.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-11"
@@ -3395,7 +3401,7 @@
     "name": "Pacific Symphony plays Dvorak &amp; Rachmaninoff with Moon Doh, cond.;\nAngel Wang, piano",
     "type": "Campus Events",
     "public": true,
-    "description": "_\u201cWang\u2019s technical brilliance and imaginative tonal application\ncaptivated my attention and thrilled the audience.\u201d - GRAMOPHONE_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-plays-dvorak-rachmaninoff-moon-doh-cond-angel-wang-piano",
+    "description": "Pacific Symphony presents Dvo\u0159\u00e1k and Rachmaninoff with conductor Moon Doh and acclaimed pianist Angel Wang.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-plays-dvorak-rachmaninoff-moon-doh-cond-angel-wang-piano",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/pacific-symphony-plays-dvorak-rachmaninoff-moon-doh-cond-angel-wang-piano\">More info and tickets</a>",
     "facility": false,
     "date": "2027-04-18",
@@ -3404,9 +3410,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/bqTFn9oA.jpeg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-18"
@@ -3514,10 +3523,10 @@
     "lastDate": "2027-04-23"
   },
   {
-    "name": "\\\"Serenade to Music\\\" Celebrating 40 years of Orange County School of\nthe Arts",
+    "name": "\"Serenade to Music\" Celebrating 40 years of Orange County School of the Arts",
     "type": "Campus Events",
     "public": true,
-    "description": "Join the Orange County School of the Arts Classical Voice Conservatory\nChoirs and the Instrumental Music Conservatory Symphony Orchestra in a\ncelebration of 40 years of music at the Orange County School of the\nArts. \u00a0Featuring an 80-piece orchestra and 103 singers, this concert\nwill spotlight the incredible talent and artistry in a kaleidoscope of\nmusical masterworks, including Serenade to Music by Ralph Vaughan\nWilliams.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/serenade-music-celebrating-40-years-orange-county-school-arts",
+    "description": "Celebrate 40 years of Orange County School of the Arts in a performance bringing together 80 musicians and 103 singers. \n\nThe evening features Vaughan Williams\u2019 Serenade to Music, a fitting tribute to four decades of artistry.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/serenade-music-celebrating-40-years-orange-county-school-arts\n\nPresented by Orange County School of the Arts",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/serenade-music-celebrating-40-years-orange-county-school-arts\">More info and tickets</a>",
     "facility": false,
     "date": "2027-04-24",
@@ -3526,9 +3535,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/OCSA%2040TH%20%281%29.png",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-04-24"
