@@ -1,30 +1,5 @@
 [
   {
-    "name": "Class-Related Room Reservation",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-04",
-    "startTime": "9:00 AM",
-    "endTime": "1:00 PM",
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Tanushree Agrawal",
-      "email": "tagrawal@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-04"
-    ],
-    "lastDate": "2026-10-04"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
@@ -143,7 +118,7 @@
     "name": "Meet the Monterey Institute Team",
     "type": "Campus Events",
     "public": false,
-    "description": "",
+    "description": "Four members of the Monterey Institute of International Studies enrollment team will introduce themselves and talk about the institute, a graduate school in Monterey, California, with in-person and online master's programs. Students, faculty, and staff are welcome to drop in for all or part of the hour. Bring your questions.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-06",
@@ -944,7 +919,7 @@
   },
   {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
-    "type": "Academic Programs & Events",
+    "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "This Summer Clinical Preceptorship Grand Rounds will feature case discussions presented by students who completed preceptorship program in 2026. Isabel Pizano-Canales, Taiho Higaki, and Calleigh Sakai will present clinical cases from both the Primary Care / Population Health Track and the Neurosurgery Track, outlining the diagnostic reasoning, management approaches, and clinical observations they encountered during their training. Following the case presentations, we will provide information about the upcoming Summer Clinical Preceptorship, including program expectations and application details. This session is open to the campus community. We strongly encourage those considering applying for the next preceptorship cycle to attend.",
     "extendedDescription": "",
@@ -955,7 +930,7 @@
     "allDay": false,
     "room": "CUR 200",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Clinical%20Preceptorship.png",
     "contact": {
       "name": "Howard Wu",
       "email": "hwu@soka.edu"
@@ -1083,7 +1058,7 @@
     "allDay": false,
     "room": "Lion's Den Courtyard",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Become%20a%20Physician%20-%20DO.png",
     "contact": {
       "name": "Jacqueline Mills",
       "email": "jmills@soka.edu"
@@ -2139,7 +2114,7 @@
     "name": "George Li, piano",
     "type": "Campus Events",
     "public": true,
-    "description": "_\u201cA bracing, fearless account\u2026Mr. Li\u2019s playing combined youthful\nabandon with utter command.\u201d \u2013 THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/george-li-piano",
+    "description": "Acclaimed pianist George Li brings brilliant virtuosity to a program featuring Schumann, Debussy, and Mussorgsky\u2019s Pictures at an Exhibition.\n\nPROGRAM:\nSCHUMANN:  Abegg Variations, Op. 1  \nSCHUMANN:  Davidsb\u00fcndlert\u00e4nze (Dances of the League of David)\nDEBUSSY:  Images, Book 1\nMUSSORGSKY:  Pictures at an Exhibition\n\nMore info: https://www.performingarts.soka.edu/calendar-events/george-li-piano",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/george-li-piano\">More info and tickets</a>",
     "facility": false,
     "date": "2026-12-06",
@@ -2148,9 +2123,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/hr_GeorgeLi_2000x1000.png",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-06"
@@ -2278,7 +2256,7 @@
     "name": "Celtic Christmas",
     "type": "Campus Events",
     "public": true,
-    "description": "_BACK BY POPULAR DEMAND AND QUICKLY BECOMING A CHERISHED HOLIDAY\nTRADITION, THIS ANNUAL SHOW IS A FAVORITE AMONG SOKA PERFORMING ARTS\nCENTER PATRONS. THIS PERFORMANCE WILL SELL OUT, SO GET YOUR TICKETS\nEARLY!_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/celtic-christmas",
+    "description": "Returning by popular demand, Titanic piper Eric Rigler and Dirk Freymuth bring their beloved Celtic holiday sounds back for an unforgettable festive celebration.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/celtic-christmas\n\nPresented in partnership with KCRW",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/celtic-christmas\">More info and tickets</a>",
     "facility": false,
     "date": "2026-12-13",
@@ -2287,9 +2265,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Soka-Performing-Arts-Center-20251207-EricRigler-PabloCabrera-Concert-Photo-21%20%281%29%20%281%29.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-13"
@@ -2526,7 +2507,7 @@
     "name": "Seong-Jin Cho, piano",
     "type": "Campus Events",
     "public": true,
-    "description": "SEONG-JIN CHO\n\nMore info: https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano",
+    "description": "Hear the poetic artistry and extraordinary virtuosity of Seong-Jin Cho, winner of First Prize at the 2015 Chopin Competition. Experience one of today\u2019s most celebrated pianists live on stage.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano\n\n\nPresented in partnership with KUSC",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano\">More info and tickets</a>",
     "facility": false,
     "date": "2027-01-14",
@@ -2535,8 +2516,11 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/handel-album-2023-c-stephanrabold-4-655d77fe-2d1c5dad%401236w2x.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
@@ -2764,7 +2748,7 @@
     "name": "Free Family Concert with OC Youth Symphony",
     "type": "Campus Events",
     "public": true,
-    "description": "THIS CONCERT IS CO-PRESENTED WITH THE PHILHARMONIC SOCIETY OF ORANGE\nCOUNTY\n\nMore info: https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony",
+    "description": "Make music part of your family\u2019s day with an interactive performance by the Orange County Youth Symphony. Come early to explore instruments and enjoy arts and crafts. Admission is free; reservations are required.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony\">More info and tickets</a>",
     "facility": false,
     "date": "2027-01-30",
@@ -2773,9 +2757,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/20250201--R5M28635%20%281%29.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-30"
@@ -2833,7 +2820,7 @@
     "name": "Jazzy Ash",
     "type": "Campus Events",
     "public": true,
-    "description": "_\u201cJazzy Ash fully connects with her own family\u2019s roots yet\nincorporates those decades-old traditions into 21st century kids\nmusic.\u201d- NPR_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazzy-ash",
+    "description": "Bring the whole family for a joyful musical celebration with Jazzy Ash and the Leaping Lizards. Their Crescent City-inspired sound introduces children to the rich traditions of Black American music through songs made for singing and dancing along.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazzy-ash",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/jazzy-ash\">More info and tickets</a>",
     "facility": false,
     "date": "2027-02-07",
@@ -2842,9 +2829,12 @@
     "allDay": false,
     "room": "Black Box Theatre",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Jazzy%20Ash.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-07"
@@ -2994,7 +2984,7 @@
     "name": "Mavis Staples",
     "type": "Campus Events",
     "public": true,
-    "description": "MAVIS STAPLES\n\nMore info: https://www.performingarts.soka.edu/calendar-events/mavis-staples-0",
+    "description": "Experience the unmistakable voice\nof legendary vocalist and GRAMMY winner Mavis Staples.\n\nHear songs from Sad and Beautiful World alongside the spirit and soul that have made her a musical icon.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/mavis-staples-0\n\nPresented in partnership with KCRW & KJAZZ",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/mavis-staples-0\">More info and tickets</a>",
     "facility": false,
     "date": "2027-02-13",
@@ -3003,9 +2993,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/MavisStaples_ElizabethDeLaPiedra_358_LowRes_PREFERRED_PRESS_SHOT.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-13"
@@ -3038,7 +3031,7 @@
     "name": "Orange County Youth Symphony &amp; String Ensemble Winter Concert",
     "type": "Campus Events",
     "public": true,
-    "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-winter-concert",
+    "description": "The Orange County Youth Symphony and String Ensemble celebrate their 56th season with works by Mozart, Beethoven, Tchaikovsky, Mendelssohn, and Mosier.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-winter-concert",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-winter-concert\">More info and tickets</a>",
     "facility": false,
     "date": "2027-02-21",
@@ -3047,9 +3040,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/PC_20251109_0111_R5M20390.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-21"
@@ -3060,7 +3056,7 @@
     "name": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
     "type": "Campus Events",
     "public": true,
-    "description": "THIS PERFORMANCE IS PART OF WYNTON MARSALIS\u2019\u00a0FINAL\u00a0SEASON\u00a0AS\nARTISTIC DIRECTOR OF JAZZ AT LINCOLN CENTER AND MUSIC DIRECTOR OF THE\nJAZZ AT LINCOLN CENTER ORCHESTRA\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazz-lincoln-center-orchestra-wynton-marsalis",
+    "description": "Join GRAMMY\u00ae Award-winning Wynton Marsalis and the Jazz at Lincoln Center Orchestra for a special farewell tour. Celebrate his final season as Artistic Director with an evening of extraordinary jazz musicianship.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/jazz-lincoln-center-orchestra-wynton-marsalis\n\nPresented in partnership with KCRW & KJAZZ",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/jazz-lincoln-center-orchestra-wynton-marsalis\">More info and tickets</a>",
     "facility": false,
     "date": "2027-02-25",
@@ -3069,9 +3065,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Wynton_Marsalis-04_byFrankStewart.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-25"
@@ -3082,7 +3081,7 @@
     "name": "Danish String Quartet",
     "type": "Campus Events",
     "public": true,
-    "description": "_\u201cWhat they do know is how to be an exceptional quartet, whatever\nrepertory they play.\u201d \u2013 THE NEW YORK TIMES_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/danish-string-quartet",
+    "description": "Discover the remarkable sound of the GRAMMY\u00ae-nominated Danish String Quartet. Their program moves from Gabriella Smith to Shostakovich and Beethoven, showcasing the musicianship and connection that have captivated audiences worldwide.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/danish-string-quartet\n\nPresented in partnership with KUSC",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/danish-string-quartet\">More info and tickets</a>",
     "facility": false,
     "date": "2027-02-26",
@@ -3091,9 +3090,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/hr_DSQ_2000x1000.png",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-02-26"
@@ -3154,7 +3156,7 @@
     "name": "Conrad Tao and Academy of St Martin in the Fields",
     "type": "Campus Events",
     "public": true,
-    "description": "_\u201cThe kind of musician who is shaping the future of classical\nmusic.\u201d\u00a0- __NEW YORK MAGAZINE (ON TAO)_\n\nMore info: https://www.performingarts.soka.edu/calendar-events/conrad-tao-and-academy-st-martin-fields",
+    "description": "Pianist Conrad Tao joins the Academy of St Martin in the Fields for a vibrant program spanning Mozart, Ruth Crawford Seeger, and Copland. Experience these distinctive musical voices brought together on one stage.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/conrad-tao-and-academy-st-martin-fields\n\nPresented in partnership with KUSC",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/conrad-tao-and-academy-st-martin-fields\">More info and tickets</a>",
     "facility": false,
     "date": "2027-03-12",
@@ -3163,9 +3165,12 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Conrad%20Tao%20Photo%202%20credit%20Brantley%20Gutierrez.jpg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-03-12"
