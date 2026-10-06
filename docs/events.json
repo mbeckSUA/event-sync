@@ -1,99 +1,9 @@
 [
   {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-05",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 21,
-    "occurrenceDates": [
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-05",
-    "startTime": "7:00 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 21,
-    "occurrenceDates": [
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
     "name": "October Dialogue Buddies",
     "type": "Campus Events",
     "public": true,
-    "description": "Students, staff, and faculty are invited to engage in conversations on meaningful topics during lunch.",
+    "description": "The Office of Diversity, Equity, and Inclusion and Counseling Services Collaborate for this month\u2019s Dialogue Buddies focused on well-being.\n\nWhen you're most distressed, what helps you feel cared for? What words or actions remind you that you matter? Join us as we explore well-being, connection, and the elements that create communities of care.\n\nWe look forward to seeing you there! Students, staff, and faculty are invited to engage in conversations on meaningful topics during lunch.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-06",
@@ -329,6 +239,50 @@
     "lastDate": "2026-11-18"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-07",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 20,
+    "occurrenceDates": [
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "PwC Japan Group US Campus Seminar 2026",
     "type": "Student Organization Event",
     "public": false,
@@ -354,6 +308,50 @@
     "lastDate": "2026-10-07"
   },
   {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-07",
+    "startTime": "6:30 PM",
+    "endTime": "7:30 PM",
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 20,
+    "occurrenceDates": [
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "Study Abroad Meet & Greet Tabling Event (Bistro Plaza)",
     "type": "Campus Events",
     "public": false,
@@ -376,33 +374,6 @@
     "lastDate": "2026-10-08"
   },
   {
-    "name": "Open Mic English",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "4:00 PM",
-    "endTime": "5:00 PM",
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Writing%20Center%20Open%20Mic.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-10-08",
-      "2026-10-23",
-      "2026-10-26"
-    ],
-    "lastDate": "2026-10-26"
-  },
-  {
     "name": "Cultural Exchanges between Greece and India",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -421,6 +392,31 @@
       "email": "nrao@soka.edu"
     },
     "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-08"
+    ],
+    "lastDate": "2026-10-08"
+  },
+  {
+    "name": "Reading Strategies Workshop",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Please join us for three more fall workshops hosted by the Writing Center in October!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-08",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-08"
@@ -577,6 +573,32 @@
     "lastDate": "2026-12-14"
   },
   {
+    "name": "Open Mic English",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-12",
+    "startTime": "4:00 PM",
+    "endTime": "5:00 PM",
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Writing%20Center%20Open%20Mic.png",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-12",
+      "2026-10-26"
+    ],
+    "lastDate": "2026-10-26"
+  },
+  {
     "name": "Dean's Lunch Meeting with CPA Directors and Coordinators",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
@@ -694,6 +716,31 @@
       "2026-10-14"
     ],
     "lastDate": "2026-10-14"
+  },
+  {
+    "name": "Concise Writing Workshop",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Learn to make every word count.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-15",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Concise%20Writing%20Workshop.png",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-15"
+    ],
+    "lastDate": "2026-10-15"
   },
   {
     "name": "Smart Job Decisions",
@@ -849,8 +896,8 @@
     "name": "'Sanctuary' Film Screening and Q&A Produced by Autumn McAlpin",
     "type": "Campus Events",
     "public": true,
-    "description": "Ohana Stories on OC Talk Radio presents a community screening of a powerful feature-length documentary, Sanctuary. Producer Autumn McAlpin welcomes the community to this event, with cast members who will join a post-screening Q&A. Register today! \n\nSanctuary is a feature-length documentary that exposes the plight of LGBTQIA+ individuals within modern faith systems\u2014told through the eyes of a visionary architect whose passion project becomes a lifeline. As doctrine collides with identity, a sacred space rises from rejection, offering refuge and hope.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true\">https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true</a></p>",
+    "description": "Ohana Stories on OC Talk Radio presents a community screening of a powerful feature-length documentary, Sanctuary. Producer Autumn McAlpin welcomes the community to this event, with cast members who will join a post-screening Q&A. \n\nSanctuary is a feature-length documentary that exposes the plight of LGBTQIA+ individuals within modern faith systems\u2014told through the eyes of a visionary architect whose passion project becomes a lifeline. As doctrine collides with identity, a sacred space rises from rejection, offering refuge and hope. Register today!",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true\">Click here to reserve a spot</a></p>",
     "facility": false,
     "date": "2026-10-16",
     "startTime": "6:00 PM",
@@ -1397,7 +1444,7 @@
     "type": "Performing Arts Center",
     "public": true,
     "description": "Experience the vibrant sounds of Indian folk music with acclaimed vocalist Malini Awasthi. Her performance brings the richness of these traditions to the stage in a benefit concert for Kali Mandir.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/malini-awasthi\">More info and tickets</a>",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-10-25",
     "startTime": "6:30 PM",
@@ -1644,7 +1691,7 @@
     "name": "Meet the Author",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
-    "description": "",
+    "description": "Meet the Author",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-11-03",
@@ -1653,7 +1700,7 @@
     "allDay": false,
     "room": "Athenaeum Library",
     "building": "Athenaeum",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Meet%20the%20Author.png",
     "contact": {
       "name": "Dean of Faculty Office",
       "email": "deanoffaculty@soka.edu"
@@ -1854,7 +1901,7 @@
     "allDay": false,
     "room": "Founders 1st Floor Art Gallery",
     "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/National%20Philantrhopy%20Day.png",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/NPD_699x491.png",
     "contact": {
       "name": "Carin Rodgers-Bronstein",
       "email": "crodgersbronstein@soka.edu"
@@ -1870,7 +1917,7 @@
     "name": "Orange County Youth Symphony & String Ensemble Fall Concert",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String\nEnsemble spotlight both new and returning members in an exciting\nconcert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start\nof an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2",
+    "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String Ensemble spotlight both new and returning members in an exciting concert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start of an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2\">More info and tickets</a>",
     "facility": false,
     "date": "2026-11-15",
@@ -1895,7 +1942,7 @@
     "name": "Asian Americas: Discussing Papers from Graduate Students at CalState Los Angeles",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
-    "description": "Two graduate students from CalState Los Angeles, both focusing on Asian migrant communities, will share their research in a conference-style environment with SUA students, especially Intro to the Pacific Basin (which will have a field trip a few days later on a related themes). SUA undergraduates will serve as discussants, followed by a dinner at the cafeteria to discuss grad studies in Los Angeles. Paper/author info below.\n\nThe event is co-sponsored by the Pacific Basin Area and the Pacific Basin Research Center.\n\nAri Muramoto, \u201cExclusion by Dispatch: Chinese Belonging and the Limits of Antichinismo in Guadalajara, 1920\u20131931\u201d\nAnti-Chinese violence erupted along Mexico\u2019s northern borders in 1911, where campaigns pushed to expel their communities. Historians have argued that Mexico\u2019s anti-Chinese movement mirrored California\u2019s. Using the El Informador newspaper coverage from 1920-1931, this paper shifts the focus of the Anti-Chinese movement to Guadalajara, Jalisco, where the movement did not take hold. The Uni\u00f3n Fraternal China de Guadalajara was one of many Chinese Nationalist Party branches, that modeled their governing structure to the party in Nanjing. El Informador featured the Uni\u00f3n Fraternal anniversary celebrations of the Republic of China, elected party members, and delegate meetings. While maintaining their connection to their homeland, Chinese community members were assimilating into local society, marrying Mexican women, participating in Catholic rites, becoming prominent merchants and bankers, and appearing in newspaper society pages. At the same time, the El Informador printed petitions for expulsion and reported the Sonora campaign. While loyal to China yet integrated into Guadalajara's social life, this community contradicted the antichinismo claim that Chinese people could never become Mexican. Guadalajara demonstrates that Mexico\u2019s antichinismo depended on who held local power, and that the California model, however relevant for borderlands, cannot explain the anti-Chinese movement in Mexico as a whole.\n\nHenry Truong, \u201cDesert Donuts: An Oral History of Vietnamese Refugee Resettlement in the California Desert\u201d\nThe late stages of the Vietnam War resulted in sizable Vietnamese refugee communities. In the United States, ethnic enclaves emerged in Orange County, California; San Jose, California; Houston, Texas; and Seattle, Washington. However, documenting the experiences of Vietnamese refugees who settled outside of these major enclaves contributes to the broader history of Vietnamese resettlement in the United States. The purpose of this oral history project is to document the experiences of a Vietnamese refugee family that settled in a rural desert community in the United States after leaving Vietnam. Through recorded interviews with first-generation refugees and 1.5-generation immigrants, this project documents life in pre-war and wartime Vietnam, the displacement process, the journey to the United States, cultural adaptation in a new country, and the family\u2019s experiences in a desert community that is part rural community, part military town. This project preserves personal narratives about the conditions that led to their displacement and how the family found a new life as fixtures of the local business community.",
+    "description": "Co-sponsored by the Pacific Basin Area and the Pacific Basin Research Center, this conference will bring two CalState Los Angeles graduate students focusing on Asian migrant communities to share their research with undergraduates, particularly students in the Intro to the Pacific Basin course. SUA students will serve as discussants before concluding the evening with a cafeteria dinner to discuss graduate studies in Los Angeles. The presentations feature Ari Muramoto examining how Guadalajara\u2019s Chinese community contradicted Mexico's antichinismo movement through local integration and resistance to the California borderlands model, and Henry Truong utilizing oral histories to document a Vietnamese refugee family's resettlement and business establishment in a rural California desert and military town.",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-11-17",
@@ -1904,7 +1951,7 @@
     "allDay": false,
     "room": "MAA 207",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/PBRC%20Events.png",
     "contact": null,
     "org": "Academic Affairs",
     "occurrenceCount": 1,
@@ -2015,7 +2062,7 @@
   },
   {
     "name": "Pacific Symphony: Bach & Beethoven with Alexander Shelley, cond.",
-    "type": "Campus Events",
+    "type": "Performing Arts Center",
     "public": true,
     "description": "Experience Bach and Beethoven with Pacific Symphony under the direction of Alexander Shelley. The program pairs Bach\u2019s Concerto for Two Violins with Beethoven\u2019s spirited Symphony No. 4.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond\">More info and tickets</a>",
@@ -2031,7 +2078,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": "Soka Performing Arts Center",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-22"
@@ -2114,12 +2161,12 @@
     "name": "George Li, piano",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "Acclaimed pianist George Li brings brilliant virtuosity to a program featuring Schumann, Debussy, and Mussorgsky\u2019s Pictures at an Exhibition.\n\nPROGRAM:\nSCHUMANN:  Abegg Variations, Op. 1  \nSCHUMANN:  Davidsb\u00fcndlert\u00e4nze (Dances of the League of David)\nDEBUSSY:  Images, Book 1\nMUSSORGSKY:  Pictures at an Exhibition\n\nMore info: https://www.performingarts.soka.edu/calendar-events/george-li-piano",
+    "description": "Acclaimed pianist George Li brings brilliant virtuosity to a program featuring Schumann, Debussy, and Mussorgsky\u2019s Pictures at an Exhibition. d\nPROGRAM:\nSCHUMANN:  Abegg Variations, Op. 1  \nSCHUMANN:  Davidsb\u00fcndlert\u00e4nze (Dances of the League of David)\nDEBUSSY:  Images, Book 1\nMUSSORGSKY:  Pictures at an Exhibition\n\nMore info: https://www.performingarts.soka.edu/calendar-events/george-li-piano",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/george-li-piano\">More info and tickets</a>",
     "facility": false,
     "date": "2026-12-06",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
+    "startTime": "11:00 AM",
+    "endTime": "3:00 PM",
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
@@ -2521,7 +2568,7 @@
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
     },
-    "org": null,
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2027-01-14"
@@ -3151,6 +3198,31 @@
       "2027-03-04"
     ],
     "lastDate": "2027-03-04"
+  },
+  {
+    "name": "A Beethoven Celebration with Dr. Wan-Chin Chang",
+    "type": "Performing Arts Center",
+    "public": true,
+    "description": "A celebration of Beethoven for piano with Dr. Wan-Chin Chang playing Beethoven's Triple Concerto and Piano Concerto No. 5. Wan-Chin is an Adjunct Instructor of Music forSUA.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-05",
+    "startTime": "8:00 PM",
+    "endTime": "9:30 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Wan-Chin%20Chang.png",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-05"
+    ],
+    "lastDate": "2027-03-05"
   },
   {
     "name": "Conrad Tao and Academy of St Martin in the Fields",
