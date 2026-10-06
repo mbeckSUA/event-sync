@@ -1,349 +1,5 @@
 [
   {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "date": "2026-10-05",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 21,
-    "occurrences": [
-      {
-        "date": "2026-10-05",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-07",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-12",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-14",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-19",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-21",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-26",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-28",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-02",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-04",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-09",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-11",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-16",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-18",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-23",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-30",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-02",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-07",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-09",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-14",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-16",
-        "startTime": "5:00 PM",
-        "endTime": "6:00 PM",
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "date": "2026-10-05",
-    "startTime": "7:00 PM",
-    "endTime": "8:00 PM",
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 21,
-    "occurrences": [
-      {
-        "date": "2026-10-05",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-07",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-12",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-14",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-19",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-21",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-26",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-10-28",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-02",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-04",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-09",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-11",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-16",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-18",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-23",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-30",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-02",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-07",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-09",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-14",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-12-16",
-        "startTime": "6:30 PM",
-        "endTime": "7:30 PM",
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-05",
-      "2026-10-07",
-      "2026-10-12",
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
     "name": "Fitness Classes: Tabata",
     "type": "Recreation Calendar",
     "public": false,
@@ -679,6 +335,336 @@
       "2026-12-17"
     ],
     "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "date": "2026-10-07",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 20,
+    "occurrences": [
+      {
+        "date": "2026-10-07",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-12",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-14",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-19",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-21",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-26",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-28",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-02",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-04",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-09",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-11",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-16",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-18",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-23",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-30",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-02",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-07",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-09",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-14",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-16",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "date": "2026-10-07",
+    "startTime": "6:30 PM",
+    "endTime": "7:30 PM",
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 20,
+    "occurrences": [
+      {
+        "date": "2026-10-07",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-12",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-14",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-19",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-21",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-26",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-28",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-02",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-04",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-09",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-11",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-16",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-18",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-23",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-11-30",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-02",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-07",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-09",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-14",
+        "startTime": "7:00 PM",
+        "endTime": "8:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-12-16",
+        "startTime": "6:30 PM",
+        "endTime": "7:30 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-07",
+      "2026-10-12",
+      "2026-10-14",
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
   },
   {
     "name": "Intramurals: Volleyball",
