@@ -1,101 +1,14 @@
 [
   {
-    "name": "SMC Weekly Check-in",
+    "name": "Student Interviews - Community Relations",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-06",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 12,
-    "occurrenceDates": [
-      "2026-10-06",
-      "2026-10-13",
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "MIIS Staff Campus Visit & Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-06",
-    "startTime": "11:30 AM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 4,
-    "occurrenceDates": [
-      "2026-10-06",
-      "2026-10-07"
-    ],
-    "lastDate": "2026-10-07"
-  },
-  {
-    "name": "Proctor Exam (Brian D.)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-06",
-    "startTime": "1:00 PM",
-    "endTime": "3:15 PM",
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Brian Durick",
-      "email": "bdurick@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-06"
-    ],
-    "lastDate": "2026-10-06"
-  },
-  {
-    "name": "Student Interviews - Communitiy Relations",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "startTime": "1:30 PM",
-    "endTime": "4:30 PM",
+    "endTime": "4:00 PM",
     "allDay": false,
     "room": "CUR 211",
     "building": "Curie Hall",
@@ -107,9 +20,9 @@
     "org": "Marketing / Community Relations",
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-06"
+      "2026-10-07"
     ],
-    "lastDate": "2026-10-06"
+    "lastDate": "2026-10-07"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -118,7 +31,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
@@ -127,9 +40,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 35,
+    "occurrenceCount": 34,
     "occurrenceDates": [
-      "2026-10-06",
       "2026-10-07",
       "2026-10-08",
       "2026-10-12",
@@ -174,7 +86,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -183,9 +95,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 66,
+    "occurrenceCount": 65,
     "occurrenceDates": [
-      "2026-10-06",
       "2026-10-07",
       "2026-10-08",
       "2026-10-09",
@@ -261,7 +172,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -270,9 +181,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 48,
+    "occurrenceCount": 47,
     "occurrenceDates": [
-      "2026-10-06",
       "2026-10-07",
       "2026-10-08",
       "2026-10-11",
@@ -330,7 +240,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -342,9 +252,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 43,
+    "occurrenceCount": 42,
     "occurrenceDates": [
-      "2026-10-06",
       "2026-10-07",
       "2026-10-08",
       "2026-10-11",
@@ -391,47 +300,22 @@
     "lastDate": "2026-12-03"
   },
   {
-    "name": "Student Interviews - Comm Relations",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "interviews for Community Relations student positions",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-06",
-    "startTime": "9:30 AM",
-    "endTime": "11:00 AM",
-    "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-06"
-    ],
-    "lastDate": "2026-10-06"
-  },
-  {
-    "name": "Student Interviews - Community Relations",
+    "name": "MIIS Staff Campus Visit & Meetings",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-07",
-    "startTime": "1:30 PM",
-    "endTime": "4:00 PM",
+    "startTime": "9:00 AM",
+    "endTime": "3:00 PM",
     "allDay": false,
-    "room": "CUR 211",
+    "room": "CUR 218",
     "building": "Curie Hall",
     "imageURL": "",
     "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
     },
     "org": "Marketing / Community Relations",
     "occurrenceCount": 1,
@@ -646,6 +530,41 @@
       "2026-12-14"
     ],
     "lastDate": "2026-12-14"
+  },
+  {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 11,
+    "occurrenceDates": [
+      "2026-10-13",
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
   },
   {
     "name": "High School Group Tour - Edward R Roybal Learning Center",
