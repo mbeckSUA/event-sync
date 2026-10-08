@@ -1,28 +1,28 @@
 [
   {
-    "name": "Student Interviews - Community Relations",
+    "name": "All Directors Meeting",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-07",
-    "startTime": "1:30 PM",
-    "endTime": "4:00 PM",
+    "date": "2026-10-08",
+    "startTime": "2:00 PM",
+    "endTime": "3:30 PM",
     "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
+    "room": "Student Organizations Room (Ikeda 312)",
+    "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
     },
-    "org": "Marketing / Community Relations",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-07"
+      "2026-10-08"
     ],
-    "lastDate": "2026-10-07"
+    "lastDate": "2026-10-08"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -31,7 +31,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "allDay": false,
@@ -40,9 +40,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 34,
+    "occurrenceCount": 33,
     "occurrenceDates": [
-      "2026-10-07",
       "2026-10-08",
       "2026-10-12",
       "2026-10-13",
@@ -86,7 +85,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -95,9 +94,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 65,
+    "occurrenceCount": 64,
     "occurrenceDates": [
-      "2026-10-07",
       "2026-10-08",
       "2026-10-09",
       "2026-10-10",
@@ -172,7 +170,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -181,9 +179,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 47,
+    "occurrenceCount": 46,
     "occurrenceDates": [
-      "2026-10-07",
       "2026-10-08",
       "2026-10-11",
       "2026-10-12",
@@ -240,7 +237,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "allDay": false,
@@ -252,9 +249,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 42,
+    "occurrenceCount": 41,
     "occurrenceDates": [
-      "2026-10-07",
       "2026-10-08",
       "2026-10-11",
       "2026-10-12",
@@ -298,56 +294,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "MIIS Staff Campus Visit & Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-07",
-    "startTime": "9:00 AM",
-    "endTime": "3:00 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-07"
-    ],
-    "lastDate": "2026-10-07"
-  },
-  {
-    "name": "All Directors Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "2:00 PM",
-    "endTime": "3:30 PM",
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
   },
   {
     "name": "Meeting",
