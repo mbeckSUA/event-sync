@@ -355,6 +355,38 @@
     "lastDate": "2026-10-08"
   },
   {
+    "name": "Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Pool Closed. There will be no open swim hours on 10/10.",
+    "extendedDescription": "",
+    "date": "2026-10-10",
+    "startTime": "12:00 PM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 1,
+    "occurrences": [
+      {
+        "date": "2026-10-10",
+        "startTime": "12:00 PM",
+        "endTime": "3:00 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-10"
+    ],
+    "lastDate": "2026-10-10"
+  },
+  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
@@ -524,13 +556,13 @@
     "allDay": false,
     "room": "Tennis Courts",
     "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
     "contact": {
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 19,
+    "occurrenceCount": 17,
     "occurrences": [
       {
         "date": "2026-10-12",
@@ -581,21 +613,9 @@
         "allDay": false
       },
       {
-        "date": "2026-11-09",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
-        "allDay": false
-      },
-      {
         "date": "2026-11-11",
         "startTime": "6:30 PM",
         "endTime": "7:30 PM",
-        "allDay": false
-      },
-      {
-        "date": "2026-11-16",
-        "startTime": "7:00 PM",
-        "endTime": "8:00 PM",
         "allDay": false
       },
       {
@@ -656,9 +676,7 @@
       "2026-10-28",
       "2026-11-02",
       "2026-11-04",
-      "2026-11-09",
       "2026-11-11",
-      "2026-11-16",
       "2026-11-18",
       "2026-11-23",
       "2026-11-30",
@@ -717,18 +735,110 @@
     "lastDate": "2026-10-27"
   },
   {
+    "name": "Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "There will be no open swim hours this day.",
+    "extendedDescription": "",
+    "date": "2026-10-16",
+    "startTime": "10:00 AM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 4,
+    "occurrences": [
+      {
+        "date": "2026-10-16",
+        "startTime": "10:00 AM",
+        "endTime": "3:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-17",
+        "startTime": "12:00 PM",
+        "endTime": "3:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-24",
+        "startTime": "12:00 PM",
+        "endTime": "3:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-31",
+        "startTime": "12:00 PM",
+        "endTime": "3:00 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-24",
+      "2026-10-31"
+    ],
+    "lastDate": "2026-10-31"
+  },
+  {
+    "name": "Rec Center Hours: Fall Break",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Rec Center Hours\nFall Break Hours\nOctober 19th-20th\n10am-7pm\n\nPool Fall Break Hours\nOctober 19th-20th\n12pm-3pm",
+    "extendedDescription": "",
+    "date": "2026-10-19",
+    "startTime": "10:00 AM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "RECCTR",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Fall%20Break%20%282%29.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 2,
+    "occurrences": [
+      {
+        "date": "2026-10-19",
+        "startTime": "10:00 AM",
+        "endTime": "7:00 PM",
+        "allDay": false
+      },
+      {
+        "date": "2026-10-20",
+        "startTime": "10:00 AM",
+        "endTime": "7:00 PM",
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "lastDate": "2026-10-20"
+  },
+  {
     "name": "Intramurals: Spooky Dodgeball",
     "type": "Recreation Calendar",
     "public": false,
     "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nDress up in a costume for this Halloween themed event!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to sign up by 10/27",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/odgkbpfjq2yyibdd62q08w3flmuuvqmt\">Spooky Dodgeball Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
     "date": "2026-10-28",
     "startTime": "7:30 PM",
     "endTime": "10:00 PM",
     "allDay": false,
     "room": "Gymnasium",
     "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dodgeball%20.png",
     "contact": {
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
