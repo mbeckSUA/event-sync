@@ -40,7 +40,7 @@ def get_token():
 
 def to_pacific(dt):
     if not isinstance(dt, datetime):
-        dt = datetime(dt.year, dt.month, dt.day, tzinfo=timezone.utc)
+        return datetime(dt.year, dt.month, dt.day, tzinfo=PACIFIC)
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(PACIFIC)
@@ -58,6 +58,12 @@ def fetch_feed(config):
         if not uid:
             continue
         location = str(component.get("LOCATION", "")).replace("\\,", ",").strip()
+        start_raw = component.get("DTSTART").dt
+        end_raw = component.get("DTEND").dt
+        dtstart = to_pacific(start_raw)
+        dtend = to_pacific(end_raw)
+        if not isinstance(start_raw, datetime):  # all-day: feed's end date is the last day
+            dtend = dtend.replace(hour=23, minute=59)
         events.append({
             "uid": uid,
             "summary": str(component.get("SUMMARY", "")).strip(),
@@ -65,8 +71,8 @@ def fetch_feed(config):
             "location": location,
             "room_env": config["room_env"],
             "title_format": config["format"],
-            "dtstart": to_pacific(component.get("DTSTART").dt),
-            "dtend": to_pacific(component.get("DTEND").dt),
+            "dtstart": dtstart,
+            "dtend": dtend,
         })
     log.info(f"Fetched {len(events)} events from {url}")
     return events
