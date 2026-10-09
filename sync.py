@@ -103,7 +103,7 @@ def clean_summary(summary):
 def build_title(clean, title_format):
     if title_format == "meet" and " vs " in clean:
         sport_part, meet_part = clean.split(" vs ", 1)
-        return f"{sport_part} hosts the {meet_part}"
+        return f"{sport_part}: {meet_part}"
     return clean
 
 def build_payload(event):
