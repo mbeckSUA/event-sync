@@ -1,245 +1,5 @@
 [
   {
-    "name": "Study Abroad Meet & Greet Tabling Event (Bistro Plaza)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "10:00 AM",
-    "endTime": "2:30 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "",
-    "contact": null,
-    "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Class-Related Room Reservation",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": false,
-    "description": "This is a private meeting with capstone student dur t",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "11:30 AM",
-    "endTime": "12:30 PM",
-    "allDay": false,
-    "room": "MAA 216",
-    "building": "",
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Affairs",
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-10-08",
-      "2026-10-15",
-      "2026-10-22",
-      "2026-10-29",
-      "2026-11-05",
-      "2026-11-12",
-      "2026-11-19",
-      "2026-11-26",
-      "2026-12-03",
-      "2026-12-10"
-    ],
-    "lastDate": "2026-12-10"
-  },
-  {
-    "name": "Cultural Exchanges between Greece and India",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Cultural Exchanges between Greece and India \nThe lecture will be an exploration of how the ancient Greeks reacted to, represented, and interacted with India. After a brief introduction to the earliest accounts (Herodotus, Ctesias), we will focus on the expedition of Alexander the Great in India and its major literary sources (especially Arrian). We will also briefly touch on how those accounts influenced later representations of India in Roman times and beyond.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "4:30 PM",
-    "endTime": "6:12 PM",
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Matteo%20Barbiero.jpeg",
-    "contact": {
-      "name": "nalini rao",
-      "email": "nrao@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 20,
-    "occurrenceDates": [
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Reading Strategies Workshop",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Please join us for three more fall workshops hosted by the Writing Center in October!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Mental Health & SDG 3: Recognize & Respond",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "We will focus on signs to be aware of when it comes to mental health, followed by a practical, hands-on session to apply what we\u2019ve learned. Featuring two incredible speakers with strong research and practical backgrounds in medicine and psychology, this event connects mental health awareness with SDG 3: Good Health and Well-Being.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "5:45 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Mental%20Health.png",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 19,
-    "occurrenceDates": [
-      "2026-10-08",
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Intramurals: Volleyball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to Sign Up by 9/23!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-10-08",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-08"
-    ],
-    "lastDate": "2026-10-08"
-  },
-  {
     "name": "Power of Communication",
     "type": "Campus Events",
     "public": true,
@@ -445,13 +205,13 @@
     "allDay": false,
     "room": "Tennis Courts",
     "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-08.JPG",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
     "contact": {
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 19,
+    "occurrenceCount": 17,
     "occurrenceDates": [
       "2026-10-12",
       "2026-10-14",
@@ -461,9 +221,7 @@
       "2026-10-28",
       "2026-11-02",
       "2026-11-04",
-      "2026-11-09",
       "2026-11-11",
-      "2026-11-16",
       "2026-11-18",
       "2026-11-23",
       "2026-11-30",
@@ -573,6 +331,91 @@
     "lastDate": "2026-10-13"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 19,
+    "occurrenceDates": [
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 18,
+    "occurrenceDates": [
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Men's Soccer vs La Sierra (Calif.)",
     "type": "Athletics",
     "public": true,
@@ -645,6 +488,36 @@
       "2026-10-27"
     ],
     "lastDate": "2026-10-27"
+  },
+  {
+    "name": "Class-Related Room Reservation",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": false,
+    "description": "This is a private meeting with capstone student dur t",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-15",
+    "startTime": "11:30 AM",
+    "endTime": "12:30 PM",
+    "allDay": false,
+    "room": "MAA 216",
+    "building": "",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-10-15",
+      "2026-10-22",
+      "2026-10-29",
+      "2026-11-05",
+      "2026-11-12",
+      "2026-11-19",
+      "2026-11-26",
+      "2026-12-03",
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
   },
   {
     "name": "Advising Committee - hosted by Professor Sarah England",
@@ -920,6 +793,32 @@
       "2026-10-19"
     ],
     "lastDate": "2026-10-19"
+  },
+  {
+    "name": "Rec Center Hours: Fall Break",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Rec Center Hours\nFall Break Hours\nOctober 19th-20th\n10am-7pm\n\nPool Fall Break Hours\nOctober 19th-20th\n12pm-3pm",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-19",
+    "startTime": "10:00 AM",
+    "endTime": "7:00 PM",
+    "allDay": false,
+    "room": "RECCTR",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Fall%20Break%20%282%29.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "lastDate": "2026-10-20"
   },
   {
     "name": "Faculty Development Days",
@@ -1199,31 +1098,6 @@
     },
     "org": "Student Affairs",
     "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
-  },
-  {
-    "name": "Discover Soka Set-Up Black Box Theater",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Set Up requested the on Friday, October 23rd from 2pm-7pm.\n\n  Request to borrow 8 cocktail tables to be set up in the Founders Atrium for the welcome event - they will be moved\n\n  back to PAC by 12pm on Saturday, October 24th.\n\n  Expected Guest Count 150-200.\n\n  Unlock All Doors, Light On, AC on the morning of the event\n\n  1 -6ft Table inside BBT Foyer along the back wall facing the windows for water station (Facilities).\n\n  2 Trash Bins flanking water station tables (facilities)\n\n  2 Recycle Bins flanking water station (facilities)\n\n  50 Chairs on the floor of the BBT facing the stage/screen\n\n  5 Chairs facing audience w/back against stage\u201d",
-    "extendedDescription": "",
-    "facility": true,
-    "date": "2026-10-23",
-    "startTime": "2:00 PM",
-    "endTime": "7:00 PM",
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-23"
     ],
@@ -1685,7 +1559,7 @@
     "type": "Recreation Calendar",
     "public": false,
     "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nDress up in a costume for this Halloween themed event!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to sign up by 10/27",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/odgkbpfjq2yyibdd62q08w3flmuuvqmt\">Spooky Dodgeball Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
     "facility": false,
     "date": "2026-10-28",
     "startTime": "7:30 PM",
@@ -1693,7 +1567,7 @@
     "allDay": false,
     "room": "Gymnasium",
     "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Series%201%20%281%29.jpg",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dodgeball%20.png",
     "contact": {
       "name": "Emma Lee",
       "email": "emlee@soka.edu"
@@ -1773,6 +1647,31 @@
       "2026-10-29"
     ],
     "lastDate": "2026-10-29"
+  },
+  {
+    "name": "Halloween Potluck & Costume Contest",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Bring a favorite dish to share and join us for some Halloween fun! Costumes are optional, but encouraged. Please keep costumes respectful and appropriate for the workplace and avoid offensive themes, stereotypes, or culturally appropriative costumes.\n\nCome enjoy good food, good company, and a little Halloween spirit!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-30",
+    "startTime": "12:00 PM",
+    "endTime": "1:30 PM",
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/103125_HALLOWEEN-POTLUCK-WP-37.JPG",
+    "contact": {
+      "name": "Julia  Moore",
+      "email": "jmoore@soka.edu"
+    },
+    "org": "Human Resources  & Community Engagement",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-30"
+    ],
+    "lastDate": "2026-10-30"
   },
   {
     "name": "CareerCore - Professional Development Workshop (Communication + Teamwork & Leadership)",
@@ -1897,6 +1796,31 @@
       "2026-11-05"
     ],
     "lastDate": "2026-11-05"
+  },
+  {
+    "name": "Unapologetically Leading : Women of Color in Leadership",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Emerging Leaders' Program presents a panel discussion with Women of Color in Leadership Roles. Open to all to attend.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-06",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "allDay": false,
+    "room": "Grand Reading Room (Ikeda 400)",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/women%20of%20color%20in%20leadership.png",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-06"
+    ],
+    "lastDate": "2026-11-06"
   },
   {
     "name": "Bob Baker Marionettes",
@@ -2274,6 +2198,31 @@
     "lastDate": "2026-11-20"
   },
   {
+    "name": "ASB Teambuilding #1",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "5:30 PM",
+    "endTime": "7:30 PM",
+    "allDay": false,
+    "room": "Small Conference Center",
+    "building": "Small Conference Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
     "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
     "type": "Performing Arts Center",
     "public": true,
@@ -2421,6 +2370,31 @@
     "lastDate": "2026-12-03"
   },
   {
+    "name": "Study Abroad Pre-Departure Meeting",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Meeting for students studying abroad Spring 2027. Various departments presenting.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-04",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Kathleen Jorgensen",
+      "email": "kjorgensen@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-04"
+    ],
+    "lastDate": "2026-12-04"
+  },
+  {
     "name": "George Li, piano",
     "type": "Performing Arts Center",
     "public": true,
@@ -2561,6 +2535,28 @@
       "2026-12-10"
     ],
     "lastDate": "2026-12-10"
+  },
+  {
+    "name": "Fall 2026 SUA Student Recital",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Student recital featuring the SUA concert band, percussion ensembles, and advanced chamber and jazz ensembles along with advanced student soloists and vocalists and student composers and songwriters.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-11",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Student%20recital.png",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
   },
   {
     "name": "Celtic Christmas",
