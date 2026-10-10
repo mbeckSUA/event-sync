@@ -1,96 +1,12 @@
 [
   {
-    "name": "Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "10:00 AM",
-    "endTime": "10:30 AM",
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-10-09",
-      "2026-10-16",
-      "2026-10-23",
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11"
-    ],
-    "lastDate": "2026-12-11"
-  },
-  {
-    "name": "GSU Officer Training #3: DEI as Leaders",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "This will be session #3 GSU training together with the DEI office.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "12:00 PM",
-    "endTime": "3:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Manami Koizumi",
-      "email": "mkoizumi@soka.edu"
-    },
-    "org": "Office of the Graduate School",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-09"
-    ],
-    "lastDate": "2026-10-09"
-  },
-  {
-    "name": "GSU Officer's Training #4: Action Plan & Vision Setting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "This is session #4 of Graduate Student Union (GSU)'s training series, and we will be coming up with action items as well as set our vision together.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "3:00 PM",
-    "endTime": "6:00 PM",
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Manami Koizumi",
-      "email": "mkoizumi@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-09"
-    ],
-    "lastDate": "2026-10-09"
-  },
-  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "allDay": false,
@@ -99,9 +15,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 63,
+    "occurrenceCount": 62,
     "occurrenceDates": [
-      "2026-10-09",
       "2026-10-10",
       "2026-10-11",
       "2026-10-12",
@@ -166,41 +81,6 @@
       "2026-12-10"
     ],
     "lastDate": "2026-12-10"
-  },
-  {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 11,
-    "occurrenceDates": [
-      "2026-10-09",
-      "2026-10-16",
-      "2026-10-23",
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
   },
   {
     "name": "Japanese Tutoring Session",
@@ -484,6 +364,56 @@
     "lastDate": "2026-12-22"
   },
   {
+    "name": "Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-13",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-13"
+    ],
+    "lastDate": "2026-10-13"
+  },
+  {
+    "name": "Student Org Funding Review Committee Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-14",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "SC 405",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-14"
+    ],
+    "lastDate": "2026-10-14"
+  },
+  {
     "name": "High School Group Tour - Edward R Roybal Learning Center",
     "type": "Internal Meeting",
     "public": false,
@@ -507,6 +437,39 @@
       "2026-10-16"
     ],
     "lastDate": "2026-10-16"
+  },
+  {
+    "name": "Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "10:00 AM",
+    "endTime": "10:30 AM",
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Eddie  Ng",
+      "email": "e.ng@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-10-16",
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
   },
   {
     "name": "First aid and CPR Training",
@@ -557,6 +520,40 @@
       "2026-10-16"
     ],
     "lastDate": "2026-10-16"
+  },
+  {
+    "name": "Susan Walsh Lab Meetings",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Meetings with lab student workers.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "9:00 AM",
+    "endTime": "10:30 AM",
+    "allDay": false,
+    "room": "CUR 111",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 10,
+    "occurrenceDates": [
+      "2026-10-16",
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
   },
   {
     "name": "Investment Office Meeting",
@@ -684,6 +681,31 @@
     "contact": {
       "name": "Brian Durick",
       "email": "bdurick@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-03"
+    ],
+    "lastDate": "2026-11-03"
+  },
+  {
+    "name": "Social Media Collaboration Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-03",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
     },
     "org": null,
     "occurrenceCount": 1,

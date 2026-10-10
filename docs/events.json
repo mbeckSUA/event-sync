@@ -1,52 +1,5 @@
 [
   {
-    "name": "Power of Communication",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Strengthen your communication skills and gain insights to support your growth as a leader!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/shared/static/weaqdlv2jnhkc3eaebizog0hwd2l1cyj.png\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/ELP%20Power%20of%20Communication.png",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-09"
-    ],
-    "lastDate": "2026-10-09"
-  },
-  {
-    "name": "Career Development Rate-a-thon",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-09",
-    "startTime": "9:00 AM",
-    "endTime": "2:00 PM",
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "",
-    "contact": null,
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-09"
-    ],
-    "lastDate": "2026-10-09"
-  },
-  {
     "name": "Soka Peace Gala",
     "type": "Campus Events",
     "public": true,
@@ -847,7 +800,7 @@
   },
   {
     "name": "Pacific Symphony Auditions",
-    "type": "Performing Arts Center",
+    "type": "Campus Events",
     "public": false,
     "description": "Auditions for Pacific Symphony. Private event. \nNO ACCESS TO THE PAC CONCERT HALL.",
     "extendedDescription": "",
@@ -1649,14 +1602,14 @@
     "lastDate": "2026-10-29"
   },
   {
-    "name": "Halloween Potluck & Costume Contest",
+    "name": "Halloween Potluck and Costume Contest (For Faculty & Staff)",
     "type": "Campus Events",
     "public": false,
     "description": "Bring a favorite dish to share and join us for some Halloween fun! Costumes are optional, but encouraged. Please keep costumes respectful and appropriate for the workplace and avoid offensive themes, stereotypes, or culturally appropriative costumes.\n\nCome enjoy good food, good company, and a little Halloween spirit!",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-30",
-    "startTime": "12:00 PM",
+    "startTime": "11:30 AM",
     "endTime": "1:30 PM",
     "allDay": false,
     "room": "Black Box Theatre",
@@ -1672,6 +1625,28 @@
       "2026-10-30"
     ],
     "lastDate": "2026-10-30"
+  },
+  {
+    "name": "Swimming and Diving: Wyatt Balman Invitational",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Swimming and Diving vs Wyatt Balman Invitational | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-31",
+    "startTime": "10:00 AM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-31"
+    ],
+    "lastDate": "2026-10-31"
   },
   {
     "name": "CareerCore - Professional Development Workshop (Communication + Teamwork & Leadership)",
@@ -2101,6 +2076,31 @@
     "lastDate": "2026-11-15"
   },
   {
+    "name": "Pacific Symphony Auditions",
+    "type": "Performing Arts Center",
+    "public": false,
+    "description": "Auditions for Pacific Symphony. Private event.\nNO ACCESS TO THE PAC CONCERT HALL.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-16",
+    "startTime": "8:00 AM",
+    "endTime": "8:00 PM",
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-16"
+    ],
+    "lastDate": "2026-11-16"
+  },
+  {
     "name": "Asian Americas: Discussing Papers from Graduate Students at CalState Los Angeles",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -2347,7 +2347,7 @@
   {
     "name": "Spirit of the Season! Laguna Beach Unified Vocal Music",
     "type": "Performing Arts Center",
-    "public": false,
+    "public": true,
     "description": "Celebrate the holidays with more than 200 student singers from Laguna Beach Unified, accompanied by a professional instrumental ensemble. Enjoy an uplifting evening of holiday favorites, fresh selections, and community spirit.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/spirit-season-laguna-beach-unified-vocal-music",
     "extendedDescription": "",
     "facility": false,
@@ -2766,6 +2766,28 @@
     "lastDate": "2026-12-19"
   },
   {
+    "name": "Swimming and Diving: OC Triple Distance",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Swimming and Diving vs OC Triple Distance | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-09",
+    "startTime": "10:00 AM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-09"
+    ],
+    "lastDate": "2027-01-09"
+  },
+  {
     "name": "Winter Block Begins",
     "type": "Academic Calendar",
     "public": true,
@@ -3049,6 +3071,28 @@
       "2027-05-21"
     ],
     "lastDate": "2027-05-21"
+  },
+  {
+    "name": "Swimming and Diving: GSAC Championship",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Swimming and Diving vs GSAC Championship | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-29",
+    "startTime": "12:00 AM",
+    "endTime": "11:59 PM",
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-29"
+    ],
+    "lastDate": "2027-01-29"
   },
   {
     "name": "Free Family Concert with OC Youth Symphony",
