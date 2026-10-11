@@ -1,37 +1,5 @@
 [
   {
-    "name": "Closure: Pool",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Pool Closed. There will be no open swim hours on 10/10.",
-    "extendedDescription": "",
-    "date": "2026-10-10",
-    "startTime": "12:00 PM",
-    "endTime": "3:00 PM",
-    "allDay": false,
-    "room": "Pool",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrences": [
-      {
-        "date": "2026-10-10",
-        "startTime": "12:00 PM",
-        "endTime": "3:00 PM",
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-10"
-    ],
-    "lastDate": "2026-10-10"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
