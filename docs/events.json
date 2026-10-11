@@ -1,55 +1,5 @@
 [
   {
-    "name": "Soka Peace Gala",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Soka's annual Celebrating a Vision of Peace Gala will be held on Saturday, October 10, 2026. \n\nThe 2026 Peace Gala will be held at the Athenaeum. All proceeds from the Gala benefit the Soka University Scholarship Endowment Fund.\n\nThanks to your wonderful support, tickets are now sold out.\n\nIf you would like to be on the waiting list to attend the Peace Gala, please contact Linda Kennedy at lkennedy@soka.edu or (949) 480-4072. If seats become available, we will notify those on the waiting list as soon as possible.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-10",
-    "startTime": null,
-    "endTime": null,
-    "allDay": true,
-    "room": "Athenaeum Office #119",
-    "building": "Athenaeum",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Peace%20Gala.png",
-    "contact": {
-      "name": "Melody Lowe",
-      "email": "m.lowe@soka.edu"
-    },
-    "org": "Development",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-10-10"
-    ],
-    "lastDate": "2026-10-10"
-  },
-  {
-    "name": "Closure: Pool",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Pool Closed. There will be no open swim hours on 10/10.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-10",
-    "startTime": "12:00 PM",
-    "endTime": "3:00 PM",
-    "allDay": false,
-    "room": "Pool",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-10"
-    ],
-    "lastDate": "2026-10-10"
-  },
-  {
     "name": "SBS Concentration Meeting",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": false,
@@ -1000,6 +950,31 @@
       "email": "jtirrell@soka.edu"
     },
     "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
+  },
+  {
+    "name": "Movie Night: Hosted by Sustainability Educators",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Join the Sustainability Peer Educators for a movie night featuring Dune! Enjoy a relaxing evening with fellow students while exploring a film that highlights themes of the environment, resources, and humanity\u2019s relationship with nature.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "6:30 PM",
+    "endTime": "8:30 PM",
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-22"
