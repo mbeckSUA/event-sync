@@ -43,6 +43,7 @@ jobs:
         run: python sync.py
 
       - name: Commit updated state files
+        if: always()   # save state even if the sync step had errors, so created events aren't recreated
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
