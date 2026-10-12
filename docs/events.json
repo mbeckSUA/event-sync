@@ -651,6 +651,31 @@
     "lastDate": "2026-10-16"
   },
   {
+    "name": "Leadership Cohort Program",
+    "type": "Campus Events",
+    "public": false,
+    "description": "This cohort program is designed to support students as they apply leadership concepts in real-leaderhip settings while continuing to expand their leadership knowledge and skills. Through a discussion-based cohort program, students can reflect on their leadership practices, learn from one another, and receive guidance as they navigate challenges as leaders.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
+  },
+  {
     "name": "'Sanctuary' Film Screening and Q&A Produced by Autumn McAlpin",
     "type": "Campus Events",
     "public": true,
@@ -854,7 +879,7 @@
     "lastDate": "2026-11-18"
   },
   {
-    "name": "Vote Center: POD DELIVERY WINDOW",
+    "name": "Vote Center: POD Delivery",
     "type": "Campus Events",
     "public": false,
     "description": "",
@@ -872,13 +897,11 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
+    "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-22",
-      "2026-10-23",
-      "2026-10-24"
+      "2026-10-22"
     ],
-    "lastDate": "2026-10-24"
+    "lastDate": "2026-10-22"
   },
   {
     "name": "Faculty Forum - In Person",
@@ -1056,6 +1079,31 @@
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
+  },
+  {
+    "name": "First Year Halloween Gathering",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "7:30 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "The Bowl (Green between Res Hall)",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/First%20Year%20%281%29.png",
+    "contact": {
+      "name": "Alexa Girouard",
+      "email": "agirouard@soka.edu"
+    },
+    "org": "Residential Life",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT",
@@ -1302,10 +1350,10 @@
     "lastDate": "2026-10-24"
   },
   {
-    "name": "Vote Center: Statewide General Election (POD DELIVERY TO GALLERY)",
+    "name": "Founders Gallery Closed",
     "type": "Campus Events",
-    "public": false,
-    "description": "",
+    "public": true,
+    "description": "Founders Gallery is closed due to General Statewide Elections and will reopen to the public on November 5. (General Gallery hours are M-F 9am-5pm).",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-25",
@@ -1404,10 +1452,10 @@
     "lastDate": "2026-10-27"
   },
   {
-    "name": "Vote Center: Statewide General Election",
+    "name": "Vote Center: Statewide General Election (Founders Gallery Closed)",
     "type": "Campus Events",
-    "public": false,
-    "description": "Exhibit is closed for statewide elections. Founders Gallery will reopen on November 5. (General hours M-F 9am-5pm)",
+    "public": true,
+    "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
     "date": "2026-10-28",
@@ -1901,6 +1949,56 @@
     "lastDate": "2026-11-10"
   },
   {
+    "name": "Tech Coast Angels | Face to Face With Investors",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Most students don't get in a room with active angel investors until years into a career \u2014 if ever. This one's on your own campus.\n\nB2B is bringing Face to Face with Investors to Soka, a signature round-table networking event hosted by TCA Venture Group that puts early-stage founders directly across the table from active local investors. Whether you're already building something, have an idea you've been sitting on, or just want to understand how funding conversations actually happen, this is the room to be in.\n\nWhat to Expect\n\nRound-Table Conversations \u2014 Direct, small-group discussions and Q&As with active angel investors. No pitch competition, no stage \u2014 just real conversation.\n\n- Real-Time Feedback \u2014 Constructive advice on your idea, your vision, and how you'd approach fundraising, from people who fund startups for a living.\n\n- Ecosystem Networking \u2014 Connect with fellow founders, university entrepreneurship centers, and regional startup leaders \u2014 the kind of network that outlasts a single event.\n\n- Industry Breakouts \u2014 Focused conversations across sectors including AI, life sciences, consumer products, software, and general markets \u2014 there's a table for wherever your interest lies.\n\nWhy it matters: access like this usually isn't available to undergrads, let alone on their own campus. Come with a question, a rough idea, or just curiosity \u2014 you'll leave with a real conversation under your belt and a few new names in your network.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-10",
+    "startTime": "6:00 PM",
+    "endTime": "9:00 PM",
+    "allDay": false,
+    "room": "MAA 305",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/B2B%20CMYK.png",
+    "contact": {
+      "name": "Bridges to Business Office",
+      "email": "mkavanaugh@soka.edu"
+    },
+    "org": "B2B: Innovation, Entrepreneurship + Business",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-11-10"
+    ],
+    "lastDate": "2026-11-10"
+  },
+  {
+    "name": "RATE Faculty Fellowship information session",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "This information session will introduce the RATE Faculty Fellowship, including what RATE stands for, the program\u2019s brief history, and its vision and goals. We will review the application timeline and process, with possible presentations from past fellows sharing their experiences. The session will conclude with time for questions and discussion.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-11",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "allDay": false,
+    "room": "SC 405",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Junyi Liu",
+      "email": "jliu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-11"
+    ],
+    "lastDate": "2026-11-11"
+  },
+  {
     "name": "Intramurals: Pickleball",
     "type": "Recreation Calendar",
     "public": false,
@@ -2024,6 +2122,31 @@
       "2026-11-13"
     ],
     "lastDate": "2026-11-13"
+  },
+  {
+    "name": "Cub Scouts Science Outreach Visit",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Cub Scouts Science Outreach Visit",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-15",
+    "startTime": "1:00 PM",
+    "endTime": "6:00 PM",
+    "allDay": false,
+    "room": "CUR 230",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Robert Levenson",
+      "email": "rlevenson@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-15"
+    ],
+    "lastDate": "2026-11-15"
   },
   {
     "name": "Orange County Youth Symphony & String Ensemble Fall Concert",
@@ -2171,6 +2294,36 @@
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
+  },
+  {
+    "name": "Leadership Cohort Program",
+    "type": "Campus Events",
+    "public": false,
+    "description": "This cohort program is designed to support students as they apply leadership concepts in real-leaderhip settings while continuing to expand their leadership knowledge and skills. Through a discussion-based cohort program, students can reflect on their leadership practices, learn from one another, and receive guidance as they navigate challenges as leaders.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-11-20",
+      "2026-12-11",
+      "2027-01-15",
+      "2027-02-12",
+      "2027-03-05",
+      "2027-04-23"
+    ],
+    "lastDate": "2027-04-23"
   },
   {
     "name": "ASB Teambuilding #1",
@@ -2712,6 +2865,31 @@
     "imageURL": "",
     "contact": null,
     "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
+  },
+  {
+    "name": "Holiday Potluck & White Elephant",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Join your fellow SUA faculty and staff for our annual Holiday Potluck & White Elephant Gift Exchange! Bring a favorite dish to share and a wrapped gift for a fun afternoon of food, connection, and gift swapping.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-18",
+    "startTime": "12:00 PM",
+    "endTime": "1:30 PM",
+    "allDay": false,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Julia  Moore",
+      "email": "jmoore@soka.edu"
+    },
+    "org": "Human Resources  & Community Engagement",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-18"
