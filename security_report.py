@@ -872,13 +872,13 @@ def build_standalone_page(events_by_date, dates, generated_at):
         ))
         body = build_html_report(day_events, d)
         active_style = "" if i == 0 else "display:none;"
-        panels.append(f'<div class="day-panel" id="day-panel-{i}" style="{active_style}">{body}</div>')
+        panels.append(f'<div class="day-panel" id="day-panel-{i}" data-date="{d}" style="{active_style}">{body}</div>')
 
         label = _day_label(d, today_str)
         badge = f' <span class="tab-badge">{outside_count}</span>' if outside_count else ""
         active_class = " active" if i == 0 else ""
         tabs.append(
-            f'<button class="day-tab{active_class}" id="day-tab-{i}" '
+            f'<button class="day-tab{active_class}" id="day-tab-{i}" data-date="{d}" '
             f'onclick="showDay({i})">{label}{badge}</button>'
         )
 
@@ -1020,6 +1020,39 @@ def build_standalone_page(events_by_date, dates, generated_at):
         el.classList.toggle('active', idx === i);
       }});
     }}
+
+    // Added 2026-10-13: the page is static and only rebuilt by the daily
+    // run, so baked-in "Today"/"Tomorrow" labels went stale at midnight
+    // (Martin, Tuesday morning: Monday's schedule still showing as Today).
+    // Re-derive labels from each tab's data-date against the CURRENT
+    // Pacific date, hide days already past, and open today's tab.
+    (function() {{
+      var tabs = document.querySelectorAll('.day-tab');
+      if (!tabs.length) return;
+      var today;
+      try {{
+        today = new Intl.DateTimeFormat('en-CA', {{timeZone: 'America/Los_Angeles'}}).format(new Date());
+      }} catch (e) {{ return; }}
+      var t0 = new Date(today + 'T00:00:00Z').getTime();
+      var first = -1;
+      tabs.forEach(function(tab, idx) {{
+        var d = tab.getAttribute('data-date');
+        var delta = Math.round((new Date(d + 'T00:00:00Z').getTime() - t0) / 86400000);
+        if (delta < 0) {{ tab.style.display = 'none'; return; }}
+        if (first < 0) first = idx;
+        var badge = tab.querySelector('.tab-badge');
+        var label = delta === 0 ? 'Today' : delta === 1 ? 'Tomorrow'
+          : new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', {{weekday: 'short', month: 'numeric', day: 'numeric', timeZone: 'UTC'}}).replace(',', '');
+        tab.textContent = label + ' ';
+        if (badge) tab.appendChild(badge); else tab.textContent = label;
+      }});
+      if (first < 0) {{
+        var u = document.querySelector('.updated');
+        if (u) u.textContent = 'This report is out of date. Check back after the next refresh. ' + u.textContent;
+        return;
+      }}
+      showDay(first);
+    }})();
   </script>
 </body>
 </html>
