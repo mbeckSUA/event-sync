@@ -184,6 +184,20 @@ INTERNAL_ONLY_TYPES = {"Internal Meeting", "Student Request Form"}
 # blanket type exclusion.
 CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar"}
 
+# Added 2026-10-13: Academic Events and Reservations requests carry a
+# "request type" custom field (opaque key, e.g. nCRTM) with values like
+# "Meeting (faculty/staff meetings)", "Events (everything else)", "Single
+# Course-Related Room Reservation (...)". Confirmed from the Actions log:
+# Dean's Lunch Meeting with CPA Directors and Coordinators is a faculty/staff
+# meeting, but the API's top-level `public` was True (and the form showed
+# "Add Event to Public Calendar: No"), so `public` alone flagged an internal
+# lunch as "outside visitors." Meetings and class reservations are never
+# outside-visitor events, whatever `public` says. Matched on the VALUE text
+# (not the opaque field key) so it survives a re-keyed form. Events
+# ("Events (everything else)", e.g. the Johns Hopkins/Penn info session) are
+# untouched and still rely on `public`.
+INTERNAL_REQUEST_TYPE_PREFIXES = ("Meeting (", "Single Course-Related Room Reservation")
+
 # Fallback for CSV mode, where there's no `type` field to check: org name
 # is a weaker signal (Events & Conferences also runs some internal-facing
 # bookings), so this gets its own distinct, lower-confidence flag rather
@@ -286,6 +300,9 @@ def is_public_facing(event):
         return False
     event_type = event.get("type")
     if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
+        return False
+    custom = (event.get("_raw_event") or {}).get("customFields") or {}
+    if any(isinstance(v, str) and v.startswith(INTERNAL_REQUEST_TYPE_PREFIXES) for v in custom.values()):
         return False
     if event.get("public"):
         return True
