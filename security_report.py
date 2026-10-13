@@ -528,6 +528,12 @@ def load_from_api(start_date, end_date):
             "author_email": ev.get("authorEmail", "-"),
             "status": m.get("status", ev.get("status", "Confirmed")),
             "public": ev.get("public"),
+            # Diagnostic (2026-10-13): the form's "Add Event to Public Calendar"
+            # field (Yes/No) is the real signal for Academic Events types, and
+            # does NOT match this API `public` flag (Dean's Lunch: form No,
+            # API True). Carry the raw event so we can find where that field
+            # lives. See the log line in main().
+            "_raw_event": ev,
             "type": ev.get("type"),
             # Groups multiple meetings of the same event (e.g. a multi-stop
             # campus tour booked as separate room reservations) into one
@@ -1127,6 +1133,17 @@ def main():
     # field values), so a surprising flag can be traced from the Actions log
     # without needing live API access. See "Dean's Lunch Meeting" report.
     if args.live:
+        import json as _json
+        seen_keys = False
+        for e in events:
+            if (e.get("type") or "").startswith("Academic Events and Reservations") and e.get("_raw_event"):
+                raw = e["_raw_event"]
+                if not seen_keys:
+                    print(f"[security_report] raw event keys: {sorted(raw.keys())}")
+                    seen_keys = True
+                extra = {k: v for k, v in raw.items()
+                         if any(t in k.lower() for t in ("custom", "field", "public", "calendar", "form", "request"))}
+                print(f"[security_report] academic-event fields: {e['name']!r} | {_json.dumps(extra, default=str)[:1500]}")
         for e in events:
             if "public event" in classify(e):
                 print(f"[security_report] public-event flag: {e['name']!r} | org={e['organization']!r} "
