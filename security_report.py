@@ -196,7 +196,13 @@ RENTAL_ORG_HINT = "events & conferences"
 # type since these orgs' events don't get their own dedicated Coursedog
 # type. Contrast with Career Development's "Soka Jobs+ Fair," which stays
 # flagged -- real outside employers visit campus for that one.
-CAMPUS_LIFE_ORGS = {"residential life", "student affairs"}
+# Added 2026-10-12: Writing Center's org-sponsored events use `public:
+# true` the same way -- to get visibility on the prospective-student-facing
+# calendar, not as a signal that outside visitors are expected. Confirmed
+# with Martin against the 'Sanctuary' Film Screening, which DOES still want
+# to stay flagged (real outside Q&A attendees) -- the distinguishing factor
+# isn't "is public ticked," it's which org is doing the ticking and why.
+CAMPUS_LIFE_ORGS = {"residential life", "student affairs", "writing center"}
 
 CANCELED_STATUSES = {"canceled", "cancelled", "denied"}
 
