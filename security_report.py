@@ -1110,6 +1110,15 @@ def main():
 
     events_by_date = group_by_date(events, dates)
 
+    # Added 2026-10-13: log WHY each event got the "public event" flag (raw
+    # field values), so a surprising flag can be traced from the Actions log
+    # without needing live API access. See "Dean's Lunch Meeting" report.
+    if args.live:
+        for e in events:
+            if "public event" in classify(e):
+                print(f"[security_report] public-event flag: {e['name']!r} | org={e['organization']!r} "
+                      f"| type={e.get('type')!r} | public={e.get('public')!r} | status={e['status']!r}")
+
     # Always print --date's text report to stdout, regardless of --days.
     text_report, notable, active, canceled = build_report(events_by_date[args.date], args.date)
     print(text_report)
