@@ -257,6 +257,19 @@ def fmt_time(hhmm):
     return f"{h12}:{m:02d} {suffix}"
 
 
+def to_minutes(hhmm):
+    """Sortable companion to fmt_time() -- see build_campus_events.py's
+    to_minutes() for the full story (2026-10-12): the formatted "7:00 PM"
+    string sorts lexically wherever it's used as a sort key, which breaks
+    single- vs double-digit hour comparisons. Same fix, same file-pair
+    duplication this codebase already has for fmt_time() itself."""
+    if hhmm in (None, ""):
+        return None
+    hhmm = int(hhmm)
+    h, m = divmod(hhmm, 100)
+    return h * 60 + m
+
+
 def is_excluded(meeting, feed, org_ids):
     ev = meeting.get("eventData") or {}
     if ev.get("private") is True:
@@ -318,6 +331,8 @@ def transform(meeting, rooms, orgs, token, event_cache):
         "date": meeting.get("startDate"),
         "startTime": fmt_time(meeting.get("startTime")),
         "endTime": fmt_time(meeting.get("endTime")),
+        "startMin": to_minutes(meeting.get("startTime")),
+        "endMin": to_minutes(meeting.get("endTime")),
         "allDay": bool(meeting.get("allDay")),
         "room": room_name,
         "building": building_name,
@@ -346,7 +361,7 @@ def group_and_dedupe(rows):
 
     out = []
     for occurrences in groups.values():
-        occurrences.sort(key=lambda r: (r["date"] or "", r["startTime"] or ""))
+        occurrences.sort(key=lambda r: (r["date"] or "", r["startMin"] if r["startMin"] is not None else -1))
         first = dict(occurrences[0])
         first["occurrenceCount"] = len(occurrences)
         first["occurrences"] = [
@@ -354,6 +369,8 @@ def group_and_dedupe(rows):
                 "date": r["date"],
                 "startTime": r["startTime"],
                 "endTime": r["endTime"],
+                "startMin": r["startMin"],
+                "endMin": r["endMin"],
                 "allDay": r["allDay"],
             }
             for r in occurrences if r["date"]
@@ -397,7 +414,7 @@ def main():
 
         rows = [transform(m, rooms, orgs, token, event_cache) for m in kept]
         events = group_and_dedupe(rows)
-        events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
+        events.sort(key=lambda e: (e["date"] or "", e["startMin"] if e["startMin"] is not None else -1))
 
         feed["out_file"].write_text(json.dumps(events, indent=2))
         log.info(f"[{feed['key']}] wrote {len(events)} events to {feed['out_file']}")

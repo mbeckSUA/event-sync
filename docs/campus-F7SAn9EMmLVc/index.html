@@ -781,7 +781,13 @@ function renderList(){
   const dates = Object.keys(groups).sort();
 
   dates.forEach(date => {
-    const items = groups[date];
+    // Sorted by startMin (minutes-since-midnight), not left in whatever
+    // order filteredEvents() happened to yield -- confirmed live 2026-10-12
+    // this list view had no per-day time sort at all, so a day's events
+    // showed in the order their underlying series first appeared in the
+    // full EVENTS array rather than that day's actual chronological order.
+    // ?? -1 floats all-day/missing-time items to the top of the day.
+    const items = groups[date].slice().sort((a, b) => (a.startMin ?? -1) - (b.startMin ?? -1));
 
     const dayEl = document.createElement('div');
     dayEl.className = 'day-group';
@@ -989,7 +995,10 @@ function renderCalendar(){
     dateNum.textContent = day;
     cell.appendChild(dateNum);
 
-    const items = (groups[dateStr] || []).slice().sort((a,b) => (a.startTime||'').localeCompare(b.startTime||''));
+    // Numeric startMin sort, not the formatted startTime string -- the
+    // old localeCompare on "9:00 AM"/"10:00 AM"-style strings sorted
+    // lexically, which breaks for single- vs double-digit hours.
+    const items = (groups[dateStr] || []).slice().sort((a,b) => (a.startMin ?? -1) - (b.startMin ?? -1));
     const maxShow = 3;
     items.slice(0, maxShow).forEach(e => {
       const cat = catFor(e);
@@ -1071,7 +1080,8 @@ function renderMeetings(){
   const dates = Object.keys(groups).sort();
 
   dates.forEach(date => {
-    const items = groups[date];
+    // Same startMin sort fix as renderList() above (2026-10-12).
+    const items = groups[date].slice().sort((a, b) => (a.startMin ?? -1) - (b.startMin ?? -1));
 
     const dayEl = document.createElement('div');
     dayEl.className = 'day-group';

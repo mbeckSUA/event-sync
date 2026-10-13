@@ -84,6 +84,20 @@ EXCLUDE_TYPES = {"Internal Meeting", "Student Request Form"}
 # that should surface instead of them being invisible either way.
 EXTERNAL_UNLESS_PUBLIC_TYPES = {"External Rental"}
 
+# Added 2026-10-12: "Class-Related Room Reservation" (org Academic Affairs,
+# type "Academic Events and Reservations (Undergraduate)") leaked onto both
+# the 7-day sidebar and the full campus calendar -- an ordinary class/room
+# booking whose own Coursedog record says "Add Event to Public Calendar:
+# No" and whose description reads "This is a private meeting with capstone
+# student...". Nothing in EXCLUDE_TYPES or EXTERNAL_UNLESS_PUBLIC_TYPES
+# covered this type at all, so it passed straight through as a normal
+# event. Same shape of bug security_report.py hit repeatedly in September
+# with Campus Events-adjacent types (see that file's history) -- a new
+# Coursedog type surfaces, isn't covered by any existing exclusion, shows
+# up by default. Prefix-matched, not exact, since a "(Graduate)" variant
+# may exist alongside "(Undergraduate)" and should get the same treatment.
+ACADEMIC_RESERVATION_TYPE_PREFIX = "Academic Events and Reservations"
+
 # There is no real "is this a facility notice" field in Coursedog — confirmed
 # absent from eventData in the Sept 11 live pull. The widget's "Facility
 # notice" tag (vs. an attendable event) is a name-matching guess, ported
@@ -230,6 +244,10 @@ def is_excluded(meeting):
     # see EXTERNAL_UNLESS_PUBLIC_TYPES above for why.
     if ev_type in EXTERNAL_UNLESS_PUBLIC_TYPES and not ev.get("public"):
         return True
+    # 2026-10-12: same "unless marked public" treatment for Academic Events
+    # and Reservations -- see ACADEMIC_RESERVATION_TYPE_PREFIX above.
+    if ev_type and ev_type.startswith(ACADEMIC_RESERVATION_TYPE_PREFIX) and not ev.get("public"):
+        return True
     return False
 
 
@@ -268,6 +286,22 @@ def fmt_time(hhmm):
     suffix = "AM" if h < 12 else "PM"
     h12 = h % 12 or 12
     return f"{h12}:{m:02d} {suffix}"
+
+
+def to_minutes(hhmm):
+    """Same raw Coursedog HHMM int as fmt_time(), but as minutes-since-
+    midnight for SORTING -- confirmed live (2026-10-12, Martin) that the
+    formatted "7:00 PM" string was being sorted lexically wherever a sort
+    was attempted (both here in Python and in the widgets' JS), which is
+    wrong for single- vs double-digit hours: "10:00 AM" sorts before
+    "9:00 AM" by string comparison. events.json now carries this alongside
+    startTime/endTime so nothing needs to re-derive or string-sort a
+    display value ever again. None for all-day/missing, same as fmt_time."""
+    if hhmm in (None, ""):
+        return None
+    hhmm = int(hhmm)
+    h, m = divmod(hhmm, 100)
+    return h * 60 + m
 
 
 def fetch_lookup_dict(token, resource_candidates):
@@ -385,6 +419,11 @@ def transform(meeting, rooms, orgs, token, event_cache):
         "date": meeting.get("startDate"),
         "startTime": fmt_time(meeting.get("startTime")),
         "endTime": fmt_time(meeting.get("endTime")),
+        # Sortable companions to the display strings above -- see
+        # to_minutes() for why the display strings can't be sorted
+        # directly. None for all-day, same convention as startTime/endTime.
+        "startMin": to_minutes(meeting.get("startTime")),
+        "endMin": to_minutes(meeting.get("endTime")),
         "allDay": bool(meeting.get("allDay")),
         "room": room_name,
         "building": building_name,
@@ -414,7 +453,9 @@ def group_and_dedupe(rows):
 
     out = []
     for occurrences in groups.values():
-        occurrences.sort(key=lambda r: (r["date"] or "", r["startTime"] or ""))
+        # -1 floats all-day/missing-time occurrences to the top of their
+        # day, same convention used throughout security_report.py.
+        occurrences.sort(key=lambda r: (r["date"] or "", r["startMin"] if r["startMin"] is not None else -1))
         first = dict(occurrences[0])
         first["occurrenceCount"] = len(occurrences)
         dates = sorted({r["date"] for r in occurrences if r["date"]})
@@ -447,11 +488,12 @@ def main():
     kept = [m for m in raw if not is_excluded(m)]
     log.info(f"{len(kept)} of {len(raw)} meetings kept after filtering "
              f"(private / setup / teardown / {sorted(EXCLUDE_TYPES)} / "
-             f"non-public {sorted(EXTERNAL_UNLESS_PUBLIC_TYPES)})")
+             f"non-public {sorted(EXTERNAL_UNLESS_PUBLIC_TYPES)} / "
+             f"non-public '{ACADEMIC_RESERVATION_TYPE_PREFIX}*')")
 
     rows = [transform(m, rooms, orgs, token, event_cache) for m in kept]
     events = group_and_dedupe(rows)
-    events.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
+    events.sort(key=lambda e: (e["date"] or "", e["startMin"] if e["startMin"] is not None else -1))
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(json.dumps(events, indent=2))
@@ -460,7 +502,7 @@ def main():
     meeting_raw = [m for m in raw if is_meetings_tab_item(m)]
     meeting_rows = [transform(m, rooms, orgs, token, event_cache) for m in meeting_raw]
     meetings = group_and_dedupe(meeting_rows)
-    meetings.sort(key=lambda e: (e["date"] or "", e["startTime"] or ""))
+    meetings.sort(key=lambda e: (e["date"] or "", e["startMin"] if e["startMin"] is not None else -1))
 
     MEETINGS_OUT_FILE.write_text(json.dumps(meetings, indent=2))
     log.info(f"Wrote {len(meetings)} internal meetings to {MEETINGS_OUT_FILE}")

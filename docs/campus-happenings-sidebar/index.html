@@ -533,7 +533,10 @@ function renderList(){
   const dates = Object.keys(groups).sort();
 
   dates.forEach(date => {
-    const items = groups[date];
+    // Sorted by startMin, not left in filteredEvents() order -- same bug
+    // and fix as the full calendar's list view (2026-10-12): this had no
+    // per-day time sort at all.
+    const items = groups[date].slice().sort((a, b) => (a.startMin ?? -1) - (b.startMin ?? -1));
 
     const dayEl = document.createElement('div');
     dayEl.className = 'day-group';

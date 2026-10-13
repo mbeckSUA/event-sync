@@ -233,11 +233,12 @@ function filteredEvents(){
     // data that predates this field.
     const occs = (e.occurrences && e.occurrences.length)
       ? e.occurrences
-      : [{date: e.date, startTime: e.startTime, endTime: e.endTime, allDay: e.allDay}];
+      : [{date: e.date, startTime: e.startTime, endTime: e.endTime, startMin: e.startMin, endMin: e.endMin, allDay: e.allDay}];
     occs.forEach(occ => {
       if(occ.date >= todayStr && occ.date <= endStr){
         out.push(Object.assign({}, e, {
-          date: occ.date, startTime: occ.startTime, endTime: occ.endTime, allDay: occ.allDay,
+          date: occ.date, startTime: occ.startTime, endTime: occ.endTime,
+          startMin: occ.startMin, endMin: occ.endMin, allDay: occ.allDay,
         }));
       }
     });
@@ -265,7 +266,9 @@ function renderList(){
   const dates = Object.keys(groups).sort();
 
   dates.forEach(date => {
-    const items = groups[date];
+    // Sorted by startMin -- same missing-sort bug as the other widgets
+    // (2026-10-12), copy-pasted into this one too.
+    const items = groups[date].slice().sort((a, b) => (a.startMin ?? -1) - (b.startMin ?? -1));
     const dayEl = document.createElement('div');
     dayEl.className = 'day-group';
     const heading = document.createElement('h2');
