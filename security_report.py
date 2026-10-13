@@ -56,9 +56,18 @@ import smtplib
 import sys
 from collections import defaultdict
 from datetime import datetime, date, timezone
+from zoneinfo import ZoneInfo
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
+
+# Added 2026-10-12: build_campus_events.py/build_org_events.py already compute
+# "today" in Pacific time for exactly this reason -- a naive date.today() runs on
+# the GitHub Actions runner's UTC clock, which rolls over to the next calendar day
+# around 5pm Pacific (4pm during PST). Any run -- scheduled or a manual re-run --
+# after that hour was building the page with tomorrow mislabeled "Today." Confirmed
+# live 2026-10-12 (Martin, ~6pm Pacific: "it's already showing Tuesday at Today").
+PACIFIC = ZoneInfo("America/Los_Angeles")
 
 # ---------------------------------------------------------------------------
 # Flagging rules — what counts as "notable" for a campus security reader.
@@ -1047,7 +1056,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--csv", help="Path to a Coursedog export CSV (manual mode, single day only)")
     ap.add_argument("--live", action="store_true", help="Pull live from Coursedog API")
-    ap.add_argument("--date", default=date.today().isoformat(), help="YYYY-MM-DD, default today")
+    ap.add_argument("--date", default=datetime.now(PACIFIC).date().isoformat(), help="YYYY-MM-DD, default today (Pacific)")
     ap.add_argument("--days", type=int, default=1, help="Live mode only: number of days starting at --date to include as tabs (default 1, i.e. just --date)")
     ap.add_argument("--send", action="store_true", help="Actually email the report (else just print). --live mode only; emails just --date, not the full --days window.")
     ap.add_argument("--publish", metavar="PATH", help="Write a standalone HTML page to PATH (e.g. docs/security-XXXX/index.html)")
