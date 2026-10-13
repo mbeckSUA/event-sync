@@ -8,6 +8,8 @@
     "date": "2026-10-22",
     "startTime": "5:00 PM",
     "endTime": "6:30 PM",
+    "startMin": 1020,
+    "endMin": 1110,
     "allDay": false,
     "room": "Gandhi 303A",
     "building": "Ikeda Library",
@@ -23,6 +25,8 @@
         "date": "2026-10-22",
         "startTime": "5:00 PM",
         "endTime": "6:30 PM",
+        "startMin": 1020,
+        "endMin": 1110,
         "allDay": false
       }
     ],
@@ -40,6 +44,8 @@
     "date": "2026-10-23",
     "startTime": "3:00 PM",
     "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
     "allDay": false,
     "room": "Ikeda Library Main Floor",
     "building": "Ikeda Library",
@@ -55,12 +61,16 @@
         "date": "2026-10-23",
         "startTime": "3:00 PM",
         "endTime": "4:30 PM",
+        "startMin": 900,
+        "endMin": 990,
         "allDay": false
       },
       {
         "date": "2026-11-20",
         "startTime": "3:00 PM",
         "endTime": "4:30 PM",
+        "startMin": 900,
+        "endMin": 990,
         "allDay": false
       }
     ],
