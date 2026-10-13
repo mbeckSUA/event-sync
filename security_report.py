@@ -184,6 +184,19 @@ INTERNAL_ONLY_TYPES = {"Internal Meeting", "Student Request Form"}
 # blanket type exclusion.
 CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar"}
 
+# Added 2026-10-13: "Academic Events and Reservations (Undergraduate/Graduate)"
+# is where class-related reservations, department lunches and meetings, and
+# faculty-submitted lectures all live. Per Martin, academics and Health
+# Professions Advising tick `public` on these to get them on the public
+# calendar -- that's the ONLY thing it signals, not "outside visitors
+# expected" (confirmed against "Dean's Lunch Meeting with CPA Directors and
+# Coordinators," public=True in the API, a private internal lunch). So
+# `public` is ignored for this type, same as CAMPUS_LIFE_ORGS above. Prefix
+# match since the type name carries a level suffix. A genuinely outside-
+# facing academic event still gets flagged if it carries a rental/campus-
+# visit flag or "ceremony" in the name; otherwise it reads as internal.
+ACADEMIC_RESERVATION_TYPE_PREFIX = "Academic Events and Reservations"
+
 # Fallback for CSV mode, where there's no `type` field to check: org name
 # is a weaker signal (Events & Conferences also runs some internal-facing
 # bookings), so this gets its own distinct, lower-confidence flag rather
@@ -287,12 +300,12 @@ def is_public_facing(event):
     event_type = event.get("type")
     if event_type in INTERNAL_ONLY_TYPES or event_type in CAMPUS_COMMUNITY_TYPES:
         return False
-    if event.get("public"):
-        return True
     name_lower = (event.get("name") or "").lower()
     if CEREMONY_NAME_HINT in name_lower:
         return True
-    return False
+    if (event_type or "").startswith(ACADEMIC_RESERVATION_TYPE_PREFIX):
+        return False
+    return bool(event.get("public"))
 
 
 def classify(event):
