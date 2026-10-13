@@ -26,6 +26,11 @@ name: Daily security report
 on:
   schedule:
     - cron: "37 10 * * *"   # ~3:37am Pacific (10:37 UTC, PDT)
+    # Backups added 2026-10-13: the 3:37am run never fired one morning
+    # (GitHub scheduled runs are best-effort and can be skipped outright).
+    # Same job, so a skipped primary still leaves a fresh page by ~8am.
+    - cron: "47 12 * * *"   # ~5:47am Pacific
+    - cron: "47 14 * * *"   # ~7:47am Pacific
   workflow_dispatch: {}       # manual "Run workflow" button for testing
 
 permissions:
