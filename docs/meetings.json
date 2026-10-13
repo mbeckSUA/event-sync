@@ -1,49 +1,55 @@
 [
   {
-    "name": "Investment Office Meeting",
+    "name": "SMC Weekly Check-in",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
-    "startTime": "10:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 600,
-    "endMin": 630,
+    "date": "2026-10-13",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "startMin": 645,
+    "endMin": 705,
     "allDay": false,
-    "room": "Founders 114",
-    "building": "",
+    "room": "CUR 218",
+    "building": "Curie Hall",
     "imageURL": "",
     "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
     },
-    "org": null,
-    "occurrenceCount": 5,
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 11,
     "occurrenceDates": [
-      "2026-10-12",
-      "2026-10-26",
-      "2026-11-09",
-      "2026-11-23",
-      "2026-12-07"
+      "2026-10-13",
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
     ],
-    "lastDate": "2026-12-07"
+    "lastDate": "2026-12-22"
   },
   {
-    "name": "Student Affairs Social Media Co Meeting",
+    "name": "Meeting",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "startTime": "2:00 PM",
     "endTime": "3:00 PM",
     "startMin": 840,
     "endMin": 900,
     "allDay": false,
-    "room": "Student Affairs Large Conference Room (Ikeda 314)",
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
     "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
@@ -51,47 +57,11 @@
       "email": "mmurakami@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-10-12",
-      "2026-10-19",
-      "2026-10-26",
-      "2026-11-02",
-      "2026-11-09",
-      "2026-11-16",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-07",
-      "2026-12-14"
-    ],
-    "lastDate": "2026-12-14"
-  },
-  {
-    "name": "Team Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-12",
-    "startTime": "3:30 PM",
-    "endTime": "4:30 PM",
-    "startMin": 930,
-    "endMin": 990,
-    "allDay": false,
-    "room": "MAA 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Kaitlyn Bourdelais",
-      "email": "kbourdelais@soka.edu"
-    },
-    "org": "Human Resources  & Community Engagement",
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-12"
+      "2026-10-13"
     ],
-    "lastDate": "2026-10-12"
+    "lastDate": "2026-10-13"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -100,7 +70,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -111,9 +81,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 32,
+    "occurrenceCount": 31,
     "occurrenceDates": [
-      "2026-10-12",
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
@@ -155,7 +124,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -166,9 +135,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 60,
+    "occurrenceCount": 59,
     "occurrenceDates": [
-      "2026-10-12",
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
@@ -238,7 +206,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -249,9 +217,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 44,
+    "occurrenceCount": 43,
     "occurrenceDates": [
-      "2026-10-12",
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
@@ -305,7 +272,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -319,9 +286,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 39,
+    "occurrenceCount": 38,
     "occurrenceDates": [
-      "2026-10-12",
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
@@ -362,70 +328,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "startMin": 645,
-    "endMin": 705,
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 11,
-    "occurrenceDates": [
-      "2026-10-13",
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
   },
   {
     "name": "Student Org Funding Review Committee Meeting",
@@ -537,7 +439,7 @@
       "name": "Sarah  Spornick",
       "email": "sspornick@soka.edu"
     },
-    "org": null,
+    "org": "Admissions",
     "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-10-16"
@@ -665,6 +567,41 @@
     "lastDate": "2026-12-14"
   },
   {
+    "name": "Student Affairs Social Media Co Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-19",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 840,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Student Affairs Large Conference Room (Ikeda 314)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-10-19",
+      "2026-10-26",
+      "2026-11-02",
+      "2026-11-09",
+      "2026-11-16",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-07",
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
     "name": "Proctor Exam (Brian D.)",
     "type": "Internal Meeting",
     "public": false,
@@ -748,6 +685,36 @@
       "2026-10-23"
     ],
     "lastDate": "2026-10-23"
+  },
+  {
+    "name": "Investment Office Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-26",
+    "startTime": "10:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 600,
+    "endMin": 630,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Eddie  Ng",
+      "email": "e.ng@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-10-26",
+      "2026-11-09",
+      "2026-11-23",
+      "2026-12-07"
+    ],
+    "lastDate": "2026-12-07"
   },
   {
     "name": "SMC Media Training  for Faculty",
