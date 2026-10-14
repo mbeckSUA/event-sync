@@ -1,223 +1,5 @@
 [
   {
-    "name": "Dean's Lunch Meeting with CPA Directors and Coordinators",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "CareerCore - Professional Development Workshop",
-    "type": "Campus Events",
-    "public": true,
-    "description": "CareerCore Workshop: Critical Thinking + Applied Problem Solving. // The CareerCore Professional Development Program helps you recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other experiences. Along the way, you\u2019ll build a professional portfolio that showcases your growth and prepares you to make a contributive impact in your career and community.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/shared/static/7wnrc3t16fceotpelphefapnjo3eytc6.png\">View the full Event Flyer</a> or  <a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_e3aiOKff2adb5um\">Click here to join CareerCore</a></p>",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Career%20Core%20Logo.png",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "ASB Seminar #1",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Join us for the first ASB Seminar of the semester!",
-    "extendedDescription": "<p>Link: <a class=\"open_in_new_tab\" href=\"https://cglink.me/2pq/r380289\">https://cglink.me/2pq/r380289</a></p>",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Women's Soccer vs La Sierra (Calif.)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1020,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 19,
-    "occurrenceDates": [
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 18,
-    "occurrenceDates": [
-      "2026-10-13",
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Men's Soccer vs La Sierra (Calif.)",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Soccer vs La Sierra (Calif.)\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-13",
-    "startTime": "7:30 PM",
-    "endTime": "9:30 PM",
-    "startMin": 1170,
-    "endMin": 1290,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-13"
-    ],
-    "lastDate": "2026-10-13"
-  },
-  {
     "name": "Johns Hopkins University & University of Pennsylvania Schools of Nursing Information Session",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -439,6 +221,93 @@
       "2026-10-15"
     ],
     "lastDate": "2026-10-15"
+  },
+  {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-15",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 18,
+    "occurrenceDates": [
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-15",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 17,
+    "occurrenceDates": [
+      "2026-10-15",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Closure: Pool",
@@ -794,6 +663,33 @@
       "2026-11-18"
     ],
     "lastDate": "2026-11-18"
+  },
+  {
+    "name": "Dashain Celebration",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Nepal's biggest festival celebrates family, community, and the triumph of good over evil. Enjoy dancing, crafts, henna, and more!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-21",
+    "startTime": "6:30 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1110,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Kaitlyn Bourdelais",
+      "email": "kbourdelais@soka.edu"
+    },
+    "org": "Diversity, Equity, and Inclusion",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-21"
+    ],
+    "lastDate": "2026-10-21"
   },
   {
     "name": "Vote Center: POD Delivery",
@@ -1633,7 +1529,7 @@
     "type": "Campus Events",
     "public": false,
     "description": "Bring a favorite dish to share and join us for some Halloween fun! Costumes are optional, but encouraged. Please keep costumes respectful and appropriate for the workplace and avoid offensive themes, stereotypes, or culturally appropriative costumes.\n\nCome enjoy good food, good company, and a little Halloween spirit!",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://evite.me/ndFdrMATDs\">RSVP and register for the Pot Luck </a></p>",
     "facility": false,
     "date": "2026-10-30",
     "startTime": "11:30 AM",
@@ -3102,7 +2998,7 @@
   },
   {
     "name": "Seong-Jin Cho, piano",
-    "type": "Campus Events",
+    "type": "Performing Arts Center",
     "public": true,
     "description": "Hear the poetic artistry and extraordinary virtuosity of Seong-Jin Cho, winner of First Prize at the 2015 Chopin Competition. Experience one of today\u2019s most celebrated pianists live on stage.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano\n\n\nPresented in partnership with KUSC",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/seong-jin-cho-piano\">More info and tickets</a>",
@@ -3385,7 +3281,7 @@
   },
   {
     "name": "Free Family Concert with OC Youth Symphony",
-    "type": "Campus Events",
+    "type": "Performing Arts Center",
     "public": true,
     "description": "Make music part of your family\u2019s day with an interactive performance by the Orange County Youth Symphony. Come early to explore instruments and enjoy arts and crafts. Admission is free; reservations are required.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony",
     "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/free-family-concert-oc-youth-symphony\">More info and tickets</a>",
@@ -3409,6 +3305,33 @@
       "2027-01-30"
     ],
     "lastDate": "2027-01-30"
+  },
+  {
+    "name": "Haneen Choir Presents: Sahrya",
+    "type": "Performing Arts Center",
+    "public": false,
+    "description": "Sahrya is a vibrant musical evening presented by Haneen Choir, celebrating the beauty and richness of Arabic music and culture. Through timeless melodies and contemporary arrangements, Haneen brings together voices and musicians in a joyful performance that celebrates heritage, connection, and community.\n\nhttps://www.performingarts.soka.edu/calendar-events/haneen-choir-presents-sahrya",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-31",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Jj7s8d5g.jpeg",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-31"
+    ],
+    "lastDate": "2027-01-31"
   },
   {
     "name": "Winter Block ends",
@@ -3849,6 +3772,33 @@
       "2027-03-05"
     ],
     "lastDate": "2027-03-05"
+  },
+  {
+    "name": "Career Talk Night",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Panelists share their career and life story. This event is one of CDO's annual premier events.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-10",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "startMin": 1020,
+    "endMin": 1110,
+    "allDay": false,
+    "room": "Student Affairs Lobby",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Young Choi-Plass",
+      "email": "ychoiplass@soka.edu"
+    },
+    "org": "Career Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-10"
+    ],
+    "lastDate": "2027-03-10"
   },
   {
     "name": "Conrad Tao and Academy of St Martin in the Fields",
