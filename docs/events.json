@@ -1,147 +1,5 @@
 [
   {
-    "name": "Johns Hopkins University & University of Pennsylvania Schools of Nursing Information Session",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Co-sponsored by Health Professions Advising and the Career Development Office\n\nJoin admissions representatives from the Johns Hopkins University School of Nursing and the University of Pennsylvania School of Nursing for an in-person information session exploring pathways into the nursing profession through accelerated entry programs.\n\nRepresentatives will provide an overview of their nationally recognized nursing programs, including accelerated Master of Nursing and other graduate entry pathways for students who have completed a bachelor's degree in another discipline. The session will also discuss admissions requirements, prerequisite coursework, clinical training, financial aid, career opportunities, and what distinguishes each institution's approach to nursing education.\n\nStudents considering careers in nursing, advanced practice nursing, public health, or healthcare leadership are encouraged to attend. This is an excellent opportunity to learn about the profession, ask questions directly of admissions officers, and gain insights into preparing a competitive application.\n\nGuest Speaker: Chris Jermyn, Associate Director of Admissions, University of Pennsylvania School of Nursing\nLaura Panozzo, Associate Director Admissions, Johns Hopkins University School of Nursing",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/CDO/rsvp_boot?id=380304\">Full Event Details</a></p>",
-    "facility": false,
-    "date": "2026-10-14",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/HPA%20Johns%20Hopkins.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-14"
-    ],
-    "lastDate": "2026-10-14"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-14",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 18,
-    "occurrenceDates": [
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-14",
-    "startTime": "6:30 PM",
-    "endTime": "7:30 PM",
-    "startMin": 1110,
-    "endMin": 1170,
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 16,
-    "occurrenceDates": [
-      "2026-10-14",
-      "2026-10-19",
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-11",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Intramurals: Basketball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
-    "facility": false,
-    "date": "2026-10-14",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1170,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-10-14",
-      "2026-10-21",
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
     "name": "Concise Writing Workshop",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -370,8 +228,8 @@
     "name": "Lunch & Conversation with Dr. Laurie Marker",
     "type": "Campus Events",
     "public": false,
-    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.\n\nPlease bring your own lunch. This event is open to the SUA campus community.",
-    "extendedDescription": "",
+    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.\n\nPlease bring your own lunch, there will be some refreshments. This event is open to the SUA campus community. Please RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0",
+    "extendedDescription": "<p>Please RSVP: <a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0\">https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0</a></p>",
     "facility": false,
     "date": "2026-10-16",
     "startTime": "12:00 PM",
@@ -397,8 +255,8 @@
     "name": "Talk by Dr. Laurie Marker, The Executive Director of The Cheetah Conservation Fund",
     "type": "Campus Events",
     "public": true,
-    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is named among 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA.",
-    "extendedDescription": "",
+    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is named among 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA. Please RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0",
+    "extendedDescription": "<p>RSVP (space is limited!): <a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0\">https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0</a></p>",
     "facility": false,
     "date": "2026-10-16",
     "startTime": "1:00 PM",
@@ -609,6 +467,90 @@
     "lastDate": "2026-10-20"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-19",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 17,
+    "occurrenceDates": [
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-19",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1140,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 15,
+    "occurrenceDates": [
+      "2026-10-19",
+      "2026-10-21",
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-11",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -690,6 +632,34 @@
       "2026-10-21"
     ],
     "lastDate": "2026-10-21"
+  },
+  {
+    "name": "Intramurals: Basketball",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
+    "facility": false,
+    "date": "2026-10-21",
+    "startTime": "7:30 PM",
+    "endTime": "10:00 PM",
+    "startMin": 1170,
+    "endMin": 1320,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-21",
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Vote Center: POD Delivery",
@@ -1649,7 +1619,7 @@
       "name": "Kaitlyn Bourdelais",
       "email": "kbourdelais@soka.edu"
     },
-    "org": "Human Resources  & Community Engagement",
+    "org": "Diversity, Equity, and Inclusion",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-04"
@@ -2145,6 +2115,33 @@
     "lastDate": "2026-11-16"
   },
   {
+    "name": "RA Selection Group Process",
+    "type": "Campus Events",
+    "public": false,
+    "description": "2027-2028 RA applicants for the 1st application process will participate in several activities in an evening session.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-16",
+    "startTime": "6:30 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1110,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Jaime Dance",
+      "email": "jdance@soka.edu"
+    },
+    "org": "Residential Life",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-16"
+    ],
+    "lastDate": "2026-11-16"
+  },
+  {
     "name": "Asian Americas: Discussing Papers from Graduate Students at CalState Los Angeles",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -2433,7 +2430,7 @@
       "name": "Kaitlyn Bourdelais",
       "email": "kbourdelais@soka.edu"
     },
-    "org": "Human Resources  & Community Engagement",
+    "org": "Diversity, Equity, and Inclusion",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-03"
@@ -3383,6 +3380,33 @@
       "2027-02-04"
     ],
     "lastDate": "2027-02-04"
+  },
+  {
+    "name": "Richard Marx",
+    "type": "Performing Arts Center",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-06",
+    "startTime": "8:00 PM",
+    "endTime": "10:00 PM",
+    "startMin": 1200,
+    "endMin": 1320,
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-06"
+    ],
+    "lastDate": "2027-02-06"
   },
   {
     "name": "Jazzy Ash",

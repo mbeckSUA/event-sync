@@ -1,57 +1,30 @@
 [
   {
-    "name": "Student Org Funding Review Committee Meeting",
+    "name": "DM Student Job Interviews",
     "type": "Internal Meeting",
     "public": false,
-    "description": "",
+    "description": "Job Interviews",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-14",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 405",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-14"
-    ],
-    "lastDate": "2026-10-14"
-  },
-  {
-    "name": "Community Relations meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-14",
-    "startTime": "2:30 PM",
-    "endTime": "3:30 PM",
-    "startMin": 870,
-    "endMin": 930,
+    "date": "2026-10-15",
+    "startTime": "11:00 AM",
+    "endTime": "5:00 PM",
+    "startMin": 660,
+    "endMin": 1020,
     "allDay": false,
     "room": "CUR 211",
     "building": "Curie Hall",
     "imageURL": "",
     "contact": {
-      "name": "Gabriel Orozco",
-      "email": "gorozco@soka.edu"
+      "name": "Watchara Phomicinda",
+      "email": "wphomicinda@soka.edu"
     },
     "org": "Marketing / Community Relations",
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-14"
+      "2026-10-15"
     ],
-    "lastDate": "2026-10-14"
+    "lastDate": "2026-10-15"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -60,7 +33,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -71,9 +44,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 30,
+    "occurrenceCount": 29,
     "occurrenceDates": [
-      "2026-10-14",
       "2026-10-15",
       "2026-10-19",
       "2026-10-20",
@@ -113,7 +85,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -124,9 +96,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 58,
+    "occurrenceCount": 57,
     "occurrenceDates": [
-      "2026-10-14",
       "2026-10-15",
       "2026-10-16",
       "2026-10-17",
@@ -194,7 +165,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -205,9 +176,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 42,
+    "occurrenceCount": 41,
     "occurrenceDates": [
-      "2026-10-14",
       "2026-10-15",
       "2026-10-18",
       "2026-10-19",
@@ -259,7 +229,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -273,9 +243,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 37,
+    "occurrenceCount": 36,
     "occurrenceDates": [
-      "2026-10-14",
       "2026-10-15",
       "2026-10-18",
       "2026-10-19",
@@ -314,33 +283,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "DM Student Job Interviews",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Job Interviews",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "11:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 660,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Watchara Phomicinda",
-      "email": "wphomicinda@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-15"
-    ],
-    "lastDate": "2026-10-15"
   },
   {
     "name": "Susan Walsh Lab Meetings",
@@ -439,6 +381,33 @@
       "2026-12-11"
     ],
     "lastDate": "2026-12-11"
+  },
+  {
+    "name": "Community Outreach",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-16",
+    "startTime": "11:00 AM",
+    "endTime": "12:00 PM",
+    "startMin": 660,
+    "endMin": 720,
+    "allDay": false,
+    "room": "CUR 300",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-16"
+    ],
+    "lastDate": "2026-10-16"
   },
   {
     "name": "First aid and CPR Training",
@@ -765,6 +734,33 @@
       "2026-10-26"
     ],
     "lastDate": "2026-10-26"
+  },
+  {
+    "name": "Development Office",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-27",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 840,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Tomoko  Cahill",
+      "email": "tcahill@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
   },
   {
     "name": "Nexus Mentoring - Mentor Training Session",
