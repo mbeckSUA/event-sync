@@ -1,173 +1,5 @@
 [
   {
-    "name": "Concise Writing Workshop",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Learn to make every word count.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Concise%20Writing%20Workshop.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-15"
-    ],
-    "lastDate": "2026-10-15"
-  },
-  {
-    "name": "Smart Job Decisions",
-    "type": "Campus Events",
-    "public": true,
-    "description": "CDO & Library Services partner to provide important information for Students who receive multiple job offers. \n\nWhat should you consider before accepting an offer?",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/vvveq8j0rdsli1rqwss93pdc8guo2a9h\">View the full Event Flyer </a>or <a class=\"open_in_new_tab\" href=\"https://cglink.me/2pq/r380331\">Click here to register</a></p>",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/CDO%20-%20Smart%20Job.png",
-    "contact": {
-      "name": "Young Choi-Plass",
-      "email": "ychoiplass@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-15"
-    ],
-    "lastDate": "2026-10-15"
-  },
-  {
-    "name": "Becoming a Changemaker: Innovation + Entrepreneurship 101",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/event_details?uid=c060e348909ddd7834112e0a10e89fa8\">https://sokannect.soka.edu/event_details?uid=c060e348909ddd7834112e0a10e89fa8</a></p>",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/B2B%20Logo.png",
-    "contact": {
-      "name": "Bridges to Business (B2B)",
-      "email": "mkavanaugh@soka.edu"
-    },
-    "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-15"
-    ],
-    "lastDate": "2026-10-15"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 18,
-    "occurrenceDates": [
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-15",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 17,
-    "occurrenceDates": [
-      "2026-10-15",
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
     "name": "Closure: Pool",
     "type": "Recreation Calendar",
     "public": false,
@@ -283,7 +115,7 @@
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "The inaugural session of the Humanism & Health Speaker Series will take place virtually on October 16, 2026, at 2:00 p.m. PT and will feature Victoria A. Smith, MD, Associate Medical Director for Primary Care at Ochsner Health, in conversation with Soka University of America Student Fellow Kiarra Hoes.\n\nCo-hosted by Soka University of America and the WHO Collaborating Centre for Healthy Cities and Urban Policy Research at the Institute of Science Tokyo, the Humanism & Health Speaker Series examines how health professionals and leaders translate humanistic values into practice across clinical care, health systems, public and global health, and planetary health. Through an interview-based conversation, Dr. Smith will discuss how humanism informs her approach to patient care and health care leadership.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/t2pkjicurpn8lawt4iu1te6h1j190l3v\">Event Flyer</a></p>",
+    "extendedDescription": "<p>Click <a class=\"open_in_new_tab\" href=\"https://soka-edu.zoom.us/webinar/register/WN_bpt0QLJORjegddPfDb-Yyg#/registration\">here </a>to register for the webinar or click <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/t2pkjicurpn8lawt4iu1te6h1j190l3v\">here </a>for Event Flyer.</p>",
     "facility": false,
     "date": "2026-10-16",
     "startTime": "2:00 PM",
@@ -551,6 +383,91 @@
     "lastDate": "2026-12-16"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-20",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 17,
+    "occurrenceDates": [
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-20",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 16,
+    "occurrenceDates": [
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -720,8 +637,8 @@
     "name": "Annotations of Hope: Dr. Nahum Chandler on Du Bois's \"Of the Coming of John\"",
     "type": "Campus Events",
     "public": true,
-    "description": "A lecture by Dr. Nahum Chandler\n\nW. E. B. Du Bois\u2019s short story \u201cOf the Coming of John \u201cis about a young man\u2019s journey, from a happy go lucky small-town boy with never a care in the world, through an initial failure in his first year of college, to his return to school and discovery of himself anew in the world of thought. It is the discovery of what Du Bois elsewhere describes as a kind of \u201cdouble-consciousness.\u201d This short story is the masterpiece\u00a0of Du Bois\u2019s\u00a0book The Souls of Black Folk: Essays and Sketches of 1903, a classic text in American thought \u2014 a book and short story about hope for the future of America at the turn to the 20th century.\n\u00a0\nThe story is about 20 pages long. An audio version is available. The text can be found online in a reliable scholarly edition, including through Ikeda Library. Please read or listen before the lecture.\u00a0Music as reference and hearing will be integral to the lecture.",
-    "extendedDescription": "",
+    "description": "A lecture by Dr. Nahum Chandler on October 22, 5-6 PM in Curie 200.\n\nW. E. B. Du Bois\u2019s short story \u201cOf the Coming of John \u201cis about a young man\u2019s journey, from a happy go lucky small-town boy with never a care in the world, through an initial failure in his first year of college, to his return to school and discovery of himself anew in the world of thought. It is the discovery of what Du Bois elsewhere describes as a kind of \u201cdouble-consciousness.\u201d This short story is the masterpiece\u00a0of Du Bois\u2019s\u00a0book The Souls of Black Folk: Essays and Sketches of 1903, a classic text in American thought \u2014 a book and short story about hope for the future of America at the turn to the 20th century.\n\u00a0\nThe story is about 20 pages long. An audio version is available. The text can be found online in a reliable scholarly edition, including through Ikeda Library. Please read or listen before the lecture.\u00a0Music as reference and hearing will be integral to the lecture.",
+    "extendedDescription": "<p>Click <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/2iv95y3x21q4vxje0l4i3rkvk14pn5vi\">here </a>for event flyer and click <a class=\"open_in_new_tab\" href=\"https://docsouth.unc.edu/church/duboissouls/dubois.html\">here </a>to download reading materials for event. </p>",
     "facility": false,
     "date": "2026-10-22",
     "startTime": "5:00 PM",
@@ -1252,6 +1169,33 @@
       "2026-10-25"
     ],
     "lastDate": "2026-10-25"
+  },
+  {
+    "name": "Post-Sabbatical Talk - Dr. Katherine Perry",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "In this talk, I will introduce the fields of graph theory and network science, highlighting how networks can be used to model and analyze relationships in a wide variety of settings. I will share some of my work from sabbatical, including recent joint work with Hiroshi Nonaka ('26) on using network analysis to study character interactions in AI-generated short stories. My hope is to introduce these tools to a broad audience and inspire others to consider how network science might be applied in their own research.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/jgozxxk61cw49opdyshslm4hti9aeeld\">Flyer</a></p>",
+    "facility": false,
+    "date": "2026-10-26",
+    "startTime": "12:10 PM",
+    "endTime": "12:50 PM",
+    "startMin": 730,
+    "endMin": 770,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-26"
+    ],
+    "lastDate": "2026-10-26"
   },
   {
     "name": "Open Mic English",
@@ -2108,6 +2052,33 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-16"
+    ],
+    "lastDate": "2026-11-16"
+  },
+  {
+    "name": "Traditional Medicine: An Interdisciplinary Exploration",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Join Professor Michael Golden, Dr. Hung Phan, and Dr. Chika Esiobu for a conversation on traditional medicine from several angles. Professor Golden will look at cultures that still practice healing through traditional music, and at the beliefs they hold about how music restores health and wholeness. Dr. Phan will show how computational chemistry and machine learning can help reveal how the molecules in traditional remedies work. Dr. Esiobu will cover the latest global action on traditional medicine from the World Health Organization and other stakeholders.",
+    "extendedDescription": "<p>Joint sponsored by HUM and LS.</p>",
+    "facility": false,
+    "date": "2026-11-16",
+    "startTime": "4:45 PM",
+    "endTime": "6:15 PM",
+    "startMin": 1005,
+    "endMin": 1095,
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Chika Esiobu",
+      "email": "cesiobu@soka.edu"
+    },
+    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-16"
