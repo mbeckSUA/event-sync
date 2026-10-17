@@ -6,10 +6,10 @@
     "description": "There will be no open swim hours this day.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-16",
-    "startTime": "10:00 AM",
+    "date": "2026-10-17",
+    "startTime": "12:00 PM",
     "endTime": "3:00 PM",
-    "startMin": 600,
+    "startMin": 720,
     "endMin": 900,
     "allDay": false,
     "room": "Pool",
@@ -20,176 +20,13 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 4,
+    "occurrenceCount": 3,
     "occurrenceDates": [
-      "2026-10-16",
       "2026-10-17",
       "2026-10-24",
       "2026-10-31"
     ],
     "lastDate": "2026-10-31"
-  },
-  {
-    "name": "Fridays on the GREEN",
-    "type": "Campus Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "11:00 AM",
-    "endTime": "3:00 PM",
-    "startMin": 660,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Campus Green",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Fridays%20on%20the%20Green.png",
-    "contact": {
-      "name": "Robert Duran",
-      "email": "r.duran@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Lunch & Conversation with Dr. Laurie Marker",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Join us for an informal lunch with Dr. Laurie Marker, founder and executive director of the Cheetah Conservation Fund, which runs cheetah rescue and conservation centers across Africa. Dr. Marker was recently named one of 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. Come hear about her work, ask questions, and meet one of the most influential voices in wildlife protection today. Co-hosted by SIGS and the Environmental Studies Department at SUA.\n\nPlease bring your own lunch, there will be some refreshments. This event is open to the SUA campus community. Please RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0",
-    "extendedDescription": "<p>Please RSVP: <a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0\">https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0</a></p>",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dr.%20Laurie%20Marker%2C%20SIGS%20event.png",
-    "contact": {
-      "name": "Viki Lohk",
-      "email": "v.lohk@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Talk by Dr. Laurie Marker, The Executive Director of The Cheetah Conservation Fund",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Talk by Dr. Laurie Marker, the executive director of the Cheetah Conservation Fund, which operates cheetah rescue and conservation centers in a number of locations in Africa.  She is named among 27 nominees for the Indianapolis Prize, the world's leading award for animal conservation. This is a collaborative event by SIGS and the Environmental Studies department at SUA. Please RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0",
-    "extendedDescription": "<p>RSVP (space is limited!): <a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0\">https://soka.co1.qualtrics.com/jfe/form/SV_bDXo6krDAaLQcJ0</a></p>",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "1:00 PM",
-    "endTime": "2:30 PM",
-    "startMin": 780,
-    "endMin": 870,
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dr.%20Laurie%20Marker%2C%20SIGS%20event.png",
-    "contact": {
-      "name": "Viki Lohk",
-      "email": "v.lohk@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Humanism & Health Speaker Series",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "The inaugural session of the Humanism & Health Speaker Series will take place virtually on October 16, 2026, at 2:00 p.m. PT and will feature Victoria A. Smith, MD, Associate Medical Director for Primary Care at Ochsner Health, in conversation with Soka University of America Student Fellow Kiarra Hoes.\n\nCo-hosted by Soka University of America and the WHO Collaborating Centre for Healthy Cities and Urban Policy Research at the Institute of Science Tokyo, the Humanism & Health Speaker Series examines how health professionals and leaders translate humanistic values into practice across clinical care, health systems, public and global health, and planetary health. Through an interview-based conversation, Dr. Smith will discuss how humanism informs her approach to patient care and health care leadership.",
-    "extendedDescription": "<p>Click <a class=\"open_in_new_tab\" href=\"https://soka-edu.zoom.us/webinar/register/WN_bpt0QLJORjegddPfDb-Yyg#/registration\">here </a>to register for the webinar or click <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/t2pkjicurpn8lawt4iu1te6h1j190l3v\">here </a>for Event Flyer.</p>",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Virtual",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Victoria%20Smith.jpg",
-    "contact": {
-      "name": "Jacqueline Mills",
-      "email": "jmills@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Leadership Cohort Program",
-    "type": "Campus Events",
-    "public": false,
-    "description": "This cohort program is designed to support students as they apply leadership concepts in real-leaderhip settings while continuing to expand their leadership knowledge and skills. Through a discussion-based cohort program, students can reflect on their leadership practices, learn from one another, and receive guidance as they navigate challenges as leaders.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "'Sanctuary' Film Screening and Q&A Produced by Autumn McAlpin",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Ohana Stories on OC Talk Radio presents a community screening of a powerful feature-length documentary, Sanctuary. Producer Autumn McAlpin welcomes the community to this event, with cast members who will join a post-screening Q&A. \n\nSanctuary is a feature-length documentary that exposes the plight of LGBTQIA+ individuals within modern faith systems\u2014told through the eyes of a visionary architect whose passion project becomes a lifeline. As doctrine collides with identity, a sacred space rises from rejection, offering refuge and hope. Register today!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.eventbrite.com/e/sanctuary-a-feature-documentary-tickets-2002668650845?aff=oddtdtcreator&amp;keep_tld=true\">Click here to reserve a spot</a></p>",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "6:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 1080,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Autumn%20McAlpin.webp",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
   },
   {
     "name": "Fall Break",
@@ -822,6 +659,33 @@
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
+  },
+  {
+    "name": "The United Nations in a Changing World",
+    "type": "Student Organization Event",
+    "public": true,
+    "description": "What does the United Nations need from us in a changing world? Join UNA Soka for an engaging roundtable discussion with a UN professional, Soka faculty, and a student moderator exploring the challenges facing the UN today - from funding and global cooperation to the role each of us can play in supporting its work. Come listen, ask questions, and join the conversation about the future of the UN.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "7:00 PM",
+    "endTime": "8:30 PM",
+    "startMin": 1140,
+    "endMin": 1230,
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-23"
+    ],
+    "lastDate": "2026-10-23"
   },
   {
     "name": "First Year Halloween Gathering",
@@ -1521,7 +1385,7 @@
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "This presentation celebrates the release of Partial Sovereignty: The Politics of Autonomy among Minority Nations (UBC Press) in Fall 2026. The book focuses on the meaning, forms, and dangers of territorial autonomy \u2013 special self-government for minority nations. Cases span Western democracies (Quebec, Catalonia), conflict resolution (Northern Ireland, Aceh), authoritarianism (Chechnya, Tibet), and Indigenous self-government (Nunavut, Guna Yala). It argues that autonomy has never resulted in independence, and by recognizing minority nations, helps to maintain territorial borders. The presentation provides an overview of the book and the process of writing it, including global fieldwork, numerous conferences, and many Soka research assistants.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.ubcpress.ca/partial-sovereignty\">Link to publication: https://www.ubcpress.ca/partial-sovereignty</a></p><p>Refreshments will be offered at the conclusion of the talk.</p><p>Open to Soka community members | Sponsored by the Dean of Faculty</p>",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.ubcpress.ca/partial-sovereignty\">Link to publication: https://www.ubcpress.ca/partial-sovereignty</a></p><p>Refreshments will be offered at the conclusion of the talk.</p><p>Open to Soka community members | Sponsored by the Dean of Faculty</p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/sh85o398jiwi3r6pxd56zgh3m71gtmpn\">Flyer</a></p>",
     "facility": false,
     "date": "2026-11-03",
     "startTime": "5:10 PM",
@@ -1671,6 +1535,33 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-07"
+    ],
+    "lastDate": "2026-11-07"
+  },
+  {
+    "name": "BEYOND SOKA: LIFE AFTER GRADUATION",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "The event will begin at 2:30 PM with a brief welcome from BRASA and an introduction of the guest speakers. Four speakers will then share their experiences and provide practical advice on different pathways after graduating from Soka. \n\nEvent Agenda:\n2:30\u20132:40 PM: Welcome, BRASA introduction, and speaker introductions.\n2:40\u20133:10 PM: Giulia \u2013 Returning to Brazil after graduation (online).\n\n3:10\u20133:40 PM: Lara \u2013 Pursuing master's and PhD programs in the United States (online).\n3:40\u20134:10 PM: Jun \u2013 Navigating OPT and professional opportunities in the United States.\n4:10\u20134:40 PM: Professor Ian Read \u2013 Understanding the process of diploma recognition in Brazil.\n4:40\u20135:00 PM: Informal networking and conversations accompanied by traditional Brazilian p\u00e3o de queijo and coffee.\n\nThe event will provide opportunities for students to ask questions, learn from alumni experiences, and build connections within the Soka community.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-07",
+    "startTime": "2:30 PM",
+    "endTime": "5:00 PM",
+    "startMin": 870,
+    "endMin": 1020,
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-07"
@@ -2164,6 +2055,33 @@
     "lastDate": "2026-11-19"
   },
   {
+    "name": "Arie Galles Master Class - \"Rainbow Division\" a suite of 12 paintings",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "These canvases represent a continuation of a lifetime\u2019s exploration of shapes and colors. They are a natural\nevolution of my creative endeavors. by Arie Galles.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/8z80pkbnsidi1avvlqndekc0tf8p6s5u\"><strong>Event Flyer</strong></a></p><p><a class=\"open_in_new_tab\" href=\"https://soka-edu.zoom.us/meeting/register/3G64KJkFQQyEpJydU-HkZA#/registration\"><strong>Registration Required by 5 pm on November 15</strong></a></p>",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
+    "allDay": false,
+    "room": "Virtual",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Arie.revised%20and%20final%20%281%29.jpg",
+    "contact": {
+      "name": "Susan Smith",
+      "email": "susmith@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "Joint Film Screening (WRT & SBS)",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -2461,6 +2379,33 @@
       "2026-12-04"
     ],
     "lastDate": "2026-12-04"
+  },
+  {
+    "name": "Human Rights Day",
+    "type": "Student Organization Event",
+    "public": true,
+    "description": "Join UNA Soka in recognizing Human Rights Day through an engaging discussion on human rights, dignity, and equality. Hear from invited speakers, explore current human rights issues, and discuss how students and communities can contribute to promoting and protecting human rights. Come listen, share your perspective, and join the conversation!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-05",
+    "startTime": "2:00 PM",
+    "endTime": "5:00 PM",
+    "startMin": 840,
+    "endMin": 1020,
+    "allDay": false,
+    "room": "Athenaeum Indoor Main Room",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-05"
+    ],
+    "lastDate": "2026-12-05"
   },
   {
     "name": "George Li, piano",

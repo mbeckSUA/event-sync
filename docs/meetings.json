@@ -1,218 +1,12 @@
 [
   {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 540,
-    "endMin": 630,
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-10-16",
-      "2026-10-23",
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
-  },
-  {
-    "name": "High School Group Tour - Edward R Roybal Learning Center",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Admissions will host the Edward R Roybal Learning Center high school group for a presentation, tour, and dining at the bistro.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "10:00 AM",
-    "endTime": "11:00 AM",
-    "startMin": 600,
-    "endMin": 660,
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "10:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 600,
-    "endMin": 630,
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 9,
-    "occurrenceDates": [
-      "2026-10-16",
-      "2026-10-23",
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11"
-    ],
-    "lastDate": "2026-12-11"
-  },
-  {
-    "name": "Community Outreach",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "11:00 AM",
-    "endTime": "12:00 PM",
-    "startMin": 660,
-    "endMin": 720,
-    "allDay": false,
-    "room": "CUR 300",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "First aid and CPR Training",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Red cross-based first aid and CPR training",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "12:30 PM",
-    "endTime": "6:00 PM",
-    "startMin": 750,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Chintan Amin",
-      "email": "camin@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Community Relations Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "1:00 PM",
-    "endTime": "2:00 PM",
-    "startMin": 780,
-    "endMin": 840,
-    "allDay": false,
-    "room": "CUR 211",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
-    "name": "Boston Career Forum (CDO)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Boston Career Forum info session for Japanese bilingual students.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-16",
-    "startTime": "1:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 780,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Young Choi-Plass",
-      "email": "ychoiplass@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-16"
-    ],
-    "lastDate": "2026-10-16"
-  },
-  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -223,9 +17,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 56,
+    "occurrenceCount": 55,
     "occurrenceDates": [
-      "2026-10-16",
       "2026-10-17",
       "2026-10-18",
       "2026-10-19",
@@ -618,6 +411,75 @@
       "2026-12-17"
     ],
     "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Susan Walsh Lab Meetings",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Meetings with lab student workers.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "9:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 540,
+    "endMin": 630,
+    "allDay": false,
+    "room": "CUR 111",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
+  },
+  {
+    "name": "Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-23",
+    "startTime": "10:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 600,
+    "endMin": 630,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Eddie  Ng",
+      "email": "e.ng@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 8,
+    "occurrenceDates": [
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
   },
   {
     "name": "Community Relations Staff Meeting",
