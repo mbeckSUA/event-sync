@@ -1,34 +1,5 @@
 [
   {
-    "name": "Closure: Pool",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "There will be no open swim hours this day.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-17",
-    "startTime": "12:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 720,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Pool",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-10-17",
-      "2026-10-24",
-      "2026-10-31"
-    ],
-    "lastDate": "2026-10-31"
-  },
-  {
     "name": "Fall Break",
     "type": "Academic Calendar",
     "public": true,
@@ -902,6 +873,34 @@
       "2026-10-24"
     ],
     "lastDate": "2026-10-24"
+  },
+  {
+    "name": "Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "There will be no open swim hours this day.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-24",
+    "startTime": "12:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 720,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-10-24",
+      "2026-10-31"
+    ],
+    "lastDate": "2026-10-31"
   },
   {
     "name": "Tear down: Sargam Group of SoCal",
@@ -4736,5 +4735,29 @@
       "2027-09-15"
     ],
     "lastDate": "2027-09-15"
+  },
+  {
+    "name": "Fall Break",
+    "type": "Academic Calendar",
+    "public": true,
+    "description": "Classes do not meet",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-10-18",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-10-18"
+    ],
+    "lastDate": "2027-10-18"
   }
 ]
