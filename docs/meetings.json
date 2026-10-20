@@ -1,69 +1,39 @@
 [
   {
-    "name": "Investment Office Meeting",
+    "name": "SMC Weekly Check-in",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-19",
-    "startTime": "11:00 AM",
-    "endTime": "12:00 PM",
-    "startMin": 660,
-    "endMin": 720,
+    "date": "2026-10-20",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "startMin": 645,
+    "endMin": 705,
     "allDay": false,
-    "room": "Founders 114",
-    "building": "",
+    "room": "CUR 218",
+    "building": "Curie Hall",
     "imageURL": "",
     "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
     },
-    "org": null,
-    "occurrenceCount": 5,
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 10,
     "occurrenceDates": [
-      "2026-10-19",
-      "2026-11-02",
-      "2026-11-16",
-      "2026-11-30",
-      "2026-12-14"
+      "2026-10-20",
+      "2026-10-27",
+      "2026-11-03",
+      "2026-11-10",
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
     ],
-    "lastDate": "2026-12-14"
-  },
-  {
-    "name": "Student Affairs Social Media Co Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-19",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Student Affairs Large Conference Room (Ikeda 314)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 9,
-    "occurrenceDates": [
-      "2026-10-19",
-      "2026-10-26",
-      "2026-11-02",
-      "2026-11-09",
-      "2026-11-16",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-07",
-      "2026-12-14"
-    ],
-    "lastDate": "2026-12-14"
+    "lastDate": "2026-12-22"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -72,7 +42,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -83,9 +53,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 28,
+    "occurrenceCount": 27,
     "occurrenceDates": [
-      "2026-10-19",
       "2026-10-20",
       "2026-10-21",
       "2026-10-22",
@@ -123,7 +92,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -134,9 +103,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 53,
+    "occurrenceCount": 52,
     "occurrenceDates": [
-      "2026-10-19",
       "2026-10-20",
       "2026-10-21",
       "2026-10-22",
@@ -199,7 +167,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -210,9 +178,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 39,
+    "occurrenceCount": 38,
     "occurrenceDates": [
-      "2026-10-19",
       "2026-10-20",
       "2026-10-21",
       "2026-10-22",
@@ -261,7 +228,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -275,9 +242,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 34,
+    "occurrenceCount": 33,
     "occurrenceDates": [
-      "2026-10-19",
       "2026-10-20",
       "2026-10-21",
       "2026-10-22",
@@ -315,40 +281,32 @@
     "lastDate": "2026-12-03"
   },
   {
-    "name": "SMC Weekly Check-in",
+    "name": "Discover Soka | Language and Study Abroad Run through",
     "type": "Internal Meeting",
     "public": false,
-    "description": "",
+    "description": "Discover Soka Language and Study Abroad Run through with presenters.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-20",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "startMin": 645,
-    "endMin": 705,
+    "date": "2026-10-21",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
     "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
+    "room": "PAU 216",
+    "building": "",
     "imageURL": "",
     "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
+      "name": "Avelino Pitts",
+      "email": "apitts@soka.edu"
     },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 10,
+    "org": "Admissions",
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-10-20",
-      "2026-10-27",
-      "2026-11-03",
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
+      "2026-10-21",
+      "2026-10-22"
     ],
-    "lastDate": "2026-12-22"
+    "lastDate": "2026-10-22"
   },
   {
     "name": "Proctor Exam (Brian D.)",
@@ -376,6 +334,33 @@
       "2026-10-21"
     ],
     "lastDate": "2026-10-21"
+  },
+  {
+    "name": "SOL Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Diana Ueda",
+      "email": "dueda@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
   },
   {
     "name": "Directors Meeting",
@@ -590,6 +575,40 @@
     "lastDate": "2026-10-26"
   },
   {
+    "name": "Student Affairs Social Media Co Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-26",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 840,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Student Affairs Large Conference Room (Ikeda 314)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 8,
+    "occurrenceDates": [
+      "2026-10-26",
+      "2026-11-02",
+      "2026-11-09",
+      "2026-11-16",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-07",
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
+  },
+  {
     "name": "Development Office",
     "type": "Internal Meeting",
     "public": false,
@@ -642,6 +661,36 @@
       "2026-10-28"
     ],
     "lastDate": "2026-10-28"
+  },
+  {
+    "name": "Investment Office Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-02",
+    "startTime": "11:00 AM",
+    "endTime": "12:00 PM",
+    "startMin": 660,
+    "endMin": 720,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Eddie  Ng",
+      "email": "e.ng@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-11-02",
+      "2026-11-16",
+      "2026-11-30",
+      "2026-12-14"
+    ],
+    "lastDate": "2026-12-14"
   },
   {
     "name": "Proctor Exam (Brian D.)",
