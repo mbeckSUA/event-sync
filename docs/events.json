@@ -1,144 +1,5 @@
 [
   {
-    "name": "Pacific Symphony Auditions",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Auditions for Pacific Symphony. Private event. \nNO ACCESS TO THE PAC CONCERT HALL.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "8:00 AM",
-    "endTime": "8:00 PM",
-    "startMin": 480,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-20"
-    ],
-    "lastDate": "2026-10-20"
-  },
-  {
-    "name": "Rec Center Hours: Fall Break",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Rec Center Hours\nFall Break Hours\nOctober 19th-20th\n10am-7pm\n\nPool Fall Break Hours\nOctober 19th-20th\n12pm-3pm",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "10:00 AM",
-    "endTime": "7:00 PM",
-    "startMin": 600,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "RECCTR",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Fall%20Break%20%282%29.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-20"
-    ],
-    "lastDate": "2026-10-20"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 17,
-    "occurrenceDates": [
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-20",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 16,
-    "occurrenceDates": [
-      "2026-10-20",
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
     "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -387,6 +248,48 @@
     "lastDate": "2026-11-19"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 16,
+    "occurrenceDates": [
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Annotations of Hope: Dr. Nahum Chandler on Du Bois's \"Of the Coming of John\"",
     "type": "Campus Events",
     "public": true,
@@ -439,6 +342,47 @@
       "2026-10-22"
     ],
     "lastDate": "2026-10-22"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 15,
+    "occurrenceDates": [
+      "2026-10-22",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Movie Night: Hosted by Sustainability Educators",
@@ -983,7 +927,7 @@
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "In this talk, I will introduce the fields of graph theory and network science, highlighting how networks can be used to model and analyze relationships in a wide variety of settings. I will share some of my work from sabbatical, including recent joint work with Hiroshi Nonaka ('26) on using network analysis to study character interactions in AI-generated short stories. My hope is to introduce these tools to a broad audience and inspire others to consider how network science might be applied in their own research.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/jgozxxk61cw49opdyshslm4hti9aeeld\">Flyer</a></p>",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/jgozxxk61cw49opdyshslm4hti9aeeld\">Event Flyer</a></p>",
     "facility": false,
     "date": "2026-10-26",
     "startTime": "12:10 PM",
@@ -993,7 +937,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Katherine%20Perry.jpg",
     "contact": {
       "name": "Howard Wu",
       "email": "hwu@soka.edu"
@@ -1074,7 +1018,7 @@
     "allDay": true,
     "room": "Founders 1st Floor Art Gallery",
     "building": "Founders Hall",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Vote%20Center.png",
     "contact": {
       "name": "Carin Rodgers Bronstein",
       "email": "crodgersbronstein@soka.edu"
@@ -1132,7 +1076,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB.png",
     "contact": {
       "name": "Jacqueline Mills",
       "email": "jmills@soka.edu"
@@ -1172,6 +1116,33 @@
     "lastDate": "2026-10-28"
   },
   {
+    "name": "Community Tour: Don Juan Avila Middle School",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Sponsored by SUA Community Relations: SUA student led tour for visiting Aliso Viejo middle school students.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "10:30 AM",
+    "endTime": "12:00 PM",
+    "startMin": 630,
+    "endMin": 720,
+    "allDay": false,
+    "room": "Founders Hall Welcome Center",
+    "building": "Founders Hall",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours.png",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
+  },
+  {
     "name": "Women's Soccer vs The Master's",
     "type": "Athletics",
     "public": true,
@@ -1200,7 +1171,7 @@
     "type": "Campus Events",
     "public": true,
     "description": "Join Soka alum Christa Niyeze (Associate, Portfolio Compliance at PIMCO), for a conversation about careers in finance and her journey from SUA to the financial industry.\n\nChrista will share her experience working in finance, what her role at PIMCO looks like, and insights for students interested in exploring careers in the field. The conversation will also highlight opportunities and challenges for women in finance, along with practical tips for building skills, gaining experience, and getting started.\n\nThis event is a collaboration between B2B and Finance Society and is open to all students. Whether you are already interested in finance or simply curious about the field, come learn more about what a career in finance can look like.",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/0rhr1ymtpv7mu0o9af1x1wyf8ag652kp\">Event Flyer</a></p><p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/CDO/rsvp_boot?id=380356\">RSVP here </a></p>",
     "facility": false,
     "date": "2026-10-29",
     "startTime": "5:30 PM",
@@ -1210,7 +1181,7 @@
     "allDay": false,
     "room": "Student Affairs Lobby",
     "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/CDO%20-%20Women%20in%20Finance.png",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Finance_Careers_Flyer%20%281%29.png",
     "contact": {
       "name": "Alisa Proctor",
       "email": "aproctor@soka.edu"
@@ -1301,6 +1272,33 @@
     "lastDate": "2026-10-30"
   },
   {
+    "name": "Halloween Party and Escape Room!",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Class of 2028 Senate will host a Halloween event featuring a dance party and interactive escape room. The event will provide students with an opportunity to socialize, participate in Halloween activities, enjoy refreshments, and work together to solve puzzles and challenges in a themed escape room.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-30",
+    "startTime": "8:30 PM",
+    "endTime": "11:00 PM",
+    "startMin": 1230,
+    "endMin": 1380,
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-30"
+    ],
+    "lastDate": "2026-10-30"
+  },
+  {
     "name": "Swimming and Diving: Wyatt Balman Invitational",
     "type": "Athletics",
     "public": true,
@@ -1356,7 +1354,7 @@
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "This presentation celebrates the release of Partial Sovereignty: The Politics of Autonomy among Minority Nations (UBC Press) in Fall 2026. The book focuses on the meaning, forms, and dangers of territorial autonomy \u2013 special self-government for minority nations. Cases span Western democracies (Quebec, Catalonia), conflict resolution (Northern Ireland, Aceh), authoritarianism (Chechnya, Tibet), and Indigenous self-government (Nunavut, Guna Yala). It argues that autonomy has never resulted in independence, and by recognizing minority nations, helps to maintain territorial borders. The presentation provides an overview of the book and the process of writing it, including global fieldwork, numerous conferences, and many Soka research assistants.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.ubcpress.ca/partial-sovereignty\">Link to publication: https://www.ubcpress.ca/partial-sovereignty</a></p><p>Refreshments will be offered at the conclusion of the talk.</p><p>Open to Soka community members | Sponsored by the Dean of Faculty</p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/sh85o398jiwi3r6pxd56zgh3m71gtmpn\">Flyer</a></p>",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.ubcpress.ca/partial-sovereignty\">Link to publication</a></p><p>Refreshments will be offered at the conclusion of the talk.</p><p>Open to Soka community members | Sponsored by the Dean of Faculty</p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/sh85o398jiwi3r6pxd56zgh3m71gtmpn\">Event Flyer</a></p>",
     "facility": false,
     "date": "2026-11-03",
     "startTime": "5:10 PM",
@@ -1692,7 +1690,7 @@
     "allDay": false,
     "room": "SC 405",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/RATE.png",
     "contact": {
       "name": "Junyi Liu",
       "email": "jliu@soka.edu"
