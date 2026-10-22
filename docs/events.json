@@ -1,198 +1,5 @@
 [
   {
-    "name": "2026 Summer Clinical Grand Rounds & Clinical Preceptorship Info Session",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "This Summer Clinical Preceptorship Grand Rounds will feature case discussions presented by students who completed preceptorship program in 2026. Isabel Pizano-Canales, Taiho Higaki, and Calleigh Sakai will present clinical cases from both the Primary Care / Population Health Track and the Neurosurgery Track, outlining the diagnostic reasoning, management approaches, and clinical observations they encountered during their training. Following the case presentations, we will provide information about the upcoming Summer Clinical Preceptorship, including program expectations and application details. This session is open to the campus community. We strongly encourage those considering applying for the next preceptorship cycle to attend.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Clinical%20Preceptorship.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-21"
-    ],
-    "lastDate": "2026-10-21"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 16,
-    "occurrenceDates": [
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Capstone Writing Group",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "The Capstone Writing Group will meet on Wednesdays, 9/23, 10/7, 10/21, 11/4, 11/18 from 5-6:30 pm during fall semester to support seniors working on their Capstone projects.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Capstone%20Photo.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-10-21",
-      "2026-11-04",
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "6:30 PM",
-    "endTime": "7:30 PM",
-    "startMin": 1110,
-    "endMin": 1170,
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-10-21",
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-11",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Dashain Celebration",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Nepal's biggest festival celebrates family, community, and the triumph of good over evil. Enjoy dancing, crafts, henna, and more!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "6:30 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1110,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Kaitlyn Bourdelais",
-      "email": "kbourdelais@soka.edu"
-    },
-    "org": "Diversity, Equity, and Inclusion",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-21"
-    ],
-    "lastDate": "2026-10-21"
-  },
-  {
-    "name": "Intramurals: Basketball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
-    "facility": false,
-    "date": "2026-10-21",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1170,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-21",
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
     "name": "Vote Center: POD Delivery",
     "type": "Campus Events",
     "public": false,
@@ -337,6 +144,30 @@
       "email": "jtirrell@soka.edu"
     },
     "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-22"
+    ],
+    "lastDate": "2026-10-22"
+  },
+  {
+    "name": "Men's Volleyball vs Santiago Canyon",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Santiago Canyon | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-22",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-22"
@@ -977,6 +808,86 @@
     "lastDate": "2026-10-26"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-26",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 15,
+    "occurrenceDates": [
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-26",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1140,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-10-26",
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-11",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "Overview of IFSA Study Abroad Programs",
     "type": "Campus Events",
     "public": false,
@@ -997,6 +908,33 @@
       "email": "kjorgensen@soka.edu"
     },
     "org": "Study Abroad",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
+  },
+  {
+    "name": "Intramurals: Basketball",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
+    "facility": false,
+    "date": "2026-10-27",
+    "startTime": "7:30 PM",
+    "endTime": "10:00 PM",
+    "startMin": 1170,
+    "endMin": 1320,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-27"
@@ -1082,6 +1020,30 @@
       "email": "jmills@soka.edu"
     },
     "org": "Other",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-28"
+    ],
+    "lastDate": "2026-10-28"
+  },
+  {
+    "name": "Men's Volleyball vs Palomar College",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Palomar College | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-28",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-28"
@@ -1402,6 +1364,34 @@
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
+  },
+  {
+    "name": "Capstone Writing Group",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "The Capstone Writing Group will meet on Wednesdays, 9/23, 10/7, 10/21, 11/4, 11/18 from 5-6:30 pm during fall semester to support seniors working on their Capstone projects.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-04",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "startMin": 1020,
+    "endMin": 1110,
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Capstone%20Photo.png",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-11-04",
+      "2026-11-18"
+    ],
+    "lastDate": "2026-11-18"
   },
   {
     "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
@@ -3032,6 +3022,30 @@
     "lastDate": "2027-01-20"
   },
   {
+    "name": "Men's Volleyball vs Dordt University (Iowa)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Dordt University (Iowa) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-20",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-20"
+    ],
+    "lastDate": "2027-01-20"
+  },
+  {
     "name": "Last day to drop with record enrollment \u201cW\u201d",
     "type": "Academic Calendar",
     "public": true,
@@ -3602,6 +3616,30 @@
     "lastDate": "2027-02-21"
   },
   {
+    "name": "Men's Volleyball vs La Sierra University",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs La Sierra University | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-24",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-24"
+    ],
+    "lastDate": "2027-02-24"
+  },
+  {
     "name": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
     "type": "Campus Events",
     "public": true,
@@ -3737,6 +3775,30 @@
     "lastDate": "2027-03-05"
   },
   {
+    "name": "Men's Volleyball vs Simpson University (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Simpson University (Calif.) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-08",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-08"
+    ],
+    "lastDate": "2027-03-08"
+  },
+  {
     "name": "Career Talk Night",
     "type": "Campus Events",
     "public": true,
@@ -3764,6 +3826,54 @@
     "lastDate": "2027-03-10"
   },
   {
+    "name": "Men's Volleyball vs Hope International University (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Hope International University (Calif.) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-11",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-11"
+    ],
+    "lastDate": "2027-03-11"
+  },
+  {
+    "name": "Men's Volleyball vs Olivet Nazarene University (Ill.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Olivet Nazarene University (Ill.) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-12",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-12"
+    ],
+    "lastDate": "2027-03-12"
+  },
+  {
     "name": "Conrad Tao and Academy of St Martin in the Fields",
     "type": "Campus Events",
     "public": true,
@@ -3789,6 +3899,54 @@
       "2027-03-12"
     ],
     "lastDate": "2027-03-12"
+  },
+  {
+    "name": "Men's Volleyball vs Ottawa University Arizona",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Ottawa University Arizona | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-19",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-19"
+    ],
+    "lastDate": "2027-03-19"
+  },
+  {
+    "name": "Men's Volleyball vs Arizona Christian University",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Arizona Christian University | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-20",
+    "startTime": "1:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 780,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-20"
+    ],
+    "lastDate": "2027-03-20"
   },
   {
     "name": "Parnassus Society: La Boh\u00e8me",
@@ -3844,6 +4002,30 @@
       "2027-03-26"
     ],
     "lastDate": "2027-03-26"
+  },
+  {
+    "name": "Men's Volleyball vs The Master's University (Calif.)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs The Master's University (Calif.) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-24",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-24"
+    ],
+    "lastDate": "2027-03-24"
   },
   {
     "name": "Low Grade Notices due to Registrar",
@@ -3978,6 +4160,30 @@
     "lastDate": "2027-04-06"
   },
   {
+    "name": "Men's Volleyball vs Park University Gilbert (AZ)",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Park University Gilbert (AZ) | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-08",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-08"
+    ],
+    "lastDate": "2027-04-08"
+  },
+  {
     "name": "Last Day to Drop with record enrollment \u201cW\u201d",
     "type": "Academic Calendar",
     "public": true,
@@ -3992,6 +4198,30 @@
     "allDay": true,
     "room": null,
     "building": null,
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-09"
+    ],
+    "lastDate": "2027-04-09"
+  },
+  {
+    "name": "Men's Volleyball vs Benedictine University Mesa",
+    "type": "Athletics",
+    "public": true,
+    "description": "Soka University Men's Volleyball vs Benedictine University Mesa | Location: Aliso Viejo, Calif.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-09",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
     "imageURL": "",
     "contact": null,
     "org": null,
