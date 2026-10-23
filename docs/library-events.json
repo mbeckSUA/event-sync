@@ -1,41 +1,5 @@
 [
   {
-    "name": "From Curiosity to Clarity: Creating Great Research Questions",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Conversations in Research Panel Discussion Series. This session will focus on the crucial first step in research: turning a broad interest or curiosity into a viable, sharp research question. Faculty panelists will share strategies and experiences in narrowing scope, identifying research gaps, and knowing when a question is ready to guide a full project. Join us for this enlightening presentation to learn how to best prepare your research topic.",
-    "extendedDescription": "",
-    "date": "2026-10-22",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Gandhi 303A",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Library%20-%20From%20Curiosity%20to%20Clarity.png",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 1,
-    "occurrences": [
-      {
-        "date": "2026-10-22",
-        "startTime": "5:00 PM",
-        "endTime": "6:30 PM",
-        "startMin": 1020,
-        "endMin": 1110,
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
     "name": "Silent Book Club",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
