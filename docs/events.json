@@ -1,275 +1,5 @@
 [
   {
-    "name": "Vote Center: POD Delivery",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": "Parking Lot A",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Leo Sasaki",
-      "email": "lsasaki@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "Faculty Forum - In Person",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Faculty Forum",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Faculty%20Forum.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-22",
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 16,
-    "occurrenceDates": [
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Annotations of Hope: Dr. Nahum Chandler on Du Bois's \"Of the Coming of John\"",
-    "type": "Campus Events",
-    "public": true,
-    "description": "A lecture by Dr. Nahum Chandler on October 22, 5-6 PM in Curie 200.\n\nW. E. B. Du Bois\u2019s short story \u201cOf the Coming of John \u201cis about a young man\u2019s journey, from a happy go lucky small-town boy with never a care in the world, through an initial failure in his first year of college, to his return to school and discovery of himself anew in the world of thought. It is the discovery of what Du Bois elsewhere describes as a kind of \u201cdouble-consciousness.\u201d This short story is the masterpiece\u00a0of Du Bois\u2019s\u00a0book The Souls of Black Folk: Essays and Sketches of 1903, a classic text in American thought \u2014 a book and short story about hope for the future of America at the turn to the 20th century.\n\u00a0\nThe story is about 20 pages long. An audio version is available. The text can be found online in a reliable scholarly edition, including through Ikeda Library. Please read or listen before the lecture.\u00a0Music as reference and hearing will be integral to the lecture.",
-    "extendedDescription": "<p>Click <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/2iv95y3x21q4vxje0l4i3rkvk14pn5vi\">here </a>for event flyer and click <a class=\"open_in_new_tab\" href=\"https://docsouth.unc.edu/church/duboissouls/dubois.html\">here </a>to download reading materials for event. </p>",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/WEBD%20Nina%20and%20Son%20%281%29.jpeg",
-    "contact": {
-      "name": "Viki Lohk",
-      "email": "v.lohk@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "From Curiosity to Clarity: Creating Great Research Questions",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Conversations in Research Panel Discussion Series. This session will focus on the crucial first step in research: turning a broad interest or curiosity into a viable, sharp research question. Faculty panelists will share strategies and experiences in narrowing scope, identifying research gaps, and knowing when a question is ready to guide a full project. Join us for this enlightening presentation to learn how to best prepare your research topic.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Gandhi 303A",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Library%20-%20From%20Curiosity%20to%20Clarity.png",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "Men's Volleyball vs Santiago Canyon",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Volleyball vs Santiago Canyon | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "6:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 1080,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 15,
-    "occurrenceDates": [
-      "2026-10-22",
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Movie Night: Hosted by Sustainability Educators",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Join the Sustainability Peer Educators for a movie night featuring Dune! Enjoy a relaxing evening with fellow students while exploring a film that highlights themes of the environment, resources, and humanity\u2019s relationship with nature.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "6:30 PM",
-    "endTime": "8:30 PM",
-    "startMin": 1110,
-    "endMin": 1230,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
-    "name": "Writing a Statement of Purpose for Graduate School",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Learn how to write a clear, compelling statement of purpose for graduate school applications. This workshop will help you explain your academic interests, connect your experiences to your goals, and show why you are a strong fit for a program.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-22",
-    "startTime": "6:30 PM",
-    "endTime": "7:45 PM",
-    "startMin": 1110,
-    "endMin": 1185,
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Diya2_0_0.jpg",
-    "contact": {
-      "name": "Diya Mazumder",
-      "email": "dmazumder@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-22"
-    ],
-    "lastDate": "2026-10-22"
-  },
-  {
     "name": "Become a Physician: Exploring the DO Pathway with AACOM",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -915,6 +645,87 @@
     "lastDate": "2026-10-27"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-27",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 15,
+    "occurrenceDates": [
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-27",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 14,
+    "occurrenceDates": [
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Intramurals: Basketball",
     "type": "Recreation Calendar",
     "public": false,
@@ -1078,11 +889,11 @@
     "lastDate": "2026-10-28"
   },
   {
-    "name": "Community Tour: Don Juan Avila Middle School",
+    "name": "Community Relations Tour (Middle School students)",
     "type": "Campus Events",
     "public": true,
-    "description": "Sponsored by SUA Community Relations: SUA student led tour for visiting Aliso Viejo middle school students.",
-    "extendedDescription": "",
+    "description": "Sponsored by SUA Community Relations: SUA student-led tour for visiting middle school students. (Private tour).",
+    "extendedDescription": "<p>This is a private tour, but you're welcome to request your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
     "facility": false,
     "date": "2026-10-29",
     "startTime": "10:30 AM",
@@ -2012,6 +1823,33 @@
       "2026-11-17"
     ],
     "lastDate": "2026-11-17"
+  },
+  {
+    "name": "Faculty Forum - In Person",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Faculty Forum",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "MAA 207",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Faculty%20Forum.png",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
   },
   {
     "name": "Networking Happy Hour",
