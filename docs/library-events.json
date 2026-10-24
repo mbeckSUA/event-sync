@@ -5,7 +5,7 @@
     "public": true,
     "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
-    "date": "2026-10-23",
+    "date": "2026-11-20",
     "startTime": "3:00 PM",
     "endTime": "4:30 PM",
     "startMin": 900,
@@ -19,16 +19,8 @@
       "email": "jtirrell@soka.edu"
     },
     "org": "Library",
-    "occurrenceCount": 2,
+    "occurrenceCount": 1,
     "occurrences": [
-      {
-        "date": "2026-10-23",
-        "startTime": "3:00 PM",
-        "endTime": "4:30 PM",
-        "startMin": 900,
-        "endMin": 990,
-        "allDay": false
-      },
       {
         "date": "2026-11-20",
         "startTime": "3:00 PM",
@@ -39,7 +31,6 @@
       }
     ],
     "occurrenceDates": [
-      "2026-10-23",
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
