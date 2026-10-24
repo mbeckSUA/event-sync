@@ -1,141 +1,5 @@
 [
   {
-    "name": "Become a Physician: Exploring the DO Pathway with AACOM",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "This virtual information session, offered specifically for Soka University of America students and alumni, will feature representatives from the American Association of Colleges of Osteopathic Medicine (AACOM). The session will provide an overview of osteopathic medicine and the pathway to becoming a Doctor of Osteopathic Medicine (DO), including osteopathic medical education, the AACOMAS application process, admissions expectations, application timelines, and factors to consider when exploring DO medical schools. Participants will also have an opportunity to ask questions.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "Lion's Den Courtyard",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Become%20a%20Physician%20-%20DO.png",
-    "contact": {
-      "name": "Jacqueline Mills",
-      "email": "jmills@soka.edu"
-    },
-    "org": "Health Professions Advising",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
-  },
-  {
-    "name": "Soka Leadership Summit",
-    "type": "Campus Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "2:00 PM",
-    "endTime": "6:45 PM",
-    "startMin": 840,
-    "endMin": 1125,
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Soka%20Leadership%20Summit.png",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
-  },
-  {
-    "name": "Silent Book Club",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Ikeda Library Main Floor",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-23",
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "The United Nations in a Changing World",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "What does the United Nations need from us in a changing world? Join UNA Soka for an engaging roundtable discussion with a UN professional, Soka faculty, and a student moderator exploring the challenges facing the UN today - from funding and global cooperation to the role each of us can play in supporting its work. Come listen, ask questions, and join the conversation about the future of the UN.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "7:00 PM",
-    "endTime": "8:30 PM",
-    "startMin": 1140,
-    "endMin": 1230,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
-  },
-  {
-    "name": "First Year Halloween Gathering",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-23",
-    "startTime": "7:30 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1170,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "The Bowl (Green between Res Hall)",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/First%20Year%20%281%29.png",
-    "contact": {
-      "name": "Alexa Girouard",
-      "email": "agirouard@soka.edu"
-    },
-    "org": "Residential Life",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-23"
-    ],
-    "lastDate": "2026-10-23"
-  },
-  {
     "name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT",
     "type": "Campus Events",
     "public": true,
@@ -753,6 +617,33 @@
     "lastDate": "2026-10-27"
   },
   {
+    "name": "Sailing Club First Meeting",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-27",
+    "startTime": "8:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1200,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-27"
+    ],
+    "lastDate": "2026-10-27"
+  },
+  {
     "name": "Vote Center: Statewide General Election (Founders Gallery Closed)",
     "type": "Campus Events",
     "public": true,
@@ -855,6 +746,33 @@
     "imageURL": "",
     "contact": null,
     "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-28"
+    ],
+    "lastDate": "2026-10-28"
+  },
+  {
+    "name": "Soka Rotaract First Meeting",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "\ud83c\udf0e Join Soka Rotaract for Our First Meeting! Interested in community service, leadership, and making a difference? Join us to meet the board, connect with fellow members, and learn more about Soka Rotaract and our mission. Enjoy fun, interactive activities while sharing ideas for service projects and club events this semester! Whether you're an experienced volunteer or new to community service, everyone is welcome! Come connect, collaborate, and make an impact with us!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-28",
+    "startTime": "5:30 PM",
+    "endTime": "6:30 PM",
+    "startMin": 1050,
+    "endMin": 1110,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-28"
@@ -1960,6 +1878,33 @@
     "lastDate": "2026-11-20"
   },
   {
+    "name": "Community Relations Tour (Visitors)",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Sponsored by SUA Community Relations: SUA student-led tour for campus visitors. (Private tour)",
+    "extendedDescription": "<p>This is a private tour, but you're welcome to schedule your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "11:00 AM",
+    "endTime": "12:30 PM",
+    "startMin": 660,
+    "endMin": 750,
+    "allDay": false,
+    "room": "Founders Hall Welcome Center",
+    "building": "Founders Hall",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours%20%281%29.png",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
     "name": "IRB Training",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -2017,6 +1962,33 @@
       "2027-04-23"
     ],
     "lastDate": "2027-04-23"
+  },
+  {
+    "name": "Silent Book Club",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
+    "allDay": false,
+    "room": "Ikeda Library Main Floor",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
+    "contact": {
+      "name": "Jennifer  Tirrell",
+      "email": "jtirrell@soka.edu"
+    },
+    "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   },
   {
     "name": "ASB Teambuilding #1",
@@ -2171,6 +2143,33 @@
       "email": "kbourdelais@soka.edu"
     },
     "org": "Diversity, Equity, and Inclusion",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
+  },
+  {
+    "name": "Spirit of the Season! Laguna Beach Unified Vocal Music",
+    "type": "Campus Events",
+    "public": false,
+    "description": "PRIVATE: This is the holding  area for the Elementary School performers in the LBUSD vocal concert (100 of them).",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-03",
+    "startTime": "2:00 PM",
+    "endTime": "11:00 PM",
+    "startMin": 840,
+    "endMin": 1380,
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-03"
@@ -2411,6 +2410,33 @@
       "2026-12-10"
     ],
     "lastDate": "2026-12-10"
+  },
+  {
+    "name": "Community Relations Tour (Middle School students)",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Sponsored by SUA Community Relations: SUA student-led tour for visiting middle school students. (Private tour)",
+    "extendedDescription": "<p>This is a private tour, but you're welcome to schedule your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
+    "facility": false,
+    "date": "2026-12-11",
+    "startTime": "10:00 AM",
+    "endTime": "11:30 AM",
+    "startMin": 600,
+    "endMin": 690,
+    "allDay": false,
+    "room": "Founders Hall Welcome Center",
+    "building": "Founders Hall",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours%20%281%29.png",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
   },
   {
     "name": "Fall 2026 SUA Student Recital",
@@ -3095,7 +3121,7 @@
     "lastDate": "2027-01-30"
   },
   {
-    "name": "Haneen Choir Presents: Sahrya",
+    "name": "Haneen Choir Presents: Sahriya",
     "type": "Performing Arts Center",
     "public": false,
     "description": "Sahrya is a vibrant musical evening presented by Haneen Choir, celebrating the beauty and richness of Arabic music and culture. Through timeless melodies and contemporary arrangements, Haneen brings together voices and musicians in a joyful performance that celebrates heritage, connection, and community.\n\nhttps://www.performingarts.soka.edu/calendar-events/haneen-choir-presents-sahrya",
@@ -3176,7 +3202,7 @@
     "name": "Richard Marx",
     "type": "Performing Arts Center",
     "public": true,
-    "description": "",
+    "description": "Richard Marx is a GRAMMY-winning singer, songwriter, and producer whose career has spanned four decades of chart success and creative reinvention. With over 45 million albums sold, one billion streams, and fourteen No. 1 singles to his name (including \u201cRight Here Waiting,\u201d \u201cHazard\u201d & \u201cHold On to the Nights\u201d), Marx is the only male artist in history to have his first seven singles reach the Top 5 on the Billboard charts, and one of only two artists\u2014alongside Michael Jackson\u2014to write a No. 1 song in four different decades. Marx\u2019s work extends far beyond his own recordings, having written and produced for artists including Luther Vandross, Keith Urban, NSYNC, Barbra Streisand and Burt Bacharach.\n\nhttps://www.performingarts.soka.edu/calendar-events/richard-marx",
     "extendedDescription": "",
     "facility": false,
     "date": "2027-02-06",
@@ -3187,7 +3213,7 @@
     "allDay": false,
     "room": "Performing Arts Center Concert Hall",
     "building": "Performing Arts Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Brandon_Marx-Sep_08_2025__6_40_03_PM.jpg",
     "contact": {
       "name": "Renee Bodie",
       "email": "rbodie@soka.edu"
