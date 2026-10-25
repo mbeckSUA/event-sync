@@ -1,297 +1,5 @@
 [
   {
-    "name": "Discover Soka: Visit \u2022 Explore \u2022 Engage MAIN EVENT",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Our Admission\u2019s Open House, Discover Soka: Visit \u2022 Explore \u2022 Engage, is open to prospective students and their families, high school groups, high school counselors, and community organizations supporting students.\n\n  Date: Saturday, October 24, 2026\n\n  Time: 10 a.m. - 3:30 p.m.\n\n  Where to Check In: Founders Hall\n\n  For questions and inquiries regarding individual, family, or group registration, please contact admissionevents@soka.edu.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://admissions.soka.edu/portal/open-house\">Click here to learn more about Discover Soka</a></p>",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Discover%20Soka.png",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka: Conference Sessions",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "MAA 305",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 6,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka Open House",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "4:00 PM",
-    "startMin": 600,
-    "endMin": 960,
-    "allDay": false,
-    "room": "Pauling 3rd Floor Courtyard",
-    "building": "Pauling Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka: Lunch",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka: Registration",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka: Closing Sessions",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Discover Soka: Welcome",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Welcome presentation for prospective students and families.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "10:30 AM",
-    "endTime": "11:00 AM",
-    "startMin": 630,
-    "endMin": 660,
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": "Admissions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Closure: Pool",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "There will be no open swim hours this day.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "12:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 720,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Pool",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-24",
-      "2026-10-31"
-    ],
-    "lastDate": "2026-10-31"
-  },
-  {
-    "name": "Tear down: Sargam Group of SoCal",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "4:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 960,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Fae Monroe",
-      "email": "fmonroe@soka.edu"
-    },
-    "org": "Events & Conferences",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Men's Soccer vs Hope International",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Soccer vs Hope International\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "4:30 PM",
-    "endTime": "6:30 PM",
-    "startMin": 990,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
-    "name": "Women's Soccer vs Hope International",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs Hope International\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-24",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1140,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-24"
-    ],
-    "lastDate": "2026-10-24"
-  },
-  {
     "name": "Founders Gallery Closed",
     "type": "Campus Events",
     "public": true,
@@ -1007,6 +715,33 @@
     "imageURL": "",
     "contact": null,
     "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-31"
+    ],
+    "lastDate": "2026-10-31"
+  },
+  {
+    "name": "Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "There will be no open swim hours this day.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-31",
+    "startTime": "12:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 720,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-31"
