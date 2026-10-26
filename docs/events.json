@@ -6,7 +6,7 @@
     "description": "Founders Gallery is closed due to Statewide General Elections and will reopen to the public on November 5. (General Gallery hours are M-F 9am-5pm).",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,40 +20,12 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 6,
+    "occurrenceCount": 4,
     "occurrenceDates": [
-      "2026-10-25",
       "2026-10-26",
       "2026-10-27"
     ],
     "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Malini Awasthi",
-    "type": "Performing Arts Center",
-    "public": true,
-    "description": "Experience the vibrant sounds of Indian folk music with acclaimed vocalist Malini Awasthi. Her performance brings the richness of these traditions to the stage in a benefit concert for Kali Mandir.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/malini-awasthi",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-25",
-    "startTime": "6:30 PM",
-    "endTime": "8:30 PM",
-    "startMin": 1110,
-    "endMin": 1230,
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Malini%20-%20approved%20photo.png",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-25"
-    ],
-    "lastDate": "2026-10-25"
   },
   {
     "name": "Post-Sabbatical Talk - Dr. Katherine Perry",
