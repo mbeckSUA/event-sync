@@ -182,7 +182,11 @@ INTERNAL_ONLY_TYPES = {"Internal Meeting", "Student Request Form"}
 # Recreation ever runs something genuinely open to outside registrants (a
 # public 5k, a community class) -- that would need its own signal, not a
 # blanket type exclusion.
-CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar"}
+# Added 2026-10-27: "Academic Calendar" (add/drop and grade-notice deadlines,
+# etc.) stays on the public portal calendar on purpose (see
+# build_campus_events.py), but it's a date marker, not an event that puts
+# a non-SUA person on campus -- so it never counts as an outside visitor.
+CAMPUS_COMMUNITY_TYPES = {"Recreation Calendar", "Academic Calendar"}
 
 # Added 2026-10-13: Academic Events and Reservations requests carry a
 # "request type" custom field (opaque key, e.g. nCRTM) with values like
