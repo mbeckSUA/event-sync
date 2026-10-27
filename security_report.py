@@ -259,6 +259,14 @@ def format_minutes(m):
     return f"{h12}:{mm:02d} {ampm}"
 
 
+def format_time_range(start_min, end_min, sep=" - "):
+    """'All Day' when neither time is set (matches the internal event
+    calendars); otherwise 'start - end', with 'TBD' for a lone missing end."""
+    if start_min is None and end_min is None:
+        return "All Day"
+    return f"{format_minutes(start_min)}{sep}{format_minutes(end_min)}"
+
+
 def is_public_facing(event):
     """Will a member of the public actually show up because of this event?
     Flipped 2026-09-30 (was: "public unless excluded," ported from
@@ -686,7 +694,7 @@ def build_report(events, target_date):
         for e, f in items:
             lines.append(f"[{', '.join(f).upper()}] {e['name']}")
             lines.append(
-                f"    {format_minutes(e['start_min'])} - {format_minutes(e['end_min'])}"
+                f"    {format_time_range(e['start_min'], e['end_min'])}"
                 f"  @ {e['location']}  ({e['organization'] or '-'})"
             )
             extras = []
@@ -713,7 +721,7 @@ def build_report(events, target_date):
         f = classify(e)
         tag = f" [{', '.join(f)}]" if f else ""
         lines.append(
-            f"{format_minutes(e['start_min']):>10} - {format_minutes(e['end_min']):<10} "
+            f"{format_time_range(e['start_min'], e['end_min']):^23} "
             f"{e['name']}{tag}"
         )
         lines.append(f"{'':>10}   {e['location']}  |  {e['organization'] or '-'}")
@@ -770,7 +778,7 @@ def build_html_report(events, target_date):
                     padding:12px 14px;margin-bottom:8px;">
           <div style="font-weight:700;color:{fg};font-size:15px;">{esc(e['name'])}</div>
           <div style="color:#374151;font-size:13px;margin:2px 0 6px;">
-            {format_minutes(e['start_min'])}&ndash;{format_minutes(e['end_min'])}
+            {format_time_range(e['start_min'], e['end_min'], sep="&ndash;")}
             &middot; {esc(e['location'])} &middot; {esc(e['organization'])}
           </div>
           {extra_line(e)}
@@ -792,7 +800,7 @@ def build_html_report(events, target_date):
         rows_html.append(f"""
         <tr style="border-bottom:1px solid #e5e7eb;">
           <td style="padding:8px 12px;white-space:nowrap;color:#374151;">
-            {format_minutes(e['start_min'])}&ndash;{format_minutes(e['end_min'])}
+            {format_time_range(e['start_min'], e['end_min'], sep="&ndash;")}
           </td>
           <td style="padding:8px 12px;">
             <div style="font-weight:600;color:#111827;">{esc(e['name'])}</div>
