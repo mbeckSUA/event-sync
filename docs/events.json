@@ -6,7 +6,7 @@
     "description": "Founders Gallery is closed due to Statewide General Elections and will reopen to the public on November 5. (General Gallery hours are M-F 9am-5pm).",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,146 +20,11 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 4,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-10-26",
       "2026-10-27"
     ],
     "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Post-Sabbatical Talk - Dr. Katherine Perry",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "In this talk, I will introduce the fields of graph theory and network science, highlighting how networks can be used to model and analyze relationships in a wide variety of settings. I will share some of my work from sabbatical, including recent joint work with Hiroshi Nonaka ('26) on using network analysis to study character interactions in AI-generated short stories. My hope is to introduce these tools to a broad audience and inspire others to consider how network science might be applied in their own research.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/jgozxxk61cw49opdyshslm4hti9aeeld\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-10-26",
-    "startTime": "12:10 PM",
-    "endTime": "12:50 PM",
-    "startMin": 730,
-    "endMin": 770,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Katherine%20Perry.jpg",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-26"
-    ],
-    "lastDate": "2026-10-26"
-  },
-  {
-    "name": "Open Mic English",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Casual practice with conversation, listening comprehension, and pronunciation.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-26",
-    "startTime": "4:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 960,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Writing%20Center%20Open%20Mic.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-26"
-    ],
-    "lastDate": "2026-10-26"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-26",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 15,
-    "occurrenceDates": [
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-26",
-    "startTime": "7:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 1140,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 13,
-    "occurrenceDates": [
-      "2026-10-26",
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-11",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
   },
   {
     "name": "Overview of IFSA Study Abroad Programs",
@@ -433,6 +298,46 @@
     "lastDate": "2026-10-28"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-28",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 14,
+    "occurrenceDates": [
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "Soka Rotaract First Meeting",
     "type": "Student Organization Event",
     "public": false,
@@ -458,6 +363,44 @@
       "2026-10-28"
     ],
     "lastDate": "2026-10-28"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-28",
+    "startTime": "6:30 PM",
+    "endTime": "7:30 PM",
+    "startMin": 1110,
+    "endMin": 1170,
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 12,
+    "occurrenceDates": [
+      "2026-10-28",
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-11",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
   },
   {
     "name": "Intramurals: Spooky Dodgeball",
@@ -490,7 +433,7 @@
     "name": "Community Relations Tour (Middle School students)",
     "type": "Campus Events",
     "public": true,
-    "description": "Sponsored by SUA Community Relations: SUA student-led tour for visiting middle school students. (Private tour).",
+    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
     "extendedDescription": "<p>This is a private tour, but you're welcome to request your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
     "facility": false,
     "date": "2026-10-29",
@@ -565,6 +508,60 @@
     "lastDate": "2026-10-29"
   },
   {
+    "name": "Halloween Fall Festival (335, 365 & 370)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "The goal of this program is to bring undergraduate senior and graduate students together, encourage social interaction, strengthen community connections, and provide a fun and relaxing break from academic responsibilities.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "6:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1080,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "The Bowl (Green between Res Hall)",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-23%20at%2010.52.03%E2%80%AFAM.png",
+    "contact": {
+      "name": "Jaime Dance",
+      "email": "jdance@soka.edu"
+    },
+    "org": "Residential Life",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
+  },
+  {
+    "name": "Film screening from the French section",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "French film screening : Colours of Time (2025) \nC\u00e9dric Klapisch\u2019s Colours of Time (2025) takes viewers between present-day France and Paris at the end of the nineteenth century, a period of major artistic and social change. Through its story, students will discover aspects of French history and culture, particularly the emergence of Impressionism and photography. The film also raises questions about family history, memory and is appealing to students of french at different proficiency levels.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "6:30 PM",
+    "endTime": "8:30 PM",
+    "startMin": 1110,
+    "endMin": 1230,
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Sandrine Sim\u00e9on + Odile Heberle",
+      "email": "ssimeon@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
+  },
+  {
     "name": "Men's Soccer vs The Master's",
     "type": "Athletics",
     "public": true,
@@ -609,6 +606,30 @@
       "email": "jmoore@soka.edu"
     },
     "org": "Human Resources  & Community Engagement",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-30"
+    ],
+    "lastDate": "2026-10-30"
+  },
+  {
+    "name": "SUA Harvests and Donates",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Come harvest Soka's edible fruits with us!  We will meet in the parking lot in front of the Athenaeum, and start in the garden behind the Athenaeum.  We will be looking for Prickly Pear, Guava, Pomegranate and Acorns.  Fruits will be donated to a local Food Bank.  Open to the entire Soka Campus Community.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-30",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
+    "allDay": false,
+    "room": "Athenaeum Parking Lot E",
+    "building": "",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-30"
@@ -1588,7 +1609,7 @@
     "name": "Community Relations Tour (Visitors)",
     "type": "Campus Events",
     "public": true,
-    "description": "Sponsored by SUA Community Relations: SUA student-led tour for campus visitors. (Private tour)",
+    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
     "extendedDescription": "<p>This is a private tour, but you're welcome to schedule your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
     "facility": false,
     "date": "2026-11-20",
@@ -2122,7 +2143,7 @@
     "name": "Community Relations Tour (Middle School students)",
     "type": "Campus Events",
     "public": true,
-    "description": "Sponsored by SUA Community Relations: SUA student-led tour for visiting middle school students. (Private tour)",
+    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
     "extendedDescription": "<p>This is a private tour, but you're welcome to schedule your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
     "facility": false,
     "date": "2026-12-11",
@@ -4584,5 +4605,29 @@
       "2027-10-18"
     ],
     "lastDate": "2027-10-18"
+  },
+  {
+    "name": "Low grade notices are due to Registrar",
+    "type": "Academic Calendar",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-10-27",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-10-27"
+    ],
+    "lastDate": "2027-10-27"
   }
 ]
