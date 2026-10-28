@@ -1,194 +1,5 @@
 [
   {
-    "name": "Founders Gallery Closed",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Founders Gallery is closed due to Statewide General Elections and will reopen to the public on November 5. (General Gallery hours are M-F 9am-5pm).",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Overview of IFSA Study Abroad Programs",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Zipporah Gaines from IFSA will present to propsective Latin America study abroad students about their various program offerings.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "4:30 PM",
-    "endTime": "6:00 PM",
-    "startMin": 990,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Kathleen Jorgensen",
-      "email": "kjorgensen@soka.edu"
-    },
-    "org": "Study Abroad",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 15,
-    "occurrenceDates": [
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Intramurals: Basketball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1170,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
-    "name": "Sailing Club First Meeting",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-27",
-    "startTime": "8:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1200,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
     "name": "Vote Center: Statewide General Election (Founders Gallery Closed)",
     "type": "Campus Events",
     "public": true,
@@ -350,8 +161,8 @@
     "startMin": 1050,
     "endMin": 1110,
     "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
+    "room": "Student Organizations Room (Ikeda 312)",
+    "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
       "name": "Melody  Murakami",
@@ -481,6 +292,46 @@
     "lastDate": "2026-10-29"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 14,
+    "occurrenceDates": [
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Women in Finance: Careers & Insights with SUA Alum Christa Niyeze",
     "type": "Campus Events",
     "public": true,
@@ -535,11 +386,50 @@
     "lastDate": "2026-10-29"
   },
   {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Film screening from the French section",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "French film screening : Colours of Time (2025) \nC\u00e9dric Klapisch\u2019s Colours of Time (2025) takes viewers between present-day France and Paris at the end of the nineteenth century, a period of major artistic and social change. Through its story, students will discover aspects of French history and culture, particularly the emergence of Impressionism and photography. The film also raises questions about family history, memory and is appealing to students of french at different proficiency levels.",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/kvv7r2dkvrm54mrasa1ambhmn03p02ss\">Event Flyer</a></p>",
     "facility": false,
     "date": "2026-10-29",
     "startTime": "6:30 PM",
@@ -549,7 +439,7 @@
     "allDay": false,
     "room": "PAU 216",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-27%20at%204.03.19%E2%80%AFPM.png",
     "contact": {
       "name": "Sandrine Sim\u00e9on + Odile Heberle",
       "email": "ssimeon@soka.edu"
@@ -617,7 +507,7 @@
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
     "description": "Come harvest Soka's edible fruits with us!  We will meet in the parking lot in front of the Athenaeum, and start in the garden behind the Athenaeum.  We will be looking for Prickly Pear, Guava, Pomegranate and Acorns.  Fruits will be donated to a local Food Bank.  Open to the entire Soka Campus Community.",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/lbx0ravdgxb8q08yz90g69sfwebgm7p0\">Event Flyer</a></p>",
     "facility": false,
     "date": "2026-10-30",
     "startTime": "3:00 PM",
@@ -627,9 +517,36 @@
     "allDay": false,
     "room": "Athenaeum Parking Lot E",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/SUA%20Harvest%20%26%20Donates.png",
     "contact": null,
     "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-30"
+    ],
+    "lastDate": "2026-10-30"
+  },
+  {
+    "name": "Henna Halloween",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Co-sponsored with the Office of Diversity, Equity, and Inclusion.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/hbpygmrlbbuiluu3aerznoi47yd8cto2\">Event Flyer</a></p>",
+    "facility": false,
+    "date": "2026-10-30",
+    "startTime": "4:30 PM",
+    "endTime": "6:00 PM",
+    "startMin": 990,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Writing Center",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-27%20at%201.18.58%E2%80%AFPM.png",
+    "contact": {
+      "name": "Cheryl Meyer",
+      "email": "cmeyer@soka.edu"
+    },
+    "org": "Writing Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-10-30"
@@ -1272,7 +1189,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
     "contact": {
       "name": "Peri Unver",
       "email": "punver@soka.edu"
@@ -1326,7 +1243,7 @@
     "allDay": false,
     "room": "CUR 230",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Cub%20Scouts%20Science%20Outreach.png",
     "contact": {
       "name": "Robert Levenson",
       "email": "rlevenson@soka.edu"
@@ -1407,7 +1324,7 @@
     "allDay": false,
     "room": "CUR 200",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Traditional%20Medicine.png",
     "contact": {
       "name": "Chika Esiobu",
       "email": "cesiobu@soka.edu"
@@ -1647,7 +1564,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
     "contact": {
       "name": "Peri Unver",
       "email": "punver@soka.edu"
@@ -1946,7 +1863,7 @@
     "allDay": false,
     "room": "PAU 216",
     "building": "",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Study%20Abroad.png",
     "contact": {
       "name": "Kathleen Jorgensen",
       "email": "kjorgensen@soka.edu"
