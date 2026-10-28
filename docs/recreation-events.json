@@ -1,356 +1,5 @@
 [
   {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "date": "2026-10-27",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 15,
-    "occurrences": [
-      {
-        "date": "2026-10-27",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-10-29",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-03",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-05",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-10",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-12",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-17",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-19",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-24",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-01",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-03",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-08",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-10",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-15",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-17",
-        "startTime": "5:00 PM",
-        "endTime": "5:50 PM",
-        "startMin": 1020,
-        "endMin": 1070,
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "date": "2026-10-27",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 14,
-    "occurrences": [
-      {
-        "date": "2026-10-27",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-10-29",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-03",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-05",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-10",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-12",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-17",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-19",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-11-24",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-03",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-08",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-10",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-15",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      },
-      {
-        "date": "2026-12-17",
-        "startTime": "6:15 PM",
-        "endTime": "7:15 PM",
-        "startMin": 1095,
-        "endMin": 1155,
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-27",
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Intramurals: Basketball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty! \n\nCome join this semester on week nights from 7:30pm-10pm! The current Intramural schedule is now up on IM Leagues! \n\nCreate an account on IM Leagues below to view our current offerings!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/aib9k8jql9nld6ddzi7hlyfw47e0f8zm\">Basketball Intramural Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka/Registration\">https://www.imleagues.com/Soka/Registration</a></p>",
-    "date": "2026-10-27",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1170,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/basketball.jpeg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrences": [
-      {
-        "date": "2026-10-27",
-        "startTime": "7:30 PM",
-        "endTime": "10:00 PM",
-        "startMin": 1170,
-        "endMin": 1320,
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-10-27"
-    ],
-    "lastDate": "2026-10-27"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
@@ -673,6 +322,303 @@
       "2026-10-28"
     ],
     "lastDate": "2026-10-28"
+  },
+  {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "date": "2026-10-29",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 14,
+    "occurrences": [
+      {
+        "date": "2026-10-29",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-03",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-05",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-10",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-12",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-17",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-19",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-24",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-01",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-03",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-08",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-10",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-15",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-17",
+        "startTime": "5:00 PM",
+        "endTime": "5:50 PM",
+        "startMin": 1020,
+        "endMin": 1070,
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "date": "2026-10-29",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 13,
+    "occurrences": [
+      {
+        "date": "2026-10-29",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-05",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-12",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-19",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-24",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-03",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-08",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-10",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-15",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      },
+      {
+        "date": "2026-12-17",
+        "startTime": "6:15 PM",
+        "endTime": "7:15 PM",
+        "startMin": 1095,
+        "endMin": 1155,
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-10-29",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Closure: Pool",
