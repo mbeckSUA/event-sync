@@ -6,7 +6,7 @@
     "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,9 +20,8 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 16,
+    "occurrenceCount": 14,
     "occurrenceDates": [
-      "2026-10-28",
       "2026-10-29",
       "2026-10-30",
       "2026-10-31",
@@ -32,213 +31,6 @@
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "Low grade notices due to Registrar",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
-  },
-  {
-    "name": "IRB - Health and biomedical research informational session",
-    "type": "Campus Events",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB.png",
-    "contact": {
-      "name": "Jacqueline Mills",
-      "email": "jmills@soka.edu"
-    },
-    "org": "Other",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
-  },
-  {
-    "name": "Men's Volleyball vs Palomar College",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Volleyball vs Palomar College | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1020,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-09",
-      "2026-11-11",
-      "2026-11-16",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Soka Rotaract First Meeting",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "\ud83c\udf0e Join Soka Rotaract for Our First Meeting! Interested in community service, leadership, and making a difference? Join us to meet the board, connect with fellow members, and learn more about Soka Rotaract and our mission. Enjoy fun, interactive activities while sharing ideas for service projects and club events this semester! Whether you're an experienced volunteer or new to community service, everyone is welcome! Come connect, collaborate, and make an impact with us!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "5:30 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1050,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "6:30 PM",
-    "endTime": "7:30 PM",
-    "startMin": 1110,
-    "endMin": 1170,
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 12,
-    "occurrenceDates": [
-      "2026-10-28",
-      "2026-11-02",
-      "2026-11-04",
-      "2026-11-11",
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Intramurals: Spooky Dodgeball",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Intramural Sports are open and free to all students, staff and faculty!\n\nDress up in a costume for this Halloween themed event!\n\nAll skill levels are welcome! Grab your friends and create your own 6 person team or sign up as an individual!\n\nCreate your IM Leagues account to sign up by 10/27",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/odgkbpfjq2yyibdd62q08w3flmuuvqmt\">Spooky Dodgeball Schedule</a></p><p><a class=\"open_in_new_tab\" href=\"https://www.imleagues.com/Soka\">https://www.imleagues.com/Soka</a></p>",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "7:30 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1170,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Dodgeball%20.png",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
   },
   {
     "name": "Community Relations Tour (Middle School students)",
@@ -659,10 +451,113 @@
     "lastDate": "2026-10-31"
   },
   {
+    "name": "Community Relations Tour (Visitor)",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
+    "extendedDescription": "<p>This is a private tour, but you're welcome to request your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
+    "facility": false,
+    "date": "2026-11-02",
+    "startTime": "2:30 PM",
+    "endTime": "4:00 PM",
+    "startMin": 870,
+    "endMin": 960,
+    "allDay": false,
+    "room": "Founders Hall Welcome Center",
+    "building": "Founders Hall",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours%20%281%29.png",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-02"
+    ],
+    "lastDate": "2026-11-02"
+  },
+  {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-02",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-09",
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-02",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1140,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 11,
+    "occurrenceDates": [
+      "2026-11-02",
+      "2026-11-04",
+      "2026-11-11",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "CareerCore - Professional Development Workshop (Communication + Teamwork & Leadership)",
     "type": "Campus Events",
     "public": true,
-    "description": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork &amp; Leadership). The CareerCore Professional Development Program helps students recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other experiences. Along the way, you\u2019ll build a professional portfolio that showcases your growth and prepares you to make a contributive impact in your career and community.",
+    "description": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork & Leadership). The CareerCore Professional Development Program helps students recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other experiences. Along the way, you\u2019ll build a professional portfolio that showcases your growth and prepares you to make a contributive impact in your career and community.",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_e3aiOKff2adb5um\">Click here to join CareerCore</a></p>",
     "facility": false,
     "date": "2026-11-03",
@@ -1094,33 +989,6 @@
     "lastDate": "2026-11-11"
   },
   {
-    "name": "National Philanthropy Day (Pre-reception)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "National Philanthropy Day gets to the heart of what philanthropy truly represents: love of humanity. \nIt is a celebration of the people, partnerships and programs driving meaningful change across our region. This is the day Orange County celebrates it\u2014together, out loud, as a community.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "1:00 PM",
-    "endTime": "2:00 PM",
-    "startMin": 780,
-    "endMin": 840,
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
     "name": "National Philanthropy Day 2026 | Presented by AFP Orange County",
     "type": "Performing Arts Center",
     "public": false,
@@ -1148,17 +1016,44 @@
     "lastDate": "2026-11-12"
   },
   {
-    "name": "National Philanthropy Day",
+    "name": "National Philanthropy Day | Presented by AFP Orange County (Sponsor Reception)",
     "type": "Campus Events",
-    "public": true,
-    "description": "National Philanthropy Day gets to the heart of what philanthropy truly represents: love of humanity. \nIt is a celebration of the people, partnerships and programs driving meaningful change across our region. This is the day Orange County celebrates it\u2014together, out loud, as a community.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">Learn more about the National Philanthropy Day here</a></p>",
+    "public": false,
+    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
+    "extendedDescription": "",
     "facility": false,
     "date": "2026-11-12",
     "startTime": "2:00 PM",
-    "endTime": "6:00 PM",
+    "endTime": "3:00 PM",
     "startMin": 840,
-    "endMin": 1080,
+    "endMin": 900,
+    "allDay": false,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-12"
+    ],
+    "lastDate": "2026-11-12"
+  },
+  {
+    "name": "National Philanthropy Day  | Presented by AFP Orange County",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">Learn more about the National Philanthropy Day here</a></p>",
+    "facility": false,
+    "date": "2026-11-12",
+    "startTime": "3:00 PM",
+    "endTime": "5:00 PM",
+    "startMin": 900,
+    "endMin": 1020,
     "allDay": false,
     "room": "Performing Arts Center Lobby",
     "building": "Performing Arts Center",
@@ -3955,6 +3850,33 @@
       "2027-05-04"
     ],
     "lastDate": "2027-05-04"
+  },
+  {
+    "name": "Senior Ball",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Senior Ball 2027: The annual end-of-year celebration for all graduating undergraduate students to enjoy a memorable evening with their classmates as their journey as SUA students comes to a close.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-05-07",
+    "startTime": "8:00 PM",
+    "endTime": "11:00 PM",
+    "startMin": 1200,
+    "endMin": 1380,
+    "allDay": false,
+    "room": "Athenaeum Courtyard",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-05-07"
+    ],
+    "lastDate": "2027-05-07"
   },
   {
     "name": "Last day of instruction",

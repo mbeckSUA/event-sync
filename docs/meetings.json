@@ -1,57 +1,57 @@
 [
   {
-    "name": "SMC Media Training  for Faculty",
+    "name": "Proctor Exam (Brian D)",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
+    "date": "2026-10-29",
+    "startTime": "3:00 PM",
+    "endTime": "5:15 PM",
+    "startMin": 900,
+    "endMin": 1035,
     "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Adriana Campoy",
-      "email": "acampoy@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-28"
-    ],
-    "lastDate": "2026-10-28"
-  },
-  {
-    "name": "Nexus Mentoring - Mentor Training Session",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-28",
-    "startTime": "4:30 PM",
-    "endTime": "5:30 PM",
-    "startMin": 990,
-    "endMin": 1050,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
+    "room": "Student Affairs Small Conference Room (Ikeda 322)",
     "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
-      "name": "Robert Duran",
-      "email": "r.duran@soka.edu"
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
     },
-    "org": "Student Affairs",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-10-28"
+      "2026-10-29"
     ],
-    "lastDate": "2026-10-28"
+    "lastDate": "2026-10-29"
+  },
+  {
+    "name": "Donor Panel Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-10-29",
+    "startTime": "3:00 PM",
+    "endTime": "4:00 PM",
+    "startMin": 900,
+    "endMin": 960,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Nicole Chen",
+      "email": "nchen@soka.edu"
+    },
+    "org": "Development",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-10-29"
+    ],
+    "lastDate": "2026-10-29"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -60,7 +60,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -71,9 +71,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 22,
+    "occurrenceCount": 21,
     "occurrenceDates": [
-      "2026-10-28",
       "2026-10-29",
       "2026-11-02",
       "2026-11-03",
@@ -105,7 +104,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -116,9 +115,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 44,
+    "occurrenceCount": 43,
     "occurrenceDates": [
-      "2026-10-28",
       "2026-10-29",
       "2026-10-30",
       "2026-10-31",
@@ -172,7 +170,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -183,9 +181,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 32,
+    "occurrenceCount": 31,
     "occurrenceDates": [
-      "2026-10-28",
       "2026-10-29",
       "2026-11-01",
       "2026-11-02",
@@ -227,7 +224,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -241,9 +238,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 27,
+    "occurrenceCount": 26,
     "occurrenceDates": [
-      "2026-10-28",
       "2026-10-29",
       "2026-11-01",
       "2026-11-02",
@@ -272,60 +268,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Proctor Exam (Brian D)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "3:00 PM",
-    "endTime": "5:15 PM",
-    "startMin": 900,
-    "endMin": 1035,
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Brian Durick",
-      "email": "bdurick@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Donor Panel Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "3:00 PM",
-    "endTime": "4:00 PM",
-    "startMin": 900,
-    "endMin": 960,
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Nicole Chen",
-      "email": "nchen@soka.edu"
-    },
-    "org": "Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
   },
   {
     "name": "Susan Walsh Lab Meetings",
@@ -573,6 +515,34 @@
     "lastDate": "2026-11-03"
   },
   {
+    "name": "AI & CGU Hackathon Meeting - VP of External Academic Relations",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-04",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Bryan Penprase",
+      "email": "bpenprase@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-11-04",
+      "2026-11-11"
+    ],
+    "lastDate": "2026-11-11"
+  },
+  {
     "name": "Proctor Exam (Brian D.)",
     "type": "Internal Meeting",
     "public": false,
@@ -711,6 +681,33 @@
       "2026-11-11"
     ],
     "lastDate": "2026-11-11"
+  },
+  {
+    "name": "1st Year MA Students Meet with Dr. Jason Goulah",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-12",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Manami Koizumi",
+      "email": "mkoizumi@soka.edu"
+    },
+    "org": "Office of the Graduate School",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-12"
+    ],
+    "lastDate": "2026-11-12"
   },
   {
     "name": "Fridays on the GREEN - Green Room",
