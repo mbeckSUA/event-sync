@@ -6,7 +6,7 @@
     "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,9 +20,8 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 14,
+    "occurrenceCount": 12,
     "occurrenceDates": [
-      "2026-10-29",
       "2026-10-30",
       "2026-10-31",
       "2026-11-01",
@@ -31,241 +30,6 @@
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "Community Relations Tour (Middle School students)",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
-    "extendedDescription": "<p>This is a private tour, but you're welcome to request your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "10:30 AM",
-    "endTime": "12:00 PM",
-    "startMin": 630,
-    "endMin": 720,
-    "allDay": false,
-    "room": "Founders Hall Welcome Center",
-    "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours.png",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Women's Soccer vs The Master's",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Women's Soccer vs The Master's\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1020,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 14,
-    "occurrenceDates": [
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Women in Finance: Careers & Insights with SUA Alum Christa Niyeze",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Join Soka alum Christa Niyeze (Associate, Portfolio Compliance at PIMCO), for a conversation about careers in finance and her journey from SUA to the financial industry.\n\nChrista will share her experience working in finance, what her role at PIMCO looks like, and insights for students interested in exploring careers in the field. The conversation will also highlight opportunities and challenges for women in finance, along with practical tips for building skills, gaining experience, and getting started.\n\nThis event is a collaboration between B2B and Finance Society and is open to all students. Whether you are already interested in finance or simply curious about the field, come learn more about what a career in finance can look like.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/0rhr1ymtpv7mu0o9af1x1wyf8ag652kp\">Event Flyer</a></p><p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/CDO/rsvp_boot?id=380356\">RSVP here </a></p>",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "5:30 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1050,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Finance_Careers_Flyer%20%281%29.png",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Halloween Fall Festival (335, 365 & 370)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "The goal of this program is to bring undergraduate senior and graduate students together, encourage social interaction, strengthen community connections, and provide a fun and relaxing break from academic responsibilities.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "6:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 1080,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "The Bowl (Green between Res Hall)",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-23%20at%2010.52.03%E2%80%AFAM.png",
-    "contact": {
-      "name": "Jaime Dance",
-      "email": "jdance@soka.edu"
-    },
-    "org": "Residential Life",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 13,
-    "occurrenceDates": [
-      "2026-10-29",
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Film screening from the French section",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "French film screening : Colours of Time (2025) \nC\u00e9dric Klapisch\u2019s Colours of Time (2025) takes viewers between present-day France and Paris at the end of the nineteenth century, a period of major artistic and social change. Through its story, students will discover aspects of French history and culture, particularly the emergence of Impressionism and photography. The film also raises questions about family history, memory and is appealing to students of french at different proficiency levels.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/kvv7r2dkvrm54mrasa1ambhmn03p02ss\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "6:30 PM",
-    "endTime": "8:30 PM",
-    "startMin": 1110,
-    "endMin": 1230,
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-27%20at%204.03.19%E2%80%AFPM.png",
-    "contact": {
-      "name": "Sandrine Sim\u00e9on + Odile Heberle",
-      "email": "ssimeon@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
-  },
-  {
-    "name": "Men's Soccer vs The Master's",
-    "type": "Athletics",
-    "public": true,
-    "description": "Soka University Men's Soccer vs The Master's\nStreaming Video: https://www.overnght.com/schedule | Location: Aliso Viejo, Calif.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-29",
-    "startTime": "7:30 PM",
-    "endTime": "9:30 PM",
-    "startMin": 1170,
-    "endMin": 1290,
-    "allDay": false,
-    "room": "Soccer Field",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-29"
-    ],
-    "lastDate": "2026-10-29"
   },
   {
     "name": "Halloween Potluck and Costume Contest (For Faculty & Staff)",
@@ -451,6 +215,33 @@
     "lastDate": "2026-10-31"
   },
   {
+    "name": "Community Relations Tour (Community Visitor)",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
+    "extendedDescription": "<p>This is a private tour, but you're welcome to request your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
+    "facility": false,
+    "date": "2026-11-02",
+    "startTime": "10:00 AM",
+    "endTime": "11:00 AM",
+    "startMin": 600,
+    "endMin": 660,
+    "allDay": false,
+    "room": "Founders Hall Welcome Center",
+    "building": "Founders Hall",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours%20%281%29.png",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-02"
+    ],
+    "lastDate": "2026-11-02"
+  },
+  {
     "name": "Community Relations Tour (Visitor)",
     "type": "Campus Events",
     "public": true,
@@ -581,6 +372,45 @@
     "lastDate": "2026-11-03"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-03",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 13,
+    "occurrenceDates": [
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Meet the Author: Dr. Shane Barter",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -606,6 +436,44 @@
       "2026-11-03"
     ],
     "lastDate": "2026-11-03"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-03",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 12,
+    "occurrenceDates": [
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "November Dialogue Buddies",
@@ -1016,6 +884,33 @@
     "lastDate": "2026-11-12"
   },
   {
+    "name": "National Philanthropy Day  | Presented by AFP Orange County",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">Learn more about the National Philanthropy Day here</a></p>",
+    "facility": false,
+    "date": "2026-11-12",
+    "startTime": "2:00 PM",
+    "endTime": "5:00 PM",
+    "startMin": 840,
+    "endMin": 1020,
+    "allDay": false,
+    "room": "Performing Arts Center Lobby",
+    "building": "Performing Arts Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/NPD_699x491.png",
+    "contact": {
+      "name": "Carin Rodgers-Bronstein",
+      "email": "crodgersbronstein@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-11-12"
+    ],
+    "lastDate": "2026-11-12"
+  },
+  {
     "name": "National Philanthropy Day | Presented by AFP Orange County (Sponsor Reception)",
     "type": "Campus Events",
     "public": false,
@@ -1037,33 +932,6 @@
     },
     "org": "Marketing / Community Relations",
     "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
-    "name": "National Philanthropy Day  | Presented by AFP Orange County",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">Learn more about the National Philanthropy Day here</a></p>",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 900,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Performing Arts Center Lobby",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/NPD_699x491.png",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
     "occurrenceDates": [
       "2026-11-12"
     ],
