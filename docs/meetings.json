@@ -1,106 +1,12 @@
 [
   {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 540,
-    "endMin": 630,
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 8,
-    "occurrenceDates": [
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
-  },
-  {
-    "name": "Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "10:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 600,
-    "endMin": 630,
-    "allDay": false,
-    "room": "Founders 114",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Eddie  Ng",
-      "email": "e.ng@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2026-10-30",
-      "2026-11-06",
-      "2026-11-13",
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11"
-    ],
-    "lastDate": "2026-12-11"
-  },
-  {
-    "name": "Winter Wonderland Planning Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Student Affairs Large Conference Room (Ikeda 314)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Kaitlyn Hallworth",
-      "email": "khallworth@soka.edu"
-    },
-    "org": "Residential Life",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
-  },
-  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -111,9 +17,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 42,
+    "occurrenceCount": 41,
     "occurrenceDates": [
-      "2026-10-30",
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
@@ -540,6 +445,71 @@
       "2026-12-17"
     ],
     "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Susan Walsh Lab Meetings",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Meetings with lab student workers.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-06",
+    "startTime": "9:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 540,
+    "endMin": 630,
+    "allDay": false,
+    "room": "CUR 111",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 7,
+    "occurrenceDates": [
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
+  },
+  {
+    "name": "Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-06",
+    "startTime": "10:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 600,
+    "endMin": 630,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Eddie  Ng",
+      "email": "e.ng@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-11-06",
+      "2026-11-13",
+      "2026-11-20",
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
   },
   {
     "name": "Chemistry of Ice Cream",

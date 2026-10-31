@@ -6,7 +6,7 @@
     "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,9 +20,8 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 12,
+    "occurrenceCount": 10,
     "occurrenceDates": [
-      "2026-10-30",
       "2026-10-31",
       "2026-11-01",
       "2026-11-02",
@@ -30,138 +29,6 @@
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "Halloween Potluck and Costume Contest (For Faculty & Staff)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Bring a favorite dish to share and join us for some Halloween fun! Costumes are optional, but encouraged. Please keep costumes respectful and appropriate for the workplace and avoid offensive themes, stereotypes, or culturally appropriative costumes.\n\nCome enjoy good food, good company, and a little Halloween spirit!",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://evite.me/ndFdrMATDs\">RSVP and register for the Pot Luck </a></p>",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "startMin": 690,
-    "endMin": 810,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/103125_HALLOWEEN-POTLUCK-WP-37.JPG",
-    "contact": {
-      "name": "Julia  Moore",
-      "email": "jmoore@soka.edu"
-    },
-    "org": "Human Resources  & Community Engagement",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
-  },
-  {
-    "name": "SUA Harvests and Donates",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Come harvest Soka's edible fruits with us!  We will meet in the parking lot in front of the Athenaeum, and start in the garden behind the Athenaeum.  We will be looking for Prickly Pear, Guava, Pomegranate and Acorns.  Fruits will be donated to a local Food Bank.  Open to the entire Soka Campus Community.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/lbx0ravdgxb8q08yz90g69sfwebgm7p0\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Athenaeum Parking Lot E",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/SUA%20Harvest%20%26%20Donates.png",
-    "contact": null,
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
-  },
-  {
-    "name": "Henna Halloween",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Co-sponsored with the Office of Diversity, Equity, and Inclusion.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/hbpygmrlbbuiluu3aerznoi47yd8cto2\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "4:30 PM",
-    "endTime": "6:00 PM",
-    "startMin": 990,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-10-27%20at%201.18.58%E2%80%AFPM.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
-  },
-  {
-    "name": "Halloween Party and Escape Room!",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Class of 2028 Senate will host a Halloween event featuring a dance party and interactive escape room. The event will provide students with an opportunity to socialize, participate in Halloween activities, enjoy refreshments, and work together to solve puzzles and challenges in a themed escape room.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "8:00 PM",
-    "endTime": "10:30 PM",
-    "startMin": 1200,
-    "endMin": 1350,
-    "allDay": false,
-    "room": "Maathai Patio (outside Black Box Theatre)",
-    "building": "Maathai Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
-  },
-  {
-    "name": "Halloween Party and Escape Room!",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Class of 2028 Senate will host a Halloween event featuring a dance party and interactive escape room. The event will provide students with an opportunity to socialize, participate in Halloween activities, enjoy refreshments, and work together to solve puzzles and challenges in a themed escape room.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-10-30",
-    "startTime": "8:30 PM",
-    "endTime": "11:00 PM",
-    "startMin": 1230,
-    "endMin": 1380,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-10-30"
-    ],
-    "lastDate": "2026-10-30"
   },
   {
     "name": "Swimming and Diving: Wyatt Balman Invitational",
@@ -213,6 +80,33 @@
       "2026-10-31"
     ],
     "lastDate": "2026-10-31"
+  },
+  {
+    "name": "Coco Movie Screening: Presented by Latines Unides",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Join us for a cozy celebration of memory and music this Sunday evening! In honor of D\u00eda de los Muertos (Day of the Dead), we are transforming Lion's Den into a sanctuary for a special community screening of Pixar\u2019s masterpiece, Coco.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-01",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1140,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-01"
+    ],
+    "lastDate": "2026-11-01"
   },
   {
     "name": "Community Relations Tour (Community Visitor)",
@@ -2580,6 +2474,33 @@
     "lastDate": "2027-02-03"
   },
   {
+    "name": "Learning Cluster Fair",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "The Learning Cluster Fair provides a glimpse into the exciting research and activities of classes taking place throughout January. Join us to learn about the many topics tackled by Soka's Learning Clusters, presented by both faculty and students. Together, Learning Clusters exemplify Soka's commitment to engaged global citizenship.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-03",
+    "startTime": "1:00 PM",
+    "endTime": "4:00 PM",
+    "startMin": 780,
+    "endMin": 960,
+    "allDay": false,
+    "room": "Performing Arts Center Lobby",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Shane Barter",
+      "email": "sbarter@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2027-02-03"
+    ],
+    "lastDate": "2027-02-03"
+  },
+  {
     "name": "Spring 2027 Writing Center All-Staff Meeting",
     "type": "Campus Events",
     "public": true,
@@ -3480,6 +3401,33 @@
     "lastDate": "2027-04-09"
   },
   {
+    "name": "Soka Institute for Global Solutions at SUA and Institute for Advanced Study at Beijing Normal-Hong Kong Baptist University",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-09",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Athenaeum Courtyard",
+    "building": "Athenaeum",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-09"
+    ],
+    "lastDate": "2027-04-09"
+  },
+  {
     "name": "Men's Volleyball vs Benedictine University Mesa",
     "type": "Athletics",
     "public": true,
@@ -3502,6 +3450,33 @@
       "2027-04-09"
     ],
     "lastDate": "2027-04-09"
+  },
+  {
+    "name": "CultivART",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-10",
+    "startTime": "4:30 PM",
+    "endTime": "7:00 PM",
+    "startMin": 990,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Robert Duran",
+      "email": "r.duran@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-10"
+    ],
+    "lastDate": "2027-04-10"
   },
   {
     "name": "Louis Lortie, piano",
