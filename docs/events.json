@@ -6,7 +6,7 @@
     "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,41 +20,13 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 8,
+    "occurrenceCount": 6,
     "occurrenceDates": [
-      "2026-11-01",
       "2026-11-02",
       "2026-11-03",
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "Coco Movie Screening: Presented by Latines Unides",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Join us for a cozy celebration of memory and music this Sunday evening! In honor of D\u00eda de los Muertos (Day of the Dead), we are transforming Lion's Den into a sanctuary for a special community screening of Pixar\u2019s masterpiece, Coco.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-01",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1140,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-01"
-    ],
-    "lastDate": "2026-11-01"
   },
   {
     "name": "Community Relations Tour (Community Visitor)",
