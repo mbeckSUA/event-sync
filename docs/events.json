@@ -6,7 +6,7 @@
     "description": "Founders Gallery exhibitions are closed for statewide elections. Founders Gallery will reopen on November 5. (General Gallery hours M-F 9am-5pm)",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,143 +20,11 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 4,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-03",
       "2026-11-04"
     ],
     "lastDate": "2026-11-04"
-  },
-  {
-    "name": "CareerCore - Professional Development Workshop (Communication + Teamwork & Leadership)",
-    "type": "Campus Events",
-    "public": true,
-    "description": "CareerCore - Professional Development WORKSHOP (Communication + Teamwork & Leadership). The CareerCore Professional Development Program helps students recognize, develop, and communicate the 10 Core Career Competencies through CareerCore workshops, your coursework, campus involvement, jobs, internships, and other experiences. Along the way, you\u2019ll build a professional portfolio that showcases your growth and prepares you to make a contributive impact in your career and community.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_e3aiOKff2adb5um\">Click here to join CareerCore</a></p>",
-    "facility": false,
-    "date": "2026-11-03",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Career%20Core%20Logo.png",
-    "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-03"
-    ],
-    "lastDate": "2026-11-03"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-03",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 13,
-    "occurrenceDates": [
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Meet the Author: Dr. Shane Barter",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "This presentation celebrates the release of Partial Sovereignty: The Politics of Autonomy among Minority Nations (UBC Press) in Fall 2026. The book focuses on the meaning, forms, and dangers of territorial autonomy \u2013 special self-government for minority nations. Cases span Western democracies (Quebec, Catalonia), conflict resolution (Northern Ireland, Aceh), authoritarianism (Chechnya, Tibet), and Indigenous self-government (Nunavut, Guna Yala). It argues that autonomy has never resulted in independence, and by recognizing minority nations, helps to maintain territorial borders. The presentation provides an overview of the book and the process of writing it, including global fieldwork, numerous conferences, and many Soka research assistants.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.ubcpress.ca/partial-sovereignty\">Link to publication</a></p><p>Refreshments will be offered at the conclusion of the talk.</p><p>Open to Soka community members | Sponsored by the Dean of Faculty</p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/sh85o398jiwi3r6pxd56zgh3m71gtmpn\">Event Flyer</a></p>",
-    "facility": false,
-    "date": "2026-11-03",
-    "startTime": "5:10 PM",
-    "endTime": "6:10 PM",
-    "startMin": 1030,
-    "endMin": 1090,
-    "allDay": false,
-    "room": "Athenaeum Library",
-    "building": "Athenaeum",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Partial%20Sovereignty_cover_revised_Shane%20Barter.jpg",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-03"
-    ],
-    "lastDate": "2026-11-03"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-03",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 12,
-    "occurrenceDates": [
-      "2026-11-03",
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
   },
   {
     "name": "November Dialogue Buddies",
@@ -339,6 +207,81 @@
       "2026-11-05"
     ],
     "lastDate": "2026-11-05"
+  },
+  {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-05",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 12,
+    "occurrenceDates": [
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-05",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 11,
+    "occurrenceDates": [
+      "2026-11-05",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Unapologetically Leading : Women of Color in Leadership",
@@ -553,7 +496,7 @@
       "email": "mkavanaugh@soka.edu"
     },
     "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 4,
+    "occurrenceCount": 5,
     "occurrenceDates": [
       "2026-11-10"
     ],
@@ -908,6 +851,33 @@
     "lastDate": "2026-11-17"
   },
   {
+    "name": "IRB Training",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "IRB Training",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-18",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
+    "contact": {
+      "name": "Peri Unver",
+      "email": "punver@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-18"
+    ],
+    "lastDate": "2026-11-18"
+  },
+  {
     "name": "Faculty Forum - In Person",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -982,6 +952,33 @@
       "email": "susmith@soka.edu"
     },
     "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Splitting Atoms, Uniting Nations: The Future of Disarmament Diplomacy",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Nuclear security is shaped not only by weapons and military strategy, but also by diplomacy, treaties, and international cooperation. For decades, the world has relied on the fragile logic of Mutual Assured Destruction to prevent nuclear war. But can we move beyond deterrence based on fear? This discussion explores how a new generation of diplomats, scholars, and leaders can reinvigorate disarmament diplomacy and build a more secure future through dialogue and collective action.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-19"
@@ -1070,33 +1067,6 @@
     "lastDate": "2026-11-20"
   },
   {
-    "name": "IRB Training",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "IRB Training",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
-    "contact": {
-      "name": "Peri Unver",
-      "email": "punver@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
     "name": "Leadership Cohort Program",
     "type": "Campus Events",
     "public": false,
@@ -1176,6 +1146,33 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
+    "name": "ASA Potluck",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "ASA is inviting all students to join us for food, drinks and a good time!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "6:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1080,
+    "endMin": 1260,
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-20"
@@ -3297,6 +3294,33 @@
     "lastDate": "2027-04-06"
   },
   {
+    "name": "Soka Institute for Global Solutions at SUA and Institute for Advanced Study at Beijing Normal-Hong Kong Baptist University",
+    "type": "Campus Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-04-08",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-04-08"
+    ],
+    "lastDate": "2027-04-08"
+  },
+  {
     "name": "Men's Volleyball vs Park University Gilbert (AZ)",
     "type": "Athletics",
     "public": true,
@@ -4255,5 +4279,29 @@
       "2027-10-27"
     ],
     "lastDate": "2027-10-27"
+  },
+  {
+    "name": "Last day to drop with record enrollment \u201cW\u201d",
+    "type": "Academic Calendar",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-11-04",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": null,
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-11-04"
+    ],
+    "lastDate": "2027-11-04"
   }
 ]
