@@ -6,7 +6,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,112 +20,12 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-05",
       "2026-11-06",
       "2026-11-07"
     ],
     "lastDate": "2026-11-07"
-  },
-  {
-    "name": "Last day to drop with record enrollment \u201cW\u201d",
-    "type": "Academic Calendar",
-    "public": true,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-05",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": null,
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-05"
-    ],
-    "lastDate": "2026-11-05"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-05",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 12,
-    "occurrenceDates": [
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-05",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 11,
-    "occurrenceDates": [
-      "2026-11-05",
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
   },
   {
     "name": "Yoga on the Green",
@@ -411,6 +311,43 @@
     "lastDate": "2026-11-10"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-10",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 11,
+    "occurrenceDates": [
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Tech Coast Angels | Face to Face With Investors",
     "type": "Campus Events",
     "public": false,
@@ -436,6 +373,42 @@
       "2026-11-10"
     ],
     "lastDate": "2026-11-10"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-10",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 10,
+    "occurrenceDates": [
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "RATE Faculty Fellowship information session",
@@ -666,7 +639,7 @@
     "type": "Campus Events",
     "public": false,
     "description": "Learn more about the true history of Thanksgiving and indigenous rights today, while celebrating the holiday\u2019s modern connotation of giving thanks with community\u2014featuring a walking tour of the garden plus remarks from members of the Acjachemen Nation.",
-    "extendedDescription": "",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_6yDv5phPmCD0V0i\">RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_6yDv5phPmCD0V0i</a></p>",
     "facility": false,
     "date": "2026-11-13",
     "startTime": "3:30 PM",
@@ -873,6 +846,33 @@
       "2026-11-17"
     ],
     "lastDate": "2026-11-17"
+  },
+  {
+    "name": "International Fraud Awareness Week Tabling",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-18",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "Dining Hall Patio 1",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-18"
+    ],
+    "lastDate": "2026-11-18"
   },
   {
     "name": "IRB Training",
@@ -2880,9 +2880,9 @@
   },
   {
     "name": "Meet the Author",
-    "type": "Academic Programs & Events",
+    "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
-    "description": "",
+    "description": "TBA",
     "extendedDescription": "",
     "facility": false,
     "date": "2027-03-02",
@@ -2895,8 +2895,8 @@
     "building": "Athenaeum",
     "imageURL": "",
     "contact": {
-      "name": "Dean of Faculty Office",
-      "email": "deanoffaculty@soka.edu"
+      "name": "Janna Skye",
+      "email": "jskye@soka.edu"
     },
     "org": "Academic Affairs",
     "occurrenceCount": 1,
@@ -3346,9 +3346,9 @@
   },
   {
     "name": "Meet the Author",
-    "type": "Academic Programs & Events",
+    "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
-    "description": "",
+    "description": "TBA",
     "extendedDescription": "",
     "facility": false,
     "date": "2027-04-06",
@@ -3361,8 +3361,8 @@
     "building": "Athenaeum",
     "imageURL": "",
     "contact": {
-      "name": "Dean of Faculty Office",
-      "email": "deanoffaculty@soka.edu"
+      "name": "Janna Skye",
+      "email": "jskye@soka.edu"
     },
     "org": "Academic Affairs",
     "occurrenceCount": 1,
