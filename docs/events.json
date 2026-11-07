@@ -6,7 +6,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,66 +20,11 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 2,
+    "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-11-06",
       "2026-11-07"
     ],
     "lastDate": "2026-11-07"
-  },
-  {
-    "name": "Yoga on the Green",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "An Invitation to Breathe, Move and Connect\n\nTo the Students, Staff and Faculty of Soka University,\n\nJoin us on Friday, November 6, 2026, for Yoga on the Green at Lotus Pond!\n\nWe warmly invite you to breathe with us, relax with us, and move dynamically within the beautiful and tranquil landscape of Lotus Pond. This outdoor yoga experience brings breath and movement into harmony with the natural world around us.\n\nTogether, we will journey through a 50-minute Yin/Vinyasa flow amidst rippling waters, birdsong, and breathtaking mountain views! Whether you are new to yoga or a seasoned practitioner, come as you are and enjoy this opportunity to reconnect with yourself, the world around you, and the breath of our community.\n\nSpace is limited to 20 participants, so we encourage you to arrive early to secure your spot!\n\nMats, towels, blocks, and straps will be provided. Please bring water and an open mind!\n\nIf you're unable to join us at Lotus Pond, we warmly invite you to attend our regularly scheduled yoga classes every Tuesday and Thursday, from 6:15-7:15 PM at the Recreation Center.\n\nWhether on the green or in the studio, your presence is always welcome. We look forward to sharing the practice with you! Thank you for joining us!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-06",
-    "startTime": "11:30 AM",
-    "endTime": "12:20 PM",
-    "startMin": 690,
-    "endMin": 740,
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/FOG%2011_6_26%20Yoga%20on%20the%20GREEN.png",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-06"
-    ],
-    "lastDate": "2026-11-06"
-  },
-  {
-    "name": "Unapologetically Leading : Women of Color in Leadership",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Emerging Leaders' Program presents a panel discussion with Women of Color in Leadership Roles. Open to all to attend.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-06",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/women%20of%20color%20in%20leadership.png",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-06"
-    ],
-    "lastDate": "2026-11-06"
   },
   {
     "name": "Impactathon! Social Impact Competition | Prizes + Funding Opportunities!",
@@ -3108,6 +3053,33 @@
       "2027-03-19"
     ],
     "lastDate": "2027-03-19"
+  },
+  {
+    "name": "SUA Graduate School Research Conference",
+    "type": "Campus Events",
+    "public": true,
+    "description": "The SUA Graduate School Research Conference provides a welcoming space for advanced undergraduates and early-stage graduate students to discuss and present their work. Whether a literature review, research-in-progress, or a completed project, the conference will be a space where students can experience an academic conference and gain confidence in their growing expertise. The main focus is on providing opportunities for local, Southern California early-stage student researchers to present their work and make connections with others in the area. The major format of the conference will be student presentations with a limited number of seminars, keynotes, or workshops led by established scholars.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-20",
+    "startTime": "8:00 AM",
+    "endTime": "5:00 PM",
+    "startMin": 480,
+    "endMin": 1020,
+    "allDay": false,
+    "room": "CUR 104",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Manami Koizumi",
+      "email": "mkoizumi@soka.edu"
+    },
+    "org": "Office of the Graduate School",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2027-03-20"
+    ],
+    "lastDate": "2027-03-20"
   },
   {
     "name": "Men's Volleyball vs Arizona Christian University",
