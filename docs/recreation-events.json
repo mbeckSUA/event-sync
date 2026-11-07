@@ -1,41 +1,5 @@
 [
   {
-    "name": "Yoga on the Green",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "An Invitation to Breathe, Move and Connect\n\nTo the Students, Staff and Faculty of Soka University,\n\nJoin us on Friday, November 6, 2026, for Yoga on the Green at Lotus Pond!\n\nWe warmly invite you to breathe with us, relax with us, and move dynamically within the beautiful and tranquil landscape of Lotus Pond. This outdoor yoga experience brings breath and movement into harmony with the natural world around us.\n\nTogether, we will journey through a 50-minute Yin/Vinyasa flow amidst rippling waters, birdsong, and breathtaking mountain views! Whether you are new to yoga or a seasoned practitioner, come as you are and enjoy this opportunity to reconnect with yourself, the world around you, and the breath of our community.\n\nSpace is limited to 20 participants, so we encourage you to arrive early to secure your spot!\n\nMats, towels, blocks, and straps will be provided. Please bring water and an open mind!\n\nIf you're unable to join us at Lotus Pond, we warmly invite you to attend our regularly scheduled yoga classes every Tuesday and Thursday, from 6:15-7:15 PM at the Recreation Center.\n\nWhether on the green or in the studio, your presence is always welcome. We look forward to sharing the practice with you! Thank you for joining us!",
-    "extendedDescription": "",
-    "date": "2026-11-06",
-    "startTime": "11:30 AM",
-    "endTime": "12:20 PM",
-    "startMin": 690,
-    "endMin": 740,
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/FOG%2011_6_26%20Yoga%20on%20the%20GREEN.png",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrences": [
-      {
-        "date": "2026-11-06",
-        "startTime": "11:30 AM",
-        "endTime": "12:20 PM",
-        "startMin": 690,
-        "endMin": 740,
-        "allDay": false
-      }
-    ],
-    "occurrenceDates": [
-      "2026-11-06"
-    ],
-    "lastDate": "2026-11-06"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
