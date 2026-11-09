@@ -6,7 +6,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,9 +20,8 @@
       "email": "lsasaki@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-08",
       "2026-11-09",
       "2026-11-10"
     ],
@@ -2009,6 +2008,33 @@
       "2027-01-22"
     ],
     "lastDate": "2027-01-22"
+  },
+  {
+    "name": "Pacific Classic Gymnastics Meet (Items stored overnight)",
+    "type": "External Rental",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-01-23",
+    "startTime": "7:00 AM",
+    "endTime": "10:00 PM",
+    "startMin": 420,
+    "endMin": 1320,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Fae  Monroe",
+      "email": "fmonroe@soka.edu"
+    },
+    "org": "Events & Conferences",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-01-23"
+    ],
+    "lastDate": "2027-01-23"
   },
   {
     "name": "Founders Gallery Closed",
