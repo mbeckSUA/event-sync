@@ -538,5 +538,41 @@
       "2026-11-16"
     ],
     "lastDate": "2026-11-16"
+  },
+  {
+    "name": "Soka Ping Pong Practice",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "This is the Soka Ping Pong Practice that will happen for the first time in the past several years in the Gym! There will be some snacks ready. Let's enjoy playing ping pong together. Bring your racket if you have!",
+    "extendedDescription": "",
+    "date": "2026-11-20",
+    "startTime": "8:00 PM",
+    "endTime": "9:30 PM",
+    "startMin": 1200,
+    "endMin": 1290,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 1,
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "startTime": "8:00 PM",
+        "endTime": "9:30 PM",
+        "startMin": 1200,
+        "endMin": 1290,
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   }
 ]
