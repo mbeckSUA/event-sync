@@ -1,63 +1,30 @@
 [
   {
-    "name": "SMC Weekly Check-in",
+    "name": "AI & CGU Hackathon Meeting - VP of External Academic Relations",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-10",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "startMin": 645,
-    "endMin": 705,
+    "date": "2026-11-11",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
     "allDay": false,
     "room": "CUR 218",
     "building": "Curie Hall",
     "imageURL": "",
     "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
+      "name": "Bryan Penprase",
+      "email": "bpenprase@soka.edu"
     },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2026-11-10",
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "Japanese Donor Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "1:00 PM",
-    "endTime": "2:30 PM",
-    "startMin": 780,
-    "endMin": 870,
-    "allDay": false,
-    "room": "Founders Hall Board Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Toshiko Sato",
-      "email": "tsato@soka.edu"
-    },
-    "org": "Development",
+    "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-11-10"
+      "2026-11-11"
     ],
-    "lastDate": "2026-11-10"
+    "lastDate": "2026-11-11"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -66,7 +33,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -77,9 +44,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 15,
+    "occurrenceCount": 14,
     "occurrenceDates": [
-      "2026-11-10",
       "2026-11-11",
       "2026-11-12",
       "2026-11-16",
@@ -104,7 +70,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -115,9 +81,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 31,
+    "occurrenceCount": 30,
     "occurrenceDates": [
-      "2026-11-10",
       "2026-11-11",
       "2026-11-12",
       "2026-11-13",
@@ -158,7 +123,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -169,9 +134,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 23,
+    "occurrenceCount": 22,
     "occurrenceDates": [
-      "2026-11-10",
       "2026-11-11",
       "2026-11-12",
       "2026-11-15",
@@ -204,7 +168,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -218,9 +182,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 18,
+    "occurrenceCount": 17,
     "occurrenceDates": [
-      "2026-11-10",
       "2026-11-11",
       "2026-11-12",
       "2026-11-15",
@@ -242,40 +205,13 @@
     "lastDate": "2026-12-03"
   },
   {
-    "name": "AI & CGU Hackathon Meeting - VP of External Academic Relations",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-11",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Bryan Penprase",
-      "email": "bpenprase@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-11"
-    ],
-    "lastDate": "2026-11-11"
-  },
-  {
     "name": "SOL Appreciation Luncheon",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "startTime": "12:00 PM",
     "endTime": "1:00 PM",
     "startMin": 720,
@@ -291,9 +227,9 @@
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-11-11"
+      "2026-11-12"
     ],
-    "lastDate": "2026-11-11"
+    "lastDate": "2026-11-12"
   },
   {
     "name": "1st Year MA Students Meet with Dr. Jason Goulah",
@@ -525,6 +461,38 @@
       "2026-11-17"
     ],
     "lastDate": "2026-11-17"
+  },
+  {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-17",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "startMin": 645,
+    "endMin": 705,
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-11-17",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
   },
   {
     "name": "Directors Meeting",

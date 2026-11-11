@@ -1,159 +1,5 @@
 [
   {
-    "name": "Vote Center: Statewide General Election (POD PICKUP WINDOW)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Leo Sasaki",
-      "email": "lsasaki@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-10"
-    ],
-    "lastDate": "2026-11-10"
-  },
-  {
-    "name": "Tech Coast Angels: Face-to-Face with Investors| REAL WORLD SHARK TANK!",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokannect.soka.edu/b2b/rsvp_boot?id=380320\">https://sokannect.soka.edu/b2b/rsvp_boot?id=380320</a></p>",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "4:00 PM",
-    "endTime": "10:00 PM",
-    "startMin": 960,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/B2B%20Logo.png",
-    "contact": {
-      "name": "Bridges to Business (B2B)",
-      "email": "mkavanaugh@soka.edu"
-    },
-    "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-10"
-    ],
-    "lastDate": "2026-11-10"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 11,
-    "occurrenceDates": [
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Tech Coast Angels | Face to Face With Investors",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Most students don't get in a room with active angel investors until years into a career \u2014 if ever. This one's on your own campus.\n\nB2B is bringing Face to Face with Investors to Soka, a signature round-table networking event hosted by TCA Venture Group that puts early-stage founders directly across the table from active local investors. Whether you're already building something, have an idea you've been sitting on, or just want to understand how funding conversations actually happen, this is the room to be in.\n\nWhat to Expect\n\nRound-Table Conversations \u2014 Direct, small-group discussions and Q&As with active angel investors. No pitch competition, no stage \u2014 just real conversation.\n\n- Real-Time Feedback \u2014 Constructive advice on your idea, your vision, and how you'd approach fundraising, from people who fund startups for a living.\n\n- Ecosystem Networking \u2014 Connect with fellow founders, university entrepreneurship centers, and regional startup leaders \u2014 the kind of network that outlasts a single event.\n\n- Industry Breakouts \u2014 Focused conversations across sectors including AI, life sciences, consumer products, software, and general markets \u2014 there's a table for wherever your interest lies.\n\nWhy it matters: access like this usually isn't available to undergrads, let alone on their own campus. Come with a question, a rough idea, or just curiosity \u2014 you'll leave with a real conversation under your belt and a few new names in your network.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "6:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1080,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "MAA 305",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/B2B%20CMYK.png",
-    "contact": {
-      "name": "Bridges to Business Office",
-      "email": "mkavanaugh@soka.edu"
-    },
-    "org": "B2B: Innovation, Entrepreneurship + Business",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-11-10"
-    ],
-    "lastDate": "2026-11-10"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-10",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-11-10",
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
     "name": "RATE Faculty Fellowship information session",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -360,6 +206,42 @@
     "lastDate": "2026-11-12"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-12",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 10,
+    "occurrenceDates": [
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "Blankets for Kids",
     "type": "Student Organization Event",
     "public": false,
@@ -385,6 +267,41 @@
       "2026-11-12"
     ],
     "lastDate": "2026-11-12"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-12",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "IRB Training",
@@ -1064,6 +981,33 @@
     "lastDate": "2026-11-20"
   },
   {
+    "name": "Soka Ping Pong Practice",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "This is the Soka Ping Pong Practice that will happen for the first time in the past several years in the Gym! There will be some snacks ready. Let's enjoy playing ping pong together. Bring your racket if you have!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "8:00 PM",
+    "endTime": "9:30 PM",
+    "startMin": 1200,
+    "endMin": 1290,
+    "allDay": false,
+    "room": "Gymnasium",
+    "building": "Recreation Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
     "name": "Dance Day",
     "type": "Student Organization Event",
     "public": false,
@@ -1194,6 +1138,33 @@
       "2026-12-01"
     ],
     "lastDate": "2026-12-01"
+  },
+  {
+    "name": "Sustainability Dialogue on Campus",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "We wish to introduce sustainability educators and their initiatives to the campus community, take their feedback and suggestions for what they would like to see as sustainable initiatives, and tell them how they can contribute to it. We would also like to raise awareness regarding the loss of cutlery equipment from the cafeteria.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-02",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
+    "startMin": 690,
+    "endMin": 810,
+    "allDay": false,
+    "room": "Dining Hall Patio 1",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-02"
+    ],
+    "lastDate": "2026-12-02"
   },
   {
     "name": "December Dialogue Buddies",
