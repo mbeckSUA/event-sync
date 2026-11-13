@@ -1,184 +1,5 @@
 [
   {
-    "name": "National Philanthropy Day 2026 | Presented by AFP Orange County",
-    "type": "Performing Arts Center",
-    "public": false,
-    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "2:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 840,
-    "endMin": 1020,
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/NPD_699x491.png",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
-    "name": "National Philanthropy Day  | Presented by AFP Orange County",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://www.nationalphilanthropyday.org/\">Learn more about the National Philanthropy Day here</a></p>",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "2:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 840,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Performing Arts Center Lobby",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/NPD_699x491.png",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
-    "name": "National Philanthropy Day | Presented by AFP Orange County (Sponsor Reception)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Celebrate the people, programs, and partnerships making a difference across Orange County. Hear inspiring stories of impact and come together to recognize the nonprofit community shaping the region.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/national-philanthropy-day-2026-presented-afp-orange-county",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Founders 1st Floor Art Gallery",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
-    "name": "Fitness Classes: Tabata",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "5:00 PM",
-    "endTime": "5:50 PM",
-    "startMin": 1020,
-    "endMin": 1070,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 10,
-    "occurrenceDates": [
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Blankets for Kids",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Join Soka Medical Society on Thursday, November 12, from 6\u20137 PM to make no-sew fleece blankets for donation to Project Linus, an organization that provides handmade blankets to children facing illness, trauma, or other difficult circumstances. In recognition of World Children\u2019s Day on November 20, we\u2019ll come together to offer comfort through a simple act of kindness. Enjoy a creative break, connect with fellow students, and help make a difference for children in need. No sewing experience is necessary, and materials will be provided. All SUA undergraduate students are welcome!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "6:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1080,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-12"
-    ],
-    "lastDate": "2026-11-12"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-12",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 9,
-    "occurrenceDates": [
-      "2026-11-12",
-      "2026-11-17",
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
     "name": "IRB Training",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -481,6 +302,75 @@
     "lastDate": "2026-11-17"
   },
   {
+    "name": "Fitness Classes: Tabata",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Tabata is a style of cardio conditioning with 20 seconds of maximum effort, followed by 10 seconds of rest for 4 minutes. We will start with a warm-up, do several intervals and end with a cool down. Good for endurance! \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-17",
+    "startTime": "5:00 PM",
+    "endTime": "5:50 PM",
+    "startMin": 1020,
+    "endMin": 1070,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_FITNESSCLASS-AM-7.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 9,
+    "occurrenceDates": [
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-17",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 8,
+    "occurrenceDates": [
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-24",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
     "name": "International Fraud Awareness Week Tabling",
     "type": "Campus Events",
     "public": false,
@@ -643,6 +533,33 @@
       "email": "hwu@soka.edu"
     },
     "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Alcohol Awareness Table",
+    "type": "Campus Events",
+    "public": false,
+    "description": "For Alcohol Awareness Week, a table will be hosted where students answer safety scenarios to earn a mocktail and can attempt physical tasks with impairment simulation goggles.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "12:00 PM",
+    "endTime": "1:00 PM",
+    "startMin": 720,
+    "endMin": 780,
+    "allDay": false,
+    "room": "Dining Hall Patio (Full Space)",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Brian Durick",
+      "email": "bdurick@soka.edu"
+    },
+    "org": "Student Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-19"
@@ -1264,6 +1181,33 @@
     "contact": {
       "name": "Melody  Murakami",
       "email": "mmurakami@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-05"
+    ],
+    "lastDate": "2026-12-05"
+  },
+  {
+    "name": "EMBRAZANDO 4.0",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Embrasando 4: A Celebration of Brazilian Culture! Get ready for the fourth edition of Embrasando, hosted by BRASA-SUA (Brazilian Student Association)! Embrasando is an opportunity to celebrate and share the richness of Brazilian culture with the Soka community. Through music, food, dancing, and fun activities, we hope to bring a little piece of Brazil to campus while creating a space for cultural exchange, connection, and celebration. Whether you're Brazilian, interested in learning more about Brazil, or simply looking for a fun time with friends, everyone is welcome! Join us on December 5 at the Lion's Den for a celebration of Brazilian culture, community, and traditions. We can't wait to see you there!\ud83d\udc9a\ud83d\udc9b",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-05",
+    "startTime": "8:00 PM",
+    "endTime": "11:00 PM",
+    "startMin": 1200,
+    "endMin": 1380,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
     },
     "org": "Student Organizations",
     "occurrenceCount": 1,
