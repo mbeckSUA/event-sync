@@ -1,59 +1,5 @@
 [
   {
-    "name": "IRB Training",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "IRB Training",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-13",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
-    "contact": {
-      "name": "Peri Unver",
-      "email": "punver@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-13"
-    ],
-    "lastDate": "2026-11-13"
-  },
-  {
-    "name": "5th Annual Thankstaking",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Learn more about the true history of Thanksgiving and indigenous rights today, while celebrating the holiday\u2019s modern connotation of giving thanks with community\u2014featuring a walking tour of the garden plus remarks from members of the Acjachemen Nation.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.co1.qualtrics.com/jfe/form/SV_6yDv5phPmCD0V0i\">RSVP: https://soka.co1.qualtrics.com/jfe/form/SV_6yDv5phPmCD0V0i</a></p>",
-    "facility": false,
-    "date": "2026-11-13",
-    "startTime": "3:30 PM",
-    "endTime": "5:00 PM",
-    "startMin": 930,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/040324_ELDERSGARDEN-WP-06.jpeg",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-13"
-    ],
-    "lastDate": "2026-11-13"
-  },
-  {
     "name": "Tihar/ Diwali Celebration",
     "type": "Student Organization Event",
     "public": false,
@@ -621,33 +567,6 @@
     "lastDate": "2026-11-19"
   },
   {
-    "name": "Splitting Atoms, Uniting Nations: The Future of Disarmament Diplomacy",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Nuclear security is shaped not only by weapons and military strategy, but also by diplomacy, treaties, and international cooperation. For decades, the world has relied on the fragile logic of Mutual Assured Destruction to prevent nuclear war. But can we move beyond deterrence based on fear? This discussion explores how a new generation of diplomats, scholars, and leaders can reinvigorate disarmament diplomacy and build a more secure future through dialogue and collective action.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
     "name": "Joint Film Screening (WRT & SBS)",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -781,6 +700,33 @@
       "email": "jtirrell@soka.edu"
     },
     "org": "Library",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
+    "name": "Splitting Atoms, Uniting Nations: The Future of Disarmament Diplomacy",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Nuclear security is shaped not only by weapons and military strategy, but also by diplomacy, treaties, and international cooperation. For decades, the world has relied on the fragile logic of Mutual Assured Destruction to prevent nuclear war. But can we move beyond deterrence based on fear? This discussion explores how a new generation of diplomats, scholars, and leaders can reinvigorate disarmament diplomacy and build a more secure future through dialogue and collective action.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-20"
@@ -974,6 +920,34 @@
     "lastDate": "2026-11-26"
   },
   {
+    "name": "Rehearsals for Wan-Chin's student recitals",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Rehearsals for Wan-Chin's student recitals",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-01",
+    "startTime": "1:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 780,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": null,
+      "email": null
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-12-01",
+      "2026-12-02"
+    ],
+    "lastDate": "2026-12-02"
+  },
+  {
     "name": "ASB Seminar #4",
     "type": "Campus Events",
     "public": false,
@@ -1075,6 +1049,60 @@
       "email": "rbodie@soka.edu"
     },
     "org": "Soka Performing Arts Center",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
+  },
+  {
+    "name": "Faculty Happy Hour",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "TBA",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-03",
+    "startTime": "4:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 960,
+    "endMin": 1080,
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "",
+    "contact": {
+      "name": "Janna Skye",
+      "email": "jskye@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
+  },
+  {
+    "name": "French Film Screening",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "French film screening: Marching Band",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/cyd13g6shx2ugwiyy50mbgh99n9yvdaf\">Flyer</a></p>",
+    "facility": false,
+    "date": "2026-12-03",
+    "startTime": "6:30 PM",
+    "endTime": "8:30 PM",
+    "startMin": 1110,
+    "endMin": 1230,
+    "allDay": false,
+    "room": "PAU 216",
+    "building": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/French%20Film%20Screening_%20En%20Fanfare.jpg",
+    "contact": {
+      "name": "Odile Heberle",
+      "email": "oheberle@soka.edu"
+    },
+    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-03"
@@ -1298,6 +1326,33 @@
     "lastDate": "2026-12-07"
   },
   {
+    "name": "Film Screening: The Bombshell",
+    "type": "Campus Events",
+    "public": true,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-07",
+    "startTime": "7:00 PM",
+    "endTime": "8:30 PM",
+    "startMin": 1140,
+    "endMin": 1230,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-07"
+    ],
+    "lastDate": "2026-12-07"
+  },
+  {
     "name": "Music Ensemble Studio Recital",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -1391,6 +1446,33 @@
       "email": "mcardenasdance@soka.edu"
     },
     "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
+  },
+  {
+    "name": "ELP : Pause, Reflect, Recharge.",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Collab with FOG and Counseling Services\nA mindfulness workshop designed to help students slow down, reflect, and recharge during the stress of finals. The session will offer a space to practice mindfulness and reconnect before the end of the semester.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-11",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
+    "startMin": 690,
+    "endMin": 810,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-11"
@@ -2520,6 +2602,33 @@
     "lastDate": "2027-02-21"
   },
   {
+    "name": "Post-Sabbatical Talk | Speaker TBA",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "A detailed description of the talk will be provided.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-22",
+    "startTime": "12:10 PM",
+    "endTime": "12:50 PM",
+    "startMin": 730,
+    "endMin": 770,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-02-22"
+    ],
+    "lastDate": "2027-02-22"
+  },
+  {
     "name": "Men's Volleyball vs La Sierra University",
     "type": "Athletics",
     "public": true,
@@ -2957,6 +3066,33 @@
       "2027-03-24"
     ],
     "lastDate": "2027-03-24"
+  },
+  {
+    "name": "Post-Sabbatical Talk | Speaker TBA",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "A detailed description of the talk will be provided.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-03-29",
+    "startTime": "12:10 PM",
+    "endTime": "12:50 PM",
+    "startMin": 730,
+    "endMin": 770,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Howard Wu",
+      "email": "hwu@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-03-29"
+    ],
+    "lastDate": "2027-03-29"
   },
   {
     "name": "Low Grade Notices due to Registrar",
@@ -4079,6 +4215,33 @@
       "2027-10-18"
     ],
     "lastDate": "2027-10-18"
+  },
+  {
+    "name": "Discover Soka Open House",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Soka University's Office of Admissions annual open house invites prospective high school students, counselors, and their guests to explore the university's distinctive liberal arts education. Attendees have the opportunity to engage with faculty, staff, and current students while learning about academic programs, campus life, admissions, and the unique values that define the Soka experience.",
+    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://admissions.soka.edu/portal/open-house\"><strong><u>Discover Soka Open House</u></strong></a></p>",
+    "facility": false,
+    "date": "2027-10-23",
+    "startTime": "9:30 AM",
+    "endTime": "3:30 PM",
+    "startMin": 570,
+    "endMin": 930,
+    "allDay": false,
+    "room": "Founders Hall 1st Floor Atrium",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Sarah  Spornick",
+      "email": "sspornick@soka.edu"
+    },
+    "org": "Admissions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2027-10-23"
+    ],
+    "lastDate": "2027-10-23"
   },
   {
     "name": "Low grade notices are due to Registrar",
