@@ -1,32 +1,5 @@
 [
   {
-    "name": "Tihar/ Diwali Celebration",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Join the Nepali Student Association for an evening celebrating Diwali/Tihar, the Festival of Lights! Celebrated across South Asia, Diwali and Tihar bring communities together through lights, traditional music, food, and cultural festivities. \n\nIn Nepal, Tihar is a five-day festival that honors the relationships between humans, animals, and nature, celebrates the bond between siblings, and symbolizes gratitude, prosperity, and the triumph of light over darkness. Come celebrate with the Soka community through an evening of traditional food, music, and cultural activities. \n\nGuests will have the opportunity to create colorful rangoli designs, enjoy festive decorations and LED lights, learn about Diwali and Tihar traditions across South Asia, and have fun celebrating through dances and songs. \n\nWhether you celebrate Diwali or Tihar, are familiar with the traditions, or are experiencing the festivals for the first time, everyone is welcome! We invite the South Asian community to come together and the wider Soka community to experience, participate in, and learn about these celebrations. Let's celebrate culture, connection, and community while bringing a little more light to Soka!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-14",
-    "startTime": "6:00 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1080,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Lion's Den Courtyard",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-14"
-    ],
-    "lastDate": "2026-11-14"
-  },
-  {
     "name": "Cub Scouts Science Outreach Visit",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
