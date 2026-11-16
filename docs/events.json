@@ -1,59 +1,5 @@
 [
   {
-    "name": "Cub Scouts Science Outreach Visit",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Cub Scouts Science Outreach Visit",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-15",
-    "startTime": "1:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 780,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "CUR 230",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Cub%20Scouts%20Science%20Outreach.png",
-    "contact": {
-      "name": "Robert Levenson",
-      "email": "rlevenson@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-15"
-    ],
-    "lastDate": "2026-11-15"
-  },
-  {
-    "name": "Orange County Youth Symphony & String Ensemble Fall Concert",
-    "type": "Performing Arts Center",
-    "public": true,
-    "description": "Now in its 56th season, the Orange County Youth\u00a0Symphony\u00a0and String Ensemble spotlight both new and returning members in an exciting concert led by Johannes M\u00fcller Stosch and Lucy Lu\u2014marking the start of an ambitious year of performances and engagements.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/orange-county-youth-symphony-string-ensemble-fall-concert-2\">More info and tickets</a>",
-    "facility": false,
-    "date": "2026-11-15",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 900,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/hr_OCYS1_Soka_2000x1000.png",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-15"
-    ],
-    "lastDate": "2026-11-15"
-  },
-  {
     "name": "Pacific Symphony Auditions",
     "type": "Performing Arts Center",
     "public": false,
@@ -614,6 +560,33 @@
       "email": "mcardenasdance@soka.edu"
     },
     "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
+    "name": "Make Your Own Tote Bag!",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Come decorate a tote bag and make it your own! Stop by, let your creativity flow, and take home something you made yourself. Whether you want to draw, doodle, write a favorite quote, or just see what happens, this is a relaxed space to get creative, take a break from the week, and meet other students while you work.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "1:00 PM",
+    "endTime": "3:30 PM",
+    "startMin": 780,
+    "endMin": 930,
+    "allDay": false,
+    "room": "Lion's Den Courtyard",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-20"
@@ -2419,10 +2392,10 @@
     "lastDate": "2027-02-08"
   },
   {
-    "name": "RESUMES and COVER LETTERS - Required Workshop for First Time applicants to On-Campus Jobs",
+    "name": "CDO Info Session for SUA Athletics",
     "type": "Campus Events",
-    "public": true,
-    "description": "All first-time applicants for on-campus jobs must attend one CDO Required Workshop oneResumes and Cover Letters and obtain a Certificate of Completion. Before the Workshop:\nDownload the First-Year\nResume Template (scan QR from flyer)\nComplete a first draft of\nyour resume\nAfter the Workshop:\nReceive your Certificate of\nCompletion after CDO approval\nSubmit your certificate with your\nWorkday on-campus job application\nAt the Workshop:\nArrive on time and sign in\nBring your laptop\nWork on and finalize your\nresume draft",
+    "public": false,
+    "description": "CDO Info Session for SUA Athletics",
     "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://cglink.me/2pq/r380347\">https://cglink.me/2pq/r380347</a></p>",
     "facility": false,
     "date": "2027-02-10",
@@ -2435,8 +2408,8 @@
     "building": "Ikeda Library",
     "imageURL": "",
     "contact": {
-      "name": "Alisa Proctor",
-      "email": "aproctor@soka.edu"
+      "name": "Young Choi-Plass",
+      "email": "ychoiplass@soka.edu"
     },
     "org": "Career Development",
     "occurrenceCount": 1,
@@ -2468,6 +2441,35 @@
       "2027-02-12"
     ],
     "lastDate": "2027-02-12"
+  },
+  {
+    "name": "Wisdom, Courage, and Compassion Workshop Series",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2027-02-12",
+    "startTime": "12:00 PM",
+    "endTime": "1:30 PM",
+    "startMin": 720,
+    "endMin": 810,
+    "allDay": false,
+    "room": "Student Affairs Lobby",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/050126_DEI-COMPASSION-SA-9.jpg",
+    "contact": {
+      "name": "Kaitlyn Bourdelais",
+      "email": "kbourdelais@soka.edu"
+    },
+    "org": "Diversity, Equity, and Inclusion",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2027-02-12",
+      "2027-03-05",
+      "2027-05-07"
+    ],
+    "lastDate": "2027-05-07"
   },
   {
     "name": "Valentine's Day Dance",
