@@ -259,33 +259,6 @@
     "lastDate": "2026-11-19"
   },
   {
-    "name": "Networking Happy Hour",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Students, staff and employers mix and mingle with mocktails and food.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "2:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 840,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jonathan Wray",
-      "email": "jwray@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
     "name": "Arie Galles Master Class - \"Rainbow Division\" a suite of 12 paintings",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -333,6 +306,60 @@
       "email": "yuchida@soka.edu"
     },
     "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
+    "name": "NPT Preparatory Conference Simulation",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Soka students are welcome to observe the live NPT negotiation simulation in Dr. William Potter\u2019s course. In this course, students take on the roles of diplomats and engage in NPT negotiations alongside graduate students and experienced practitioners. They gain firsthand experience with the challenges and dynamics of nuclear diplomacy while learning from distinguished scholars and experts through guest speaker sessions.\n \nDr. Potter, Founding Director of CNS, is a leading scholar in nuclear nonproliferation and multilateral nuclear diplomacy. His research and professional work have focused on nuclear nonproliferation, NPT negotiations, nuclear terrorism, U.S.-Russian arms control, and proliferation forecasting. Since 1995, he has participated as a delegate and adviser in the NPT Review Conference and Preparatory Committee process, giving him extensive firsthand experience in multilateral nuclear diplomacy. He is also widely recognized for his contributions to nonproliferation education and for using negotiation simulations to prepare the next generation of nuclear policy professionals.\n \nThe course will be offered again in Fall 2027. SUA students will receive a Nuclear Negotiation Certificate from CNS, but not academic credits.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "4:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 960,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Networking Happy Hour",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Please join us for our annual Career Development Office (CDO) Networking Happy Hour!\n\nDon\u2019t miss the opportunity to mix and mingle with representatives from 20 organizations from a variety of fields in a professional networking environment. This year is our most diverse mix of organizations and professionals yet, including several Soka alum. Learn about internship and career opportunities with their respective organizations, along with hearing about their career journeys and lessons. In past years, a number of students garnered internships/employment opportunities after meeting with these highly skilled, highly motivated professionals. \n\nFood and refreshments will be provided and be sure to wear professional attire. Should you need help with clothing options, check out Soka's Style Studio.  This event is open to all Soka students, domestic and international, regardless of your class year or concentration.\n \nTo attend, register via Sokannect. Space is limited...don't be left out!!",
+    "extendedDescription": "<p><strong>Register to attend event </strong><a class=\"open_in_new_tab\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcglink.me%2F2pq%2Fr380205&amp;data=05%7C02%7Ccrodgersbronstein%40soka.edu%7C8cbd3b8306954d8bb68f08df44daf24a%7C01a7a5f56f5f48aca31cca776652088e%7C0%7C0%7C639305379367705581%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=bUdbEVX%2B2peaQ2aEonSBrNimtja%2FAnrdEqD4VteiQmg%3D&amp;reserved=0\"><strong>here</strong></a><strong> .</strong></p><p>Soka Style Studio link <a class=\"open_in_new_tab\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsokannect.soka.edu%2Fsss%2Fhome%2F&amp;data=05%7C02%7Ccrodgersbronstein%40soka.edu%7C8cbd3b8306954d8bb68f08df44daf24a%7C01a7a5f56f5f48aca31cca776652088e%7C0%7C0%7C639305379367573850%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=I9zVqJSSrWjdgYE1xdt6FHoFo9bTV15GAybPMN%2FFhZc%3D&amp;reserved=0\">here .</a></p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/pbjdhxr00e46hcrh6tl5j4khiopldkny\">Event Flyer </a></p><p></p>",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Student Affairs Lobby",
+    "building": "Ikeda Library",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-11-18%20at%2012.12.05%E2%80%AFPM.png",
+    "contact": {
+      "name": "Jonathan Wray",
+      "email": "jwray@soka.edu"
+    },
+    "org": "Career Development",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-19"
@@ -781,6 +808,33 @@
       "2026-11-22"
     ],
     "lastDate": "2026-11-22"
+  },
+  {
+    "name": "World Philosophy Day 2026 Discussion",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Join Professor Robert Allinson\u2019s Philosophy class in celebrating World Philosophy Day! Student panelists and faculty members will come together to explore the importance of philosophy in today's world and how philosophical thinking helps us navigate modern challenges. All students, faculty, and staff are welcome to attend.\n\nSponsored by Humanities Concentration",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-23",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Student Affairs Lobby",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Saki Negishi",
+      "email": "snegishi@soka.edu"
+    },
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-23"
+    ],
+    "lastDate": "2026-11-23"
   },
   {
     "name": "Fitness Classes: Tabata",

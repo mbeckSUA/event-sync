@@ -242,33 +242,6 @@
     "lastDate": "2026-12-17"
   },
   {
-    "name": "NPT Simulation (MIIS Course)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "3:30 PM",
-    "endTime": "6:00 PM",
-    "startMin": 930,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
     "name": "Movie Screening - Dead Poet's Society",
     "type": "Student Request Form",
     "public": false,
