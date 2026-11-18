@@ -1,116 +1,30 @@
 [
   {
-    "name": "Setup: Annual Founding Spirit Celebration",
+    "name": "Financial Aid and Student Accounts/Finance Meeting",
     "type": "Internal Meeting",
     "public": false,
-    "description": "",
+    "description": "Financial Aid and Student Accounts/Finance Meeting",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Tsuneo Yabusaki",
-      "email": "tyabusaki@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-17"
-    ],
-    "lastDate": "2026-11-17"
-  },
-  {
-    "name": "SIGS workshop with Dr. Nahum Chandler",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-17",
-    "startTime": "9:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 540,
-    "endMin": 1020,
+    "date": "2026-11-18",
+    "startTime": "10:00 AM",
+    "endTime": "11:30 AM",
+    "startMin": 600,
+    "endMin": 690,
     "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
+    "room": "Founders 108",
+    "building": "",
     "imageURL": "",
     "contact": {
-      "name": "Yuya Uchida",
-      "email": "yuchida@soka.edu"
+      "name": "Sarah  Spornick",
+      "email": "sspornick@soka.edu"
     },
     "org": null,
     "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-11-17"
+      "2026-11-18"
     ],
-    "lastDate": "2026-11-17"
-  },
-  {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-17",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "startMin": 645,
-    "endMin": 705,
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 6,
-    "occurrenceDates": [
-      "2026-11-17",
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "Community Relations",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-17",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "MAA 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Carin Rodgers-Bronstein",
-      "email": "crodgersbronstein@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-17"
-    ],
-    "lastDate": "2026-11-17"
+    "lastDate": "2026-11-18"
   },
   {
     "name": "Emerging Leaders' Program One on One",
@@ -119,11 +33,11 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
-    "startTime": "3:00 PM",
-    "endTime": "3:30 PM",
-    "startMin": 900,
-    "endMin": 930,
+    "date": "2026-11-18",
+    "startTime": "1:00 PM",
+    "endTime": "4:00 PM",
+    "startMin": 780,
+    "endMin": 960,
     "allDay": false,
     "room": "Student Affairs Small Conference Room (Ikeda 322)",
     "building": "Ikeda Library",
@@ -133,9 +47,8 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 4,
+    "occurrenceCount": 3,
     "occurrenceDates": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-20"
@@ -149,7 +62,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -160,9 +73,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 11,
+    "occurrenceCount": 10,
     "occurrenceDates": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-23",
@@ -183,7 +95,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -194,9 +106,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 24,
+    "occurrenceCount": 23,
     "occurrenceDates": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-20",
@@ -230,7 +141,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -241,9 +152,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 18,
+    "occurrenceCount": 17,
     "occurrenceDates": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-22",
@@ -271,7 +181,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -285,9 +195,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 13,
+    "occurrenceCount": 12,
     "occurrenceDates": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-22",
@@ -302,33 +211,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Financial Aid and Student Accounts/Finance Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Financial Aid and Student Accounts/Finance Meeting",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "10:00 AM",
-    "endTime": "11:30 AM",
-    "startMin": 600,
-    "endMin": 690,
-    "allDay": false,
-    "room": "Founders 108",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
   },
   {
     "name": "Directors Meeting",
@@ -612,6 +494,37 @@
       "2026-12-14"
     ],
     "lastDate": "2026-12-14"
+  },
+  {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-24",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "startMin": 645,
+    "endMin": 705,
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-11-24",
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
   },
   {
     "name": "Proctor Exam (Brian D.)",
