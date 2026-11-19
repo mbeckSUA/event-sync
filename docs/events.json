@@ -6,7 +6,7 @@
     "description": "The Soka Institute for Global Solutions is hosting a workshop led by Dr. Nahum Dimitri Chandler, \u201cIs Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935),\u201d\u00a0November 17- 20, in the Ikeda Library Grand Reading Room.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "startTime": "9:00 AM",
     "endTime": "12:00 PM",
     "startMin": 540,
@@ -20,189 +20,12 @@
       "email": "yuchida@soka.edu"
     },
     "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 4,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
-  },
-  {
-    "name": "International Fraud Awareness Week Tabling",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "Dining Hall Patio 1",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
-    "name": "IRB Training",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "IRB Training",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IRB%20%281%29.png",
-    "contact": {
-      "name": "Peri Unver",
-      "email": "punver@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
-    "name": "Capstone Writing Group",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "The Capstone Writing Group will meet on Wednesdays, 9/23, 10/7, 10/21, 11/4, 11/18 from 5-6:30 pm during fall semester to support seniors working on their Capstone projects.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "5:00 PM",
-    "endTime": "6:30 PM",
-    "startMin": 1020,
-    "endMin": 1110,
-    "allDay": false,
-    "room": "Writing Center",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Capstone%20Photo.png",
-    "contact": {
-      "name": "Cheryl Meyer",
-      "email": "cmeyer@soka.edu"
-    },
-    "org": "Writing Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
-    "name": "Annual Founding Spirit Celebration",
-    "type": "Campus Events",
-    "public": false,
-    "description": "November 18 is a significant occasion for the SUA community to reflect on the founding spirit of Soka Education and the educational philosophy of our founder, Daisaku Ikeda. Through this event, the Writings of Daisaku Ikeda student club hopes to create an opportunity to deepen our understanding of founder Ikeda\u2019s contribution to world peace and education.\n\nPanel Discussion by President Feasel and Q&A session. \nMochi donuts provided for the attendees!\n\nOrganized by The Writing of Daisaku Ikeda Club",
-    "extendedDescription": "<p>Event <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/7jq1mnq4hxn41gq6n5m8647vz2xb5k5x\">Flyer</a></p>",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/20220208_DJI_0174_Charlie%20Wang.jpg",
-    "contact": {
-      "name": "Tsuneo Yabusaki",
-      "email": "tyabusaki@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
-    "name": "Fitness Classes: Strength and Conditioning",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "Big Weight Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 8,
-    "occurrenceDates": [
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
-  },
-  {
-    "name": "Fitness Classes: Tennis",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "6:30 PM",
-    "endTime": "7:30 PM",
-    "startMin": 1110,
-    "endMin": 1170,
-    "allDay": false,
-    "room": "Tennis Courts",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 8,
-    "occurrenceDates": [
-      "2026-11-18",
-      "2026-11-23",
-      "2026-11-30",
-      "2026-12-02",
-      "2026-12-07",
-      "2026-12-09",
-      "2026-12-14",
-      "2026-12-16"
-    ],
-    "lastDate": "2026-12-16"
   },
   {
     "name": "Faculty Forum - In Person",
@@ -425,6 +248,35 @@
       "2026-11-19"
     ],
     "lastDate": "2026-11-19"
+  },
+  {
+    "name": "Rec Center Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "lastDate": "2026-11-22"
   },
   {
     "name": "Blood Drive 2026",
@@ -837,6 +689,39 @@
     "lastDate": "2026-11-22"
   },
   {
+    "name": "Fitness Classes: Strength and Conditioning",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: In this class you will learn foundational movements in the weight room coached by a strength and conditioning professional with a Master\u2019s degree in Exercise Science. Classes will be designed and guided in a safe and effective manner to achieve desired goals, prevent injuries, feel comfortable in the weight room and have fun.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-23",
+    "startTime": "5:00 PM",
+    "endTime": "6:00 PM",
+    "startMin": 1020,
+    "endMin": 1080,
+    "allDay": false,
+    "room": "Big Weight Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-14.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 7,
+    "occurrenceDates": [
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
+  },
+  {
     "name": "World Philosophy Day 2026 Discussion",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -862,6 +747,39 @@
       "2026-11-23"
     ],
     "lastDate": "2026-11-23"
+  },
+  {
+    "name": "Fitness Classes: Tennis",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: This class is well suited for beginners and intermediate players who want to improve their tennis game overall. We usually work on fundamentals with feeding and hitting drills. We also try to emphasize learning in a fun supportive environment and incorporate match play whenever the students are able to rally and serve. If you need a tennis racquet stop by the Equipment Room, Gym 151 to rent one for the night. \n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water!\n\nIf you have any other questions about Fitness Classes, feel free to email RecreationCenter@soka.edu",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-23",
+    "startTime": "7:00 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1140,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Tennis Courts",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/tennis%20class.jpg",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 7,
+    "occurrenceDates": [
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-07",
+      "2026-12-09",
+      "2026-12-14",
+      "2026-12-16"
+    ],
+    "lastDate": "2026-12-16"
   },
   {
     "name": "Fitness Classes: Tabata",
@@ -895,6 +813,37 @@
       "2026-12-17"
     ],
     "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Recreation Center: Thanksgiving Break Hours",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-25",
+    "startTime": "7:00 AM",
+    "endTime": "7:00 PM",
+    "startMin": 420,
+    "endMin": 1140,
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-15.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "lastDate": "2026-11-29"
   },
   {
     "name": "Thanksgiving Holiday",
@@ -1403,6 +1352,33 @@
       "2026-12-09"
     ],
     "lastDate": "2026-12-09"
+  },
+  {
+    "name": "Student Advisory Board Feedback Table",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Campus community members are invited to share feedback and suggestions with the Student Advisory Board, as well as take some time to write notes of appreciation to others.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-10",
+    "startTime": "11:30 AM",
+    "endTime": "1:00 PM",
+    "startMin": 690,
+    "endMin": 780,
+    "allDay": false,
+    "room": "Dining Hall",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Kaitlyn Bourdelais",
+      "email": "kbourdelais@soka.edu"
+    },
+    "org": "Diversity, Equity, and Inclusion",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
   },
   {
     "name": "PBL: Cell Biology Final Presentations",

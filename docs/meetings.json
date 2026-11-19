@@ -1,43 +1,16 @@
 [
   {
-    "name": "Financial Aid and Student Accounts/Finance Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Financial Aid and Student Accounts/Finance Meeting",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-18",
-    "startTime": "10:00 AM",
-    "endTime": "11:30 AM",
-    "startMin": 600,
-    "endMin": 690,
-    "allDay": false,
-    "room": "Founders 108",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Sarah  Spornick",
-      "email": "sspornick@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-18"
-    ],
-    "lastDate": "2026-11-18"
-  },
-  {
     "name": "Emerging Leaders' Program One on One",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
-    "startTime": "1:00 PM",
-    "endTime": "4:00 PM",
-    "startMin": 780,
-    "endMin": 960,
+    "date": "2026-11-19",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
+    "startMin": 690,
+    "endMin": 810,
     "allDay": false,
     "room": "Student Affairs Small Conference Room (Ikeda 322)",
     "building": "Ikeda Library",
@@ -47,13 +20,41 @@
       "email": "s.tholath@soka.edu"
     },
     "org": "Student Affairs",
-    "occurrenceCount": 3,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20"
     ],
     "lastDate": "2026-11-20"
+  },
+  {
+    "name": "Directors Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "2:00 PM",
+    "endTime": "3:30 PM",
+    "startMin": 840,
+    "endMin": 930,
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Melody  Murakami",
+      "email": "mmurakami@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-11-19",
+      "2026-12-03",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
   },
   {
     "name": "Spanish Tutoring sessions",
@@ -62,7 +63,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -73,9 +74,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 10,
+    "occurrenceCount": 9,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-23",
       "2026-11-24",
@@ -89,13 +89,40 @@
     "lastDate": "2026-12-03"
   },
   {
+    "name": "Movie Screening - Dead Poet's Society",
+    "type": "Student Request Form",
+    "public": false,
+    "description": "As the graduate school of SUA, we want to introduce some educational content to the campus community, especially the undergraduate students who might be interested in this field in the future, and cultivate awareness and mission as an educator.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-19",
+    "startTime": "6:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1080,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Ayushi Jain",
+      "email": "ajain@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-19"
+    ],
+    "lastDate": "2026-11-19"
+  },
+  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -106,9 +133,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 23,
+    "occurrenceCount": 22,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -141,7 +167,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -152,9 +178,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 17,
+    "occurrenceCount": 16,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-22",
       "2026-11-23",
@@ -181,7 +206,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -195,9 +220,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 12,
+    "occurrenceCount": 11,
     "occurrenceDates": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-22",
       "2026-11-23",
@@ -211,62 +235,6 @@
       "2026-12-03"
     ],
     "lastDate": "2026-12-03"
-  },
-  {
-    "name": "Directors Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "2:00 PM",
-    "endTime": "3:30 PM",
-    "startMin": 840,
-    "endMin": 930,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Melody  Murakami",
-      "email": "mmurakami@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 3,
-    "occurrenceDates": [
-      "2026-11-19",
-      "2026-12-03",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Movie Screening - Dead Poet's Society",
-    "type": "Student Request Form",
-    "public": false,
-    "description": "As the graduate school of SUA, we want to introduce some educational content to the campus community, especially the undergraduate students who might be interested in this field in the future, and cultivate awareness and mission as an educator.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "6:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1080,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Ayushi Jain",
-      "email": "ajain@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
   },
   {
     "name": "Jean du Preez discussion with students",
