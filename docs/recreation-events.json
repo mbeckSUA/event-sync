@@ -90,6 +90,60 @@
     "lastDate": "2026-12-17"
   },
   {
+    "name": "Rec Center Closure: Pool",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
+    "extendedDescription": "",
+    "date": "2026-11-20",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": "Pool",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 3,
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "startTime": null,
+        "endTime": null,
+        "startMin": null,
+        "endMin": null,
+        "allDay": true
+      },
+      {
+        "date": "2026-11-21",
+        "startTime": null,
+        "endTime": null,
+        "startMin": null,
+        "endMin": null,
+        "allDay": true
+      },
+      {
+        "date": "2026-11-22",
+        "startTime": null,
+        "endTime": null,
+        "startMin": null,
+        "endMin": null,
+        "allDay": true
+      }
+    ],
+    "occurrenceDates": [
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "lastDate": "2026-11-22"
+  },
+  {
     "name": "Soka Ping Pong Practice",
     "type": "Recreation Calendar",
     "public": false,
@@ -304,5 +358,77 @@
       "2026-12-16"
     ],
     "lastDate": "2026-12-16"
+  },
+  {
+    "name": "Recreation Center: Thanksgiving Break Hours",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
+    "extendedDescription": "",
+    "date": "2026-11-25",
+    "startTime": "7:00 AM",
+    "endTime": "7:00 PM",
+    "startMin": 420,
+    "endMin": 1140,
+    "allDay": false,
+    "room": null,
+    "building": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-15.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 5,
+    "occurrences": [
+      {
+        "date": "2026-11-25",
+        "startTime": "7:00 AM",
+        "endTime": "7:00 PM",
+        "startMin": 420,
+        "endMin": 1140,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-26",
+        "startTime": null,
+        "endTime": null,
+        "startMin": null,
+        "endMin": null,
+        "allDay": true
+      },
+      {
+        "date": "2026-11-27",
+        "startTime": "11:00 AM",
+        "endTime": "5:00 PM",
+        "startMin": 660,
+        "endMin": 1020,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-28",
+        "startTime": "11:00 AM",
+        "endTime": "5:00 PM",
+        "startMin": 660,
+        "endMin": 1020,
+        "allDay": false
+      },
+      {
+        "date": "2026-11-29",
+        "startTime": "11:00 AM",
+        "endTime": "5:00 PM",
+        "startMin": 660,
+        "endMin": 1020,
+        "allDay": false
+      }
+    ],
+    "occurrenceDates": [
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "lastDate": "2026-11-29"
   }
 ]
