@@ -1612,33 +1612,6 @@
     "lastDate": "2026-12-14"
   },
   {
-    "name": "PAC Student & Staff Year End Celebration - Xmas",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Student and Staff Year End Celebration",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-14",
-    "startTime": "3:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 900,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-14"
-    ],
-    "lastDate": "2026-12-14"
-  },
-  {
     "name": "SUA Jazz Recital",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
@@ -1680,6 +1653,33 @@
     "imageURL": "",
     "contact": null,
     "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-15"
+    ],
+    "lastDate": "2026-12-15"
+  },
+  {
+    "name": "PAC Student & Staff Year End Celebration - Xmas",
+    "type": "Campus Events",
+    "public": false,
+    "description": "Student and Staff Year End Celebration",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-15",
+    "startTime": "5:00 PM",
+    "endTime": "7:00 PM",
+    "startMin": 1020,
+    "endMin": 1140,
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Renee Bodie",
+      "email": "rbodie@soka.edu"
+    },
+    "org": "Soka Performing Arts Center",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-15"
@@ -2398,7 +2398,7 @@
       "email": "crodgersbronstein@soka.edu"
     },
     "org": "Marketing / Community Relations",
-    "occurrenceCount": 41,
+    "occurrenceCount": 39,
     "occurrenceDates": [
       "2027-02-08",
       "2027-02-09",
@@ -2417,8 +2417,6 @@
       "2027-02-22",
       "2027-02-23",
       "2027-02-24",
-      "2027-02-25",
-      "2027-02-26",
       "2027-02-27",
       "2027-02-28",
       "2027-03-01",
