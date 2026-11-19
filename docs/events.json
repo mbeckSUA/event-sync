@@ -327,7 +327,7 @@
     "allDay": false,
     "room": "SC 401",
     "building": "Student Center",
-    "imageURL": "",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/william_potter.jpg",
     "contact": {
       "name": "Max Lau",
       "email": "m.lau@soka.edu"
@@ -474,6 +474,33 @@
       "email": "mcardenasdance@soka.edu"
     },
     "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
+  },
+  {
+    "name": "CNS Summer Undergraduate Nonproliferation Fellowship Info Session",
+    "type": "Campus Events",
+    "public": false,
+    "description": "The CNS Summer Undergraduate Nonproliferation Fellowship is a paid summer program in Monterey. Each year it selects a small cohort of undergraduates from across the country for intensive training in nuclear nonproliferation and disarmament. Fellows carry out their own research projects under the guidance of CNS experts and present their findings at the end of the summer. Through the collaboration between SIGS and CNS, one SUA student will receive priority consideration in the program admission. Come to the session to learn how to apply, what the fellowship involves, and ask questions.\n \nIf you have any questions, please reach out to us at sigs@soka.edu.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "11:00 AM",
+    "endTime": "12:00 PM",
+    "startMin": 660,
+    "endMin": 720,
+    "allDay": false,
+    "room": "SC 401",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Max Lau",
+      "email": "m.lau@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-11-20"
