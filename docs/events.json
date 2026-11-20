@@ -1,255 +1,5 @@
 [
   {
-    "name": "Is Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "The Soka Institute for Global Solutions is hosting a workshop led by Dr. Nahum Dimitri Chandler, \u201cIs Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935),\u201d\u00a0November 17- 20, in the Ikeda Library Grand Reading Room.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "9:00 AM",
-    "endTime": "12:00 PM",
-    "startMin": 540,
-    "endMin": 720,
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Yuya Uchida",
-      "email": "yuchida@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 2,
-    "occurrenceDates": [
-      "2026-11-19",
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Faculty Forum - In Person",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Faculty Forum",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "MAA 207",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Faculty%20Forum.png",
-    "contact": {
-      "name": "Howard Wu",
-      "email": "hwu@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Alcohol Awareness Table",
-    "type": "Campus Events",
-    "public": false,
-    "description": "For Alcohol Awareness Week, a table will be hosted where students answer safety scenarios to earn a mocktail and can attempt physical tasks with impairment simulation goggles.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "12:00 PM",
-    "endTime": "1:00 PM",
-    "startMin": 720,
-    "endMin": 780,
-    "allDay": false,
-    "room": "Dining Hall Patio (Full Space)",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Brian Durick",
-      "email": "bdurick@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Arie Galles Master Class - \"Rainbow Division\" a suite of 12 paintings",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "These canvases represent a continuation of a lifetime\u2019s exploration of shapes and colors. They are a natural\nevolution of my creative endeavors. by Arie Galles.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/8z80pkbnsidi1avvlqndekc0tf8p6s5u\"><strong>Event Flyer</strong></a></p><p><a class=\"open_in_new_tab\" href=\"https://soka-edu.zoom.us/meeting/register/3G64KJkFQQyEpJydU-HkZA#/registration\"><strong>Registration Required by 5 pm on November 15</strong></a></p>",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Virtual",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Arie.revised%20and%20final%20%281%29.jpg",
-    "contact": {
-      "name": "Susan Smith",
-      "email": "susmith@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "\u201cThe Propaganda of History, Then and Now\u201d with Jason Stanley & Nahum Dimitri Chandler",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Black Reconstruction closes with \u201cThe Propaganda of History,\u201d Du Bois\u2019s expos\u00e9 of how schoolbooks and scholars turned Reconstruction, the nation\u2019s first experiment in interracial democracy, into a cautionary tale of misrule. Philosopher Jason Stanley, the Bissell-Heyd-Associates Chair in American Studies at the University of Toronto\u2019s Munk School of Global Affairs and Public Policy and author of Erasing History: How Fascists Rewrite the Past to Control the Future (2024), How Fascism Works, and How Propaganda Works, joins Dr. Chandler to read Du Bois\u2019s final chapter alongside our present. Together they will ask how control of the past becomes a way of governing the future, and what a democratic practice of history requires in our own time.",
-    "extendedDescription": "<p>This event is open to the SUA Community.  Click <a class=\"open_in_new_tab\" href=\"http://soka.box.com/s/qu9fzkupi8g9sf7dmco7mbjw3351yr17\">here </a>to see the event flyer.</p>",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 900,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/The%2520Propaganda%2520of%2520History.png",
-    "contact": {
-      "name": "Yuya Uchida",
-      "email": "yuchida@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "NPT Preparatory Conference Simulation",
-    "type": "Campus Events",
-    "public": false,
-    "description": "Soka students are welcome to observe the live NPT negotiation simulation in Dr. William Potter\u2019s course. In this course, students take on the roles of diplomats and engage in NPT negotiations alongside graduate students and experienced practitioners. They gain firsthand experience with the challenges and dynamics of nuclear diplomacy while learning from distinguished scholars and experts through guest speaker sessions.\n \nDr. Potter, Founding Director of CNS, is a leading scholar in nuclear nonproliferation and multilateral nuclear diplomacy. His research and professional work have focused on nuclear nonproliferation, NPT negotiations, nuclear terrorism, U.S.-Russian arms control, and proliferation forecasting. Since 1995, he has participated as a delegate and adviser in the NPT Review Conference and Preparatory Committee process, giving him extensive firsthand experience in multilateral nuclear diplomacy. He is also widely recognized for his contributions to nonproliferation education and for using negotiation simulations to prepare the next generation of nuclear policy professionals.\n \nThe course will be offered again in Fall 2027. SUA students will receive a Nuclear Negotiation Certificate from CNS, but not academic credits.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "4:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 960,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/william_potter.jpg",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Networking Happy Hour",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Please join us for our annual Career Development Office (CDO) Networking Happy Hour!\n\nDon\u2019t miss the opportunity to mix and mingle with representatives from 20 organizations from a variety of fields in a professional networking environment. This year is our most diverse mix of organizations and professionals yet, including several Soka alum. Learn about internship and career opportunities with their respective organizations, along with hearing about their career journeys and lessons. In past years, a number of students garnered internships/employment opportunities after meeting with these highly skilled, highly motivated professionals. \n\nFood and refreshments will be provided and be sure to wear professional attire. Should you need help with clothing options, check out Soka's Style Studio.  This event is open to all Soka students, domestic and international, regardless of your class year or concentration.\n \nTo attend, register via Sokannect. Space is limited...don't be left out!!",
-    "extendedDescription": "<p><strong>Register to attend event </strong><a class=\"open_in_new_tab\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcglink.me%2F2pq%2Fr380205&amp;data=05%7C02%7Ccrodgersbronstein%40soka.edu%7C8cbd3b8306954d8bb68f08df44daf24a%7C01a7a5f56f5f48aca31cca776652088e%7C0%7C0%7C639305379367705581%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=bUdbEVX%2B2peaQ2aEonSBrNimtja%2FAnrdEqD4VteiQmg%3D&amp;reserved=0\"><strong>here</strong></a><strong> .</strong></p><p>Soka Style Studio link <a class=\"open_in_new_tab\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsokannect.soka.edu%2Fsss%2Fhome%2F&amp;data=05%7C02%7Ccrodgersbronstein%40soka.edu%7C8cbd3b8306954d8bb68f08df44daf24a%7C01a7a5f56f5f48aca31cca776652088e%7C0%7C0%7C639305379367573850%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=I9zVqJSSrWjdgYE1xdt6FHoFo9bTV15GAybPMN%2FFhZc%3D&amp;reserved=0\">here .</a></p><p><a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/pbjdhxr00e46hcrh6tl5j4khiopldkny\">Event Flyer </a></p><p></p>",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "5:00 PM",
-    "endTime": "7:00 PM",
-    "startMin": 1020,
-    "endMin": 1140,
-    "allDay": false,
-    "room": "Student Affairs Lobby",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Screenshot%202026-11-18%20at%2012.12.05%E2%80%AFPM.png",
-    "contact": {
-      "name": "Jonathan Wray",
-      "email": "jwray@soka.edu"
-    },
-    "org": "Career Development",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
-    "name": "Fitness Classes: Yoga",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "6:15 PM",
-    "endTime": "7:15 PM",
-    "startMin": 1095,
-    "endMin": 1155,
-    "allDay": false,
-    "room": "Aerobics Room",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 7,
-    "occurrenceDates": [
-      "2026-11-19",
-      "2026-11-24",
-      "2026-12-03",
-      "2026-12-08",
-      "2026-12-10",
-      "2026-12-15",
-      "2026-12-17"
-    ],
-    "lastDate": "2026-12-17"
-  },
-  {
-    "name": "Joint Film Screening (WRT & SBS)",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Joint film screening hosted by the Writing Program and the SBS Concentration.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-19",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1140,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "PAU 216",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Film%20Screening%20Stock%20Image.png",
-    "contact": {
-      "name": "Kristi Wilson",
-      "email": "kwilson@soka.edu"
-    },
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-19"
-    ],
-    "lastDate": "2026-11-19"
-  },
-  {
     "name": "Rec Center Closure: Pool",
     "type": "Recreation Calendar",
     "public": false,
@@ -277,6 +27,33 @@
       "2026-11-22"
     ],
     "lastDate": "2026-11-22"
+  },
+  {
+    "name": "Is Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935)",
+    "type": "Campus Events",
+    "public": false,
+    "description": "The Soka Institute for Global Solutions is hosting a workshop led by Dr. Nahum Dimitri Chandler, \u201cIs Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935),\u201d\u00a0November 17- 20, in the Ikeda Library Grand Reading Room.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-20",
+    "startTime": "9:00 AM",
+    "endTime": "12:00 PM",
+    "startMin": 540,
+    "endMin": 720,
+    "allDay": false,
+    "room": "Grand Reading Room (Ikeda 400)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Yuya Uchida",
+      "email": "yuchida@soka.edu"
+    },
+    "org": "Soka Institute for Global Solutions",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-20"
+    ],
+    "lastDate": "2026-11-20"
   },
   {
     "name": "Blood Drive 2026",
@@ -806,6 +583,38 @@
     "occurrenceDates": [
       "2026-11-24",
       "2026-12-01",
+      "2026-12-03",
+      "2026-12-08",
+      "2026-12-10",
+      "2026-12-15",
+      "2026-12-17"
+    ],
+    "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Fitness Classes: Yoga",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Class Description: Embodied Flow This one-hour yoga experience blends Vinyasa flow and Pilates-inspired movement to cultivate strength, balance, and release. Each class begins with a moment of intention-setting, inviting you to ground your energy and arrive fully in the body. By integrating breath, presence, and intentional movement, students are guided to move with awareness and acceptance. Sessions emphasize core strength, stability, and increased range of motion. Students of all levels are welcome.\n\nTruth is found in the breath.\n\nFitness Classes are open to all students, staff and faculty! There is no need to sign up for the class, just arrive 5 minutes before the start of class and bring some water! You are welcome to bring your own equipment, yoga mat or tennis racket but if you do not have your own equipment, you are welcome to check the equipment out from the Rec Office, Gym 151.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-24",
+    "startTime": "6:15 PM",
+    "endTime": "7:15 PM",
+    "startMin": 1095,
+    "endMin": 1155,
+    "allDay": false,
+    "room": "Aerobics Room",
+    "building": "Recreation Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-36.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 6,
+    "occurrenceDates": [
+      "2026-11-24",
       "2026-12-03",
       "2026-12-08",
       "2026-12-10",
