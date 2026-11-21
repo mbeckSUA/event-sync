@@ -1268,30 +1268,6 @@
     "lastDate": "2026-12-10"
   },
   {
-    "name": "SUA Vocal Students Fall 2026 Recital",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Vocal recital featuring the Fall 2026 students of Dr. Brian Dehn",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-12-10",
-    "startTime": "7:00 PM",
-    "endTime": "8:00 PM",
-    "startMin": 1140,
-    "endMin": 1200,
-    "allDay": false,
-    "room": "Founders Hall Founder's Meeting Room",
-    "building": "Founders Hall",
-    "imageURL": "",
-    "contact": null,
-    "org": "Academic Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-12-10"
-    ],
-    "lastDate": "2026-12-10"
-  },
-  {
     "name": "Community Relations Tour (Middle School students)",
     "type": "Campus Events",
     "public": true,
