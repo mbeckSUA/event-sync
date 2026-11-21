@@ -6,7 +6,7 @@
     "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,342 +20,12 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 3,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22"
     ],
     "lastDate": "2026-11-22"
-  },
-  {
-    "name": "Is Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935)",
-    "type": "Campus Events",
-    "public": false,
-    "description": "The Soka Institute for Global Solutions is hosting a workshop led by Dr. Nahum Dimitri Chandler, \u201cIs Another Democracy Possible? 21st-Century Considerations of W.E.B. Du Bois\u2019s Black Reconstruction (1935),\u201d\u00a0November 17- 20, in the Ikeda Library Grand Reading Room.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "9:00 AM",
-    "endTime": "12:00 PM",
-    "startMin": 540,
-    "endMin": 720,
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Yuya Uchida",
-      "email": "yuchida@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Blood Drive 2026",
-    "type": "Student Organization Event",
-    "public": true,
-    "description": "The Soka Medical Society club will be hosting its semi-annual blood drive in collaboration with the American Red Cross! \n\nRegristration Info coming soon!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "10:00 AM",
-    "endTime": "5:00 PM",
-    "startMin": 600,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Blood%20Drive.png",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Community Relations Tour (Visitors)",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Sponsored by SUA Community Relations: A student-led one-hour walking tour through the heart of campus \u2014 Founders Hall, the Soka Performing Arts Center, Ikeda Library, the lily ponds and campus green, the Student Center, and more. (Private tour)",
-    "extendedDescription": "<p>This is a private tour, but you're welcome to schedule your own personalized tour <a class=\"fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn\" href=\"https://www.soka.edu/about/visit-soka/campus-tours\">here.</a></p>",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "11:00 AM",
-    "endTime": "12:30 PM",
-    "startMin": 660,
-    "endMin": 750,
-    "allDay": false,
-    "room": "Founders Hall Welcome Center",
-    "building": "Founders Hall",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Community%20Tours%20%281%29.png",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "CNS Summer Undergraduate Nonproliferation Fellowship Info Session",
-    "type": "Campus Events",
-    "public": false,
-    "description": "The CNS Summer Undergraduate Nonproliferation Fellowship is a paid summer program in Monterey. Each year it selects a small cohort of undergraduates from across the country for intensive training in nuclear nonproliferation and disarmament. Fellows carry out their own research projects under the guidance of CNS experts and present their findings at the end of the summer. Through the collaboration between SIGS and CNS, one SUA student will receive priority consideration in the program admission. Come to the session to learn how to apply, what the fellowship involves, and ask questions.\n \nIf you have any questions, please reach out to us at sigs@soka.edu.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "11:00 AM",
-    "endTime": "12:00 PM",
-    "startMin": 660,
-    "endMin": 720,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Make Your Own Tote Bag!",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Come decorate a tote bag and make it your own! Stop by, let your creativity flow, and take home something you made yourself. Whether you want to draw, doodle, write a favorite quote, or just see what happens, this is a relaxed space to get creative, take a break from the week, and meet other students while you work.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "1:00 PM",
-    "endTime": "3:30 PM",
-    "startMin": 780,
-    "endMin": 930,
-    "allDay": false,
-    "room": "Lion's Den Courtyard",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Leadership Cohort Program",
-    "type": "Campus Events",
-    "public": false,
-    "description": "This cohort program is designed to support students as they apply leadership concepts in real-leaderhip settings while continuing to expand their leadership knowledge and skills. Through a discussion-based cohort program, students can reflect on their leadership practices, learn from one another, and receive guidance as they navigate challenges as leaders.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Affinity Hub (Ikeda 301)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 6,
-    "occurrenceDates": [
-      "2026-11-20",
-      "2026-12-11",
-      "2027-01-15",
-      "2027-02-12",
-      "2027-03-05",
-      "2027-04-23"
-    ],
-    "lastDate": "2027-04-23"
-  },
-  {
-    "name": "\u201cBlack Reconstruction & Radical Historiography\u201d with Robin D. G. Kelley & Nahum Dimitri Chandler",
-    "type": "Campus Events",
-    "public": true,
-    "description": "In \u201cThe Propaganda of History,\u201d Du Bois takes on the Dunning School, which portrayed Reconstruction, a radical experiment in abolition democracy, as a failure. In doing so, he lays the groundwork for a critical reassessment of what passes for historical truth. Historian Robin D. G. Kelley, the Gary B. Nash Endowed Chair in U.S. History at UCLA and author of Freedom Dreams: The Black Radical Imagination, Race Rebels: Culture, Politics, and the Black Working Class, and Hammer and Hoe: Alabama Communists During the Great Depression, joins Dr. Chandler for a conversation on radical historiography and the lasting force of Du Bois\u2019s closing argument.",
-    "extendedDescription": "<p>This event is open to the SUA Community. Click <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/6tc7e66pp2morq7vnif298eu0c9ef9v7\">here</a> to see the event flyer,</p>",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 900,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Grand Reading Room (Ikeda 400)",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Black%2520Reconstruction.png",
-    "contact": {
-      "name": "Yuya Uchida",
-      "email": "yuchida@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Silent Book Club",
-    "type": "Academic Events and Reservations (Undergraduate)",
-    "public": true,
-    "description": "Join us in the library for quiet reading time. Bring a book of your choice or come early at 2:30 to do some browsing. Sharing about your book is optional after the one hour reading period. Light refreshments will be provided.",
-    "extendedDescription": "<p><a class=\"open_in_new_tab\" href=\"https://sokauniversity-my.sharepoint.com/:b:/g/personal/sulee_soka_edu/IQDwaSMaGkmyQJanE7ztXL6UAYuZ9Zy0WvrhLTxLaF-ZaUg?e=ozebBi\">Silent Book Club Flyer.pdf</a></p>",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "3:00 PM",
-    "endTime": "4:30 PM",
-    "startMin": 900,
-    "endMin": 990,
-    "allDay": false,
-    "room": "Ikeda Library Main Floor",
-    "building": "Ikeda Library",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/silent.png",
-    "contact": {
-      "name": "Jennifer  Tirrell",
-      "email": "jtirrell@soka.edu"
-    },
-    "org": "Library",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Splitting Atoms, Uniting Nations: The Future of Disarmament Diplomacy",
-    "type": "Campus Events",
-    "public": true,
-    "description": "Speaker: Jean du Preez, Program Director for Education and Training, Center for Nonproliferation Studies (CNS) at Monterey\n \nNuclear security is shaped not only by weapons and military strategy, but also by diplomacy, treaties, and international cooperation. For decades, the world has relied on the fragile logic of Mutual Assured Destruction to prevent nuclear war. But can we move beyond deterrence based on fear? This discussion explores how a new generation of diplomats, scholars, and leaders can reinvigorate disarmament diplomacy and build a more secure future through dialogue and collective action.\n \nStudent discussants:\nShota Maeda (\u201927)\nMateus Cremasco Quesada (\u201927)\nKhu\u00ea Anh Nguy\u1ec5n (\u201929)\n\nThese three students will also speak on December 2, 2026, at a side event to the First Review Conference of the Treaty on the Prohibition of Nuclear Weapons (TPNW). The side event is titled \u201cFrom Learning to Action: The Power of Youth Education for Nuclear Disarmament and the TPNW.\u201d*",
-    "extendedDescription": "<p>Event <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/3ia2yzaxzwg3c5bh7ah0a0k1e7tz43pl\">Flyer</a></p><p>*These three students will also speak on December 2, 2026, at a side event to the First Review Conference of the Treaty on the Prohibition of Nuclear Weapons (TPNW). The side event is titled\u00a0<em>\u201c</em><a class=\"OWAAutoLink\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.icanw.org%2Fnuclearbanweek_2026&amp;data=05%7C02%7Ccrodgersbronstein%40soka.edu%7C169a254a3f594e6dfba708df4432dc6c%7C01a7a5f56f5f48aca31cca776652088e%7C0%7C0%7C639304657525780280%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=BOLrlAWyao%2F3q1U2P8xbaetGEWjuf9RmWk3pIRmR64s%3D&amp;reserved=0\"><em>From Learning to Action: The Power of Youth Education for Nuclear Disarmament and the TPNW.</em></a><em>\u201d</em></p>",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "5:00 PM",
-    "endTime": "6:00 PM",
-    "startMin": 1020,
-    "endMin": 1080,
-    "allDay": false,
-    "room": "CUR 200",
-    "building": "",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Splitting%20Atoms%2C%20Uniting%20Nations_%20The%20Future%20of%20Disarmament%20Diplomacy-2%5B13%5D.jpg",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "ASB Teambuilding #1",
-    "type": "Campus Events",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "5:30 PM",
-    "endTime": "7:30 PM",
-    "startMin": 1050,
-    "endMin": 1170,
-    "allDay": false,
-    "room": "Small Conference Center",
-    "building": "Small Conference Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "ASA Potluck",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "ASA is inviting all students to join us for food, drinks and a good time!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "6:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1080,
-    "endMin": 1260,
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Soka Ping Pong Practice",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "This is the Soka Ping Pong Practice that will happen for the first time in the past several years in the Gym! There will be some snacks ready. Let's enjoy playing ping pong together. Bring your racket if you have!",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "8:00 PM",
-    "endTime": "9:30 PM",
-    "startMin": 1200,
-    "endMin": 1290,
-    "allDay": false,
-    "room": "Gymnasium",
-    "building": "Recreation Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
   },
   {
     "name": "Sailing Club Meeting",
@@ -1320,6 +990,37 @@
       "2026-12-11"
     ],
     "lastDate": "2026-12-11"
+  },
+  {
+    "name": "Leadership Cohort Program",
+    "type": "Campus Events",
+    "public": false,
+    "description": "This cohort program is designed to support students as they apply leadership concepts in real-leaderhip settings while continuing to expand their leadership knowledge and skills. Through a discussion-based cohort program, students can reflect on their leadership practices, learn from one another, and receive guidance as they navigate challenges as leaders.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-11",
+    "startTime": "3:00 PM",
+    "endTime": "4:30 PM",
+    "startMin": 900,
+    "endMin": 990,
+    "allDay": false,
+    "room": "Affinity Hub (Ikeda 301)",
+    "building": "Ikeda Library",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "Student Affairs",
+    "occurrenceCount": 5,
+    "occurrenceDates": [
+      "2026-12-11",
+      "2027-01-15",
+      "2027-02-12",
+      "2027-03-05",
+      "2027-04-23"
+    ],
+    "lastDate": "2027-04-23"
   },
   {
     "name": "Fall 2026 SUA Student Recital",

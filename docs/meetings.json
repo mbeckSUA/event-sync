@@ -1,124 +1,12 @@
 [
   {
-    "name": "Jean du Preez discussion with students",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "9:00 AM",
-    "endTime": "11:00 AM",
-    "startMin": 540,
-    "endMin": 660,
-    "allDay": false,
-    "room": "SC 401",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Max Lau",
-      "email": "m.lau@soka.edu"
-    },
-    "org": "Soka Institute for Global Solutions",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 540,
-    "endMin": 630,
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-11-20",
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
-  },
-  {
-    "name": "Community Relations Staff Meeting (November)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "All-staff meeting",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "10:30 AM",
-    "endTime": "12:00 PM",
-    "startMin": 630,
-    "endMin": 720,
-    "allDay": false,
-    "room": "CUR 300",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Gabriel Orozco",
-      "email": "gorozco@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
-    "name": "Emerging Leaders' Program One on One",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "11:30 AM",
-    "endTime": "1:30 PM",
-    "startMin": 690,
-    "endMin": 810,
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Sia Tholath",
-      "email": "s.tholath@soka.edu"
-    },
-    "org": "Student Affairs",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
-  },
-  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -129,9 +17,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 21,
+    "occurrenceCount": 20,
     "occurrenceDates": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
@@ -154,33 +41,6 @@
       "2026-12-10"
     ],
     "lastDate": "2026-12-10"
-  },
-  {
-    "name": "Chemistry of Ice Cream",
-    "type": "Student Request Form",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-20",
-    "startTime": "6:30 PM",
-    "endTime": "7:45 PM",
-    "startMin": 1110,
-    "endMin": 1185,
-    "allDay": false,
-    "room": "Lion's Den",
-    "building": "Student Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Carlos",
-      "email": "choffmannjunior@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-20"
-    ],
-    "lastDate": "2026-11-20"
   },
   {
     "name": "Japanese Tutoring Session",
@@ -459,6 +319,36 @@
       "2026-11-24"
     ],
     "lastDate": "2026-11-24"
+  },
+  {
+    "name": "Susan Walsh Lab Meetings",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Meetings with lab student workers.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-27",
+    "startTime": "9:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 540,
+    "endMin": 630,
+    "allDay": false,
+    "room": "CUR 111",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-11-27",
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
   },
   {
     "name": "Investment Office Meeting",
