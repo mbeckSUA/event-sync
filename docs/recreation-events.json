@@ -5,7 +5,7 @@
     "public": false,
     "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
     "extendedDescription": "",
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -19,16 +19,8 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 2,
+    "occurrenceCount": 1,
     "occurrences": [
-      {
-        "date": "2026-11-21",
-        "startTime": null,
-        "endTime": null,
-        "startMin": null,
-        "endMin": null,
-        "allDay": true
-      },
       {
         "date": "2026-11-22",
         "startTime": null,
@@ -39,7 +31,6 @@
       }
     ],
     "occurrenceDates": [
-      "2026-11-21",
       "2026-11-22"
     ],
     "lastDate": "2026-11-22"
