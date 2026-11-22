@@ -6,7 +6,7 @@
     "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "startTime": null,
     "endTime": null,
     "startMin": null,
@@ -20,93 +20,11 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 2,
+    "occurrenceCount": 1,
     "occurrenceDates": [
-      "2026-11-21",
       "2026-11-22"
     ],
     "lastDate": "2026-11-22"
-  },
-  {
-    "name": "Sailing Club Meeting",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-21",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "Student Organizations Room (Ikeda 312)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-21"
-    ],
-    "lastDate": "2026-11-21"
-  },
-  {
-    "name": "Dance Day",
-    "type": "Student Organization Event",
-    "public": false,
-    "description": "Join us for an exhilarating celebration of rhythm, movement, and cultural diversity at our annual Dance Day! This vibrant event showcases the incredible talent of our campus dance groups and individual performers while inviting dance enthusiasts to participate and share their passion.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-21",
-    "startTime": "7:00 PM",
-    "endTime": "9:00 PM",
-    "startMin": 1140,
-    "endMin": 1260,
-    "allDay": false,
-    "room": "Black Box Theatre",
-    "building": "Performing Arts Center",
-    "imageURL": "",
-    "contact": {
-      "name": "Jake Monahan",
-      "email": "jmonahan@soka.edu"
-    },
-    "org": "Student Organizations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-21"
-    ],
-    "lastDate": "2026-11-21"
-  },
-  {
-    "name": "Emi Ferguson & Ruckus \"Fly the Coop\": Bach Sonatas and Preludes",
-    "type": "Performing Arts Center",
-    "public": true,
-    "description": "Flutist Emi Ferguson and Ruckus give Bach a thrilling new twist, blending Baroque brilliance with funk, whimsy, and irresistible energy. Discover a performance full of musical surprises.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/emi-ferguson-ruckus-fly-coop-bach-sonatas-and-preludes\">More info and tickets</a>",
-    "facility": false,
-    "date": "2026-11-21",
-    "startTime": "8:00 PM",
-    "endTime": "10:00 PM",
-    "startMin": 1200,
-    "endMin": 1320,
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/Ruckus.png",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-21"
-    ],
-    "lastDate": "2026-11-21"
   },
   {
     "name": "Pacific Symphony: Bach & Beethoven with Alexander Shelley, cond.",
