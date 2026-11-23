@@ -1,59 +1,5 @@
 [
   {
-    "name": "Rec Center Closure: Pool",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "The Pool will be closed November 20th-November 22nd. Regular open swim hours will resume on Monday November 23rd.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-22",
-    "startTime": null,
-    "endTime": null,
-    "startMin": null,
-    "endMin": null,
-    "allDay": true,
-    "room": "Pool",
-    "building": "Recreation Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111825_RECCENTER-FC-10.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-22"
-    ],
-    "lastDate": "2026-11-22"
-  },
-  {
-    "name": "Pacific Symphony: Bach & Beethoven with Alexander Shelley, cond.",
-    "type": "Performing Arts Center",
-    "public": true,
-    "description": "Experience Bach and Beethoven with Pacific Symphony under the direction of Alexander Shelley. The program pairs Bach\u2019s Concerto for Two Violins with Beethoven\u2019s spirited Symphony No. 4.\n\nMore info: https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond",
-    "extendedDescription": "<a href=\"https://www.performingarts.soka.edu/calendar-events/pacific-symphony-bach-beethoven-alexander-shelley-cond\">More info and tickets</a>",
-    "facility": false,
-    "date": "2026-11-22",
-    "startTime": "3:00 PM",
-    "endTime": "5:00 PM",
-    "startMin": 900,
-    "endMin": 1020,
-    "allDay": false,
-    "room": "Performing Arts Center Concert Hall",
-    "building": "Performing Arts Center",
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/SHELLEY_0.png",
-    "contact": {
-      "name": "Renee Bodie",
-      "email": "rbodie@soka.edu"
-    },
-    "org": "Soka Performing Arts Center",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-22"
-    ],
-    "lastDate": "2026-11-22"
-  },
-  {
     "name": "Fitness Classes: Strength and Conditioning",
     "type": "Recreation Calendar",
     "public": false,
