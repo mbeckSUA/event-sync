@@ -724,6 +724,30 @@
     "lastDate": "2026-12-09"
   },
   {
+    "name": "Dress rehearsals for Dec 10 performers",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Dress rehearsals for Dec 10 performers and ensembles",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-10",
+    "startTime": "9:00 AM",
+    "endTime": "9:00 PM",
+    "startMin": 540,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Performing Arts Center Concert Hall",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": null,
+    "org": "Academic Affairs",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-10"
+    ],
+    "lastDate": "2026-12-10"
+  },
+  {
     "name": "Student Advisory Board Feedback Table",
     "type": "Campus Events",
     "public": false,
@@ -1030,6 +1054,33 @@
     "imageURL": "",
     "contact": null,
     "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-15"
+    ],
+    "lastDate": "2026-12-15"
+  },
+  {
+    "name": "HUM 270: Final Performances",
+    "type": "Academic Events and Reservations (Undergraduate)",
+    "public": true,
+    "description": "Humanities 270: Theater and Performance presents their final scenes to the campus community",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-15",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM",
+    "startMin": 840,
+    "endMin": 960,
+    "allDay": false,
+    "room": "Black Box Theatre",
+    "building": "Performing Arts Center",
+    "imageURL": "",
+    "contact": {
+      "name": "J P Kehlen",
+      "email": "jkehlen@soka.edu"
+    },
+    "org": "Academic Affairs",
     "occurrenceCount": 1,
     "occurrenceDates": [
       "2026-12-15"

@@ -375,6 +375,34 @@
     "lastDate": "2026-12-14"
   },
   {
+    "name": "International Financial Aid Application Workshop",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "The Financial Aid Office is hosting a workshop to run through the new financial aid application for international students.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-02",
+    "startTime": "11:30 AM",
+    "endTime": "1:30 PM",
+    "startMin": 690,
+    "endMin": 810,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jenessa Goldhamer",
+      "email": "jgoldhamer@soka.edu"
+    },
+    "org": "Admissions",
+    "occurrenceCount": 2,
+    "occurrenceDates": [
+      "2026-12-02",
+      "2026-12-03"
+    ],
+    "lastDate": "2026-12-03"
+  },
+  {
     "name": "Proctor Exam (Brian D.)",
     "type": "Internal Meeting",
     "public": false,
@@ -484,7 +512,7 @@
     "lastDate": "2026-12-04"
   },
   {
-    "name": "President's Office Event",
+    "name": "University Talk by Dr. Mika Suzuki",
     "type": "Internal Meeting",
     "public": false,
     "description": "",
