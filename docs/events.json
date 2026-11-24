@@ -265,6 +265,33 @@
     "lastDate": "2026-12-02"
   },
   {
+    "name": "Scholars Peak Dog Toy Making",
+    "type": "Campus Events",
+    "public": true,
+    "description": "Join Scholars Peak to make dog toys for dogs in need! The dog toys will be given to dogs at the Pet Adoption Center of Orange County following the event. Join us for snacks, company, and crafting for a cause!",
+    "extendedDescription": "<p>Event <a class=\"open_in_new_tab\" href=\"https://soka.box.com/s/zoe53lfu6zqjm5efw3ubodwszojogtap\">Flyer</a></p>",
+    "facility": false,
+    "date": "2026-12-02",
+    "startTime": "6:30 PM",
+    "endTime": "8:00 PM",
+    "startMin": 1110,
+    "endMin": 1200,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/IMG_0611.jpeg",
+    "contact": {
+      "name": "Alexa Girouard",
+      "email": "agirouard@soka.edu"
+    },
+    "org": "Residential Life",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-02"
+    ],
+    "lastDate": "2026-12-02"
+  },
+  {
     "name": "December Dialogue Buddies",
     "type": "Campus Events",
     "public": true,
@@ -690,6 +717,33 @@
     "occurrenceCount": 2,
     "occurrenceDates": [
       "2026-12-08",
+      "2026-12-09"
+    ],
+    "lastDate": "2026-12-09"
+  },
+  {
+    "name": "How to AI Without Becoming an Insufferable Tech Bro",
+    "type": "Campus Events",
+    "public": false,
+    "description": "The workshop leader is Frances Tang, who has spent over a decade building things on and off the internet \u2014 founder, creative, and self-described unapologetic multi-hyphenate. These days she's building AI-native products, for clients and for herself, splitting the difference between marketing brain and AI brain. She pushes brands to get weirder and more efficient at the same time, without losing what makes them them.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-09",
+    "startTime": "5:00 PM",
+    "endTime": "6:30 PM",
+    "startMin": 1020,
+    "endMin": 1110,
+    "allDay": false,
+    "room": "CUR 200",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Sia Tholath",
+      "email": "s.tholath@soka.edu"
+    },
+    "org": "B2B: Innovation, Entrepreneurship + Business",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
       "2026-12-09"
     ],
     "lastDate": "2026-12-09"
