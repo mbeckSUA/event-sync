@@ -58,6 +58,33 @@
     "lastDate": "2026-11-24"
   },
   {
+    "name": "Community Relations Team Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "CR team meeting",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-24",
+    "startTime": "2:00 PM",
+    "endTime": "3:00 PM",
+    "startMin": 840,
+    "endMin": 900,
+    "allDay": false,
+    "room": "MAA 216",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Maya Cardenas-Dance",
+      "email": "mcardenasdance@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-24"
+    ],
+    "lastDate": "2026-11-24"
+  },
+  {
     "name": "Spanish Tutoring sessions",
     "type": "Student Request Form",
     "public": false,

@@ -936,6 +936,33 @@
     "lastDate": "2027-04-23"
   },
   {
+    "name": "'27 + '28 Mixer: Gingerbread House Making",
+    "type": "Student Organization Event",
+    "public": false,
+    "description": "Calling all Class of 2027 and Class of 2028 students! Please join us for a night of hot cocoa, inter-class gingerbread house building contest, and raffle prizes to bond and wind down before finals!",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-11",
+    "startTime": "7:00 PM",
+    "endTime": "9:00 PM",
+    "startMin": 1140,
+    "endMin": 1260,
+    "allDay": false,
+    "room": "Lion's Den",
+    "building": "Student Center",
+    "imageURL": "",
+    "contact": {
+      "name": "Jake Monahan",
+      "email": "jmonahan@soka.edu"
+    },
+    "org": "Student Organizations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-11"
+    ],
+    "lastDate": "2026-12-11"
+  },
+  {
     "name": "Fall 2026 SUA Student Recital",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
