@@ -1111,6 +1111,33 @@
     "lastDate": "2026-12-15"
   },
   {
+    "name": "SMC End of Year Gathering",
+    "type": "Campus Events",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-15",
+    "startTime": "11:00 AM",
+    "endTime": "2:30 PM",
+    "startMin": 660,
+    "endMin": 870,
+    "allDay": false,
+    "room": "Founders 1st Floor Art Gallery",
+    "building": "Founders Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-12-15"
+    ],
+    "lastDate": "2026-12-15"
+  },
+  {
     "name": "HUM 270: Final Performances",
     "type": "Academic Events and Reservations (Undergraduate)",
     "public": true,
