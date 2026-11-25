@@ -1,5 +1,32 @@
 [
   {
+    "name": "OAR Meeting",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-25",
+    "startTime": "11:30 AM",
+    "endTime": "12:30 PM",
+    "startMin": 690,
+    "endMin": 750,
+    "allDay": false,
+    "room": "Founders 114",
+    "building": "",
+    "imageURL": "",
+    "contact": {
+      "name": "Mitsuko  Terui",
+      "email": "mterui@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 1,
+    "occurrenceDates": [
+      "2026-11-25"
+    ],
+    "lastDate": "2026-11-25"
+  },
+  {
     "name": "Spanish Tutoring sessions",
     "type": "Student Request Form",
     "public": false,
