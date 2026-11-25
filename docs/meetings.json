@@ -1,97 +1,12 @@
 [
   {
-    "name": "SMC Weekly Check-in",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-24",
-    "startTime": "10:45 AM",
-    "endTime": "11:45 AM",
-    "startMin": 645,
-    "endMin": 705,
-    "allDay": false,
-    "room": "CUR 218",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Susan Lee",
-      "email": "sulee@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-11-24",
-      "2026-12-01",
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22"
-    ],
-    "lastDate": "2026-12-22"
-  },
-  {
-    "name": "Proctor Exam (Brian D.)",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-24",
-    "startTime": "1:00 PM",
-    "endTime": "3:15 PM",
-    "startMin": 780,
-    "endMin": 915,
-    "allDay": false,
-    "room": "Student Affairs Small Conference Room (Ikeda 322)",
-    "building": "Ikeda Library",
-    "imageURL": "",
-    "contact": {
-      "name": "Brian Durick",
-      "email": "bdurick@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-24"
-    ],
-    "lastDate": "2026-11-24"
-  },
-  {
-    "name": "Community Relations Team Meeting",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "CR team meeting",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-24",
-    "startTime": "2:00 PM",
-    "endTime": "3:00 PM",
-    "startMin": 840,
-    "endMin": 900,
-    "allDay": false,
-    "room": "MAA 216",
-    "building": "",
-    "imageURL": "",
-    "contact": {
-      "name": "Maya Cardenas-Dance",
-      "email": "mcardenasdance@soka.edu"
-    },
-    "org": "Marketing / Community Relations",
-    "occurrenceCount": 1,
-    "occurrenceDates": [
-      "2026-11-24"
-    ],
-    "lastDate": "2026-11-24"
-  },
-  {
     "name": "Spanish Tutoring sessions",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "startMin": 1080,
@@ -102,9 +17,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 7,
+    "occurrenceCount": 6,
     "occurrenceDates": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-30",
@@ -121,7 +35,7 @@
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -132,9 +46,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 17,
+    "occurrenceCount": 16,
     "occurrenceDates": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -161,7 +74,7 @@
     "description": "We would like to use Study Room J as a Japanese tutoring session. Students who take Japanese can come to the room and practice Japanese.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -172,9 +85,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 13,
+    "occurrenceCount": 12,
     "occurrenceDates": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-29",
@@ -197,7 +109,7 @@
     "description": "Fall 2026 Chinese tutoring.",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "startMin": 1140,
@@ -211,9 +123,8 @@
       "email": "ssouktia.emp@soka.edu"
     },
     "org": null,
-    "occurrenceCount": 8,
+    "occurrenceCount": 7,
     "occurrenceDates": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-29",
@@ -339,6 +250,36 @@
       "2026-12-14"
     ],
     "lastDate": "2026-12-14"
+  },
+  {
+    "name": "SMC Weekly Check-in",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-01",
+    "startTime": "10:45 AM",
+    "endTime": "11:45 AM",
+    "startMin": 645,
+    "endMin": 705,
+    "allDay": false,
+    "room": "CUR 218",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Susan Lee",
+      "email": "sulee@soka.edu"
+    },
+    "org": "Marketing / Community Relations",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-12-01",
+      "2026-12-08",
+      "2026-12-15",
+      "2026-12-22"
+    ],
+    "lastDate": "2026-12-22"
   },
   {
     "name": "International Financial Aid Application Workshop",
