@@ -5,12 +5,12 @@
     "public": false,
     "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
     "extendedDescription": "",
-    "date": "2026-11-25",
-    "startTime": "7:00 AM",
-    "endTime": "7:00 PM",
-    "startMin": 420,
-    "endMin": 1140,
-    "allDay": false,
+    "date": "2026-11-26",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
     "room": null,
     "building": null,
     "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-15.JPG",
@@ -19,16 +19,8 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 5,
+    "occurrenceCount": 4,
     "occurrences": [
-      {
-        "date": "2026-11-25",
-        "startTime": "7:00 AM",
-        "endTime": "7:00 PM",
-        "startMin": 420,
-        "endMin": 1140,
-        "allDay": false
-      },
       {
         "date": "2026-11-26",
         "startTime": null,
@@ -63,7 +55,6 @@
       }
     ],
     "occurrenceDates": [
-      "2026-11-25",
       "2026-11-26",
       "2026-11-27",
       "2026-11-28",
