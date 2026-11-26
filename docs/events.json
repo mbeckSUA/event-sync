@@ -1,36 +1,5 @@
 [
   {
-    "name": "Recreation Center: Thanksgiving Break Hours",
-    "type": "Recreation Calendar",
-    "public": false,
-    "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-25",
-    "startTime": "7:00 AM",
-    "endTime": "7:00 PM",
-    "startMin": 420,
-    "endMin": 1140,
-    "allDay": false,
-    "room": null,
-    "building": null,
-    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-15.JPG",
-    "contact": {
-      "name": "Emma Lee",
-      "email": "emlee@soka.edu"
-    },
-    "org": "Recreation",
-    "occurrenceCount": 5,
-    "occurrenceDates": [
-      "2026-11-25",
-      "2026-11-26",
-      "2026-11-27",
-      "2026-11-28",
-      "2026-11-29"
-    ],
-    "lastDate": "2026-11-29"
-  },
-  {
     "name": "Thanksgiving Holiday",
     "type": "Academic Calendar",
     "public": true,
@@ -53,6 +22,36 @@
       "2026-11-26"
     ],
     "lastDate": "2026-11-26"
+  },
+  {
+    "name": "Recreation Center: Thanksgiving Break Hours",
+    "type": "Recreation Calendar",
+    "public": false,
+    "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-11-26",
+    "startTime": null,
+    "endTime": null,
+    "startMin": null,
+    "endMin": null,
+    "allDay": true,
+    "room": null,
+    "building": null,
+    "imageURL": "https://coursedog-images-public.s3.us-east-2.amazonaws.com/soka_peoplesoft_direct/111125_RECCENTER-WP-15.JPG",
+    "contact": {
+      "name": "Emma Lee",
+      "email": "emlee@soka.edu"
+    },
+    "org": "Recreation",
+    "occurrenceCount": 4,
+    "occurrenceDates": [
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "lastDate": "2026-11-29"
   },
   {
     "name": "Fitness Classes: Strength and Conditioning",
@@ -3308,11 +3307,15 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 1,
+    "occurrenceCount": 5,
     "occurrenceDates": [
-      "2027-05-19"
+      "2027-05-19",
+      "2027-05-20",
+      "2027-05-21",
+      "2027-05-24",
+      "2027-05-25"
     ],
-    "lastDate": "2027-05-19"
+    "lastDate": "2027-05-25"
   },
   {
     "name": "Graduate School Last Day of Classes",
