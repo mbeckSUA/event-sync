@@ -1,42 +1,12 @@
 [
   {
-    "name": "Susan Walsh Lab Meetings",
-    "type": "Internal Meeting",
-    "public": false,
-    "description": "Meetings with lab student workers.",
-    "extendedDescription": "",
-    "facility": false,
-    "date": "2026-11-27",
-    "startTime": "9:00 AM",
-    "endTime": "10:30 AM",
-    "startMin": 540,
-    "endMin": 630,
-    "allDay": false,
-    "room": "CUR 111",
-    "building": "Curie Hall",
-    "imageURL": "",
-    "contact": {
-      "name": "Kelsey Merritt",
-      "email": "kmerritt@soka.edu"
-    },
-    "org": null,
-    "occurrenceCount": 4,
-    "occurrenceDates": [
-      "2026-11-27",
-      "2026-12-04",
-      "2026-12-11",
-      "2026-12-18"
-    ],
-    "lastDate": "2026-12-18"
-  },
-  {
     "name": "French Tutoring",
     "type": "Student Request Form",
     "public": false,
     "description": "",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "startTime": "6:30 PM",
     "endTime": "9:30 PM",
     "startMin": 1110,
@@ -47,9 +17,8 @@
     "imageURL": "",
     "contact": null,
     "org": null,
-    "occurrenceCount": 14,
+    "occurrenceCount": 13,
     "occurrenceDates": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-11-30",
@@ -355,6 +324,35 @@
       "2026-12-17"
     ],
     "lastDate": "2026-12-17"
+  },
+  {
+    "name": "Susan Walsh Lab Meetings",
+    "type": "Internal Meeting",
+    "public": false,
+    "description": "Meetings with lab student workers.",
+    "extendedDescription": "",
+    "facility": false,
+    "date": "2026-12-04",
+    "startTime": "9:00 AM",
+    "endTime": "10:30 AM",
+    "startMin": 540,
+    "endMin": 630,
+    "allDay": false,
+    "room": "CUR 111",
+    "building": "Curie Hall",
+    "imageURL": "",
+    "contact": {
+      "name": "Kelsey Merritt",
+      "email": "kmerritt@soka.edu"
+    },
+    "org": null,
+    "occurrenceCount": 3,
+    "occurrenceDates": [
+      "2026-12-04",
+      "2026-12-11",
+      "2026-12-18"
+    ],
+    "lastDate": "2026-12-18"
   },
   {
     "name": "(SHARP) Soka Health Advocacy and Research Program Meeting",

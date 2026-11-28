@@ -6,7 +6,7 @@
     "description": "Rec Center Hours\n11/25: 7am-7pm\n11/26: Closed\n11/27-11/29: 1pm-3pm\n\nPool Hours\n11/26: Closed\n11/27-11/29: 11am-5pm",
     "extendedDescription": "",
     "facility": false,
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "startTime": "11:00 AM",
     "endTime": "5:00 PM",
     "startMin": 660,
@@ -20,9 +20,8 @@
       "email": "emlee@soka.edu"
     },
     "org": "Recreation",
-    "occurrenceCount": 3,
+    "occurrenceCount": 2,
     "occurrenceDates": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29"
     ],
